@@ -1,0 +1,429 @@
+%% ------------------------------------------------------------------------- %%
+\chapter{Métodos Ágeis no Contexto do Software Livre}
+\label{cap:agile}
+
+Na conferência Agile 2008, Mary Poppendieck conduziu um
+\emph{workshop}\footnote{\url{http://submissions.agile2008.org/node/376} -
+  Acessado em 16/03/2009} com Christian Reis intitulado \emph{``Open
+  Source Meets Agile - What can each teach the other?''}. Seu objetivo
+era de discutir práticas de sucesso em um projeto de software livre
+que não eram encontradas em métodos ágeis. Desta forma, os
+participantes poderiam compreender alguns princípios essenciais que se
+aplicam a projetos de software livre e poderiam propor melhorias aos
+atuais métodos ágeis. Um pequeno resumo da discussão pode ser
+encontrado na seção \ref{sec:foss-over-agile}.
+
+De um outro ponto de vista, faltam soluções especiais para o
+desenvolvimento de software livre nos métodos ágeis mais conhecidos
+atualmente. A Seção \ref{sec:agile-improve-os} apresenta como a
+criação dessa solução poderia ajudar tanto projetos de software livre
+quanto a comunidade de métodos ágeis.
+
+\section{Princípios do Software Livre Interesantes em Métodos Ágeis}
+\label{sec:foss-over-agile}
+
+Reis é um desenvolvedor Brasileiro de software livre que trabalha para
+a Canonical Inc. no desenvolvimento do LaunchPad
+\footnote{\url{http://launchpad.net/} - Último acesso 24/04/2009}, o projeto
+de gerenciamento de software para a distribuição Linux Ubuntu. O
+\emph{workshop} teve início com a apresentação de Reis sobre como o
+LaunchPad é desenvolvido. Três pontos essenciais foram levantados
+durante a discussão que deu sequência à apresentação e será descrita
+na próxima subseção. O primeiro (Subseção \ref{subsec:commiter})
+descreve e discute o papel de \emph{commiter}.  O segundo (Subseção
+\ref{subsec:publicity}) apresenta os benefícios de seguir um processo
+de desenvolvimento que seja público e transparente.  Por fim, o último
+(Subseção \ref{subsec:crossrev}) aborda o sistema de revisão cruzada
+dos sistemas que é usado para garantir a comunicação e a clareza do
+código.
+
+\subsection{O Papel do \emph{Commiter}}
+\label{subsec:commiter}
+
+Parte do valor que foi identificado no software livre foi o papel do
+\emph{commiter}. Como esse papel tem uma relação relativamente
+complicada com métodos ágeis, essa subseção será divida em quatro
+partes. A primeira descreve o que é um \emph{commiter}. A segunda
+apresenta como esse papel é distribuído em métodos ágeis. A terceira
+aborda as diferenças e semelhanças entre a revisão realizada durante a
+programação em pares e a revisão feita pelo \emph{commiter}. Por fim,
+a quarta apresenta as sugestões de adaptação desse papel em métodos
+ágeis.
+
+\subsubsection{O que é um \emph{commiter}}
+
+Um \emph{commiter} é uma pessoa que tem direito de adicionar,
+modificar e remover código fonte ao ``ramo''\footnote{Um ramo
+  (\emph{branch}) de um repositório é uma ramificação da estrutura de
+  diretórios que guarda os arquivos} principal do repositório de
+controle de versões. O ``ramo'' principal é a parte do código que será
+empacotada para formar uma nova versão do programa. Aos olhos da
+comunidade do software, o \emph{commiter} é uma pessoa confiável muito
+qualificada para avaliar a qualidade do código fonte. Este é o meio
+encontrado pelas comunidades de software livre para revisar a grande
+maioria do código fonte de forma a reduzir a quantidade de erros e
+melhorar a clareza do código.
+
+A maioria dos projetos de software livre tem um grupo muito pequeno de
+\emph{commiters}. Frequentemente o líder do projeto é o único
+\emph{commiter} e todos os \emph{patches} devem passar por sua
+aprovação. De acordo com Riehle \cite{Riehle2007}, existem três níveis
+na hierarquia tradicional de um projeto de software livre.
+\begin{itemize}
+\item O primeiro nível é o de usuário.
+
+  Usuários têm o direito de usar o programa, relatar problemas e pedir
+  funcionalidades.
+\item O segundo nível é o de contribuidor.
+
+  A promoção entre o primeiro e o segundo nível é implícita. Ela
+  acontece quando um \emph{commiter} aceita os \emph{patches} do
+  usuário e os envia ao repositório de código no ``ramo''
+  principal. Normalmente, ninguém sabe dessa promoção, com exceção do
+  \emph{commiter} e do contribuidor.
+\item O terceiro papel é o de \emph{commiter}.
+
+  Neste nível, a transição é explícita. Contribuidores e
+  \emph{commiters} demonstram apoio a uma determinada pessoa e
+  reconhecem publicamente a qualidade geral de seu trabalho. Por isso,
+  atingir o nível de \emph{commiter} é um feito valioso que significa
+  que essa pessoa produz código de ótima qualidade e está realmente
+  envolvido com o desenvolvimento do projeto.
+\end{itemize}
+
+\subsubsection{O papel do \emph{commiter} em métodos ágeis}
+
+Métodos ágeis delegam o papel do \emph{commiter} para cada um dos
+desenvolvedores da equipe. No \emph{workshop} sugeriram que alguma
+forma de controle no ``ramo'' principal de um projeto ágil poderia
+melhorar ainda mais a simplicidade do código fonte do aplicativo de
+produção.
+
+Na maioria dos métodos ágeis, uma equipe deveria ter um líder (um
+\emph{Scrum Master} em Scrum, um \emph{coach} em XP, etc...)  que é
+mais experiente naquele método ágil que o resto da equipe. O líder da
+equipe é responsável por lembrar a equipe de se ater às práticas
+escolhidas. Ele também deve ajudar a equipe a resolver os problemas
+encontrados e idealmente, transformar todos os membros da equipe em
+possíveis líderes de forma a tornar-se ``inútil''.
+
+Para cumprir essa função, o líder não precisa obrigatoriamente ter
+conhecimentos técnicos apurados. No entanto, uma equipe de
+desenvolvimento costumeiramente precisa de ajuda do ponto de vista
+técnico em alguma parte de seu trabalho. Alguns dos problemas
+levantados por uma equipe podem ser causados por decisões ou por
+dificuldades técnicas. Neste caso, se o líder não tiver conhecimento
+técnico, ele pode encontrar dificuldades para cumprir sua função. Para
+resolver este problema, é comum que o líder tenha a ajuda de um
+consultor técnico que pode ser um membro da equipe ou uma pessoa de
+fora.
+
+Se este consultor técnico for um membro da equipe, ele tem,
+indiretamente, a responsabilidade de fazer com que a equipe mantenha
+uma boa qualidade de código. Pensando assim, o responsável técnico tem
+a função de \emph{commiter} do projeto mas realiza seu trabalho
+lembrando aos programadores de que seu código deve estar sempre
+legível, claro e com testes passando.
+
+\subsubsection{Semelhanças e diferenças da revisão}
+
+O papel ativo de revisor que o \emph{commiter} tem em projetos de
+software livre é encontrado no copiloto de uma dupla de programação em
+pares. Note, no entanto, que a revisão de código realizada durante a
+programação em pares tem como objetivo principal a redução de erros e
+não é obrigatoriamente eficiente no aumento da clareza do código. Isso
+se dá porque, quando um par trabalha em uma tarefa, ambas pessoas
+mergulham em um determinado trecho de código e criam juntas uma linha
+de pensamento. Para ambos os envolvidos, o tal trecho de código pode
+ser muito claro graças ao contexto e à linha de pensamento que eles
+criaram. Mas, para alguém que não acompanhou essa linha, o código pode
+ser muito complexo se ele não deixar indícios do raciocínio que deve
+ser seguido.
+
+A revisão feita pelo \emph{commiter} dificilmente será mais eficiente
+que a do par para reduzir a quantidade de erros já que o revisor
+costuma ter menos tempo para pensar sobre o problema e entender os
+possíveis casos envolvidos. Enquanto o par que trabalhou no código
+teve exatamente este objetivo. No entanto, o \emph{commiter} traz um
+olhar fresco ao código que é muito mais semelhante ao olhar de um
+desenvolvedor qualquer no futuro. Deste ponto de vista, é mais
+provável que o revisor questione o código de forma semelhante àquela
+que outra pessoa no futuro faria. Sendo assim, o \emph{commiter} pode
+evitar os principais problemas relacionados à clareza do código
+produzido.
+
+De qualquer forma, o trabalho de revisão tem duas consequências
+diretas e evidentes. A primeira é de que o tempo necessário para que
+uma mudança seja incorporada ao ``ramo'' principal do código aumenta
+consideravelmente já que, tipicamente, são necessárias algumas
+conversas entre o revisor e os autores do código. A segunda é que o
+trabalho do revisor, se ele for único, é considerável já que ele deve
+ler todo código que deve ir para o ``ramo'' principal, tentar
+entendê-lo e expressar suas dúvidas aos autores.
+
+\subsubsection{Sugestões para adaptar o papel aos métodos ágeis}
+
+Considerando os pontos apresentados no fim da seção anterior, dar o
+papel de \emph{commiter} ao consultor técnico de uma equipe ágil
+significaria criar um gargalo de incorporação de código. A Teoria das
+Restrições \cite{goldratt84} (que é muito ligada aos métodos ágeis)
+afirma que deve-se eliminar os gargalos para maximizar a produtividade
+de uma equipe.
+
+Sendo assim, a proposta é manter um pequeno conjunto de
+desenvolvedores da equipe como \emph{commiters} e fazer o papel
+circular entre os membros da equipe. Ao trocar os membros do conjunto
+de \emph{commiters}, permite-se uma maior distribuição do conhecimento
+e reduz-se a aparente concentração de poder desse papel. A troca
+também permite que aqueles que foram \emph{commiters} possam, por sua
+vez, serem autores de alguns trechos de código que passarão por
+avaliação de outros. Desta forma, toda a equipe passa a entender o
+valor de cada um dos papéis e entende melhor como escrever código que
+seja claro para um revisor.
+
+\subsection{Resultados Públicos}
+\label{subsec:publicity}
+
+Outro ponto importante da discussão foi a divulgação pública de todos
+os resultados relacionados ao projeto. De acordo com Reis, programas
+proprietários também podem se beneficiar de um sistema de rastreamento
+de erros público e da publicação dos resultados dos testes
+automatizados. Para abraçar os benefícios dessas práticas é necessário
+expor alguns detalhes de código. Disponibilizar esses resultados
+publicamente encoraja os usuários a participar do processo de
+desenvolvimento já que eles entendem como e quando o programa é
+melhorado.
+
+Em métodos ágeis, o resultado dos testes e a lista fornecida pelo
+sistema de rastreamento de erros são informações muito importantes
+para a equipe de desenvolvimento. Apesar disso, nenhum métodos afirma
+explicitamente que o cliente e os usuários deveriam estar em contato
+direto com essas ferramentas.
+
+É senso comum em métodos ágeis que o cliente deveria ser parte da
+equipe de desenvolvimento. Como a equipe deve estar sempre em contato
+com essas ferramentas, pode-se interpretar que o cliente deveria usar
+a ferramenta de forma semelhante ao resto da equipe. Infelizmente, a
+maioria das ferramentas usadas são muito rudimentares do ponto de
+vista de um cliente não técnico já que poucas delas se preocupam em
+atribuir um significado de negócios aos resultados.
+
+Algumas iniciativas\footnote{RSpec - http://rspec.info/ - Último
+  acesso em 30/09/2008}$^{, }$\footnote{JBehave - http://jbehave.org/
+  - Último acesso em 30/09/2008} relacionadas aos testes já existem
+ligadas ao movimento de Desenvolvimento Dirigido pelo Comportamento
+(\emph{BDD - Behaviour Driven Development}) \cite{North2006} para
+produzir melhores relatórios. Já no ponto de vista dos sistema de
+rastreamento de erros, a evolução não aconteceu pontualmente mas as
+ferramentas mais recentes tendem a apresentar uma interface com menos
+detalhes técnicos para alguns usuários (clientes).
+
+Mas a divulgação pública de informações relacionadas ao projeto não se
+restringe aos erros ou aos testes. Nas comunidades de software livre,
+as discussões entre os membros do projeto e até as discussões com
+pessoas de fora do projeto sempre são guardadas no histórico da lista
+de correio eletrônico usada. Discussões fora dessa lista são
+fortemente desencorajadas já que elas impedem outras pessoas de
+contribuir com comentários e ideias. Os históricos das listas ajudam a
+construir uma documentação para futuros usuários assim como criar um
+rápido sistema de \emph{feedback} para novatos.
+
+Além disso, manter o histórico da lista também inibe atitudes
+desrespeitosas já que todas as discussões são salvas e guardadas para
+acesso futuro. Desta forma, os participantes costumam manter o
+respeito (que é importantíssimo para o sucesso de qualquer projeto)
+entre eles e com novatos. Aqui percebe-se mais uma forte ligação com
+métodos ágeis. Respeito é um dos cinco valores da Programação Extrema
+\cite{XP01}.
+
+A rastreabilidade é um dos pontos fracos dos métodos ágeis. A maioria
+dos métodos sugere que o projeto do software (\emph{design}) evolua
+com o tempo conforme as necessidades. Essa evolução deveria fluir
+naturalmente dos quadros brancos ou \emph{flip charts}. O problema com
+essa abordagem é que quadro brancos são apagados e \emph{flip charts}
+são reciclados.  Mesmo quando estes são guardados de alguma forma
+(fotos, transcrições ou até mesmo no código), as discussões que
+levaram à solução são perdidas.
+
+A fala é uma forma muito eficiente de comunicação mas também muito
+efêmera. Mesmo quando uma conversa é gravada, é difícil buscar
+informações sobre algum trecho da discussão. Correios eletrônicos são
+muito menos eficientes para a comunicação mas têm um grande ganho na
+facilidade de busca. Num curto prazo, é evidente que a conversa é
+muito mais eficiente para transmitir ideias que a escrita,
+especialmente em equipes pequenas. No entanto, num médio ou longo
+prazo, os ganhos da comunicação escrita podem superar (como eles o
+fazem em projetos livres) as perdas.
+
+\subsection{Revisão Cruzada}
+\label{subsec:crossrev}
+
+O terceiro ponto que Reis apresentou foi bem específico ao
+LaunchPad. Como o LaunchPad é uma plataforma usada por outras equipes
+para que elas desenvolvam seus próprios projetos, quando há uma
+mudança na Interface de Programação da Aplicação (\emph{API -
+  Application Programming Interface}), um membro de uma equipe externa
+que usa o programa (preferenciamente uma pessoa diferente a cada vez)
+deve revisar a mudança da interface e os motivos que levaram a
+ela. Essa mudança não pode ser enviada ao ``ramo'' principal do
+repositório a não ser que o revisor externo a aprove. Essa prática é
+conhecida como revisão cruzada das mudanças de API ou, simplesmente,
+uma revisão cruzada.
+
+Essa prática resolve alguns problemas de uma só vez. O papel do
+\emph{commiter} resolve o problema da revisão de código que os métodos
+ágeis atacam com a programação em pares. A revisão cruzada garante que
+a mudança da interface é aprovada pelos usuários assim como os
+desenvolvedores.
+
+Ela também garante uma melhora considerável sobre aquela API já que a
+conversa entre o desenvolvedor do projeto e o usuário é arquivada pela
+lista de correio eletrônico. Desta forma, futuros usuários ou mesmo
+outros usuários atuais podem ler e entender porque a API mudou e como
+usá-la quando for necessário. Também fica mais fácil realizar mudanças
+no futuro e simplificações já que fica claro o que aquela API está
+querendo permitir e se aquilo ainda faz sentido nas novas versões.
+
+Por fim, a revisão cruzada também ajuda a envolver o cliente nas
+decisões de arquitetura da solução e garante que ele está de acordo
+com as mudança realizada. Com isso, é mais fácil identificar um
+possível problema de requisitos e corrigi-lo antes que eles sejam
+implementados na base principal de código. Obviamente, esta prática só
+pode se aplicar até um certo nível quando o usuário não tem
+conhecimento técnico. Uma revisão externa pode ajudar a garantir a
+clareza da API e a documentar as mudanças mas ela não vai identificar
+problemas de requisitos se o revisor não for um cliente ou usuário.
+
+\section{Contribuições de Métodos Ágeis no Software Livre}
+\label{sec:agile-improve-os}
+
+A maioria dos problemas apontados até agora são relacionados a
+dificuldades de comunicação causados pela quantidade de pessoas
+envolvidas no projeto, separação física e sua diversidade de conhecimentos e
+culturas. Apesar desses fatores serem levados ao extremo em projetos
+de software livre, equipes de métodos ágeis distribuídas encontram
+alguns dos mesmos problemas \cite{Sutherland2007,Maurer2002}.
+
+Como Beck sugere \cite{Beck2008}, ferramentas podem melhorar a adoção e
+o uso de práticas ágeis e, dessa forma, melhorar o processo de
+desenvolvimento. Uma quantidade considerável de trabalho já foi
+realizado na questão de ferramentas da programação em pares
+distribuída\footnote{http://sf.net/projects/xpairtise/ - Último
+  acesso: 02/10/2008}$^{,}$
+\footnote{https://www.inf.fu-berlin.de/w/SE/DPP - Último acesso: 26/09/2009}$^{,}$
+\footnote{http://sangam.sourceforge.net/ - Último acesso: 26/09/2009}
+ e estudos a respeito \cite{Nagappan2003} mas
+pouco tem sido produzido para apoiar outras práticas. Como o problema
+está relacionado à comunicação, algumas práticas de métodos ágeis são
+relevantes. As próximas subseções vão apresentar essas práticas e as
+ferramentas sugeridas para facilitar a adoção de métodos ágeis na
+comunidade de software livre.
+
+\subsection{Ambiente Informativo}
+\label{subsec:inform-worksp}
+
+Essa prática sugere que uma equipe de métodos ágeis deveria trabalhar
+num ambiente que provê informações relacionadas ao trabalho. Beck
+\cite{XP01} atribui um papel específico, o de acompanhador
+(\emph{tracker}), para uma pessoa (ou algumas pessoas) que deve manter
+essa informação disponível e atualizada para a equipe. Com equipes
+concentradas em um mesmo local físico, o acompanhador normalmente
+coleta métricas \cite{Sato2007} automaticamente e seleciona algumas
+delas para apresentá-las no ambiente. A maioria das métricas objetivas
+são relacionadas ao código fonte enquanto as métricas subjetivas
+costumam depender da opinião dos membros da equipe.
+
+A coleta destes dados não é uma tarefa árdua mas normalmente consome
+um tempo considerável e não agrega um benefício imediato ao projeto. É
+provalvemente esse o motivo para a falta de métricas ou dados
+atualizados em páginas de projeto de software livre. Uma ferramenta
+que poderia melhorar esse cenários seria um sistema baseado em
+\emph{plug ins} com um conjunto inicial de métricas e uma forma de
+criar e apresentar novas métricas. Essas ferramentas deveriam estar
+disponíveis em incubadoras de software livre de forma a permitir que
+os projetos possam facilmente ligar seus repositórios e páginas à
+ferramenta.
+
+\subsection{Histórias}
+\label{subsec:stories}
+
+Com relação ao sistema de planejamento, XP sugere que os requisitos
+deveriam ser coletados em cartões de histórias. O objetivo disto é
+reduzir a quantidade de esforço necessário para descobrir qual é o
+próximo passo a ser tomado e tornar fácil modificar essas prioridades
+ao longo do tempo. Projetos de software livre normalmente guardam seus
+requisitos em sistemas de rastreamento de erros. Quando se identifica
+a falta de uma funcionalidade, cadastra-se um erro que deveria ser
+corrigido e as discussões e sugestões de mudanças são enviadas para
+aquele ``erro''. O problema com essa abordagem é que mudar a
+prioridade desses ``erros'' e organizar um planejamento consome muito
+tempo e se baseia em fatos que podem mudar com o tempo (tal como ``essa
+versão deveria resolver erros com prioridade acima de 8''). Também é
+muito difícil obter uma visão geral dos requisitos.
+
+Descobrir as principais prioridades para a equipe rapidamente e ser
+capaz de mudar essas prioridades de acordo com o \emph{feedback} é uma
+das chaves para desenvolver software funcional. Para poder atingir
+esse objetivo, uma ferramenta deveria ser desenvolvida para permitir
+que erros sejam vistos como objetos móveis num quadro de planejamento
+de versão. Para permitir que a comunidade envolvida possa colaborar
+com seu conhecimento, a ferramenta deveria apresentar a prioridade do
+erro assim como seu conteúdo de uma forma similar ao dos artigos da
+Wikipedia \cite{Surowiecki2004,Tapscott2006,Benkler2006}.
+
+\subsection{Retrospectiva}
+\label{subsec:retrospect}
+
+Essa prática sugere que a equipe deveria se juntar num ambiente físico
+periodicamente para discutir o andamento do projeto. Existem dois
+problemas nessa prática em equipes de software livre. O primeiro é de
+que todos os membros da equipe devem estar presentes ao mesmo tempo no
+mesmo lugar. O segundo é fazer com que a equipe interaja de forma
+coletiva para apontar os problemas e as soluções que surgiram durante
+o período avaliado. A forma mais comum para ajudar os participantes a
+realizar esse trabalho é apresentar uma linha temporal e pedir para
+que eles façam anotações sobre os eventos que ocorreram nesse
+período. Isso os ajuda a relembrar os acontecimentos e entender porque
+as coisas aconteceram da forma que aconteceram.
+
+Quando a equipe está reunida em um único local físico, basta juntar a
+equipe numa sala de reunião com uma linha do tempo grande na parede e
+distribuir papéis coloridos que eles possam colar na linha. A sugestão
+para equipes de software livre é desenvolver uma ferramenta baseada na
+Internet para permitir que essas anotações sejam feitas numa linha do
+tempo virtual associada ao código fonte. Dessa forma, mensagens de
+integração de código poderiam conter a anotação que seria
+automaticamente exibida na linha do tempo. Além disso, a equipe
+poderia anotar a linha do tempo de forma assíncrona para permitir
+comentários posteriores. O líder da equipe poderia ocasionalmente
+gerar um relatório para todos os membros da equipe além de exibir a
+linha do tempo no ambiente informativo.
+
+\subsection{Papo em Pé}
+\label{subsec:stand-up}
+
+Papos em pé, originalmente sugeridos em Scrum, pedem que toda a equipe
+se junte e cada membro explique rapidamente o que ele tem feito e
+pretende fazer a seguir. Essa prática compartilha dos mesmos
+problemas da retrospectiva. Ela envolve reunir a equipe ao mesmo
+tempo. Muitos projetos de software livre usam canais de IRC
+(\emph{Internet Relay Chat}) para resolverem parcialmente esse
+problema e para centralizar as discussões durante o
+desenvolvimento. Apesar disso não garantir que todos saibam o que cada
+um está fazendo, ajuda a sincronizar o trabalho.
+
+Para garantir que os membros obtenham a informação necessária, a
+sugestão é que a comunicação que acontece nesses canais IRC seja
+salva e exibida aos usuários que acabam de se conectar. Também
+deveria ser possível permitir que os usuários deixem anotações a
+partir desse canal para o sistema de rastreamento de erros assim como
+mensagens para outros contribuidores. No canal IRC, esse tipo de
+solução normalmente é implementada por um robô que deveria estar
+ligado à incubadora do projeto que contém as ferramentas previamente
+sugeridas.
+
+Tendo delineado as práticas em que há uma possibilidade de
+aproveitamento em cada uma das respectivas comunidades, pode-se traçar
+o plano de trabalho proposto. O próximo capítulo (Capítulo
+\ref{cap:perspectivas}) apresenta o trabalho que se pretende elaborar
+assim como as metas para sua realização.

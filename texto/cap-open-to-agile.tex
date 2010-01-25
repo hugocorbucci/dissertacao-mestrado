@@ -1,0 +1,178 @@
+%% ------------------------------------------------------------------------- %%
+\chapter{Desenvolvimento de Software Livre é Ágil?}
+\label{cap:foss}
+
+Comunidades de software livre poderiam praticamente ser consideradas
+ágeis e, de fato, elas foram consideradas como tal por Martin Fowler
+na sua primeira versão de \emph{``The New Methodology''}
+\cite{Fowler00orig}. No entanto, Fowler retirou as comunidades de
+software livre de seu artigo para a publicação pois considerou que
+faltava uma descrição mais precisa dos métodos de desenvolvimento
+usados por essas comunidades. Mais tarde, Warsta \cite{Warsta2002}
+apresentou um relatório técnico sobre metodologias de desenvolvimento
+ágil nas quais incluiu software livre. A inclusão ainda levou à
+elaboração de um artigo \cite{Warsta2003} em que os autores apontam
+fortes semelhanças entre métodos ágeis e software livre e concluem que
+desenvolvimento de projetos livres pode ser enxergado como uma das
+facetas associadas aos métodos ágeis.
+
+Até hoje, a principal referência atualmente para descrever métodos de
+desenvolvimento de projetos livres é a de Eric Raymond em \emph{``The
+  Cathedral and the Bazaar''} \cite{Raymond1999}. O texto traz o
+relato de algumas experiências vividas por Raymond e as decisões que
+levaram seus projetos livres ao sucesso. Várias dessas decisões e as
+ideias por trás delas podem ser relacionadas ao manifesto ágil
+\cite{AgileManifesto}. As próximas quatro seções apresentam a relação
+entre as atitudes encontradas na maioria das comunidades de software
+livre e cada um dos quatro princípios enunciados pelo manifesto. A
+quinta seção irá recapitular os pontos nos quais os projetos de
+software livre poderiam tornar-se ainda mais ágeis.
+
+\section{Indivíduos e Interações são mais Importantes que Processos e
+  Ferramentas}
+\label{sec:first-princ}
+
+Várias pesquisas relacionadas a desenvolvimento de software livre
+apresentam uma quantidade razoável de ferramentas usadas por
+desenvolvedores para manter a comunicação entre os membros da
+equipe. Reis \cite{Reis2003} mostra que 65\% dos projetos analisados
+usam programas de controle de versão, a página na Internet do projeto
+e listas de correio eletrônico como as principais ferramentas de
+comunicação entre os usuários do programa e a equipe de
+desenvolvimento. \textbf{Os processos e ferramentas} são, no entanto,
+apenas um meio de atingir um objetivo: garantir um ambiente estável e
+acolhedor para a criação do programa de forma colaborativa.
+
+Apesar dos negócios baseados em software livre estarem crescendo, a
+essência da comunidade ao redor do programa é de manter
+\textbf{indivíduos que interajam} de forma a produzir o que lhes
+interessa. As ferramentas apenas possibilitam isso. Nessas
+comunidades, interações normalmente ocorrem para que os indivíduos
+contribuam com código fonte e com documentação, independente do modelo
+de negócios. Essas atividades são responsáveis por dirigir o processo
+e modificar as ferramentas para que elas cumpram melhor as
+necessidades da comunidade.
+
+\section{Software Funcionando é mais Importante que Documentação
+  Completa e Detalhada}
+\label{sec:second-princ}
+
+De acordo com Reis \cite{Reis2003}, 55\% dos projetos de software
+livre atualizam ou revisam suas documentações frequentemente e 30\%
+mantêm documentos que explicam como certas partes do sistema funcionam
+ou como o projeto está organizado. Esses resultados mostram que a
+documentação para os usuários é considerada importante mas não é o
+objetivo final dos projetos. Por outro lado, requisitos são descritos
+como \emph{bugs}
+% Fabio nao entendeu.
+e armazenados em sistemas de rastreamento já que eles implicam em
+possíveis mudanças no programa.
+
+Mais recentemente, Oram \cite{Oram2007} apresentou os resultados de
+uma pesquisa organizada pela O'Reilly mostrando que documentação de
+software livre está, cada vez mais, sendo escrita por
+voluntários. Isso significa que \textbf{documentação completa e
+  detalhada} cresce com a comunidade ao redor de \textbf{software
+  funcionando}, conforme os usuários encontram problemas para
+completar determinada ação. De acordo com o trabalho de Oram, os
+principais motivos para que contribuidores escrevam documentação é
+para seu crescimento pessoal ou para melhorar o nível da
+comunidade. Essa motivação explica porque a documentação de software
+livre normalmente abrange muito bem os problemas mais comuns e explica
+como usar as principais funcionalidades mas deixam a desejar quanto se
+trata de problemas ou funcionalidades menos comuns ou usados.
+
+\section{Colaboração com o Cliente é mais Importante que Negociação de
+  Contratos}
+\label{sec:third-princ}
+
+\textbf{Negociação de contratos} ainda é um problema apenas para uma
+quantidade muito pequena de projetos de software livre já que a grande
+maioria deles não envolve nenhum contrato.  Por outro lado, o modelo
+proposto pelo SourceForge.net\footnote{http://www.sourceforge.net/ -
+  Último acesso 20/07/2009} é de contratação de um ou mais
+desenvolvedores para o desenvolvimento de uma determinada
+funcionalidade por um curto período de tempo. Neste contrato, o
+desenvolvedor presta um serviço ao cliente desenvolvendo a
+funcionalidade e integrando ela ao projeto. Apesar do modelo de
+negócio não garantir que o cliente irá participar ativamente e
+colaborar com a equipe, o seu curto prazo faz com que o tempo entre as
+conversas seja pequeno, aumentando, por tanto, o \emph{feedback} e
+reduzindo a força de um contrato mais rígido.
+
+O ponto chave nessa questão é que a colaboração é a base dos projetos
+de software livre.  O cliente se envolve no projeto o quanto ele
+desejar. \textbf{Clientes podem colaborar} mas eles não são
+especialmente encorajados a fazê-lo ou obrigados a isso. Isso pode ser
+relacionado com a pouca experiência que essas comunidades têm com
+relacionamento com clientes. No entanto, vários projetos de sucesso
+dependem de sua habilidade de prover respostas rápidas às
+funcionalidades pedidas pelos usuários. Nesse caso, a colaboração do
+usuário (ou do cliente) aliada com a habilidade de responder
+rapidamente aos pedidos é especialmente poderosa.
+
+\section{Responder a Mudanças é mais Importante que Seguir um Plano}
+\label{sec:fourth-princ}
+
+Uma busca no Google por \emph{``Development Roadmap open source''}
+respondeu com mais de 282.000 resultados no dia 03/03/2009. Isso
+sugere que projetos de software livre costumam publicar seus planos
+para o futuro. No entanto, \textbf{seguir estes planos} não é uma
+regra. Pior, ater-se demais a esse plano pode levar um projeto a ser
+abandonado pelos seus usuários ou colaboradores.
+
+O principal motivo para isso é o ambiente extremamente competitivo do
+universo de software livre no qual apenas os melhores projetos
+conseguem sobreviver e atrair colaboração. A \textbf{habilidade de
+  cada projeto em se adaptar e responder às mudanças} é crucial para
+determinar os projetos que sobrevivem.  Projetos que não se adaptam às
+mudanças são abandonados pelos seus usuários em prol de outros
+projetos mais atualizados e que atendem melhor às suas necessidades.
+Um dos maiores exemplos deste fato foi a queda do navegador Netscape
+quando, pressionado pelo Internet Explorer, a empresa deixou de
+investir em desenvolvimento e perdeu a maior parte da sua base de
+usuários. Anos depois, o Firefox emergiu dos restos do Netscape e
+conquistou milhares de usuários pelas suas atualizações frequentes e
+funcionalidades inovadoras.
+
+\section{O que Falta no Software Livre?}
+\label{sec:os-summary}
+
+Apesar dos pontos do manifesto ágil serem seguidos e apoiados em
+várias comunidades de software livre, não há nada que possa ser
+qualificado como um método de desenvolvimento de software livre. A
+descrição de Raymond \cite{Raymond1999} é um ótimo exemplo de como o
+processo pode funcionar mas ele não descreve práticas ou recomendações
+para que outros atinjam o mesmo sucesso. Se uma descrição cuidadosa de
+um processo para software livre fosse escrita, ela deveria juntar as
+ideias apresentadas por Raymond com uma definição de um processo.
+
+Esse processo obviamente não poderia descrever a forma com que a
+maioria dos projetos existentes trabalha mas poderia nortear futuros
+projetos. O processo sugerido seguiria as mesmas regras de seleção que
+os próprios projetos. Se ele fosse útil para uma certa quantidade de
+pessoas, ele seria adotado e difundido por uma comunidade que se
+encarregaria de melhorá-lo e corrigi-lo ao longo do tempo. As
+ferramentas e suportes necessários para adoção completa do processo
+também seriam tomados a cargo da comunidade ao longo do tempo. Caso o
+processo não fosse útil o suficiente para os usuários, ele seguiria o
+caminho de muitos outros projetos: o esquecimento.
+
+As comunidades criadas ao redor de projetos de software livre envolvem
+usuários, desenvolvedores e, algumas vezes, até clientes trabalhando
+juntos para talhar o melhor software possível para seus objetivos. A
+ausência de tal comunidade ao redor de um programa normalmente é
+evidência de que o projeto é recente ou está morrendo. As equipes de
+desenvolvimento devem estar muito atentas a esse tipo de sinais que a
+comunidade do seu software dá pois eles mostram a saúde do
+projeto. Atualmente, preocupações relacionadas a esse aspecto do
+desenvolvimento de software livre não são propriamente abordadas pelos
+métodos ágeis mais conhecidos.
+
+Com esta análise da relação entre os valores de métodos ágeis
+encontrados em software livre, falta seguir o caminho inverso. O
+próximo capítulo (Capítulo \ref{cap:agile}) aborda como as práticas
+encontradas no desenvolvimento de software livre podem ser usadas em
+métodos ágeis. Além disso, também traçaremos alguns benefícios que os
+próprios métodos ágeis podem obter se adotarem algumas ideias de
+projetos livres.

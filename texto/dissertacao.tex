@@ -1,0 +1,287 @@
+% Arquivo LaTeX de exemplo de dissertação/tese a ser apresentados à CPG
+% do IME-USP
+% 
+% Versão 3: Thu Dec 10 23:57:33 BRST 2009
+
+%
+% Criação: Jesús P. Mena-Chalco
+% Revisão: Fábio Kon
+%  
+% Obs: Leia previamente o texto do arquivo README.txt
+%
+
+\documentclass[11pt,twoside,a4paper]{book}
+
+% ---------------------------------------------------------------------------- %
+% Pacotes 
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{graphicx}           % usamos arquivos pdf/png como figuras
+\usepackage{pifont}
+\usepackage{amsfonts}
+\usepackage{amssymb} 
+\usepackage{setspace}                   % espaçamento flexível
+\usepackage[bf,small,compact]{titlesec} % cabeçalhos dos títulos: menores e compactos
+\usepackage{indentfirst}                % indentação do primeiro parágrafo
+\usepackage{subfigure}                  % uso de várias figuras numa só
+\usepackage{makeidx}                    % índice remissivo
+\usepackage[nottoc]{tocbibind}          % acrescentamos a bibliografia/indice/conteudo no Table of Contents
+\usepackage{courier}                    % usa o Adobe Courier no lugar de Computer Modern Typewriter
+\usepackage{type1cm}                    % fontes realmente escaláveis
+\usepackage{listings}                   % para formatar código-fonte (ex. em Java)
+\usepackage{setspace}
+\usepackage{longtable}
+\usepackage{titletoc}
+\usepackage{lscape}
+\usepackage[fixlanguage]{babelbib}
+\usepackage[font=small,format=plain,labelfont=bf,up,textfont=it,up]{caption}
+\usepackage[usenames,svgnames,dvipsnames]{xcolor}
+\usepackage[a4paper,top=2.54cm,bottom=2.0cm,left=2.0cm,right=2.54cm]{geometry} % margens
+\usepackage[pdftex,plainpages=false,pdfpagelabels,pagebackref,colorlinks=true,citecolor=black,linkcolor=black,urlcolor=black,filecolor=black,bookmarksopen=true]{hyperref} % links em preto
+%\usepackage[pdftex,plainpages=false,pdfpagelabels,pagebackref,colorlinks=true,citecolor=DarkGreen,linkcolor=NavyBlue,urlcolor=DarkRed,filecolor=green,bookmarksopen=true]{hyperref} % links coloridos
+\usepackage[all]{hypcap}                % soluciona o problema com o hyperref e capitulos
+\usepackage[square,sort,nonamebreak,comma]{natbib}  % citação bibliográfica alpha (alpha-ime.bst)
+
+\usepackage{type1cm}      % fontes realmente escaláveis
+\fontsize{60}{62}\usefont{OT1}{cmr}{m}{n}{\selectfont}
+
+% ---------------------------------------------------------------------------- %
+% headers similares oa TAOP de Donald E. Knuth
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\MakeUppercase{#1}}{}}
+\renewcommand{\headrulewidth}{0pt}
+
+% ---------------------------------------------------------------------------- %
+\graphicspath{{./figuras/}}             % path das figuras (recomendável)
+\frenchspacing                          % Arruma o espaço: id est (i.e.) e exempli gratia (e.g.) 
+\urlstyle{same}                         % URL com o mesmo estilo do texto e nao mono-spaced
+\makeindex                              % para o índice remissivo
+\raggedbottom                           % para não permitir espaços extra no texto
+\fontsize{60}{62}\usefont{OT1}{cmr}{m}{n}{\selectfont}
+\cleardoublepage
+\normalsize
+
+% ---------------------------------------------------------------------------- %
+% Opções de listing usados para o código fonte
+% Ref: http://en.wikibooks.org/wiki/LaTeX/Packages/Listings
+\lstset{ %
+language=Java,                  % choose the language of the code
+basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+numbers=left,                   % where to put the line-numbers
+numberstyle=\footnotesize,      % the size of the fonts that are used for the line-numbers
+stepnumber=1,                   % the step between two line-numbers. If it's 1 each line will be numbered
+numbersep=5pt,                  % how far the line-numbers are from the code
+showspaces=false,               % show spaces adding particular underscores
+showstringspaces=false,         % underline spaces within strings
+showtabs=false,                 % show tabs within strings adding particular underscores
+frame=single,	                % adds a frame around the code
+framerule=0.6pt,
+tabsize=2,	                    % sets default tabsize to 2 spaces
+captionpos=b,                   % sets the caption-position to bottom
+breaklines=true,                % sets automatic line breaking
+breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+escapeinside={\%*}{*)},         % if you want to add a comment within your code
+backgroundcolor=\color[rgb]{1.0,1.0,1.0}, % choose the background color.
+rulecolor=\color[rgb]{0.8,0.8,0.8},
+extendedchars=true,
+xleftmargin=10pt,
+xrightmargin=10pt,
+framexleftmargin=10pt,
+framexrightmargin=10pt
+}
+
+% ---------------------------------------------------------------------------- %
+% Corpo do texto
+\begin{document}
+\frontmatter 
+% headers para as páginas do frontmatter 
+\fancyhead[RO]{{\footnotesize\rightmark}\hspace{2em}\thepage}
+\setcounter{tocdepth}{2}
+\fancyhead[LE]{\thepage\hspace{2em}\footnotesize{\leftmark}}
+\fancyhead[RE,LO]{}
+\fancyhead[RO]{{\footnotesize\rightmark}\hspace{2em}\thepage}
+
+\onehalfspacing  % espaçamento
+
+
+% ---------------------------------------------------------------------------- %
+% Capa
+\thispagestyle{empty}
+\begin{center}
+  \vspace*{2.3cm}
+  \textbf{\Large{Métodos ágeis e software livre:\\
+      Propostas de como aumentar a interação\\
+      entre estas duas comunidades}}\\
+	
+  \vspace*{1.2cm} \Large{Hugo Corbucci}
+    
+  \vskip 2cm \textsc{
+    Dissertação apresentada\\[-0.25cm]
+    ao\\[-0.25cm]
+    Instituto de Matemática e Estatística\\[-0.25cm]
+    da\\[-0.25cm]
+    Universidade de São Paulo}
+    
+  \vskip 1.5cm
+  Programa: Mestrado em Ciência da Computação\\
+  Orientador: Prof. Dr. Alfredo Goldman
+
+  \vskip 1cm \normalsize{Durante o desenvolvimento deste trabalho o
+    autor recebeu auxílio financeiro do projeto Qualipso}
+	
+  \vskip 0.5cm \normalsize{São Paulo, Janeiro de 2010}
+\end{center}
+
+% ---------------------------------------------------------------------------- %
+% Página de rosto (só para a versão final) \newpage
+% \thispagestyle{empty}
+%	\begin{center}
+%   \vspace*{2.3 cm}
+%   \textbf{\Large{Título do trabalho a ser apresentado à \\
+%       CPG para a dissertação/tese}}\\
+%   \vspace*{2 cm}
+%	\end{center}
+%
+%	\vskip 2cm
+%
+%	\begin{flushright}
+%   Este exemplar corresponde à redação\\
+%   final da dissertação devidamente corrigida\\
+%   e defendida por Hugo Corbucci\\
+%   e aprovada pela Comissão Julgadora.  \vskip 2cm
+%
+%	\end{flushright}
+%	\vskip 4.2cm
+%
+%	\begin{quote}
+%   \noindent Banca Examinadora:
+%	
+%   \begin{itemize}
+%   \item Prof. Dr. Alfredo Goldman (orientador) - IME-USP.
+%   \item Prof. Dr. Fabio Kon - IME-USP.
+%   \item Prof. Dr. Nome Completo - IMPA.
+%   \end{itemize}
+%	  
+%	\end{quote}
+% \pagebreak
+
+\pagenumbering{roman} % começamos a numerar
+
+% ---------------------------------------------------------------------------- %
+% Agradecimentos
+% \chapter*{Agradecimentos}
+
+% Este trabalho contou com o apoio do projeto Qualipso
+% \cite{Qualipso}.
+
+% Gostaria de agradecer ao Christian Reis por sua ajuda, pelas
+% discussões interessantes e pelo apoio.
+
+% ---------------------------------------------------------------------------- %
+% Resumo
+\chapter*{Resumo}
+
+Usuários de métodos ágeis e comunidades de software livre compartilham
+culturas similares mas com diferentes abordagens para superar
+dificuldades. Apesar dos diversos profissionais envolvidos em ambos
+mundos, os métodos ágeis não são tão fortes quanto poderiam na
+comunidade de software livre nem o contrário. Esse trabalho identifica
+e expõe os obstáculos que separam essas comunidades. Com ele,
+espera-se extrair as melhores soluções de cada comunidade e contribuir
+com sugestões de ferramentas e processos de desenvolvimento em ambos
+ambientes.
+
+\noindent \textbf{Palavras-chave:} métodos ágeis, open source,
+software livre
+
+% ---------------------------------------------------------------------------- %
+% Abstract
+\chapter*{Abstract}
+
+Agile methods and open source software communities share similar
+cultures with different approaches to overcome problems. Although
+several professionals are involved in both worlds, neither agile
+methodologies are as strong as they could be in open source
+communities nor those communities provide strong contributions to
+agile methods. This work identifies and exposes the obstacles that
+separate those communities in order to extract the best of them and
+improve both sides with suggestions of tools and development
+processes.
+
+\noindent \textbf{Keywords:} agile methods, open source
+
+% ---------------------------------------------------------------------------- %
+% Sumário
+\tableofcontents % imprime o sumário
+
+% ---------------------------------------------------------------------------- %
+% Listas: abreviaturas, símbolos, figuras e tabelas
+
+\chapter{Lista de Abreviaturas}
+\begin{tabular}{ll}
+  SL       & Software Livre.\\
+  OSS         & Software de Código Aberto (\emph{Open Source Software}).\\
+  XP       & Programação Extrema (\emph{Extreme Programming}).\\
+  FLOSS       & Software Gratuito, Livre e de Código Aberto (\emph{Free, Libre and Open Source
+    Software}).\\
+  BDD       & Desenvolvimento Dirigido por Comportamento (\emph{Behaviour Driven Development}).\\
+  IRC       & Papo Retransmitido pela Internet (\emph{Internet Relay Chat}).\\
+  FISL       & Fórum Internacional de Software Livre\\
+  API       & Interface de Programação da Aplicação (\emph{Application Programming Interface}).\\ 
+  OMM       & Modelo de Maturidade para Software Livre (\emph{Open Source Maturity Model}).\\
+\end{tabular}
+
+% \chapter{Lista de Símbolos}
+% \begin{tabular}{ll}
+%		$\omega$    & Freqüência angular.\\
+%\end{tabular}
+
+%\listoffigures % lista de Figuras
+%\listoftables % lista de Tabelas
+
+% ---------------------------------------------------------------------------- %
+% Capítulos
+\mainmatter
+% cabecalho para as páginas do 'mainmatter'
+\fancyhead[RE,LO]{\thesection}
+
+% \singlespacing % espaçamento simples
+\onehalfspacing % espaçamento um e meio
+% \doublespacing % espaçamento duplo
+
+\input cap-introducao % associado ao arquivo: 'cap-introducao.tex'
+\input cap-escopo % associado ao arquivo: 'cap-escopo.tex'
+\input cap-open-to-agile % associado ao arquivo: 'cap-open-to-agile.tex'
+\input cap-agile-to-open % associado ao arquivo: 'cap-agile-to-open.tex'
+\input cap-pesquisas % associado ao arquivo: 'cap-pesquisas.tex'
+\input cap-omm % associado ao arquivo: 'cap-pesquisas.tex'
+\input cap-conclusoes % associado ao arquivo: 'cap-conclusoes.tex'
+
+% cabecalho para os apêndices
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\appendixname\ \thechapter}} {\MakeUppercase{#1}} }
+\fancyhead[RE,LO]{}
+\appendix
+
+\include{ape-pesquisaEA}      % associado ao arquivo: 'ape-pesquisaEA.tex'
+\include{ape-pesquisaOS}      % associado ao arquivo: 'ape-pesquisaOS.tex'
+\include{ape-pesquisaMA}      % associado ao arquivo: 'ape-pesquisaMA.tex'
+
+% ---------------------------------------------------------------------------- %
+% Bibliografia
+\backmatter \singlespacing   % espaçamento simples
+
+\bibliographystyle{alpha-ime}% citação bibliográfica alpha
+\bibliography{bibliografia}  % associado ao arquivo: 'bibliografia.bib'
+
+% ---------------------------------------------------------------------------- %
+% Índice remissivo
+%\index{TBP|see{periodicidade região codificante}}
+
+%\printindex   % imprime o índice remissivo no documento 
+
+\end{document}
+
