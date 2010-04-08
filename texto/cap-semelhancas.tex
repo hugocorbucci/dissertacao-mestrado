@@ -1,9 +1,9 @@
 %% ------------------------------------------------------------------------- %%
-\chapter{Desenvolvimento de Software Livre é Ágil?}
-\label{cap:foss}
+\chapter{Semelhanças entre métodos ágeis e software livre}
+\label{cap:semelhancas}
 
-Comunidades de software livre poderiam praticamente ser consideradas
-ágeis e, de fato, elas foram consideradas como tal por Martin Fowler
+Métodos ágeis e software livre tem formas de trabalho tão semelhantes
+que software livre já foi considerado um método ágil por Martin Fowler
 na sua primeira versão de \emph{``The New Methodology''}
 \cite{Fowler00orig}. No entanto, Fowler retirou as comunidades de
 software livre de seu artigo para a publicação pois considerou que
@@ -22,92 +22,47 @@ desenvolvimento de projetos livres é a de Eric Raymond em \emph{``The
 relato de algumas experiências vividas por Raymond e as decisões que
 levaram seus projetos livres ao sucesso. Várias dessas decisões e as
 ideias por trás delas podem ser relacionadas ao manifesto ágil
-\cite{AgileManifesto}. O manifesto é constituido de um texto principal
-que destaca quatro valores e de uma lista de doze princípios que
-apoiam esses valores. O texto principal é curto e muito conhecido:
+\cite{AgileManifesto}.
 
-\begin{quote}
-  Estamos descobrindo melhores formas de desenvolver software através
-  da prática e ajudando outros a praticá-las. Graças a esse trabalho,
-  viemos a valorizar:
+O manifesto é constituido de um texto principal que destaca quatro
+valores e de uma lista de doze princípios que apoiam esses valores. O
+texto principal é curto e muito conhecido e pode ser conferido na
+caixa \ref{box:manifesto}.
 
-  \begin{center}
-    \begin{itemize}
-    \item \textbf{Indivíduos e interações} mais que processos e
-      ferramentas;
-    \item \textbf{Software funcionando} mais que documentação completa
-      e detalhada;
-    \item \textbf{Colaboração com o cliente} mais que negociação de
-      contatos e
-    \item \textbf{Adaptação a mudanças} mais que seguir um plano.
-    \end{itemize}
-  \end{center}
+\begin{caixa}[hb]
+  \begin{minipage}{\linewidth}
+    \centering Estamos descobrindo melhores formas de desenvolver
+    software através da prática e ajudando outros a
+    praticá-las. Graças a esse trabalho, viemos a valorizar:
 
-  Isto é, apesar de existir valor nos itens à direita, nós valorizamos
-  os itens à esquerda mais.
-\end{quote}
+    \begin{center}
+      \begin{itemize}
+      \item \textbf{Indivíduos e interações} mais que processos e
+        ferramentas;
+      \item \textbf{Software funcionando} mais que documentação
+        completa e detalhada;
+      \item \textbf{Colaboração com o cliente} mais que negociação de
+        contatos e
+      \item \textbf{Adaptação a mudanças} mais que seguir um plano.
+      \end{itemize}
+    \end{center}
 
-Os doze princípios enumerados são um pouco maiores mas também são mais
-próximos das práticas usadas em um projeto:
-
-\begin{quote}
-  Seguimos esses princípios:
-
-  \begin{itemize}
-  \item Nossa maior prioridade é satisfazer o cliente através de
-    entregas rápidas e contínuas de software que traga valor;
-  \item Aceitar mudanças nos requisitos, mesmo que tarde no
-    desenvolvimento. Processos ágeis domam as mudanças para garantir
-    um diferencial competitivo ao seu cliente.
-  \item Entregar software funcionando frequentemente, de algumas
-    semanas a alguns meses, com a preferência para escalas de tempo
-    menores.
-  \item Especialistas do negócio e desenvolvedores devem trabalhar
-    juntos diariamente ao longo do projeto.
-  \item Construa projetos ao redor de indivíduos motivados. Dê-lhes o
-    ambiente e suporte que eles precisam, e confie que eles farão o
-    trabalho.
-  \item O meio mais eficiente e eficaz de transmitir informação para
-    dentro ou para fora de uma equipe de desenvolvimento é através da
-    conversa face a face.
-  \item Software funcionando é a principal medida de progresso.
-  \item Processos ágeis promovem desenvolvimento sustentável. Os
-    investidores, desenvolvedores, e usuários deveriam conseguir
-    manter um ritmo constante indefinidamente.
-  \item Atenção contínua à excelência técnica e a um bom
-    \textit{design} aprimora a agilidade.
-  \item Simplicidade -- a arte de maximizar a quantidade de trabalho
-    não realizado -- é essencial.
-  \item As melhores arquiteturas, requisitos, e \textit{designs}
-    emergem de equipes auto-organizadas.
-  \item Em intervalos regulares, a equipe reflete sobre como se tornar
-    mais eficaz, então refina e ajusta seu comportamente de acordo.
-  \end{itemize}
-\end{quote}
+    Isto é, apesar de existir valor nos itens à direita, nós
+    valorizamos os itens à esquerda mais.
+  \end{minipage}
+  \caption{Manifesto ágil}
+  \label{box:manifesto}
+\end{caixa}
 
 As próximas quatro seções apresentam a relação entre as atitudes
 encontradas na maioria das comunidades de software livre e cada um dos
 quatro valores enunciados pelo manifesto apoiando-se nos princípios
-enumerados. A quinta seção irá recapitular os pontos nos quais os
-projetos de software livre poderiam tornar-se ainda mais ágeis.
+enumerados. A Seção \ref{sec:agile?} apresenta o resumo dos argumentos
+e descreve os pontos onde podem existir algumas falhas.
 
-\section{Indivíduos e Interações são mais Importantes que Processos e
-  Ferramentas}
+\section{Indivíduos e interações são mais importantes que processos e
+  ferramentas}
 \label{sec:first-princ}
-
-\begin{itemize}
-\item Especialistas do negócio e desenvolvedores devem trabalhar
-  juntos diariamente ao longo do projeto.
-\item Construa projetos ao redor de indivíduos motivados. Dê-lhes o
-  ambiente e suporte que eles precisam, e confie que eles farão o
-  trabalho.
-\item O meio mais eficiente e eficaz de transmitir informação para
-  dentro ou para fora de uma equipe de desenvolvimento é através da
-  conversa face a face.
-\item Processos ágeis promovem desenvolvimento sustentável. Os
-  investidores, desenvolvedores, e usuários deveriam conseguir manter
-  um ritmo constante indefinidamente.
-\end{itemize}
 
 Várias pesquisas relacionadas a desenvolvimento de software livre
 apresentam uma quantidade razoável de ferramentas usadas por
@@ -130,8 +85,8 @@ de negócios. Essas atividades são responsáveis por dirigir o processo
 e modificar as ferramentas para que elas cumpram melhor as
 necessidades da comunidade.
 
-\section{Software Funcionando é mais Importante que Documentação
-  Completa e Detalhada}
+\section{Software funcionando é mais importante que documentação
+  completa e detalhada}
 \label{sec:second-princ}
 
 De acordo com Reis \cite{Reis2003}, 55\% dos projetos de software
@@ -139,11 +94,10 @@ livre atualizam ou revisam suas documentações frequentemente e 30\%
 mantêm documentos que explicam como certas partes do sistema funcionam
 ou como o projeto está organizado. Esses resultados mostram que a
 documentação para os usuários é considerada importante mas não é o
-objetivo final dos projetos. Por outro lado, requisitos são descritos
-como \emph{bugs}
-% Fabio nao entendeu.
-e armazenados em sistemas de rastreamento já que eles implicam em
-possíveis mudanças no programa.
+objetivo final dos projetos. Por outro lado, é muito comum encontrar
+projetos de software livre onde os requisitos do sistema são descritos
+como \emph{bugs} no sentido de que representam alguma coisa no
+software que não funciona da forma que deveria.
 
 Mais recentemente, Oram \cite{Oram2007} apresentou os resultados de
 uma pesquisa organizada pela O'Reilly mostrando que documentação de
@@ -159,8 +113,8 @@ livre normalmente abrange muito bem os problemas mais comuns e explica
 como usar as principais funcionalidades mas deixam a desejar quanto se
 trata de problemas ou funcionalidades menos comuns ou usados.
 
-\section{Colaboração com o Cliente é mais Importante que Negociação de
-  Contratos}
+\section{Colaboração com o cliente é mais importante que negociação de
+  contratos}
 \label{sec:third-princ}
 
 \textbf{Negociação de contratos} ainda é um problema apenas para uma
@@ -188,15 +142,15 @@ funcionalidades pedidas pelos usuários. Nesse caso, a colaboração do
 usuário (ou do cliente) aliada com a habilidade de responder
 rapidamente aos pedidos é especialmente poderosa.
 
-\section{Responder a Mudanças é mais Importante que Seguir um Plano}
+\section{Responder a mudanças é mais importante que seguir um plano}
 \label{sec:fourth-princ}
 
 Uma busca no Google por \emph{``Development Roadmap open source''}
-respondeu com mais de 282.000 resultados no dia 03/03/2009. Isso
-sugere que projetos de software livre costumam publicar seus planos
-para o futuro. No entanto, \textbf{seguir estes planos} não é uma
-regra. Pior, ater-se demais a esse plano pode levar um projeto a ser
-abandonado pelos seus usuários ou colaboradores.
+respondeu com mais de 843.000 resultados no dia 11/03/2010. Isso
+sugere que muitos projetos de software livre costumam publicar seus
+planos para o futuro. No entanto, \textbf{seguir estes planos} não é
+uma regra. Pior, ater-se demais a esse plano pode levar um projeto a
+ser abandonado pelos seus usuários ou colaboradores.
 
 O principal motivo para isso é o ambiente extremamente competitivo do
 universo de software livre no qual apenas os melhores projetos
@@ -212,8 +166,8 @@ usuários. Anos depois, o Firefox emergiu dos restos do Netscape e
 conquistou milhares de usuários pelas suas atualizações frequentes e
 funcionalidades inovadoras.
 
-\section{O que Falta no Software Livre?}
-\label{sec:os-summary}
+\section{Mas então software livre é uma forma de método ágil?}
+\label{sec:agile?}
 
 Apesar dos pontos do manifesto ágil serem seguidos e apoiados em
 várias comunidades de software livre, não há nada que possa ser
@@ -247,9 +201,7 @@ desenvolvimento de software livre não são propriamente abordadas pelos
 métodos ágeis mais conhecidos.
 
 Com esta análise da relação entre os valores de métodos ágeis
-encontrados em software livre, falta seguir o caminho inverso. O
-próximo capítulo (Capítulo \ref{cap:agile}) aborda como as práticas
-encontradas no desenvolvimento de software livre podem ser usadas em
-métodos ágeis. Além disso, também traçaremos alguns benefícios que os
-próprios métodos ágeis podem obter se adotarem algumas ideias de
-projetos livres.
+encontrados em software livre em mente, o próximo capítulo (Capítulo
+\ref{cap:pesquisas}) apresenta duas pesquisas elaboradas para definir
+melhor a relação entre as duas comunidades. Também serão apresentados
+os resultados coletados no trabalho e a conclusão à qual eles levaram.

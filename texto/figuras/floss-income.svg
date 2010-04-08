@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   viewBox="0 0 250 285"
+   preserveAspectRatio="xMidYMid"
+   id="svg3077"
+   inkscape:version="0.47 r22583"
+   width="100%"
+   height="100%"
+   sodipodi:docname="floss-income.svg"
+   style="fill-rule:evenodd"
+   inkscape:export-filename="/Users/night/Documents/201001/Defesa/texto/figuras/floss-income.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
+  <metadata
+     id="metadata3280">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1676"
+     inkscape:window-height="1006"
+     id="namedview3278"
+     showgrid="false"
+     inkscape:zoom="2.4210177"
+     inkscape:cx="128.72936"
+     inkscape:cy="140.89102"
+     inkscape:window-x="4"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g5773" />
+  <defs
+     id="defs3079">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 3785 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="9150 : 3785 : 1"
+       inkscape:persp3d-origin="4575 : 2523.3333 : 1"
+       id="perspective3282" />
+    <font
+       id="EmbeddedFont_1"
+       horiz-adv-x="2048"
+       horiz-origin-x="0"
+       horiz-origin-y="0"
+       vert-origin-x="0"
+       vert-origin-y="0"
+       vert-adv-y="0">
+      <font-face
+         font-family="Arial embedded"
+         units-per-em="2048"
+         ascent="1852"
+         descent="503"
+         id="font-face3082" />
+      <missing-glyph
+         horiz-adv-x="2048"
+         id="missing-glyph3084">
+        <path
+           style="fill:none;stroke:black;stroke-width:33"
+           d="M 0,2048 L 2047,2048 2047,1 0,1 0,2048 Z"
+           id="path3086" />
+      </missing-glyph>
+      <glyph
+         unicode=" "
+         horiz-adv-x="1032"
+         id="glyph3088" />
+      <glyph
+         unicode="%"
+         horiz-adv-x="1588"
+         id="glyph3090">
+        <path
+           d="M 119,1113 C 119,1218 145,1307 198,1380 251,1453 327,1490 427,1490 519,1490 595,1457 656,1392 716,1326 746,1229 746,1102 746,978 716,883 655,816 594,749 518,715 429,715 340,715 267,748 208,814 149,880 119,980 119,1113 Z M 432,1366 C 387,1366 350,1347 321,1308 291,1269 276,1198 276,1095 276,1001 291,935 321,897 351,858 388,839 432,839 477,839 515,858 545,897 574,936 589,1006 589,1109 589,1204 574,1270 544,1309 514,1347 477,1366 432,1366 Z M 582,-54 L 433,-54 1235,1490 1381,1490 582,-54 Z M 1067,343 C 1067,448 1093,538 1146,611 1198,684 1275,720 1376,720 1467,720 1543,687 1604,622 1664,556 1694,459 1694,332 1694,208 1664,113 1603,46 1542,-21 1466,-54 1377,-54 1288,-54 1214,-21 1155,45 1096,111 1067,210 1067,343 Z M 1381,596 C 1335,596 1298,577 1268,538 1239,499 1224,428 1224,325 1224,232 1239,166 1269,127 1299,88 1336,69 1380,69 1425,69 1463,88 1493,127 1522,166 1537,236 1537,339 1537,434 1522,500 1492,539 1462,577 1425,596 1381,596 Z"
+           id="path3092" />
+      </glyph>
+      <glyph
+         unicode="-"
+         horiz-adv-x="557"
+         id="glyph3094">
+        <path
+           d="M 618,439 L 64,439 64,620 618,620 618,439 Z"
+           id="path3096" />
+      </glyph>
+      <glyph
+         unicode="1"
+         horiz-adv-x="530"
+         id="glyph3098">
+        <path
+           d="M 763,1471 L 763,0 583,0 583,1146 C 540,1105 483,1063 413,1022 342,981 279,950 223,929 L 223,1103 C 324,1150 412,1208 487,1275 562,1342 616,1408 647,1471 L 763,1471 Z"
+           id="path3100" />
+      </glyph>
+      <glyph
+         unicode="6"
+         horiz-adv-x="980"
+         id="glyph3102">
+        <path
+           d="M 1020,1106 L 841,1092 C 825,1163 802,1214 773,1246 724,1297 664,1323 593,1323 535,1323 485,1307 441,1275 384,1234 340,1173 307,1094 274,1015 257,902 256,755 299,821 352,870 415,902 478,934 544,950 612,950 733,950 835,906 919,818 1004,729 1046,615 1046,475 1046,383 1026,298 986,219 947,140 892,79 823,37 753,-4 675,-25 587,-25 436,-25 314,29 219,140 124,250 77,432 77,685 77,968 129,1174 234,1303 326,1415 449,1471 604,1471 719,1471 814,1439 887,1374 961,1309 1005,1220 1020,1106 Z M 284,474 C 284,412 297,353 324,296 350,239 387,196 434,167 481,137 531,122 583,122 659,122 725,153 779,214 834,275 861,359 861,464 861,565 834,645 780,704 726,762 658,791 576,791 495,791 426,762 369,704 312,645 284,569 284,474 Z"
+           id="path3104" />
+      </glyph>
+      <glyph
+         unicode="7"
+         horiz-adv-x="954"
+         id="glyph3106">
+        <path
+           d="M 815,1273 L 97,1273 97,1446 1046,1446 1046,1306 C 953,1207 860,1075 769,910 677,745 606,576 556,402 520,279 497,145 487,0 L 302,0 C 304,114 327,254 370,417 413,580 476,738 557,890 638,1041 724,1169 815,1273 Z"
+           id="path3108" />
+      </glyph>
+      <glyph
+         unicode="8"
+         horiz-adv-x="954"
+         id="glyph3110">
+        <path
+           d="M 363,794 C 288,821 232,860 196,911 160,962 142,1022 142,1093 142,1200 180,1289 257,1362 334,1435 436,1471 563,1471 691,1471 794,1434 872,1360 950,1285 989,1195 989,1088 989,1020 971,961 936,911 900,860 846,821 773,794 863,765 932,717 979,652 1026,587 1049,509 1049,418 1049,293 1005,187 916,102 827,17 711,-25 566,-25 421,-25 305,17 216,103 127,188 83,295 83,423 83,518 107,598 156,663 204,727 273,771 363,794 Z M 327,1099 C 327,1030 349,973 394,929 438,885 496,863 568,863 637,863 694,885 738,929 782,972 804,1026 804,1089 804,1155 781,1211 736,1256 690,1301 634,1323 566,1323 497,1323 440,1301 395,1257 350,1213 327,1160 327,1099 Z M 268,422 C 268,371 280,321 304,273 328,225 364,188 413,162 461,135 512,122 568,122 654,122 725,150 780,205 836,260 864,331 864,416 864,503 835,574 778,631 720,688 648,716 562,716 477,716 407,688 351,632 296,576 268,506 268,422 Z"
+           id="path3112" />
+      </glyph>
+      <glyph
+         unicode="F"
+         horiz-adv-x="980"
+         id="glyph3114">
+        <path
+           d="M 362,0 L 168,0 168,1465 1157,1465 1157,1292 362,1292 362,838 1050,838 1050,665 362,665 362,0 Z"
+           id="path3116" />
+      </glyph>
+      <glyph
+         unicode="I"
+         horiz-adv-x="186"
+         id="glyph3118">
+        <path
+           d="M 385,0 L 191,0 191,1465 385,1465 385,0 Z"
+           id="path3120" />
+      </glyph>
+      <glyph
+         unicode="L"
+         horiz-adv-x="927"
+         id="glyph3122">
+        <path
+           d="M 1066,0 L 150,0 150,1465 344,1465 344,172 1066,172 1066,0 Z"
+           id="path3124" />
+      </glyph>
+      <glyph
+         unicode="N"
+         horiz-adv-x="1165"
+         id="glyph3126">
+        <path
+           d="M 342,0 L 156,0 156,1465 355,1465 1125,314 1125,1465 1311,1465 1311,0 1112,0 342,1152 342,0 Z"
+           id="path3128" />
+      </glyph>
+      <glyph
+         unicode="O"
+         horiz-adv-x="1404"
+         id="glyph3130">
+        <path
+           d="M 99,713 C 99,956 164,1147 295,1285 426,1422 594,1491 801,1491 936,1491 1058,1459 1167,1394 1276,1329 1359,1239 1416,1124 1473,1008 1501,877 1501,730 1501,581 1471,448 1411,331 1351,214 1266,125 1156,65 1046,4 927,-25 800,-25 662,-25 539,7 430,74 321,141 239,232 183,347 127,462 99,584 99,713 Z M 299,710 C 299,533 347,394 442,293 537,191 656,140 799,140 945,140 1065,191 1160,294 1254,397 1301,542 1301,731 1301,850 1281,955 1241,1044 1200,1133 1141,1202 1064,1251 986,1300 899,1324 802,1324 665,1324 547,1277 448,1183 349,1088 299,931 299,710 Z"
+           id="path3132" />
+      </glyph>
+      <glyph
+         unicode="S"
+         horiz-adv-x="1166"
+         id="glyph3134">
+        <path
+           d="M 93,470 L 276,486 C 285,412 305,352 336,305 368,258 417,220 484,191 550,162 625,147 708,147 782,147 848,158 904,180 961,202 1003,232 1031,271 1058,309 1072,351 1072,397 1072,443 1059,483 1032,517 1005,552 961,580 900,604 861,619 774,643 639,675 504,708 410,738 356,767 286,804 234,849 200,904 165,958 148,1019 148,1086 148,1161 169,1230 211,1294 253,1359 314,1408 395,1441 476,1474 565,1491 664,1491 773,1491 869,1474 952,1439 1035,1404 1098,1352 1143,1284 1188,1216 1212,1139 1215,1053 L 1029,1039 C 1019,1132 985,1202 928,1249 870,1296 785,1320 672,1320 555,1320 469,1298 416,1255 362,1212 335,1160 335,1100 335,1047 354,1003 392,969 429,935 527,900 685,865 842,829 950,798 1009,771 1094,732 1157,682 1198,622 1239,561 1259,492 1259,413 1259,335 1237,262 1192,193 1147,124 1083,70 1000,32 916,-6 822,-25 717,-25 585,-25 474,-6 384,32 295,71 224,129 173,207 122,284 96,372 93,470 Z"
+           id="path3136" />
+      </glyph>
+      <glyph
+         unicode="T"
+         horiz-adv-x="1166"
+         id="glyph3138">
+        <path
+           d="M 725,0 L 531,0 531,1292 48,1292 48,1465 1210,1465 1210,1292 725,1292 725,0 Z"
+           id="path3140" />
+      </glyph>
+      <glyph
+         unicode="c"
+         horiz-adv-x="901"
+         id="glyph3142">
+        <path
+           d="M 828,388 L 1005,364 C 986,242 936,147 857,78 777,9 679,-24 563,-24 418,-24 301,23 213,118 124,213 80,349 80,526 80,641 99,741 137,827 175,913 233,978 311,1021 388,1064 473,1085 564,1085 679,1085 774,1056 847,998 920,939 967,856 988,749 L 813,722 C 796,793 767,847 725,883 682,919 631,937 571,937 480,937 407,905 350,840 293,775 265,672 265,531 265,388 292,285 347,220 402,155 473,123 561,123 632,123 691,145 738,188 785,231 815,298 828,388 Z"
+           id="path3144" />
+      </glyph>
+      <glyph
+         unicode="e"
+         horiz-adv-x="980"
+         id="glyph3146">
+        <path
+           d="M 862,342 L 1048,318 C 1019,209 964,125 885,65 806,5 704,-24 581,-24 426,-24 303,23 212,119 121,214 75,348 75,521 75,700 121,838 213,937 305,1036 424,1085 571,1085 713,1085 829,1037 919,940 1009,843 1054,707 1054,532 1054,521 1054,505 1053,484 L 260,484 C 267,367 300,278 359,216 419,154 493,123 582,123 648,123 704,140 751,175 798,210 835,266 862,342 Z M 270,632 L 864,632 C 856,721 833,788 796,833 738,902 664,937 573,937 490,937 420,909 364,854 307,799 276,725 270,632 Z"
+           id="path3148" />
+      </glyph>
+      <glyph
+         unicode="g"
+         horiz-adv-x="927"
+         id="glyph3150">
+        <path
+           d="M 102,-88 L 277,-114 C 284,-168 305,-207 338,-232 383,-265 444,-282 521,-282 604,-282 669,-265 714,-232 759,-199 790,-152 806,-92 815,-55 820,21 819,138 740,45 642,0 525,0 379,0 266,52 186,157 106,262 66,389 66,536 66,637 84,731 121,817 158,902 211,968 281,1015 350,1062 432,1085 526,1085 651,1085 755,1034 836,933 L 836,1061 1002,1061 1002,143 C 1002,-21 985,-139 952,-208 918,-277 865,-331 792,-371 719,-411 629,-431 522,-431 395,-431 293,-403 215,-346 137,-289 99,-203 102,-88 Z M 251,549 C 251,410 279,308 334,244 389,180 459,148 542,148 625,148 694,180 750,244 806,307 834,407 834,543 834,673 805,771 748,837 690,903 620,936 539,936 459,936 391,904 335,839 279,774 251,677 251,549 Z"
+           id="path3152" />
+      </glyph>
+      <glyph
+         unicode="i"
+         horiz-adv-x="160"
+         id="glyph3154">
+        <path
+           d="M 316,1258 L 136,1258 136,1465 316,1465 316,1258 Z M 316,0 L 136,0 136,1061 316,1061 316,0 Z"
+           id="path3156" />
+      </glyph>
+      <glyph
+         unicode="m"
+         horiz-adv-x="1430"
+         id="glyph3158">
+        <path
+           d="M 315,0 L 135,0 135,1061 296,1061 296,912 C 329,964 374,1006 429,1038 484,1069 547,1085 618,1085 697,1085 761,1069 812,1036 862,1003 897,958 918,899 1002,1023 1112,1085 1247,1085 1352,1085 1433,1056 1490,998 1547,939 1575,849 1575,728 L 1575,0 1395,0 1395,668 C 1395,740 1389,792 1378,824 1366,855 1345,881 1314,900 1283,919 1247,929 1206,929 1131,929 1069,904 1020,855 971,805 946,725 946,616 L 946,0 766,0 766,689 C 766,769 751,829 722,869 693,909 645,929 578,929 527,929 481,916 438,889 395,862 363,823 344,772 325,721 315,647 315,550 L 315,0 Z"
+           id="path3160" />
+      </glyph>
+      <glyph
+         unicode="n"
+         horiz-adv-x="848"
+         id="glyph3162">
+        <path
+           d="M 315,0 L 135,0 135,1061 297,1061 297,910 C 375,1027 488,1085 635,1085 699,1085 758,1074 812,1051 865,1028 905,997 932,960 959,923 977,878 988,827 995,794 998,735 998,652 L 998,0 818,0 818,645 C 818,718 811,773 797,810 783,846 758,875 723,897 687,918 645,929 597,929 520,929 454,905 399,856 343,807 315,715 315,579 L 315,0 Z"
+           id="path3164" />
+      </glyph>
+      <glyph
+         unicode="o"
+         horiz-adv-x="1006"
+         id="glyph3166">
+        <path
+           d="M 68,530 C 68,727 123,872 232,967 323,1046 435,1085 566,1085 712,1085 831,1037 924,942 1017,846 1063,714 1063,545 1063,408 1043,301 1002,223 961,144 901,83 823,40 744,-2 659,-24 566,-24 417,-24 297,23 206,118 114,213 68,351 68,530 Z M 253,530 C 253,394 283,292 342,225 401,157 476,123 566,123 655,123 730,157 789,225 848,293 878,397 878,536 878,667 848,767 789,835 729,902 655,936 566,936 476,936 401,902 342,835 283,768 253,666 253,530 Z"
+           id="path3168" />
+      </glyph>
+      <glyph
+         unicode="r"
+         horiz-adv-x="557"
+         id="glyph3170">
+        <path
+           d="M 313,0 L 133,0 133,1061 295,1061 295,900 C 336,975 375,1025 410,1049 445,1073 483,1085 525,1085 586,1085 647,1066 710,1027 L 648,860 C 604,886 560,899 516,899 477,899 441,887 410,864 379,840 356,807 343,765 323,701 313,631 313,555 L 313,0 Z"
+           id="path3172" />
+      </glyph>
+    </font>
+  </defs>
+  <g
+     id="g4303"
+     transform="translate(-4509.4765,-3446.9303)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5415"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Acknowledge TT (BRK)';-inkscape-font-specification:'Acknowledge TT (BRK)'"
+       transform="translate(1539.7058,192.5553)"><flowRegion
+         id="flowRegion5417"><rect
+           id="rect5419"
+           width="1917.467"
+           height="379.49869"
+           x="2426.7942"
+           y="6517.8145" /></flowRegion><flowPara
+         id="flowPara5421" /></flowRoot>    <g
+       transform="matrix(0.04019189,0,0,0.04019189,4502.6471,3407.5599)"
+       id="g4254">
+      <path
+         style="fill:#b3b3b3;stroke:#000000;stroke-width:24.88064384;stroke-opacity:1;visibility:visible"
+         d="m 3280,992 -122,2 -122,8 -121,11 -120,17 -120,21 -119,26 -117,31 -117,35 -115,40 -113,45 -112,48 -109,53 -107,57 -105,62 -102,65 -100,70 -97,74 -94,77 -91,81 -88,84 -84,88 -81,91 -77,94 -74,97 -46,66 -45,67 -44,69 -41,69 2683,1550 0,0 0,0 0,0 0,0 0,-3098 z"
+         id="path3192" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:24.88064384;visibility:visible"
+         d="m 3280,992 -122,2 -122,8 -121,11 -120,17 -120,21 -119,26 -117,31 -117,35 -115,40 -113,45 -112,48 -109,53 -107,57 -105,62 -102,65 -100,70 -97,74 -94,77 -91,81 -88,84 -84,88 -81,91 -77,94 -74,97 -46,66 -45,67 -44,69 -41,69 2683,1550 0,-3098"
+         id="path3196" />
+      <path
+         style="fill:#4c4c4c;stroke:none;visibility:visible"
+         d="m 597,2541 -78,142 -70,146 -62,150 -54,153 -35,117 -31,117 -26,119 -21,120 -17,120 -11,121 -8,121 -2,122 2,122 8,122 11,121 17,120 21,120 26,119 31,117 35,117 40,115 45,113 48,112 53,109 57,107 62,105 65,102 70,100 74,97 77,94 81,91 84,88 88,84 91,81 94,77 97,74 100,70 102,65 105,62 107,57 109,53 112,49 113,44 115,40 117,35 117,31 119,26 120,22 120,16 121,12 121,8 122,2 122,-2 122,-8 121,-12 120,-16 120,-22 119,-26 117,-31 117,-35 115,-40 113,-44 112,-49 109,-53 107,-57 105,-62 102,-65 100,-70 97,-74 94,-77 91,-81 88,-84 84,-88 81,-91 77,-94 74,-97 70,-100 65,-102 62,-105 57,-107 53,-109 49,-112 44,-113 40,-115 35,-117 31,-117 26,-119 22,-119 16,-121 12,-121 8,-121 2,-122 -2,-122 -8,-122 -12,-121 -16,-120 -22,-120 -26,-119 -31,-117 -35,-117 -35,-102 -39,-101 -42,-100 -46,-98 -2784,1359 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 L 597,2541 z"
+         id="path3200" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:24.88064384;visibility:visible"
+         d="m 597,2541 -78,142 -70,146 -62,150 -54,153 -35,117 -31,117 -26,119 -21,120 -17,120 -11,121 -8,121 -2,122 2,122 8,122 11,121 17,120 21,120 26,119 31,117 35,117 40,115 45,113 48,112 53,109 57,107 62,105 65,102 70,100 74,97 77,94 81,91 84,88 88,84 91,81 94,77 97,74 100,70 102,65 105,62 107,57 109,53 112,49 113,44 115,40 117,35 117,31 119,26 120,22 120,16 121,12 121,8 122,2 122,-2 122,-8 121,-12 120,-16 120,-22 119,-26 117,-31 117,-35 115,-40 113,-44 112,-49 109,-53 107,-57 105,-62 102,-65 100,-70 97,-74 94,-77 91,-81 88,-84 84,-88 81,-91 77,-94 74,-97 70,-100 65,-102 62,-105 57,-107 53,-109 49,-112 44,-113 40,-115 35,-117 31,-117 26,-119 22,-119 16,-121 12,-121 8,-121 2,-122 -2,-122 -8,-122 -12,-121 -16,-120 -22,-120 -26,-119 -31,-117 -35,-117 -35,-102 -39,-101 -42,-100 -46,-98 L 3280,4090 597,2541"
+         id="path3204" />
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:24.88064384;stroke-opacity:1;visibility:visible"
+         d="m 6064,2731 -62,-120 -67,-117 -72,-114 -77,-111 -74,-97 -77,-94 -81,-91 -84,-88 -88,-84 -91,-81 -94,-77 -97,-74 -100,-70 -102,-65 -105,-62 -107,-57 -109,-53 -112,-48 -113,-45 -115,-40 -117,-35 -117,-31 -119,-26 -119,-21 -121,-17 -121,-11 -121,-8 -122,-2 0,3098 0,0 0,0 0,0 0,0 2784,-1359 z"
+         id="path3208" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:24.88064384;visibility:visible"
+         d="m 6064,2731 -62,-120 -67,-117 -72,-114 -77,-111 -74,-97 -77,-94 -81,-91 -84,-88 -88,-84 -91,-81 -94,-77 -97,-74 -100,-70 -102,-65 -105,-62 -107,-57 -109,-53 -112,-48 -113,-45 -115,-40 -117,-35 -117,-31 -119,-26 -119,-21 -121,-17 -121,-11 -121,-8 -122,-2 0,3098 2784,-1359"
+         id="path3212" />
+      <text
+         style="font-size:423px;font-weight:700;fill:#ffffff;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
+         id="text3218">
+        <tspan
+           id="tspan3220"
+           y="2881"
+           x="2081 2319 2557"
+           style="fill:#ffffff;fill-opacity:1">17%</tspan>
+      </text>
+      <text
+         style="font-size:423px;font-weight:700;fill:#ffffff;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
+         id="text3222">
+        <tspan
+           id="tspan3224"
+           y="5768"
+           x="2802 3040 3278"
+           style="fill:#ffffff;fill-opacity:1">66%</tspan>
+      </text>
+      <text
+         style="font-size:423px;font-weight:700;fill:#ffffff;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
+         id="text3226">
+        <tspan
+           id="tspan3228"
+           y="2909"
+           x="3674 3912 4150"
+           style="fill:#ffffff;fill-opacity:1">18%</tspan>
+      </text>
+    </g>
+    <g
+       id="g5773"
+       transform="translate(0,5.6589443)">
+      <g
+         transform="matrix(0.04019189,0,0,0.04019189,4447.6568,3472.8672)"
+         id="g5485">
+        <g
+           id="g5439"
+           transform="translate(9.9868074,-700.31275)">
+          <path
+             style="font-size:536px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
+             id="path3240"
+             d="m 1540.2058,6780.2476 198,0 0,198 -198,0 0,-198 z" />
+          <path
+             id="path3244"
+             d="m 1639.2058,6978.2476 -99,0 0,-198 198,0 0,198 -99,0"
+             style="font-size:536px;font-weight:400;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:24.88064384;visibility:visible;font-family:Arial embedded" />
+        </g>
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot5407"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Acknowledge TT (BRK)';-inkscape-font-specification:'Acknowledge TT (BRK)'"
+           transform="translate(1569.6662,-591.62868)"><flowRegion
+             id="flowRegion5409"><rect
+               id="rect5411"
+               width="1178.4432"
+               height="399.4725"
+               x="259.65698"
+               y="6557.7612" /></flowRegion><flowPara
+             id="flowPara5413"
+             style="font-size:340px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">FLOSS</flowPara></flowRoot>      </g>
+      <g
+         transform="matrix(0.04019189,0,0,0.04019189,4523.6896,3460.4241)"
+         id="g5467">
+        <g
+           id="g5443"
+           transform="translate(-2058.8452,-387.72172)">
+          <path
+             style="font-size:536px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
+             id="path3248"
+             d="m 3609.0378,6777.2476 198,0 0,198 -198,0 0,-198 z" />
+          <path
+             id="path3252"
+             d="m 3708.0378,6975.2476 -99,0 0,-198 198,0 0,198 -99,0"
+             style="font-size:536px;font-weight:400;fill:#4c4c4c;fill-opacity:1;stroke:#000000;stroke-width:24.88064384;visibility:visible;font-family:Arial embedded" />
+        </g>
+        <flowRoot
+           transform="translate(1565.8478,-282.03765)"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Acknowledge TT (BRK)';-inkscape-font-specification:'Acknowledge TT (BRK)'"
+           id="flowRoot5423"
+           xml:space="preserve"><flowRegion
+             id="flowRegion5425"><rect
+               y="6557.7612"
+               x="259.65698"
+               height="419.44626"
+               width="2267.0051"
+               id="rect5427" /></flowRegion><flowPara
+             style="font-size:340px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+             id="flowPara5429">TI não-FLOSS</flowPara></flowRoot>      </g>
+      <g
+         transform="matrix(0.04019189,0,0,0.04019189,4643.8908,3448.3825)"
+         id="g5476">
+        <g
+           id="g5447"
+           transform="translate(-5062.864,-95.117501)">
+          <path
+             style="font-size:536px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
+             id="path3256"
+             d="m 6613.0566,6784.2476 198,0 0,198 -198,0 0,-198 z" />
+          <path
+             id="path3260"
+             d="m 6712.0566,6982.2476 -99,0 0,-198 198,0 0,198 -99,0"
+             style="font-size:536px;font-weight:400;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:24.88064384;visibility:visible;font-family:Arial embedded" />
+        </g>
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot5431"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Acknowledge TT (BRK)';-inkscape-font-specification:'Acknowledge TT (BRK)'"
+           transform="translate(1571.6584,17.732589)"><flowRegion
+             id="flowRegion5433"><rect
+               id="rect5435"
+               width="2267.0051"
+               height="419.44626"
+               x="259.65698"
+               y="6557.7612" /></flowRegion><flowPara
+             id="flowPara5437"
+             style="font-size:340px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Não-TI</flowPara></flowRoot>      </g>
+    </g>
+  </g>
+</svg>

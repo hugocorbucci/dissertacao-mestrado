@@ -41,10 +41,17 @@
 \usepackage[pdftex,plainpages=false,pdfpagelabels,pagebackref,colorlinks=true,citecolor=black,linkcolor=black,urlcolor=black,filecolor=black,bookmarksopen=true]{hyperref} % links em preto
 %\usepackage[pdftex,plainpages=false,pdfpagelabels,pagebackref,colorlinks=true,citecolor=DarkGreen,linkcolor=NavyBlue,urlcolor=DarkRed,filecolor=green,bookmarksopen=true]{hyperref} % links coloridos
 \usepackage[all]{hypcap}                % soluciona o problema com o hyperref e capitulos
-\usepackage[square,sort,nonamebreak,comma]{natbib}  % citação bibliográfica alpha (alpha-ime.bst)
+\usepackage[square,sort,nonamebreak,comma]{natbib}  % citação
+                                % bibliográfica alpha (alpha-ime.bst)
+\usepackage{float}
 
 \usepackage{type1cm}      % fontes realmente escaláveis
 \fontsize{60}{62}\usefont{OT1}{cmr}{m}{n}{\selectfont}
+
+% ---------------------------------------------------------------------------- %
+\floatstyle{boxed}
+\newfloat{caixa}{htb}{bx}
+\floatname{caixa}{Caixa}
 
 % ---------------------------------------------------------------------------- %
 % headers similares oa TAOP de Donald E. Knuth
@@ -173,13 +180,13 @@ framexrightmargin=10pt
 
 % ---------------------------------------------------------------------------- %
 % Agradecimentos
-% \chapter*{Agradecimentos}
+\chapter*{Agradecimentos}
 
-% Este trabalho contou com o apoio do projeto Qualipso
-% \cite{Qualipso}.
+Este trabalho contou com o apoio do projeto Qualipso \cite{Qualipso}.
 
-% Gostaria de agradecer ao Christian Reis por sua ajuda, pelas
-% discussões interessantes e pelo apoio.
+Gostaria de agradecer ao Christian Reis por sua ajuda, pelas
+discussões interessantes e pelo apoio.
+% TODO Completar
 
 % ---------------------------------------------------------------------------- %
 % Resumo
@@ -244,7 +251,7 @@ and processes in both environments.
 %		$\omega$    & Freqüência angular.\\
 %\end{tabular}
 
-%\listoffigures % lista de Figuras
+\listoffigures % lista de Figuras
 %\listoftables % lista de Tabelas
 
 % ---------------------------------------------------------------------------- %
@@ -259,9 +266,9 @@ and processes in both environments.
 
 \input cap-introducao % associado ao arquivo: 'cap-introducao.tex'
 \input cap-escopo % associado ao arquivo: 'cap-escopo.tex'
-\input cap-similarities % associado ao arquivo: 'cap-similarities.tex'
-\input cap-differences % associado ao arquivo: 'cap-differences.tex'
+\input cap-semelhancas % associado ao arquivo: 'cap-semelhancas.tex'
 \input cap-pesquisas % associado ao arquivo: 'cap-pesquisas.tex'
+\input cap-diferencas % associado ao arquivo: 'cap-diferencas.tex'
 \input cap-omm % associado ao arquivo: 'cap-omm.tex'
 \input cap-conclusoes % associado ao arquivo: 'cap-conclusoes.tex'
 

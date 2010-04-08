@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   viewBox="0 0 500 300"
+   preserveAspectRatio="xMidYMid"
+   id="svg19046"
+   inkscape:version="0.47 r22583"
+   width="100%"
+   height="100%"
+   sodipodi:docname="agile-distributed.svg"
+   style="fill-rule:evenodd"
+   inkscape:export-filename="/Users/night/Documents/201001/Defesa/texto/figuras/agile-distributed.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
+  <metadata
+     id="metadata19567">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1676"
+     inkscape:window-height="1006"
+     id="namedview19565"
+     showgrid="false"
+     inkscape:zoom="1.9843329"
+     inkscape:cx="244.81168"
+     inkscape:cy="145.7554"
+     inkscape:window-x="4"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g20867" />
+  <defs
+     id="defs19048">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 3500 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="11000 : 3500 : 1"
+       inkscape:persp3d-origin="5500 : 2333.3333 : 1"
+       id="perspective19569" />
+    <font
+       id="EmbeddedFont_1"
+       horiz-adv-x="2048"
+       horiz-origin-x="0"
+       horiz-origin-y="0"
+       vert-origin-x="0"
+       vert-origin-y="0"
+       vert-adv-y="0">
+      <font-face
+         font-family="Arial embedded"
+         units-per-em="2048"
+         ascent="1852"
+         descent="503"
+         id="font-face19051" />
+      <missing-glyph
+         horiz-adv-x="2048"
+         id="missing-glyph19053">
+        <path
+           style="fill:none;stroke:black;stroke-width:33"
+           d="M 0,2048 L 2047,2048 2047,1 0,1 0,2048 Z"
+           id="path19055" />
+      </missing-glyph>
+      <glyph
+         unicode=" "
+         horiz-adv-x="1032"
+         id="glyph19057" />
+      <glyph
+         unicode="0"
+         horiz-adv-x="954"
+         id="glyph19059">
+        <path
+           d="M 85,722 C 85,895 103,1035 139,1141 174,1247 227,1328 298,1385 368,1442 456,1471 563,1471 642,1471 711,1455 770,1424 830,1392 879,1346 917,1287 956,1227 986,1154 1008,1069 1030,983 1041,867 1041,722 1041,550 1023,411 988,305 953,199 900,118 830,60 759,3 670,-25 563,-25 422,-25 311,25 230,126 133,248 85,447 85,722 Z M 270,722 C 270,481 298,321 355,241 411,162 480,122 563,122 646,122 715,162 772,242 828,322 856,482 856,722 856,963 828,1124 772,1203 715,1282 645,1322 561,1322 478,1322 412,1287 363,1217 301,1128 270,963 270,722 Z"
+           id="path19061" />
+      </glyph>
+      <glyph
+         unicode="1"
+         horiz-adv-x="530"
+         id="glyph19063">
+        <path
+           d="M 763,1471 L 763,0 583,0 583,1146 C 540,1105 483,1063 413,1022 342,981 279,950 223,929 L 223,1103 C 324,1150 412,1208 487,1275 562,1342 616,1408 647,1471 L 763,1471 Z"
+           id="path19065" />
+      </glyph>
+      <glyph
+         unicode="2"
+         horiz-adv-x="953"
+         id="glyph19067">
+        <path
+           d="M 312,172 L 1031,172 1031,0 62,0 C 61,42 68,84 83,124 108,190 147,255 202,319 256,383 334,457 437,541 596,671 704,775 760,851 816,928 844,1000 844,1068 844,1139 819,1200 768,1249 717,1298 650,1322 568,1322 481,1322 412,1296 360,1244 308,1192 282,1120 281,1028 L 96,1047 C 109,1185 156,1290 239,1363 322,1435 433,1471 572,1471 713,1471 824,1432 906,1354 988,1276 1029,1179 1029,1064 1029,1005 1017,948 993,891 969,834 929,775 874,712 818,649 725,563 596,454 488,363 419,302 388,270 358,237 332,205 312,172 Z"
+           id="path19069" />
+      </glyph>
+      <glyph
+         unicode="3"
+         horiz-adv-x="954"
+         id="glyph19071">
+        <path
+           d="M 86,387 L 266,411 C 287,309 322,236 371,191 421,146 481,123 553,123 638,123 710,152 768,211 826,270 855,342 855,429 855,512 828,580 774,634 720,687 651,714 568,714 534,714 492,707 441,694 L 461,852 C 473,851 483,850 490,850 567,850 636,870 697,910 758,950 789,1011 789,1094 789,1160 767,1215 722,1258 677,1301 620,1323 549,1323 479,1323 421,1301 374,1257 327,1213 297,1147 284,1059 L 104,1091 C 126,1212 176,1305 254,1372 332,1438 429,1471 545,1471 625,1471 699,1454 766,1420 833,1385 885,1339 921,1279 956,1220 974,1157 974,1091 974,1027 957,970 923,918 889,866 839,825 772,794 859,774 926,733 974,670 1022,607 1046,528 1046,433 1046,305 999,197 906,108 813,19 695,-25 552,-25 423,-25 317,12 232,89 147,166 98,265 86,387 Z"
+           id="path19073" />
+      </glyph>
+      <glyph
+         unicode="4"
+         horiz-adv-x="1033"
+         id="glyph19075">
+        <path
+           d="M 842,0 L 662,0 662,350 26,350 26,515 695,1465 842,1465 842,515 1040,515 1040,350 842,350 842,0 Z M 203,515 L 662,515 662,1177 203,515 Z"
+           id="path19077" />
+      </glyph>
+      <glyph
+         unicode="5"
+         horiz-adv-x="954"
+         id="glyph19079">
+        <path
+           d="M 85,383 L 274,399 C 288,307 320,238 371,192 422,145 484,122 556,122 643,122 717,155 776,220 836,286 866,372 866,481 866,583 837,664 780,724 722,783 647,813 553,813 495,813 442,800 396,774 349,747 313,713 286,671 L 117,693 259,1446 988,1446 988,1274 403,1274 324,880 C 412,941 504,972 601,972 729,972 837,928 925,839 1013,750 1057,636 1057,497 1057,364 1018,249 941,152 847,33 719,-25 556,-25 423,-25 314,11 230,86 145,161 97,260 85,383 Z"
+           id="path19081" />
+      </glyph>
+      <glyph
+         unicode="6"
+         horiz-adv-x="980"
+         id="glyph19083">
+        <path
+           d="M 1020,1106 L 841,1092 C 825,1163 802,1214 773,1246 724,1297 664,1323 593,1323 535,1323 485,1307 441,1275 384,1234 340,1173 307,1094 274,1015 257,902 256,755 299,821 352,870 415,902 478,934 544,950 612,950 733,950 835,906 919,818 1004,729 1046,615 1046,475 1046,383 1026,298 986,219 947,140 892,79 823,37 753,-4 675,-25 587,-25 436,-25 314,29 219,140 124,250 77,432 77,685 77,968 129,1174 234,1303 326,1415 449,1471 604,1471 719,1471 814,1439 887,1374 961,1309 1005,1220 1020,1106 Z M 284,474 C 284,412 297,353 324,296 350,239 387,196 434,167 481,137 531,122 583,122 659,122 725,153 779,214 834,275 861,359 861,464 861,565 834,645 780,704 726,762 658,791 576,791 495,791 426,762 369,704 312,645 284,569 284,474 Z"
+           id="path19085" />
+      </glyph>
+      <glyph
+         unicode="7"
+         horiz-adv-x="954"
+         id="glyph19087">
+        <path
+           d="M 815,1273 L 97,1273 97,1446 1046,1446 1046,1306 C 953,1207 860,1075 769,910 677,745 606,576 556,402 520,279 497,145 487,0 L 302,0 C 304,114 327,254 370,417 413,580 476,738 557,890 638,1041 724,1169 815,1273 Z"
+           id="path19089" />
+      </glyph>
+      <glyph
+         unicode="8"
+         horiz-adv-x="954"
+         id="glyph19091">
+        <path
+           d="M 363,794 C 288,821 232,860 196,911 160,962 142,1022 142,1093 142,1200 180,1289 257,1362 334,1435 436,1471 563,1471 691,1471 794,1434 872,1360 950,1285 989,1195 989,1088 989,1020 971,961 936,911 900,860 846,821 773,794 863,765 932,717 979,652 1026,587 1049,509 1049,418 1049,293 1005,187 916,102 827,17 711,-25 566,-25 421,-25 305,17 216,103 127,188 83,295 83,423 83,518 107,598 156,663 204,727 273,771 363,794 Z M 327,1099 C 327,1030 349,973 394,929 438,885 496,863 568,863 637,863 694,885 738,929 782,972 804,1026 804,1089 804,1155 781,1211 736,1256 690,1301 634,1323 566,1323 497,1323 440,1301 395,1257 350,1213 327,1160 327,1099 Z M 268,422 C 268,371 280,321 304,273 328,225 364,188 413,162 461,135 512,122 568,122 654,122 725,150 780,205 836,260 864,331 864,416 864,503 835,574 778,631 720,688 648,716 562,716 477,716 407,688 351,632 296,576 268,506 268,422 Z"
+           id="path19093" />
+      </glyph>
+      <glyph
+         unicode="9"
+         horiz-adv-x="954"
+         id="glyph19095">
+        <path
+           d="M 112,338 L 285,354 C 300,273 328,214 369,177 410,140 463,122 528,122 583,122 632,135 674,160 716,185 750,219 776,262 803,304 825,361 843,433 861,505 870,578 870,653 870,661 870,673 869,689 833,632 784,585 722,550 659,514 592,496 519,496 398,496 295,540 211,628 127,716 85,832 85,976 85,1125 129,1244 217,1335 304,1426 414,1471 546,1471 641,1471 729,1445 808,1394 887,1343 947,1270 988,1175 1029,1080 1049,942 1049,762 1049,575 1029,426 988,315 947,204 887,119 807,61 726,3 632,-25 524,-25 409,-25 316,6 243,70 170,133 127,223 112,338 Z M 849,985 C 849,1088 822,1170 767,1231 712,1292 646,1322 568,1322 488,1322 418,1289 359,1224 300,1159 270,1074 270,970 270,877 298,801 354,743 410,684 480,655 563,655 646,655 715,684 769,743 822,801 849,882 849,985 Z"
+           id="path19097" />
+      </glyph>
+      <glyph
+         unicode="A"
+         horiz-adv-x="1376"
+         id="glyph19099">
+        <path
+           d="M 203,0 L -1,0 562,1465 770,1465 1370,0 1149,0 978,443 364,443 203,0 Z M 582,1031 L 420,601 917,601 764,1007 C 717,1130 683,1232 661,1311 642,1217 616,1123 582,1031 Z"
+           id="path19101" />
+      </glyph>
+      <glyph
+         unicode="D"
+         horiz-adv-x="1218"
+         id="glyph19103">
+        <path
+           d="M 687,0 L 158,0 158,1465 663,1465 C 777,1465 864,1458 924,1444 1008,1425 1080,1390 1139,1339 1216,1274 1274,1190 1313,1089 1351,987 1370,871 1370,740 1370,629 1357,530 1331,444 1305,358 1272,287 1231,231 1190,174 1146,130 1098,98 1049,65 991,41 923,24 854,7 776,0 687,0 Z M 352,1292 L 352,172 665,172 C 762,172 838,181 893,199 948,217 991,242 1024,275 1070,321 1106,383 1132,461 1157,538 1170,632 1170,743 1170,896 1145,1014 1095,1097 1044,1179 983,1234 911,1262 859,1282 775,1292 660,1292 L 352,1292 Z"
+           id="path19105" />
+      </glyph>
+      <glyph
+         unicode="E"
+         horiz-adv-x="1086"
+         id="glyph19107">
+        <path
+           d="M 1256,0 L 162,0 162,1465 1222,1465 1222,1292 356,1292 356,844 1167,844 1167,671 356,671 356,172 1256,172 1256,0 Z"
+           id="path19109" />
+      </glyph>
+      <glyph
+         unicode="N"
+         horiz-adv-x="1165"
+         id="glyph19111">
+        <path
+           d="M 342,0 L 156,0 156,1465 355,1465 1125,314 1125,1465 1311,1465 1311,0 1112,0 342,1152 342,0 Z"
+           id="path19113" />
+      </glyph>
+      <glyph
+         unicode="b"
+         horiz-adv-x="901"
+         id="glyph19115">
+        <path
+           d="M 301,132 L 301,0 134,0 134,1465 314,1465 314,942 C 390,1037 487,1085 605,1085 670,1085 732,1072 791,1046 849,1019 897,982 935,935 972,887 1002,829 1023,762 1044,695 1055,623 1055,546 1055,364 1010,223 920,124 830,25 722,-24 596,-24 471,-24 372,27 301,132 Z M 299,538 C 299,411 316,319 351,262 407,169 484,123 581,123 659,123 727,157 784,226 841,294 870,396 870,531 870,670 843,772 788,838 733,904 666,937 589,937 510,937 442,903 385,835 328,766 299,667 299,538 Z"
+           id="path19117" />
+      </glyph>
+      <glyph
+         unicode="c"
+         horiz-adv-x="901"
+         id="glyph19119">
+        <path
+           d="M 828,388 L 1005,364 C 986,242 936,147 857,78 777,9 679,-24 563,-24 418,-24 301,23 213,118 124,213 80,349 80,526 80,641 99,741 137,827 175,913 233,978 311,1021 388,1064 473,1085 564,1085 679,1085 774,1056 847,998 920,939 967,856 988,749 L 813,722 C 796,793 767,847 725,883 682,919 631,937 571,937 480,937 407,905 350,840 293,775 265,672 265,531 265,388 292,285 347,220 402,155 473,123 561,123 632,123 691,145 738,188 785,231 815,298 828,388 Z"
+           id="path19121" />
+      </glyph>
+      <glyph
+         unicode="d"
+         horiz-adv-x="927"
+         id="glyph19123">
+        <path
+           d="M 990,0 L 823,0 823,133 C 756,28 657,-24 526,-24 441,-24 364,-1 293,45 222,92 167,157 128,241 89,324 69,420 69,529 69,635 87,731 122,818 157,904 210,970 281,1016 351,1062 430,1085 517,1085 581,1085 638,1072 688,1045 738,1018 779,982 810,939 L 810,1465 990,1465 990,0 Z M 254,529 C 254,393 283,291 340,224 397,157 465,123 543,123 622,123 689,155 744,220 799,284 826,382 826,514 826,659 798,766 742,834 686,902 617,936 535,936 455,936 388,903 335,838 281,773 254,670 254,529 Z"
+           id="path19125" />
+      </glyph>
+      <glyph
+         unicode="e"
+         horiz-adv-x="980"
+         id="glyph19127">
+        <path
+           d="M 862,342 L 1048,318 C 1019,209 964,125 885,65 806,5 704,-24 581,-24 426,-24 303,23 212,119 121,214 75,348 75,521 75,700 121,838 213,937 305,1036 424,1085 571,1085 713,1085 829,1037 919,940 1009,843 1054,707 1054,532 1054,521 1054,505 1053,484 L 260,484 C 267,367 300,278 359,216 419,154 493,123 582,123 648,123 704,140 751,175 798,210 835,266 862,342 Z M 270,632 L 864,632 C 856,721 833,788 796,833 738,902 664,937 573,937 490,937 420,909 364,854 307,799 276,725 270,632 Z"
+           id="path19129" />
+      </glyph>
+      <glyph
+         unicode="g"
+         horiz-adv-x="927"
+         id="glyph19131">
+        <path
+           d="M 102,-88 L 277,-114 C 284,-168 305,-207 338,-232 383,-265 444,-282 521,-282 604,-282 669,-265 714,-232 759,-199 790,-152 806,-92 815,-55 820,21 819,138 740,45 642,0 525,0 379,0 266,52 186,157 106,262 66,389 66,536 66,637 84,731 121,817 158,902 211,968 281,1015 350,1062 432,1085 526,1085 651,1085 755,1034 836,933 L 836,1061 1002,1061 1002,143 C 1002,-21 985,-139 952,-208 918,-277 865,-331 792,-371 719,-411 629,-431 522,-431 395,-431 293,-403 215,-346 137,-289 99,-203 102,-88 Z M 251,549 C 251,410 279,308 334,244 389,180 459,148 542,148 625,148 694,180 750,244 806,307 834,407 834,543 834,673 805,771 748,837 690,903 620,936 539,936 459,936 391,904 335,839 279,774 251,677 251,549 Z"
+           id="path19133" />
+      </glyph>
+      <glyph
+         unicode="i"
+         horiz-adv-x="160"
+         id="glyph19135">
+        <path
+           d="M 316,1258 L 136,1258 136,1465 316,1465 316,1258 Z M 316,0 L 136,0 136,1061 316,1061 316,0 Z"
+           id="path19137" />
+      </glyph>
+      <glyph
+         unicode="l"
+         horiz-adv-x="186"
+         id="glyph19139">
+        <path
+           d="M 311,0 L 131,0 131,1465 311,1465 311,0 Z"
+           id="path19141" />
+      </glyph>
+      <glyph
+         unicode="n"
+         horiz-adv-x="848"
+         id="glyph19143">
+        <path
+           d="M 315,0 L 135,0 135,1061 297,1061 297,910 C 375,1027 488,1085 635,1085 699,1085 758,1074 812,1051 865,1028 905,997 932,960 959,923 977,878 988,827 995,794 998,735 998,652 L 998,0 818,0 818,645 C 818,718 811,773 797,810 783,846 758,875 723,897 687,918 645,929 597,929 520,929 454,905 399,856 343,807 315,715 315,579 L 315,0 Z"
+           id="path19145" />
+      </glyph>
+      <glyph
+         unicode="o"
+         horiz-adv-x="1006"
+         id="glyph19147">
+        <path
+           d="M 68,530 C 68,727 123,872 232,967 323,1046 435,1085 566,1085 712,1085 831,1037 924,942 1017,846 1063,714 1063,545 1063,408 1043,301 1002,223 961,144 901,83 823,40 744,-2 659,-24 566,-24 417,-24 297,23 206,118 114,213 68,351 68,530 Z M 253,530 C 253,394 283,292 342,225 401,157 476,123 566,123 655,123 730,157 789,225 848,293 878,397 878,536 878,667 848,767 789,835 729,902 655,936 566,936 476,936 401,902 342,835 283,768 253,666 253,530 Z"
+           id="path19149" />
+      </glyph>
+      <glyph
+         unicode="p"
+         horiz-adv-x="901"
+         id="glyph19151">
+        <path
+           d="M 315,-407 L 135,-407 135,1061 299,1061 299,923 C 338,977 381,1018 430,1045 479,1072 538,1085 607,1085 698,1085 778,1062 847,1015 916,968 969,903 1004,818 1039,733 1057,639 1057,538 1057,429 1038,332 999,245 960,158 903,91 829,45 754,-1 676,-24 594,-24 534,-24 480,-11 433,13 385,38 346,70 315,109 L 315,-407 Z M 298,524 C 298,387 326,286 381,221 436,156 503,123 582,123 661,123 730,157 787,225 844,292 872,397 872,539 872,674 844,776 789,843 733,910 667,944 590,944 513,944 445,908 386,837 327,765 298,661 298,524 Z"
+           id="path19153" />
+      </glyph>
+      <glyph
+         unicode="r"
+         horiz-adv-x="557"
+         id="glyph19155">
+        <path
+           d="M 313,0 L 133,0 133,1061 295,1061 295,900 C 336,975 375,1025 410,1049 445,1073 483,1085 525,1085 586,1085 647,1066 710,1027 L 648,860 C 604,886 560,899 516,899 477,899 441,887 410,864 379,840 356,807 343,765 323,701 313,631 313,555 L 313,0 Z"
+           id="path19157" />
+      </glyph>
+      <glyph
+         unicode="s"
+         horiz-adv-x="874"
+         id="glyph19159">
+        <path
+           d="M 63,316 L 241,344 C 251,273 279,218 325,180 370,142 434,123 517,123 599,123 661,140 701,174 741,207 761,247 761,292 761,333 743,365 708,388 683,404 622,424 524,449 391,482 300,511 249,536 198,560 159,594 133,637 106,680 93,727 93,779 93,826 104,870 126,911 147,951 177,984 214,1011 242,1032 280,1049 329,1064 377,1078 429,1085 484,1085 568,1085 641,1073 704,1049 767,1025 814,993 844,952 874,911 895,856 906,787 L 730,763 C 722,818 699,860 660,891 622,922 568,937 498,937 415,937 356,923 320,896 285,869 267,837 267,800 267,777 274,756 289,737 304,718 327,702 358,689 376,682 429,667 518,643 645,609 734,581 784,560 835,538 874,506 903,465 932,424 946,372 946,311 946,251 928,195 893,142 858,89 808,48 742,19 676,-10 601,-24 518,-24 379,-24 274,4 202,61 129,118 83,203 63,316 Z"
+           id="path19161" />
+      </glyph>
+      <glyph
+         unicode="t"
+         horiz-adv-x="504"
+         id="glyph19163">
+        <path
+           d="M 528,160 L 554,1 C 503,-9 458,-14 418,-14 353,-14 302,-4 266,16 230,37 205,64 190,98 175,131 168,202 168,310 L 168,921 35,921 35,1061 168,1061 168,1324 348,1432 348,1061 528,1061 528,921 348,921 348,300 C 348,249 351,216 357,201 364,186 374,175 388,166 403,157 423,153 449,153 469,153 496,155 528,160 Z"
+           id="path19165" />
+      </glyph>
+      <glyph
+         unicode="u"
+         horiz-adv-x="874"
+         id="glyph19167">
+        <path
+           d="M 992,0 L 831,0 831,155 C 748,35 636,-24 494,-24 431,-24 373,-12 319,11 264,35 224,65 198,102 171,138 153,182 142,235 135,270 131,326 131,403 L 131,1061 311,1061 311,472 C 311,378 315,315 322,282 333,235 357,198 394,171 431,144 476,130 530,130 584,130 635,144 682,172 729,199 763,237 783,285 802,332 812,401 812,492 L 812,1061 992,1061 992,0 Z"
+           id="path19169" />
+      </glyph>
+      <glyph
+         unicode="x"
+         horiz-adv-x="1006"
+         id="glyph19171">
+        <path
+           d="M 233,0 L 15,0 404,548 44,1061 269,1061 433,813 C 464,766 489,726 507,694 537,736 564,775 589,809 L 767,1061 983,1061 624,552 1010,0 789,0 570,329 518,410 233,0 Z"
+           id="path19173" />
+      </glyph>
+    </font>
+  </defs>
+  <g
+     id="g20867"
+     transform="matrix(0.84989763,0,0,0.84989763,-10.779362,-8.7197227)">
+    <path
+       id="path19193"
+       d="m 233.88069,315.48989 -190.859342,0 0,-298.412714 381.773412,0 0,298.412714 -190.91407,0"
+       style="fill:none;stroke:#b3b3b3;stroke-width:1.1766125;visibility:visible" />
+    <path
+       id="path19195"
+       d="m 424.79476,315.43515 -381.773412,0"
+       style="fill:none;stroke:#b3b3b3;stroke-width:1.1766125;visibility:visible" />
+    <path
+       id="path19197"
+       d="m 424.79476,278.1062 -381.773412,0"
+       style="fill:none;stroke:#b3b3b3;stroke-width:1.1766125;visibility:visible" />
+    <path
+       id="path19199"
+       d="m 424.79476,240.83198 -381.773412,0"
+       style="fill:none;stroke:#b3b3b3;stroke-width:1.1766125;visibility:visible" />
+    <path
+       id="path19201"
+       d="m 424.79476,203.50302 -381.773412,0"
+       style="fill:none;stroke:#b3b3b3;stroke-width:1.1766125;visibility:visible" />
+    <path
+       id="path19203"
+       d="m 424.79476,166.2288 -381.773412,0"
+       style="fill:none;stroke:#b3b3b3;stroke-width:1.1766125;visibility:visible" />
+    <path
+       id="path19205"
+       d="m 424.79476,128.89984 -381.773412,0"
+       style="fill:none;stroke:#b3b3b3;stroke-width:1.1766125;visibility:visible" />
+    <path
+       id="path19207"
+       d="m 424.79476,91.62562 -381.773412,0"
+       style="fill:none;stroke:#b3b3b3;stroke-width:1.1766125;visibility:visible" />
+    <path
+       id="path19209"
+       d="m 424.79476,54.296664 -381.773412,0"
+       style="fill:none;stroke:#b3b3b3;stroke-width:1.1766125;visibility:visible" />
+    <path
+       id="path19211"
+       d="m 424.79476,17.022442 -381.773412,0"
+       style="fill:none;stroke:#b3b3b3;stroke-width:1.1766125;visibility:visible" />
+    <g
+       transform="matrix(0.05473454,0,0,0.05473454,0,-1.1561628)"
+       id="g19215"
+       style="font-size:281px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19217">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19219"
+           y="6611"
+           x="764 923 1082 1240">1998</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19221">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19223"
+           y="6269"
+           x="1337 1496 1655 1813">1999</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19225">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19227"
+           y="6611"
+           x="1911 2070 2229 2387">2000</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19229">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19231"
+           y="6269"
+           x="2511 2670 2829 2987">2001</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19233">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19235"
+           y="6611"
+           x="3085 3244 3403 3561">2002</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19237">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19239"
+           y="6269"
+           x="3658 3817 3976 4134">2003</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19241">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19243"
+           y="6611"
+           x="4259 4418 4577 4735">2004</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19245">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19247"
+           y="6269"
+           x="4832 4991 5150 5308">2005</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19249">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19251"
+           y="6611"
+           x="5406 5565 5724 5882">2006</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19253">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19255"
+           y="6269"
+           x="5979 6138 6297 6455">2007</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19257">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19259"
+           y="6611"
+           x="6580 6739 6898 7056">2008</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19261">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19263"
+           y="6269"
+           x="7153 7312 7471 7629">2009</tspan>
+      </text>
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19265"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#b3b3b3;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19267"
+         d="m 786,5912 0,-149"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19269"
+         d="m 1367,5912 0,-149"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19271"
+         d="m 1948,5912 0,-149"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19273"
+         d="m 2529,5912 0,-149"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19275"
+         d="m 3111,5912 0,-149"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19277"
+         d="m 3692,5912 0,-149"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19279"
+         d="m 4273,5912 0,-149"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19281"
+         d="m 4854,5912 0,-149"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19283"
+         d="m 5436,5912 0,-149"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19285"
+         d="m 6017,5912 0,-149"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19287"
+         d="m 6598,5912 0,-149"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19289"
+         d="m 7179,5912 0,-149"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19291"
+         d="m 7761,5912 0,-149"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19293"
+         d="m 786,5763 6975,0"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19295"
+       style="font-size:281px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19297">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19299"
+           y="5847"
+           x="383">0</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19301">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19303"
+           y="5164"
+           x="383">5</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19305">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19307"
+           y="4505"
+           x="218 377">10</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19309">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19311"
+           y="3820"
+           x="218 377">15</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19313">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19315"
+           y="3135"
+           x="218 377">20</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19317">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19319"
+           y="2451"
+           x="218 377">25</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19321">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19323"
+           y="1766"
+           x="218 377">30</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19325">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19327"
+           y="1081"
+           x="218 377">35</tspan>
+      </text>
+      <text
+         style="fill:#000000;fill-opacity:1"
+         id="text19329">
+        <tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan19331"
+           y="396"
+           x="218 377">40</tspan>
+      </text>
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19333"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#b3b3b3;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19335"
+         d="m 637,5763 149,0"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19337"
+         d="m 637,5081 149,0"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19339"
+         d="m 637,4400 149,0"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19341"
+         d="m 637,3718 149,0"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19343"
+         d="m 637,3037 149,0"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19345"
+         d="m 637,2355 149,0"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19347"
+         d="m 637,1674 149,0"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19349"
+         d="m 637,992 149,0"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19351"
+         d="m 637,311 149,0"
+         style="fill:none;stroke-width:21.49670792" />
+      <path
+         id="path19353"
+         d="M 786,5763 786,311"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19355"
+       style="font-size:281px;font-weight:400;fill:#ffffff;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19357"
+         d="m 7324,5763 291,0 0,-819 -291,0 0,819 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19359"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19361"
+         d="m 7324,5763 291,0 0,-819 -291,0 0,819"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19363"
+       style="font-size:281px;font-weight:400;fill:#ffffff;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19365"
+         d="m 6743,5763 290,0 0,-1091 -290,0 0,1091 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19367"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19369"
+         d="m 6743,5763 290,0 0,-1091 -290,0 0,1091"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19371"
+       style="font-size:281px;font-weight:400;fill:#ffffff;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19373"
+         d="m 6162,5763 290,0 0,-1228 -290,0 0,1228 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19375"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19377"
+         d="m 6162,5763 290,0 0,-1228 -290,0 0,1228"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19379"
+       style="font-size:281px;font-weight:400;fill:#ffffff;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19381"
+         d="m 5580,5763 291,0 0,-819 -291,0 0,819 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19383"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19385"
+         d="m 5580,5763 291,0 0,-819 -291,0 0,819"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19387"
+       style="font-size:281px;font-weight:400;fill:#ffffff;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19389"
+         d="m 4999,5763 291,0 0,-410 -291,0 0,410 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19391"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19393"
+         d="m 4999,5763 291,0 0,-410 -291,0 0,410"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19395"
+       style="font-size:281px;font-weight:400;fill:#ffffff;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19397"
+         d="m 4418,5763 290,0 0,-410 -290,0 0,410 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19399"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19401"
+         d="m 4418,5763 290,0 0,-410 -290,0 0,410"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19403"
+       style="font-size:281px;font-weight:400;fill:#ffffff;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19405"
+         d="m 3837,5763 290,0 0,-682 -290,0 0,682 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19407"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19409"
+         d="m 3837,5763 290,0 0,-682 -290,0 0,682"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19411"
+       style="font-size:281px;font-weight:400;fill:#ffffff;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19413"
+         d="m 3256,5763 290,0 0,-682 -290,0 0,682 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19415"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19417"
+         d="m 3256,5763 290,0 0,-682 -290,0 0,682"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19419"
+       style="font-size:281px;font-weight:400;fill:#ffffff;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19421"
+         d="m 2675,5763 291,0 0,-410 -291,0 0,410 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19423"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19425"
+         d="m 2675,5763 291,0 0,-410 -291,0 0,410"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19427"
+       style="font-size:281px;font-weight:400;fill:#ffffff;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19429"
+         d="m 2094,5763 290,0 0,-819 -290,0 0,819 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19431"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19433"
+         d="m 2094,5763 290,0 0,-819 -290,0 0,819"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19435"
+       style="font-size:281px;font-weight:400;fill:#ffffff;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19437"
+         d="m 1513,5763 290,0 0,-273 -290,0 0,273 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19439"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19441"
+         d="m 1513,5763 290,0 0,-273 -290,0 0,273"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19443"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19445"
+         d="m 7324,4944 291,0 0,-1907 -291,0 0,1907 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19447"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19449"
+         d="m 7324,4944 291,0 0,-1907 -291,0 0,1907"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19451"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19453"
+         d="m 6743,4672 290,0 0,-3680 -290,0 0,3680 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19455"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19457"
+         d="m 6743,4672 290,0 0,-3680 -290,0 0,3680"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19459"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19461"
+         d="m 6162,4535 290,0 0,-1908 -290,0 0,1908 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19463"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19465"
+         d="m 6162,4535 290,0 0,-1908 -290,0 0,1908"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19467"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19469"
+         d="m 5580,4944 291,0 0,-817 -291,0 0,817 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19471"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19473"
+         d="m 5580,4944 291,0 0,-817 -291,0 0,817"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19475"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19477"
+         d="m 4999,5353 291,0 0,-409 -291,0 0,409 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19479"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19481"
+         d="m 4999,5353 291,0 0,-409 -291,0 0,409"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19483"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19485"
+         d="m 4418,5353 290,0 0,-272 -290,0 0,272 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19487"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19489"
+         d="m 4418,5353 290,0 0,-272 -290,0 0,272"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19491"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19493"
+         d="m 3837,5081 290,0 0,-409 -290,0 0,409 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19495"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19497"
+         d="m 3837,5081 290,0 0,-409 -290,0 0,409"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19499"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19501"
+         d="m 3256,5081 290,0 0,-681 -290,0 0,681 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19503"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19505"
+         d="m 3256,5081 290,0 0,-681 -290,0 0,681"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19507"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19509"
+         d="m 2675,5353 291,0 0,-136 -291,0 0,136 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19511"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19513"
+         d="m 2675,5353 291,0 0,-136 -291,0 0,136"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19515"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19517"
+         d="m 2094,4944 290,0 0,-135 -290,0 0,135 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19519"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19521"
+         d="m 2094,4944 290,0 0,-135 -290,0 0,135"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19523"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19525"
+         d="m 931,5763 291,0 0,-137 -291,0 0,137 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19527"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19529"
+         d="m 931,5763 291,0 0,-137 -291,0 0,137"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19531"
+       style="font-size:281px;font-weight:400;fill:#ffffff;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19533"
+         d="m 8174,3524 210,0 0,211 -210,0 0,-211 z" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19535"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19537"
+         d="m 8279,3735 -105,0 0,-211 210,0 0,211 -105,0"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="matrix(0.05473454,0,0,0.05473454,0,-47.064492)"
+       id="g19539"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19541"
+         d="m 8174,2782 210,0 0,210 -210,0 0,-210 z" />
+    </g>
+    <g
+       transform="matrix(0.05473454,0,0,0.05473454,0,-47.064492)"
+       id="g19543"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:21.49670792;visibility:visible;font-family:Arial embedded">
+      <path
+         id="path19545"
+         d="m 8279,2992 -105,0 0,-210 210,0 0,210 -105,0"
+         style="fill:none;stroke-width:21.49670792" />
+    </g>
+    <g
+       transform="scale(0.05473454,0.05473454)"
+       id="g19547"
+       style="font-size:281px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <text
+         xml:space="preserve"
+         style="font-size:214.96705627px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="8498.1436"
+         y="2133.5735"
+         id="text4277"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4279"
+           x="8498.1436"
+           y="2133.5735"
+           style="font-size:300.95388794px">Sem experiência</tspan><tspan
+           sodipodi:role="line"
+           x="8498.1436"
+           y="2509.7659"
+           id="tspan4281"
+           style="font-size:300.95388794px">com métodos</tspan><tspan
+           sodipodi:role="line"
+           x="8498.1436"
+           y="2885.9583"
+           id="tspan4283"
+           style="font-size:300.95388794px">ágeis distribuídos</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4293"
+         y="3724.3296"
+         x="8498.1436"
+         style="font-size:214.96705627px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           style="font-size:300.95388794px"
+           y="3724.3296"
+           x="8498.1436"
+           id="tspan4295"
+           sodipodi:role="line">Com experiência</tspan><tspan
+           style="font-size:300.95388794px"
+           id="tspan4297"
+           y="4100.522"
+           x="8498.1436"
+           sodipodi:role="line">com métodos</tspan><tspan
+           style="font-size:300.95388794px"
+           id="tspan4299"
+           y="4476.7144"
+           x="8498.1436"
+           sodipodi:role="line">ágeis distribuídos</tspan></text>
+    </g>
+    <flowRoot
+       transform="translate(3.527634,8.6622489)"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       id="flowRoot20838"
+       xml:space="preserve"><flowRegion
+         id="flowRegion20840"><rect
+           y="315.47125"
+           x="438.43448"
+           height="40.315811"
+           width="117.92374"
+           id="rect20842" /></flowRegion><flowPara
+         style="font-size:16px"
+         id="flowPara20844">Ano da primeira experência ágil</flowPara></flowRoot>  </g>
+</svg>

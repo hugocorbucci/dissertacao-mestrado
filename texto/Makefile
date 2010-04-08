@@ -10,7 +10,7 @@ LATEX     = latex
 PDFLATEX  = pdflatex
 BIBTEX    = bibtex
 MAKEINDEX = makeindex
-CHAPTERS=cap-agile-to-open.tex cap-conclusoes.tex cap-escopo.tex cap-introducao.tex cap-open-to-agile.tex cap-omm.tex cap-pesquisas.tex
+CHAPTERS=cap-semelhancas.tex cap-conclusoes.tex cap-escopo.tex cap-introducao.tex cap-diferencas.tex cap-omm.tex cap-pesquisas.tex
 APENDIXES=ape-pesquisaEA.tex ape-pesquisaOS.tex ape-pesquisaMA.tex
 
 open: pdf
