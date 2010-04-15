@@ -1,79 +1,140 @@
-a%% ------------------------------------------------------------------------- %%
+%% ------------------------------------------------------------------------- %%
 \chapter{Diferenças entre os dois mundos}
 \label{cap:diferencas}
 
-Na conferência Agile 2008, Mary Poppendieck conduziu um
-\emph{workshop}\footnote{\url{http://submissions.agile2008.org/node/376} -
-  Acessado em 16/03/2009} com Christian Reis intitulado \emph{``Open
-  Source Meets Agile - What can each teach the other?''}. Seu objetivo
-era de discutir práticas de sucesso em um projeto de software livre
-que não eram encontradas em métodos ágeis. Desta forma, os
-participantes poderiam compreender alguns princípios essenciais que se
-aplicam a projetos de software livre e poderiam propor melhorias aos
-atuais métodos ágeis. Um pequeno resumo da discussão pode ser
-encontrado na seção \ref{sec:foss-over-agile}.
+O manifesto ágil (apresentado na Caixa \ref{box:manifesto}) é
+complementado por uma lista de 12 princípios traduzidos na Caixa
+\ref{box:principles}. Esses princípios apresentam guias que norteiam
+os métodos ágeis na direção de algumas práticas. Este Capítulo
+apresenta uma análise desses princípios sob o ponto de vista de
+projetos de software livre com o objetivo de identificar diferenças
+entre as comunidades.
 
-De um outro ponto de vista, faltam soluções especiais para o
-desenvolvimento de software livre nos métodos ágeis mais conhecidos
-atualmente. A Seção \ref{sec:agile-improve-os} apresenta como a
-criação dessa solução poderia ajudar tanto projetos de software livre
-quanto a comunidade de métodos ágeis.
+\begin{caixa}[htb]
+  \begin{minipage}{\linewidth}
+    \centering Seguimos esses princípios:
 
-Os doze princípios enumerados são um pouco maiores mas também são mais
-próximos das práticas usadas em um projeto:
+    \begin{itemize}
+    \item Nossa maior prioridade é satisfazer o cliente através de
+      entregas rápidas e contínuas de software que traga valor;
+    \item Aceitar mudanças nos requisitos, mesmo que tarde no
+      desenvolvimento. Processos ágeis domam as mudanças para garantir
+      um diferencial competitivo ao seu cliente.
+    \item Entregar software funcionando frequentemente, de algumas
+      semanas a alguns meses, com a preferência para escalas de tempo
+      menores.
+    \item Especialistas do negócio e desenvolvedores devem trabalhar
+      juntos diariamente ao longo do projeto.
+    \item Construa projetos ao redor de indivíduos motivados. Dê-lhes
+      o ambiente e suporte que eles precisam, e confie que eles farão
+      o trabalho.
+    \item O meio mais eficiente e eficaz de transmitir informação para
+      dentro ou para fora de uma equipe de desenvolvimento é através
+      da conversa face a face.
+    \item Software funcionando é a principal medida de progresso.
+    \item Processos ágeis promovem desenvolvimento sustentável. Os
+      investidores, desenvolvedores, e usuários deveriam conseguir
+      manter um ritmo constante indefinidamente.
+    \item Atenção contínua à excelência técnica e a um bom
+      \textit{design} aprimora a agilidade.
+    \item Simplicidade -- a arte de maximizar a quantidade de trabalho
+      não realizado -- é essencial.
+    \item As melhores arquiteturas, requisitos, e \textit{designs}
+      emergem de equipes auto-organizadas.
+    \item Em intervalos regulares, a equipe reflete sobre como se
+      tornar mais eficaz, então refina e ajusta seu comportamente de
+      acordo.
+    \end{itemize}
+  \end{minipage}
+  \caption{Os 12 princípios do manifesto ágil}
+  \label{box:principles}
+\end{caixa}
 
-\begin{quote}
-  Seguimos esses princípios:
+A Seção \ref{sec:principles} apresenta a relação de princípios ágeis e
+sua ligação com software livre para identificar os pontos principais
+de diferença entre os movimentos. Em seguida, a Seção
+\ref{sec:foss-over-agile} apresenta um pequeno resumo de um
+\textit{workshop}\footnote{\url{http://submissions.agile2008.org/node/376}
+  - Acessado em 16/03/2009} conduzido por Mary Poppendieck com
+Christian Reis na Agile 2008. O \textit{workshop}, intitulado
+\textit{``Open Source Meets Agile - What can each teach the other?''}
+tinha como objetivo discutir práticas de sucesso em um projeto de
+software livre que não eram encontradas em métodos ágeis. Desta forma,
+os participantes poderiam compreender alguns princípios essenciais que
+se aplicam a projetos de software livre e poderiam propor melhorias
+aos atuais métodos ágeis.
 
-  \begin{itemize}
-  \item Nossa maior prioridade é satisfazer o cliente através de
-    entregas rápidas e contínuas de software que traga valor;
-  \item Aceitar mudanças nos requisitos, mesmo que tarde no
-    desenvolvimento. Processos ágeis domam as mudanças para garantir
-    um diferencial competitivo ao seu cliente.
-  \item Entregar software funcionando frequentemente, de algumas
-    semanas a alguns meses, com a preferência para escalas de tempo
-    menores.
-  \item Especialistas do negócio e desenvolvedores devem trabalhar
-    juntos diariamente ao longo do projeto.
-  \item Construa projetos ao redor de indivíduos motivados. Dê-lhes o
-    ambiente e suporte que eles precisam, e confie que eles farão o
-    trabalho.
-  \item O meio mais eficiente e eficaz de transmitir informação para
-    dentro ou para fora de uma equipe de desenvolvimento é através da
-    conversa face a face.
-  \item Software funcionando é a principal medida de progresso.
-  \item Processos ágeis promovem desenvolvimento sustentável. Os
-    investidores, desenvolvedores, e usuários deveriam conseguir
-    manter um ritmo constante indefinidamente.
-  \item Atenção contínua à excelência técnica e a um bom
-    \textit{design} aprimora a agilidade.
-  \item Simplicidade -- a arte de maximizar a quantidade de trabalho
-    não realizado -- é essencial.
-  \item As melhores arquiteturas, requisitos, e \textit{designs}
-    emergem de equipes auto-organizadas.
-  \item Em intervalos regulares, a equipe reflete sobre como se tornar
-    mais eficaz, então refina e ajusta seu comportamente de acordo.
-  \end{itemize}
-\end{quote}
+Contrastando com este trabalho, a Seção \ref{sec:agile-improve-os}
+apresenta as deficiências dos métodos ágeis mais conhecidos atualmente
+no que diz respeito ao contexto de software livre. A Seção também
+aborda como a criação dessa solução poderia ajudar tanto projetos de
+software livre quanto a comunidade de métodos ágeis.
+
+\section{Princípios ágeis sob a ótica livre}
+\label{sec:principles}
+
+A lista de princípios ágeis apresenta alguns pontos de semelhança e
+outros de diferença com software livre. As próximas Seções discutem
+cada um dos princípios e seu uso em projetos de software livre.
+
+\subsection{Nossa maior prioridade é satisfazer o cliente através de
+  entregas rápidas e contínuas de software que traga valor}
+
+\subsection{Aceitar mudanças nos requisitos, mesmo que tarde no
+  desenvolvimento. Processos ágeis domam as mudanças para garantir um
+  diferencial competitivo ao seu cliente}
+
+\subsection{Entregar software funcionando frequentemente, de algumas
+  semanas a alguns meses, com a preferência para escalas de tempo
+  menores}
+
+\subsection{Especialistas do negócio e desenvolvedores devem trabalhar
+  juntos diariamente ao longo do projeto}
+
+\subsection{Construa projetos ao redor de indivíduos
+  motivados. Dê-lhes o ambiente e suporte que eles precisam, e confie
+  que eles farão o trabalho}
+
+\subsection{O meio mais eficiente e eficaz de transmitir informação
+  para dentro ou para fora de uma equipe de desenvolvimento é através
+  da conversa face a face}
+
+\subsection{Software funcionando é a principal medida de progresso}
+
+\subsection{Processos ágeis promovem desenvolvimento sustentável. Os
+  investidores, desenvolvedores, e usuários deveriam conseguir manter
+  um ritmo constante indefinidamente}
+
+\subsection{Atenção contínua à excelência técnica e a um bom
+  \textit{design} aprimora a agilidade}
+
+\subsection{Simplicidade -- a arte de maximizar a quantidade de
+  trabalho não realizado -- é essencial}
+
+\subsection{As melhores arquiteturas, requisitos, e \textit{designs}
+  emergem de equipes auto-organizadas}
+
+\subsection{Em intervalos regulares, a equipe reflete sobre como se
+  tornar mais eficaz, então refina e ajusta seu comportamente de
+  acordo}
 
 \section{Princípios do Software Livre Interesantes em Métodos Ágeis}
 \label{sec:foss-over-agile}
 
 Reis é um desenvolvedor Brasileiro de software livre que trabalha para
 a Canonical Inc. no desenvolvimento do LaunchPad
-\footnote{\url{http://launchpad.net/} - Último acesso 24/04/2009}, o projeto
-de gerenciamento de software para a distribuição Linux Ubuntu. O
-\emph{workshop} teve início com a apresentação de Reis sobre como o
-LaunchPad é desenvolvido. Três pontos essenciais foram levantados
-durante a discussão que deu sequência à apresentação e será descrita
-na próxima subseção. O primeiro (Subseção \ref{subsec:commiter})
-descreve e discute o papel de \emph{commiter}.  O segundo (Subseção
-\ref{subsec:publicity}) apresenta os benefícios de seguir um processo
-de desenvolvimento que seja público e transparente.  Por fim, o último
-(Subseção \ref{subsec:crossrev}) aborda o sistema de revisão cruzada
-dos sistemas que é usado para garantir a comunicação e a clareza do
-código.
+\footnote{\url{http://launchpad.net/} - Último acesso 24/04/2009}, o
+projeto de gerenciamento de software para a distribuição Linux
+Ubuntu. O \emph{workshop} teve início com a apresentação de Reis sobre
+como o LaunchPad é desenvolvido. Três pontos essenciais foram
+levantados durante a discussão que deu sequência à apresentação e será
+descrita na próxima subseção. O primeiro (Subseção
+\ref{subsec:commiter}) descreve e discute o papel de \emph{commiter}.
+O segundo (Subseção \ref{subsec:publicity}) apresenta os benefícios de
+seguir um processo de desenvolvimento que seja público e transparente.
+Por fim, o último (Subseção \ref{subsec:crossrev}) aborda o sistema de
+revisão cruzada dos sistemas que é usado para garantir a comunicação e
+a clareza do código.
 
 \subsection{O Papel do \emph{Commiter}}
 \label{subsec:commiter}
@@ -337,20 +398,21 @@ problemas de requisitos se o revisor não for um cliente ou usuário.
 
 A maioria dos problemas apontados até agora são relacionados a
 dificuldades de comunicação causados pela quantidade de pessoas
-envolvidas no projeto, separação física e sua diversidade de conhecimentos e
-culturas. Apesar desses fatores serem levados ao extremo em projetos
-de software livre, equipes de métodos ágeis distribuídas encontram
-alguns dos mesmos problemas \cite{Sutherland2007,Maurer2002}.
+envolvidas no projeto, separação física e sua diversidade de
+conhecimentos e culturas. Apesar desses fatores serem levados ao
+extremo em projetos de software livre, equipes de métodos ágeis
+distribuídas encontram alguns dos mesmos problemas
+\cite{Sutherland2007,Maurer2002}.
 
-Como Beck sugere \cite{Beck2008}, ferramentas podem melhorar a adoção e
-o uso de práticas ágeis e, dessa forma, melhorar o processo de
+Como Beck sugere \cite{Beck2008}, ferramentas podem melhorar a adoção
+e o uso de práticas ágeis e, dessa forma, melhorar o processo de
 desenvolvimento. Uma quantidade considerável de trabalho já foi
 realizado na questão de ferramentas da programação em pares
 distribuída\footnote{http://sf.net/projects/xpairtise/ - Último
   acesso: 02/10/2008}$^{,}$
-\footnote{https://www.inf.fu-berlin.de/w/SE/DPP - Último acesso: 26/09/2009}$^{,}$
-\footnote{http://sangam.sourceforge.net/ - Último acesso: 26/09/2009}
- e estudos a respeito \cite{Nagappan2003} mas
+\footnote{https://www.inf.fu-berlin.de/w/SE/DPP - Último acesso:
+  26/09/2009}$^{,}$ \footnote{http://sangam.sourceforge.net/ - Último
+  acesso: 26/09/2009} e estudos a respeito \cite{Nagappan2003} mas
 pouco tem sido produzido para apoiar outras práticas. Como o problema
 está relacionado à comunicação, algumas práticas de métodos ágeis são
 relevantes. As próximas subseções vão apresentar essas práticas e as
@@ -395,9 +457,9 @@ a falta de uma funcionalidade, cadastra-se um erro que deveria ser
 corrigido e as discussões e sugestões de mudanças são enviadas para
 aquele ``erro''. O problema com essa abordagem é que mudar a
 prioridade desses ``erros'' e organizar um planejamento consome muito
-tempo e se baseia em fatos que podem mudar com o tempo (tal como ``essa
-versão deveria resolver erros com prioridade acima de 8''). Também é
-muito difícil obter uma visão geral dos requisitos.
+tempo e se baseia em fatos que podem mudar com o tempo (tal como
+``essa versão deveria resolver erros com prioridade acima de
+8''). Também é muito difícil obter uma visão geral dos requisitos.
 
 Descobrir as principais prioridades para a equipe rapidamente e ser
 capaz de mudar essas prioridades de acordo com o \emph{feedback} é uma
@@ -442,23 +504,22 @@ linha do tempo no ambiente informativo.
 
 Papos em pé, originalmente sugeridos em Scrum, pedem que toda a equipe
 se junte e cada membro explique rapidamente o que ele tem feito e
-pretende fazer a seguir. Essa prática compartilha dos mesmos
-problemas da retrospectiva. Ela envolve reunir a equipe ao mesmo
-tempo. Muitos projetos de software livre usam canais de IRC
-(\emph{Internet Relay Chat}) para resolverem parcialmente esse
-problema e para centralizar as discussões durante o
-desenvolvimento. Apesar disso não garantir que todos saibam o que cada
-um está fazendo, ajuda a sincronizar o trabalho.
+pretende fazer a seguir. Essa prática compartilha dos mesmos problemas
+da retrospectiva. Ela envolve reunir a equipe ao mesmo tempo. Muitos
+projetos de software livre usam canais de IRC (\emph{Internet Relay
+  Chat}) para resolverem parcialmente esse problema e para centralizar
+as discussões durante o desenvolvimento. Apesar disso não garantir que
+todos saibam o que cada um está fazendo, ajuda a sincronizar o
+trabalho.
 
 Para garantir que os membros obtenham a informação necessária, a
-sugestão é que a comunicação que acontece nesses canais IRC seja
-salva e exibida aos usuários que acabam de se conectar. Também
-deveria ser possível permitir que os usuários deixem anotações a
-partir desse canal para o sistema de rastreamento de erros assim como
-mensagens para outros contribuidores. No canal IRC, esse tipo de
-solução normalmente é implementada por um robô que deveria estar
-ligado à incubadora do projeto que contém as ferramentas previamente
-sugeridas.
+sugestão é que a comunicação que acontece nesses canais IRC seja salva
+e exibida aos usuários que acabam de se conectar. Também deveria ser
+possível permitir que os usuários deixem anotações a partir desse
+canal para o sistema de rastreamento de erros assim como mensagens
+para outros contribuidores. No canal IRC, esse tipo de solução
+normalmente é implementada por um robô que deveria estar ligado à
+incubadora do projeto que contém as ferramentas previamente sugeridas.
 
 Tendo delineado as práticas em que há uma possibilidade de
 aproveitamento em cada uma das respectivas comunidades, pode-se traçar

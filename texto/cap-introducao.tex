@@ -7,14 +7,14 @@
 \label{sec:consideracoes_preliminares}
 
 Projetos de Software Livre (SL) típicos normalmente recebem a
-colaboração de muitas pessoas geograficamente distantes
-\cite{Dempsey1999} e se organizam ao redor de um ou mais líderes.
+colaboração de pessoas geograficamente distantes \cite{Dempsey1999} e
+se organizam ao redor de um ou mais líderes.
 
 Num primeiro momento, este fato poderia indicar que esse tipo de
 projeto não é candidato para o uso de métodos ágeis de desenvolvimento
 de software já que alguns valores essenciais parecem ausentes. Por
 exemplo, a distância entre os desenvolvedores e a diversidade entre
-suas culturas dificulta muito a comunicação que é um dos principais
+suas culturas dificulta muito a comunicação, que é um dos principais
 valores de métodos ágeis. No entanto, a maioria dos projetos de
 software livre compartilham alguns princípios e mesmo valores
 enunciados no manifesto ágil \cite{AgileManifesto}. Adaptação a
@@ -28,31 +28,39 @@ Durante um \emph{workshop} \cite{OOPSLA07} sobre \emph{``No Silver
   Bullets''} \cite{Brooks1987} na conferência OOPSLA 2007, métodos
 ágeis e software livre foram mencionados
 \footnote{\url{http://mysite.verizon.net/dennis.mancl/oopsla07/silver_report.html\#issue4}
-  - Último acesso 26/09/2009} como duas balas de prata fracassadas que
-trouxeram grandes benefícios à comunidade de software apesar de não
-terem resolvido de forma completa os problemas ligados ao
+  - Último acesso 26/09/2009} como ``duas balas de prata fracassadas''
+que trouxeram grandes benefícios à comunidade de software apesar de
+não terem resolvido de forma completa os problemas ligados ao
 desenvolvimento de software. Durante o mesmo \emph{workshop},
-perguntou-se se o uso de várias balas de prata fracassadas não poderia
-fazer o papel de uma bala de prata real, isto é, aumentar em uma ordem
-de magnitude os níveis de produção de software.
+perguntou-se se o uso de várias ``balas de prata fracassadas'' não
+poderia fazer o papel de uma bala de prata real, isto é, aumentar em
+uma ordem de magnitude os níveis de produção de software.
 
 Em uma conferência que ocorreu em São Paulo no dia 11 de Outubro de
 2008 e reuniu aproximadamente 200 pessoas interessadas em métodos
 ágeis\footnote{Encontro Ágil - \url{http://encontroagil.com.br/} -
   Último acesso: 01/06/2009}, o autor desse trabalho realizou uma
 pesquisa para descobrir se a associação entre métodos ágeis e software
-livre é comum. A pesquisa (disponível no Apêndice \ref{ape:EA}) foi
+livre é comum. Uma pesquisa (disponível no Apêndice \ref{ape:EA}) foi
 realizada em papel e entregue a todos os participantes do encontro no
 início do evento e recolhida ao final do evento. Foram coletados 93
-formulários preenchidos que resultaram nas seguintes
-estatísticas. %MARI Gráfico?
+formulários preenchidos que resultaram nas seguintes estatísticas.
+
+% TODO Aumentar legendas
 
 \begin{figure}[htb]
-  \centerline{
-    \includegraphics[width=100mm]{EA-atividades}
-  }
-  \caption{Atividades desempenhadas pelos participantes da pesquisa}
-  \label{fig:EA-atividades}
+  \begin{minipage}[t]{0.5\linewidth}
+    \centering
+    \includegraphics[scale=.3]{EA-atividades}
+    \caption{Atividades desempenhadas pelos participantes da pesquisa}
+    \label{fig:EA-atividades}
+  \end{minipage}
+  \begin{minipage}[t]{0.5\linewidth}
+    \centering
+    \includegraphics[scale=.3]{EA-experienciaMA}
+    \caption{Experiência dos participantes com métodos ágeis}
+    \label{fig:EA-experienciaMA}
+  \end{minipage}
 \end{figure}
 
 A figura \ref{fig:EA-atividades} mostra a distribuição de atividades
@@ -66,14 +74,6 @@ conhecimento superficial sobre o assunto. Do ponto de vista do
 software livre, 67\% das respostas diziam nunca ter contribuído com
 software livre e 24\% afirmavam colaborarem ocasionalmente com algum
 projeto.
-
-\begin{figure}[htb]
-  \centerline{
-    \includegraphics[width=100mm]{EA-experienciaMA}
-  }
-  \caption{Experiência dos participantes com métodos ágeis}
-  \label{fig:EA-experienciaMA}
-\end{figure}
 
 Esses resultados mostram que a população interessada em métodos ágeis
 tem pouco envolvimento com a comunidade de software livre. Vale também
@@ -98,8 +98,9 @@ As principais contribuições deste trabalho estão discriminadas abaixo:
   relação com métodos ágeis;
 \item Uma pesquisa com a comunidade de métodos ágeis sobre sua relação
   com software livre e
-\item Uma análise de Programação Extrema sob o ponto de vista do
-  \emph{Open Source Maturity Model} (OMM) do projeto QualiPSo.
+\item Uma análise de Programação Extrema \cite{XP01} sob o ponto de
+  vista do \emph{Open Source Maturity Model} (OMM) do projeto
+  QualiPSo.
 \end{itemize}
 
 %% ------------------------------------------------------------------------- %%
