@@ -6,7 +6,7 @@ O objetivo do projeto QualiPSo\footnote{\url{http://www.qualipso.org}
   - Último acesso em 27/08/2010} é de aumentar a confiabilidade da
 indústria e a qualidade dos sistemas livres existentes e futuros. Para
 atingir esse objetivo, o projeto conta com 10 grandes áreas de
-trabalho. Uma dessas áreas é relacionado à confiabilidade do processo
+trabalho. Uma dessas áreas corresponde à confiabilidade do processo
 usado no desenvolvimento de projetos livres.
 
 Desde o início, o projeto abraçou o fato de que não poderia jamais
@@ -14,35 +14,36 @@ forçar uma forma de trabalho a comunidades livres. Por isso, a
 abordagem usada para aumentar essa confiabilidade foi estabelecer uma
 forma de avaliar a qualidade do processo usado por um determinado
 projeto livre. Sendo assim, o projeto procurou elaborar um selo que
-pudesse ser dado às comunidades que estivesse de acordo com um modelo
+pudesse ser dado às comunidades que estivessem de acordo com um modelo
 de processo confiável.
 
-Porém, o contexto de projetos livre difere (como foi apresentado
-anteriormente) do contexto para ambientes empresariais comuns. Por
-isso, modelos de avaliação de processos estabelecidos na indústria não
-são adequados para ambientes livres. Por isso, decidiu-se elaborar o
-modelo de maturidade para software livre do Qualipso (\textit{QualiPSo
-  Opensource Maturity Model} - OMM).
+Porém, o contexto de projetos livre difere (como apresentado
+anteriormente na Seção \ref{sec:os-def}) do contexto para ambientes
+empresariais comuns. Por isso, modelos de avaliação de processos
+estabelecidos na indústria não são adequados para ambientes
+livres. Por isso, decidiu-se elaborar o modelo de maturidade para
+software livre do Qualipso (\textit{QualiPSo Opensource Maturity
+  Model} - OMM).
 
 A seção \ref{sec:o-que-eh-omm} apresenta mais detalhes da origem do
 OMM e de sua constituição. Em seguida, a seção \ref{sec:xp-em-omm}
 apresenta como programação extrema pode ser mapeada para o OMM e quais
 são os pontos não tratados. Por fim, a seção
 \ref{sec:openagile-em-omm} apresenta uma sugestão de práticas
-complementares para permitir a aprovação no OMM.
+complementares com o objetivo de aumentar a adequação ao OMM.
 
 \section{Origem e descrição do OMM}
 \label{sec:o-que-eh-omm}
 
-O OMM se baseia na ideia de que a indústria confia em certificados de
-qualidade. Padrões como o selo
+O OMM se baseia na ideia de que, na indústria, certificados de
+qualidade possuam boa aceitação. Padrões como o selo
 ISO9001\footnote{\url{http://www.iso.org/} - Último acesso em
   27/08/2010} ou como o Modelo de Maturidade de Capabilidade
 (\textit{Capability Maturity Model} - CMM) do Instituto de Engenharia
 de Software ( \textit{Software Engineering Institute} - SEI)
 \footnote{\url{http://www.sei.cmu.edu/cmmi} - Último acesso em
   27/08/2010} são constituídos de documentos que descrevem uma lista
-de exigências que precisam ser cumpridas pelo processo das empresas
+de exigências que precisam ser cumpridas nos processos das empresas
 que esperaraem obter o selo.
 
 Como projetos livres raramente beneficiam de uma infraestrutura física
@@ -85,7 +86,7 @@ aspectos estão ligados a exigências na quantidade e detalhamento de
 documentos usados para inspeção e melhoria dentro da organização que
 implementa o processo. A equipe do OMM selecionou todas as práticas
 sugeridas pelo CMM no que diz respeito aos aspectos técnicos e apenas
-algumas no aspecto gerencial que fizessem sentido no contexto livre.
+algumas no aspecto gerencial que fazem sentido no contexto livre.
 
 Graças a esse trabalho, o OMM foi formado com um misto de elementos de
 confiabilidade vindos da comunidade de software livre com práticas
@@ -94,7 +95,7 @@ estrutura piramidal semelhante à do CMM na qual existem três níveis de
 adequação sendo que o mais básico é base para os mais avançados que
 sempre exigem todas as práticas do nível inferior e mais algumas.
 
-A figura \ref{fig:piramide-omm} apresenta a divisão de níveis com a
+A Figura \ref{fig:piramide-omm} apresenta a divisão de níveis com a
 lista de práticas (com nomes abreviados) que integra cada um dos
 níveis do OMM. Além disso, o OMM propõe exigências diferentes de
 acordo com o tipo de entidade que deseja ser avaliada para um
@@ -113,9 +114,9 @@ alcance de uma comunidade para atingir um determinado nível.
   \label{fig:piramide-omm}
 \end{figure}
 
-As tabelas \ref{tab:omm-basic}, \ref{tab:omm-intermediate} e
+As Tabelas \ref{tab:omm-basic}, \ref{tab:omm-intermediate} e
 \ref{tab:omm-advanced} mostram os elementos de confiabilidade que
-precisam ser endereçados para se atingir os níveis básico,
+precisam ser abordados para se atingir os níveis básico,
 intermediário e avançados do OMM.
 
 \begin{table}
@@ -237,889 +238,452 @@ em cada nível do OMM.
 \section{Um mapeamento de Programação Extrema para o OMM}
 \label{sec:xp-em-omm}
 
-A tabela \ref{tab:xp-to-omm} apresenta um mapeamento das práticas de
-Programação Extrema para os elementos descritos no OMM com as práticas
-recomendadas em cada item.
+Num primeiro momento, é importante explicar porque foi escolhida a
+Programação Extrema ao invés de métodos ágeis em geral. Apesar dos
+Métodos Ágeis apontarem valores e princípios, não chegam a descrever
+práticas ou atividades nem fluxos de trabalho. Desta forma, é
+necessário optar por algum método ágil específico que faça essa
+descrição mais detalhada.
 
-\begin{longtable}{|p{2cm}|p{7cm}|p{7cm}|}
-  \caption{Mapeamento de práticas de documenção necessárias no OMM com
-    programação extrema} \\
-  \multicolumn{3}{|c|}{\cellcolor[gray]{0.6}  Documentação do Produto}\\
-  \endhead
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo PDOC 1 & \cellcolor[gray]{0.6}
-  Prover documentação de alta qualidade & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática PDOC 1.1 &
-  \cellcolor[gray]{0.9}
-  Criar documentação para desenvolvedores & \\
-  \hline \multirow{5}{*}{Procurar} & Disponibilidade de especificações
-  de requisitos & Desenvolvimento Dirigido por Comportamento (BDD -
-  \textit{Behavior
-    Driven Development}) \\
-  \cline{2-3} & Disponibilidade de um projeto de alto nível / de uma
-  arquitetura do produto & Desenvolvimento Dirigido por Testes (TDD -
-  \textit{Test
-    Driven Development}) \\
-  \cline{2-3} & Disponibilidade de um projeto detalhado &
-  Desenvolvimento Dirigido por Testes (TDD - \textit{Test
-    Driven Development}) \\
-  \cline{2-3} & Disponibilidade de documentação técnica &
-  Desenvolvimento Dirigido por Comportamento (BDD - \textit{Behavior
-    Driven Development}) \\
-  \cline{2-3} & Disponibilidade de guias para o fluxo de trabalho &
-  (TDD -
-  \textit{Test Driven Development}) \\
-  \hline \cellcolor[gray]{0.9} Prática PDOC 1.2 &
-  \cellcolor[gray]{0.9}
-  Criar documentação para usuários & \\
-  \hline \multirow{3}{*}{Procurar} & Disponibilidade de um guia para
-  usuário &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Disponibilidade de documentos de perguntas frequentes
-  &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Disponibilidade de material de treinamento sobre como
-  usar o produto (material de alcance multimídia) &
-  \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática PDOC 1.3 &
-  \cellcolor[gray]{0.9}
-  Criar documentação genérica & \\
-  \hline \multirow{3}{*}{Procurar} & Disponibilidade de documentos de
-  planejamento &
-  Planejamento da Iteração (\textit{Iteration Planning}) \\
-  \cline{2-3} & Disponibilidade de uma lista de todos os documentos
-  disponíveis &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Disponibilidade de livros descrevendo o projeto
-  (número, linguagem...) &
-  \textbf{Nenhuma} \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo PDOC 2 & \cellcolor[gray]{0.6}
-  Criar documentação pro produto & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática PDOC 2.1 \textbf{(Não
-    obrigatória)} & \cellcolor[gray]{0.9}
-  Prover um sistema de documentação & \\
-  \hline \multirow{2}{*}{Procurar} & Disponibilidade de uma
-  funcionalidade de indexação de funcionalidades (buscando
-  palavras-chave por exemplo) &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Disponibilidade de um sistema de gestão de
-  documentação integrado &
-  \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática PDOC 2.2 &
-  \cellcolor[gray]{0.9} Manter toda documentação acima baseado no
-  \textit{feedback}
-  coletado dos usuários com relação à documentação. & \\
-  \hline \multirow{2}{*}{Procurar} & Disponibilidade de um sistema de
-  avaliação da documentação &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Disponibilidade de um conjunto de páginas wiki, fóruns
-  ou listas de email dedicados à documentação do projeto&
-  \textbf{Nenhuma} \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo PDOC 3 & \cellcolor[gray]{0.6}
-  Melhorar a documentação do produto & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática PDOC 3.1 &
-  \cellcolor[gray]{0.9}
-  Planejamento de documentação & \\
-  \hline \multirow{4}{*}{Procurar} & Disponibilidade de um
-  planejamento detalhado de criação de documentação &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Garantir que a documentação é apropriada para a versão
-  do produto &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Verificar a qualidade da apresentação da documentação
-  &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Verificar a qualidade da apresentação do
-  \textit{feedback} dos usuários &
-  \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática PDOC 3.2 &
-  \cellcolor[gray]{0.9}
-  Melhorar o suporte para várias linguagens naturais & \\
-  \hline \multirow{1}{*}{Procurar} & Disponibilidade de documentação
-  em diferentes linguagens &
-  \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática PDOC 3.3 &
-  \cellcolor[gray]{0.9}
-  Melhorar a disponibilidade da documentação & \\
-  \hline \cellcolor[gray]{0.9} Prática PDOC 3.4 &
-  \cellcolor[gray]{0.9} Melhorar os documentos baseado no
-  \textit{feedback} e na avaliação
-  &   \label{tab:xp-to-omm} \\
-  \hline
-\end{longtable}
+Programação Extrema é um dos métodos ágeis mais antigos e mais
+estudados. Graças a isso, suas várias práticas e fluxos já foram
+bastante analisados o que permite mapear diversas práticas a
+resultados desejados.
 
-\begin{longtable}{|p{2cm}|p{7cm}|p{7cm}|}
-  \caption{Mapeamento de práticas de adoção de padrões necessárias no
-    OMM com
-    programação extrema} \\
-  \multicolumn{3}{|c|}{\cellcolor[gray]{0.6} Uso de Padrões
-    Estabelecidos e Difundidos}\\
-  \endhead
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo STD 1 & \cellcolor[gray]{0.6}
-  Aderir a Padrões Abertos & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática STD 1.1 & \cellcolor[gray]{0.9}
-  Aderir a padrões do produto (Padrões Abertos) & \\
-  \hline \multirow{9}{*}{Procurar} & Aderir a padrões abertos na área
-  de: - Redes (TCP/IP, SSL, SMTP, MIME, IMAP, LDAP, WWW-HTTP...) &\textbf{Nenhuma} \\
-  \cline{2-3} & - Conteúdos \textit{Web} (HTML...) &\textbf{Nenhuma} \\
-  \cline{2-3} & - Email (SMTP, Email, WWW-MIME...) &\textbf{Nenhuma}
-  \\
-  \cline{2-3} & - Troca de documentos (XML...) &\textbf{Nenhuma} \\
-  \cline{2-3} & - Gráficos (PNG...) &\textbf{Nenhuma} \\
-  \cline{2-3} & - Sistemas de Janelas (X Window...) &\textbf{Nenhuma}
-  \\
-  \cline{2-3} & - Audio (Ogg, Vorbis...) &\textbf{Nenhuma} \\
-  \cline{2-3} & - Documentos de Escritório (OpenDocument...)
-  &\textbf{Nenhuma} \\
-  \cline{2-3} & - Serviços \textit{Web} (UDDI, SOAP...) &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática STD 1.2 & \cellcolor[gray]{0.9}
-  Aderir a padrões de produtos de boa qualidade (Padrões Abertos) & \\
-  \hline \multirow{3}{*}{Procurar} & Aderir padrões bem estabelecidos
-  &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Aderir a parões altamente inter-operáveis &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Aderir a parões amplamente difundidos &
-  \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática STD 1.3 & \cellcolor[gray]{0.9}
-  Garantir a satisfação do usuário com os padrões usados no projeto & \\
-  \hline \multirow{8}{*}{Procurar} & Baseado no nível de satisfação
-  dos usuários com relação aos padrões usados &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Baseado no nível de satisfação dos desenvolvedores com
-  relação aos padrões usados& \textbf{Nenhuma} \\
-  \cline{2-3} & Realizar uma verificação de inter-operabilidade dos
-  novos componentes e padrões usados no projeto & \textbf{Nenhuma} \\
-  \cline{2-3} & Verificar a satisfação dos usuários com a
-  inter-operabilidade dos formatos de dados & \textbf{Nenhuma} \\
-  \cline{2-3} & Verificar a satisfação dos usuários com a
-  inter-operabilidade dos fluxos de trabalho & \textbf{Nenhuma} \\
-  \cline{2-3} & Verificar a satisfação dos usuários com a
-  inter-operabilidade das interfaces de programação & \textbf{Nenhuma}
-  \\
-  \cline{2-3} & Verificar a satisfação dos usuários com a
-  inter-operabilidade das interfaces com o usuário & \textbf{Nenhuma}
-  \\
-  \cline{2-3} & Verificar a satisfação dos usuários com a
-  inter-operabilidade das interfaces dos protocolos de comunicação &
-  \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática STD 1.4 & \cellcolor[gray]{0.9}
-  Aderir a padrões certificados por entidades certificadoras que
-  apoiem Software Livre & \\
-  \hline \multirow{1}{*}{Procurar} & O projeto adere a padrões
-  propostos pelas seguintes entidades de certificação: IETF, IEEE,
-  OASIS, W3C, Free Standards Group, outras entidades que apoiam
-  Software Livre &
-  \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática STD 1.5 & \cellcolor[gray]{0.9}
-  Documente padrões do produto & \\
-  \hline \multirow{1}{*}{Procurar} & & \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo STD 2 & \cellcolor[gray]{0.6}
-  Adote processos de desenvolvimento padrões & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática STD 2.1 & \cellcolor[gray]{0.9}
-  Aderir a padrões abertos para o processo & \\
-  \hline \multirow{2}{*}{Procurar} & Garantir a conformidade de
-  algumas atividades ao processo &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Garantir o uso de mecanismos para controlar o processo
-  (i.e. baseados no ISO9000, CMMI, SPICE etc)&
-  \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática STD 2.2 & \cellcolor[gray]{0.9}
-  Avaliar o processo baseado numa abordagem de
-  avaliação amplamente difundida & \\
-  \hline \multirow{2}{*}{Procurar} & O planejamento do projeto inclui
-  avaliações agendadas para garantir a aderência ao processo &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Resultados da avaliação são apresentados aos usuários
-  &
-  \textbf{Nenhuma} \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo STD 3 & \cellcolor[gray]{0.6}
-  Garanta independência estratégica do projeto & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática STD 3.1 & \cellcolor[gray]{0.9}
-  Independência de tecnologias específicas & \\
-  \hline \multirow{5}{*}{Procurar} & Independência de padrões
-  proprietários &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Independência de ferramentas de desenvolvimento
-  proprietárias &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Independência de módulos e componentes de software
-  proprietários &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Independência de formatos de dados proprietários &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Independência do projeto de possíveis futuros
-  travamentos &
-  \textbf{Nenhuma} \\
-  \hline
-\end{longtable}
+A próxima subseção (Seção \ref{sec:xp+omm}) apresenta
+práticas da Programação Extrema que contribuem para atingir algum
+objetivo do nível básico do OMM. Em seguida, a Seção \ref{sec:xp-omm}
+apresenta os objetivos que ainda não foram cobertos por nenhuma
+prática de Programação Extrema.
 
-\begin{longtable}{|p{2cm}|p{7cm}|p{7cm}|}
-  \caption{Mapeamento de práticas de qualidade de testes necessárias
-    no OMM com programação extrema} \\
-  \multicolumn{3}{|c|}{\cellcolor[gray]{0.6} Qualidade do Processo de Testes}\\
-  \endhead
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo QTP 1 & \cellcolor[gray]{0.6}
-  Prover um plano de alta qualidade de testes & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática QTP 1.1 & \cellcolor[gray]{0.9}
-  Garantir que o plano de testes cubra testes funcionais & \\
-  \hline \cellcolor[gray]{0.9} Prática QTP 1.2 & \cellcolor[gray]{0.9}
-  Garantir que o plano de testes cubra testes não-funcionais (como
-  exigido pelo projeto; veja abaixo) & \\
-  \hline \multirow{9}{*}{Procurar} & Escalabilidade &\textbf{Nenhuma} \\
-  \cline{2-3} & Manutenibilidade &\textbf{Nenhuma} \\
-  \cline{2-3} & Usabilidade &\textbf{Nenhuma} \\
-  \cline{2-3} & Desempenho &\textbf{Nenhuma} \\
-  \cline{2-3} & Segurança &\textbf{Nenhuma} \\
-  \cline{2-3} & Estabilidade &\textbf{Nenhuma} \\
-  \cline{2-3} & Testabilidade &\textbf{Nenhuma} \\
-  \cline{2-3} & Internacionalização/Localização &\textbf{Nenhuma} \\
-  \cline{2-3} & Outros testes não-funcionais exigidos pelo projeto
-  específico &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática QTP 1.3 & \cellcolor[gray]{0.9}
-  Garantir que o plano de testes cubra diferentes abordagens de teste,
-  considere: & \\
-  \hline \multirow{4}{*}{Procurar} & testes de unidade
-  & \textbf{Nenhuma} \\
-  \cline{2-3} & testes de integração & \textbf{Nenhuma} \\
-  \cline{2-3} & testes de sistema & \textbf{Nenhuma} \\
-  \cline{2-3} & testes de integração de sistema & \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática QTP 1.4 & \cellcolor[gray]{0.9}
-  Definir casos de teste e critérios de teste, considere: & \\
-  \hline \multirow{4}{*}{Procurar} & requisitos de usuário &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & requisitos de arquitetura & \textbf{Nenhuma} \\
-  \cline{2-3} & requisitos técnicos & \textbf{Nenhuma} \\
-  \cline{2-3} & requisitos do processo de testes & \textbf{Nenhuma} \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo QTP 2 & \cellcolor[gray]{0.6}
-  Implementar e gerir o processo de testes & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática QTP 2.1 & \cellcolor[gray]{0.9}
-  Realizar testes frequentemente & \\
-  \hline \multirow{2}{*}{Procurar} & Realizar testes diferentes
-  frequentemente &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Alinhar o processo de testes com o planejamento do
-  projeto & \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática QTP 2.2 & \cellcolor[gray]{0.9}
-  Garantir que os recursos de testes (ferramentas, ambiente etc) estão
-  claramente definidos & \\
-  \hline \multirow{3}{*}{Procurar} & Testes anteriores são claramente
-  explicados e os resultados são apresentados &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & O planejamento de testes futuros é projetado e
-  claramente apresentado  &  \textbf{Nenhuma} \\
-  \cline{2-3} & \textit{Feedback} é obtido na qualidade do plano de
-  testes  &  \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática QTP 2.3 & \cellcolor[gray]{0.9}
-  Melhorar o processo de testes & \\
-  \hline \multirow{2}{*}{Procurar} & O projeto provê resultados de
-  testes detalhados &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & \textit{Feedback} dos testes anteriores é obtido e
-  está disponível para revisão & \textbf{Nenhuma} \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo QTP 3 & \cellcolor[gray]{0.6}
-  Melhorar o processo de testes & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática QTP 3.1 & \cellcolor[gray]{0.9}
-  Incluir casos de testes, resultados de testes e considerar
-  comentários dos desenvolvedores do projeto livre, considere: & \\
-  \hline \multirow{5}{*}{Procurar} & desenvolvedores essenciais &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & contribuidores ocasionais & \textbf{Nenhuma} \\
-  \cline{2-3} & erros identificados & \textbf{Nenhuma} \\
-  \cline{2-3} & pedidos funcionais & \textbf{Nenhuma} \\
-  \cline{2-3} & ações de desempenho & \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática QTP 3.2 & \cellcolor[gray]{0.9}
-  Incluir casos de testes, resultados de testes e considerar
-  comentários dos usuários do produto livre, considere: & \\
-  \hline \multirow{3}{*}{Procurar} & erros identificados &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & pedidos funcionais & \textbf{Nenhuma} \\
-  \cline{2-3} & ações de desempenho & \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática QTP 3.3 \textbf{(Não
-    obrigatória)} & \cellcolor[gray]{0.9} Incluir casos de testes,
-  resultados de testes e considerar
-  comentários dos integradores do produto livre, considere: & \\
-  \hline \multirow{6}{*}{Procurar} & integradores de software livre
-  (distribuições de sistema operacional etc) &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & integradores trabalhando na área de Administração Pública & \textbf{Nenhuma} \\
-  \cline{2-3} & integradores baseados na indústria & \textbf{Nenhuma}
-  \\
-  \cline{2-3} & erros identificados & \textbf{Nenhuma} \\
-  \cline{2-3} & pedidos funcionais & \textbf{Nenhuma} \\
-  \cline{2-3} & ações de desempenho & \textbf{Nenhuma} \\
-  \hline
-\end{longtable}
+\subsection{Práticas de Programação Extrema que contribuem com o OMM
+  básico}
+\label{sec:xp+omm}
 
-\begin{longtable}{|p{2cm}|p{7cm}|p{7cm}|}
-  \caption{Mapeamento de práticas de licenciamento necessárias
-    no OMM com programação extrema} \\
-  \multicolumn{3}{|c|}{\cellcolor[gray]{0.6} Licenças}\\
-  \endhead
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo LCS 1 & \cellcolor[gray]{0.6}
-  Selecionar licenças de produtos apropriadas & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática LCS 1.1 & \cellcolor[gray]{0.9}
-  Avaliar as escolhas disponíveis em comparação com licenças já
-  existentes usadas dentro do projeto livre ou na empresa & \\
-  \hline \multirow{2}{*}{Procurar} & A responsabilidade pela escolha
-  de
-  uma licença livre foi definida? &\textbf{Nenhuma} \\
-  \cline{2-3} & A compatibilidade da licença de novos componentes com
-  as licenças já utilizadas é verificada regularmente? (i.e. existe um
-  processo definido para realizar essa verificação?) &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática LCS 1.2 & \cellcolor[gray]{0.9}
-  Garantir que as práticas de licenciamento são usáveis & \\
-  \hline \multirow{5}{*}{Procurar} & Licenças são claramente
-  apresentadas a todos os usuários?  & \textbf{Nenhuma} \\
-  \cline{2-3} & Os aspectos essenciais das licenças são claramente
-  apresentados para integração com outros produtos? & \textbf{Nenhuma} \\
-  \cline{2-3} & Usuários podem prover \textit{feedback} sobre a
-  escolha da licenças ou compatibilidade de licenças? & \textbf{Nenhuma} \\
-  \cline{2-3} & Número de licenças distintas incorporadas (evolução) &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Número de arquivos/módulos não licenciados (evolução)
-  & \textbf{Nenhuma} \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo LCS 2 & \cellcolor[gray]{0.6}
-  Gerenciar as licenças selecionadas. & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática LCS 2.1 & \cellcolor[gray]{0.9}
-  Garantir que existe um aviso sobre Direitos Autorais & \\
-  \hline \cellcolor[gray]{0.9} Prática LCS 2.2 & \cellcolor[gray]{0.9}
-  Garantir que o texto completo da licença está disponível junto com o
-  produto & \\
-  \hline \cellcolor[gray]{0.9} Prática LCS 2.3 & \cellcolor[gray]{0.9}
-  Garantir que existe um termo de exoneração de responsabilidade & \\
-  \hline \cellcolor[gray]{0.9} Prática LCS 2.4 & \cellcolor[gray]{0.9}
-  Garantir que o texto da licença é mantido atualizado após cada
-  mudança importante & \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo LCS 3 & \cellcolor[gray]{0.6}
-  Melhorar a difusão de FLOSS & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática LCS 3.1 & \cellcolor[gray]{0.9}
-  Garantir que FLOSS não contenha nenhum componente comercial & \\
-  \hline \multirow{2}{*}{Procurar} & O projeto tem uma grande
-  porcentagem de componentes licenciados de forma livre &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Ferramentas usadas no projeto são licenciadas de forma
-  livre & \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática LCS 3.2 \textbf{(Não
-    obrigatória)} & \cellcolor[gray]{0.9}
-  A restritividade das licenças é baixa (mirar pela menor retritividade) & \\
-  \hline \multirow{2}{*}{Procurar} & A licença é liberal (BSD, Apache
-  etc) &  \textbf{Nenhuma} \\
-  \cline{2-3} & O projeto considera a possibilidade de licenciamento
-  dual & \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática LCS 3.3 & \cellcolor[gray]{0.9}
-  O projeto gerencia problemas relacionados a \textit{forks} proprietários & \\
-  \hline \multirow{1}{*}{Procurar} & A licença é restritiva (GPL) &
-  \textbf{Nenhuma} \\
-  \hline
-\end{longtable}
+O OMM no nível básico se divide em 11 elementos essenciais. Essa Seção
+está subdividida de acordo com os elementos cobertos por alguma prática
+de Programação Extrema. Sendo assim, as próximas subseções abordarão
+cada uma dos elementos essenciais e as práticas que ajudam a atingir
+seu objetivo.
 
-\begin{longtable}{|p{2cm}|p{7cm}|p{7cm}|}
-  \caption{Mapeamento de práticas relacionadas ao ambiente necessárias
-    no OMM com programação extrema} \\
-  \multicolumn{3}{|c|}{\cellcolor[gray]{0.6} Ambiente}\\
-  \endhead
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo ENV 1 & \cellcolor[gray]{0.6}
-  Planejar o desenvolvimento de recursos e infra-estrutura & Prática
-  de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática ENV 1.1 & \cellcolor[gray]{0.9}
-  Garantir a disponibilidade de ferramentas de software e ambiente
-  necessários para o desenvolvimento & \\
-  \hline \multirow{7}{*}{Procurar} & O projeto tem listas de email
-  especializadas para usuários/desenvolvedores &\textbf{Nenhuma} \\
-  \cline{2-3} & O projeto tem fóruns
-  especializados para usuários/desenvolvedores &\textbf{Nenhuma} \\
-  \cline{2-3} & O projeto tem páginas \textit{wiki}
-  especializadas para usuários/desenvolvedores &\textbf{Nenhuma} \\
-  \cline{2-3} & O projeto oferece suporte a facilidades para realizar
-  audio/vídeo conferências &\textbf{Nenhuma} \\
-  \cline{2-3} & O projeto tem mensagens audio/vídeo que apresentam
-  aspectos essenciais do uso e desenvolvimento &\textbf{Nenhuma} \\
-  \cline{2-3} & O projeto possui uma lista apresentando e descrevendo
-  todas as ferramentas utilizadas na comunidade para objetivos
-  específicos? &\textbf{Nenhuma} \\
-  \cline{2-3} & O projeto apoia o uso de ferramentas que são
-  desenvolvidas para melhorar o desenvolvimento de projetos livres
-  &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática ENV 1.2 & \cellcolor[gray]{0.9}
-  Garantir a disponibilidade das metodologias necessárias para o
-  desenvolvimento & \\
-  \hline \multirow{3}{*}{Procurar} & As metodologias de
-  desenvolvimento permitem desenvolvimento livre  & \textbf{Nenhuma} \\
-  \cline{2-3} & O projeto possui fluxos de trabalho para verificar,
-  testar, contribuir etc & \textbf{Nenhuma} \\
-  \cline{2-3} & Disponibilidade de documentos técnicos &
-  \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática ENV 1.3 & \cellcolor[gray]{0.9}
-  Ferramentas de gestão e comunicação integradas no projeto & \\
-  \hline \multirow{9}{*}{Procurar} & BlueFish  & \textbf{Nenhuma} \\
-  \cline{2-3} & Anjuta & \textbf{Nenhuma} \\
-  \cline{2-3} & Glade & \textbf{Nenhuma} \\
-  \cline{2-3} & GCC & \textbf{Nenhuma} \\
-  \cline{2-3} & Kdevelop & \textbf{Nenhuma} \\
-  \cline{2-3} & GDB & \textbf{Nenhuma} \\
-  \cline{2-3} & KompoZer & \textbf{Nenhuma} \\
-  \cline{2-3} & Eclipse & \textbf{Nenhuma} \\
-  \cline{2-3} & O projeto é bem integrado com hospedeiros de
-  código importante & \textbf{Nenhuma} \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo ENV 2 & \cellcolor[gray]{0.6}
-  Manter o ambiente do projeto continuamente com base no
-  \textit{feedback} (\textit{stakeholders} como integradores,
-  contribuidores). & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática ENV 2.1 & \cellcolor[gray]{0.9}
-  Medir o nível de satisfação dos usuários com o ambiente de
-  desenvolvimento & \\
-  \hline \multirow{4}{*}{Procurar} & Os usuários tem a possibilidade
-  de comentar a escolha das ferramentas?  & \textbf{Nenhuma} \\
-  \cline{2-3} & O projeto leva em consideração os comentários dos
-  usuários? & \textbf{Nenhuma} \\
-  \cline{2-3} & O número de usuários ativos comunicando na comunidade
-  & \textbf{Nenhuma} \\
-  \cline{2-3} & Evolução a longo termo do tráfego de comunicação &
-  \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática ENV 2.2 \textbf{(Não
-    obrigatória)} & \cellcolor[gray]{0.9} Garantir que as últimas
-  versões do ambiente de desenvolvimento
-  original está disponível para manutenção do projeto livre & \\
-  \hline \multirow{1}{*}{Procurar} & As ferramentas usadas para o
-  desenvolvimento do projeto FLOSS são atualizadas frequentemente?  &
-  \textbf{Nenhuma} \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo ENV 3 & \cellcolor[gray]{0.6}
-  Melhore o uso de ferramentas livres & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática ENV 3.1 & \cellcolor[gray]{0.9}
-  Garantir que o ambiente gradualmente descontinue componentes
-  comerciais em favor de equivalentes livres & \\
-  \hline \multirow{2}{*}{Procurar} & O projeto tem um plano claro
-  definido para descontinuar componentes comerciais e introduzir
-  componentes livres &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Ferramentas usadas na comunidade são bem documentadas
-  e seu alinhamento com ideias livres é documentado e apresentado à
-  comunidade & \textbf{Nenhuma} \\
-  \hline
-\end{longtable}
+\subsubsection{Documentação do Produto (PDOC)}
+\label{sec:+pdoc}
 
-\begin{longtable}{|p{2cm}|p{7cm}|p{7cm}|}
-  \caption{Mapeamento de práticas relacionadas ao número de
-    \textit{commits} e relatórios de defeitos necessárias
-    no OMM com programação extrema} \\
-  \multicolumn{3}{|c|}{\cellcolor[gray]{0.6} Número de
-    \textit{commits} e relatórios de defeitos}\\
-  \endhead
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo DFCT 1 & \cellcolor[gray]{0.6}
-  Prover um ambiente amigável ao usuário para contribuir com
-  relatórios de defeitos & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática DFCT 1.1 &
-  \cellcolor[gray]{0.9} Prover um mecanismo de contribuição
-  padronizado e bem documentado &
-  \\
-  \hline \multirow{5}{*}{Procurar} & Correções ao código fonte e novos
-  códigos podem ser contribuídos facilmente &\textbf{Nenhuma} \\
-  \cline{2-3} & Relatórios de erros podem ser contribuídos facilmente
-  &\textbf{Nenhuma} \\
-  \cline{2-3} & Correções à documentação podem ser contribuídas
-  facilmente &\textbf{Nenhuma} \\
-  \cline{2-3} & Sugestões para novas funcionalidades podem ser
-  contribuídas facilmente &\textbf{Nenhuma} \\
-  \cline{2-3} & O sistema de relatório de defeitos é bem alinhado com
-  o ambiente de desenvolvimento &\textbf{Nenhuma} \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo DFCT 2 & \cellcolor[gray]{0.6}
-  Gerenciar as contribuições, \textit{commits}, e relatórios de erros
-  & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática DFCT 2.2 &
-  \cellcolor[gray]{0.9}
-  Criar um sistema de armazenamento de defeitos fechados & \\
-  \hline \multirow{4}{*}{Procurar} & Contribuições de código de uma
-  única fonte podem ser facilmente recuperadas e visualizadas &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Relatórios de erros podem ser facilmente recuperados e
-  visualizados &\textbf{Nenhuma} \\
-  \cline{2-3} & Contribuições na documentação podem ser facilmente
-  recuperadas e visualizada &\textbf{Nenhuma} \\
-  \cline{2-3} & Todas as contribuições podem ser buscadas por
-  diferentes critérios como: tópico, nome do arquivo de código de
-  fonte, autor, distribuição do projeto, data da contribuição,
-  conjunto completo de mudanças subsequentes da contribuição
-  &\textbf{Nenhuma} \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo DFCT 3 & \cellcolor[gray]{0.6}
-  Melhorar o ambiente de contribuição & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática DFCT 3.1 &
-  \cellcolor[gray]{0.9} Encorajar usuários a contribuir mais com
-  privilégios que eles podem
-  obter & \\
-  \hline \multirow{2}{*}{Procurar} & Garantir que usuários tenham uma
-  forma apropriada de acessar o sistema de gestão de código fonte &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Garantir que os usuários tenham privilégios de voto na
-  comunidade & \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática DFCT 3.2 &
-  \cellcolor[gray]{0.9}
-  Medir o nível de satisfação dos usuários & \\
-  \hline \multirow{4}{*}{Procurar} & Medir o nível de satisfação dos
-  usuários com relação ao mecanismo de relatório de erros &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Medir o nível de satisfação dos usuários com relação
-  ao mecanismo de contribuição do código fonte &\textbf{Nenhuma} \\
-  \cline{2-3} & Medir o nível de satisfação dos usuários com relação
-  ao mecanismo de sugestão de novas funcionalidades &\textbf{Nenhuma}
-  \\
-  \cline{2-3} & Medir o nível de satisfação dos usuários com relação
-  ao mecanismo de contribuição de documentação &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática DFCT 3.3 &
-  \cellcolor[gray]{0.9} Melhorar o tempo de resposta da comunidade ao
-  envio de um relatório
-  de erro & \\
-  \hline \multirow{3}{*}{Procurar} & Melhorar o tempo de resposta
-  relacionado a resolver defeitos & \textbf{Nenhuma} \\
-  \cline{2-3} & Melhorar o tempo de resposta relacionado a
-  implementação de sugestão de novas funcionalidades &\textbf{Nenhuma} \\
-  \cline{2-3} & Melhorar o tempo de resposta relcionado à inclusão de
-  código fonte em novas versões &\textbf{Nenhuma} \\
-  \hline
-\end{longtable}
+Uma das críticas comuns à Programação Extrema é que não se cria
+nenhuma documentação sobre o sistema. Para abordar esse assunto, é
+importante notar que existem dois tipos diferentes de documentação
+conforme descrito no Objetivo PDOC 1 do OMM. A documentação para
+desenvolvedores e a documentação para usuários.
 
-\begin{longtable}{|p{2cm}|p{7cm}|p{7cm}|}
-  \caption{Mapeamento de práticas relacionadas à manutenabilidade e
-    estabilidade necessárias no OMM com programação extrema} \\
-  \multicolumn{3}{|c|}{\cellcolor[gray]{0.6} Manutenabilidade e
-    Estabilidade}\\
-  \endhead
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo MST 1 & \cellcolor[gray]{0.6}
-  Planejar para qualidade do produto (requisitos não-funcionais) &
-  Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática MST 1.1 & \cellcolor[gray]{0.9}
-  Garantir que projeto e código são estáveis e podem ser mantidos
-  (i.e. através de melhores práticas) &
-  \\
-  \hline \multirow{5}{*}{Procurar} & O projeto conduz testes de
-  estabilidade regularmente &\textbf{Nenhuma} \\
-  \cline{2-3} & O projeto tem uma arquitetura bem definida / estável
-  &\textbf{Nenhuma} \\
-  \cline{2-3} & Completude de módulos e contribuições individuais são
-  testadas no projeto &\textbf{Nenhuma} \\
-  \cline{2-3} & Consistência de módulos e contribuições individuais
-  são testadas no projeto &\textbf{Nenhuma} \\
-  \cline{2-3} & Confiabilidade de módulos e do projeto como um todo
-  são testadas no projeto &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática MST 1.2 & \cellcolor[gray]{0.9}
-  Conduzir testes de estabilidade em diferentes sistemas de
-  \textit{hardware} e
-  software & \\
-  \hline \multirow{5}{*}{Procurar} & Conduzir testes em diferentes
-  sistemas operacionais (Linux, Windows, MAC, Solaris, BSD etc) &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Conduzir testes usando diferentes compiladores
-  &\textbf{Nenhuma} \\
-  \cline{2-3} & Conduzir testes usando diferentes \textit{hardware}
-  (diferentes configurações de computadores pessoais, dispositivos
-  móveis, computadores Macintosh etc) &\textbf{Nenhuma} \\
-  \cline{2-3} & Conduzir testes usando diferentes configurações de
-  software necessárias para o funcionamento do produto
-  &\textbf{Nenhuma} \\
-  \cline{2-3} & Conduzir testes usando diferentes funcionalidades de
-  software e/ou \textit{hardware} &\textbf{Nenhuma} \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo MST 2 & \cellcolor[gray]{0.6}
-  Planejar para qualidade do processo (estabilidade do processo de
-  desenvolimento - conformidade a abordagens padrão de
-  desenvolvimento) & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática MST 2.1 &
-  \cellcolor[gray]{0.9} Medir objetivos atingidos pelo projeto & \\
-  \hline \multirow{5}{*}{Procurar} & Evolução ao longo do tempo &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Número de objetivos atingidos sobre número total de
-  objetivos & \textbf{Nenhuma} \\
-  \cline{2-3} & Proporção de recomendações implementadas desde uma
-  revisão importante anterior (i.e. atualizações grandes ou revisões
-  para ISO 9001, CMMI) & \textbf{Nenhuma} \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo MST 3 & \cellcolor[gray]{0.6}
-  Gerenciar o processo de manutenabilidade & Prática de Programação
-  Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática MST 3.1 & \cellcolor[gray]{0.9}
-  Forçar a boa manutenabilidade do software dentro do processo de
-  desenvolvimento & \\
-  \hline \multirow{8}{*}{Procurar} & Definir objetivos de
-  manutenabilidade & \textbf{Nenhuma} \\
-  \cline{2-3} & Delegar a autoridade com relação ao processo de
-  manutenção a um grupo de desenvolvedores  &\textbf{Nenhuma} \\
-  \cline{2-3} & Separar o trabalho de manutenabilidade de versões
-  antigas do produto do trabalho da versão atual do produto
-  &\textbf{Nenhuma} \\
-  \cline{2-3} & Prover ferramentas para o processo de manutenção
-  (listas de email, fóruns, páginas \textit{web} separados)
-  &\textbf{Nenhuma} \\
-  \cline{2-3} & Verificar o número de documentos de diretrizes
-  &\textbf{Nenhuma} \\
-  \cline{2-3} & Verificar a presença do documento de recomendações
-  de desenvolvimento &\textbf{Nenhuma} \\
-  \cline{2-3} & Verificar a presença e qualidade / robustez do
-  documento de planejamento &\textbf{Nenhuma} \\
-  \cline{2-3} & Verificar a presença de diretrizes de fluxo de
-  trabalho (verificação, testes, manutenção...) &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática MST 3.2 \textbf{(Não
-    obrigatória)} & \cellcolor[gray]{0.9} Manter as versões mais
-  usadas de versões
-  antigas do processo (documentos) & \\
-  \hline \multirow{2}{*}{Procurar} & O número de versões antigas que
-  são ativamente mantidas é grande & \textbf{Nenhuma} \\
-  \cline{2-3} & A duração para a qual versões antigas do produto são
-  mantidas é grande (até dois anos) &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática MST 3.3 & \cellcolor[gray]{0.9}
-  Avaliar a interoperabilidade e
-  compatibilidade de versões antigas e novas do produto & \\
-  \hline \multirow{1}{*}{Procurar} & & \\
-  \hline
-\end{longtable}
+A prática de Desenvolvimento Dirigido por Testes (TDD - \textit{Test
+  Driven Development}) e sua complementação Desenvolvimento Dirigido
+por Comportamento (BDD - \textit{Behavior Driven Development} são
+práticas de \textit{design} mas possuem o efeito colateral de prover
+diversos exemplos de uso do código criado. A ideia do BDD separa o
+teste no sentido de verificação de entrada e saída do comportamento
+desejado com aquele teste graças ao uso consciente de nomes de testes
+que descrevam o comportamento desejado.
 
-\begin{longtable}{|p{2cm}|p{7cm}|p{7cm}|}
-  \caption{Mapeamento de práticas relacionadas à gestão de
-    configuração necessárias no OMM com programação extrema} \\
-  \multicolumn{3}{|c|}{\cellcolor[gray]{0.6} Gestão de Configuração}\\
-  \endhead
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo CM 1 & \cellcolor[gray]{0.6}
-  Estabelecer linhas de base &
-  Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática CM 1.1 & \cellcolor[gray]{0.9}
-  Identificar Itens de Configuração &
-  \\
-  \hline \cellcolor[gray]{0.9} Prática CM 1.2 & \cellcolor[gray]{0.9}
-  Estabelecer um Sistema de Gestão de Configuração &
-  \\
-  \hline \multirow{3}{*}{Procurar} & Sistema de gestão de
-  configuração com produtos de trabalho controlado  &\textbf{Nenhuma} \\
-  \cline{2-3} & Procedimentos de controle de acesso ao sistema de
-  gestão de configuração
-  &\textbf{Nenhuma} \\
-  \cline{2-3} & Banco de dados de pedidos de mudança
-  &\textbf{Nenhuma} \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo CM 2 & \cellcolor[gray]{0.6}
-  Acompanhar e controlar mudanças &
-  Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática CM 2.1 &
-  \cellcolor[gray]{0.9} Acompanhar Pedidos de Mudança & \\
-  \hline \multirow{1}{*}{Procurar} & Pedidos de mudança &
-  \textbf{Nenhuma} \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo CM 3 &
-  \cellcolor[gray]{0.6} Estabelecer Integridade & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática CM 3.1 &
-  \cellcolor[gray]{0.9} Estabelecer Registros de Gestão de Configuração & \\
-  \hline \multirow{5}{*}{Procurar} & Histórico de revisões dos itens
-  de configuração & \textbf{Nenhuma} \\
-  \cline{2-3} & Registro de mudanças & \textbf{Nenhuma} \\
-  \cline{2-3} & Cópias dos pedidos de mudança & \textbf{Nenhuma} \\
-  \cline{2-3} & Status dos itens de configurações & \textbf{Nenhuma}
-  \\
-  \cline{2-3} & Diferenças entre linhas de base & \textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática CM 3.2 \textbf{(Não
-    importante)} &
-  \cellcolor[gray]{0.9} Realizar Auditorias de Configuração & \\
-  \hline \multirow{2}{*}{Procurar} & Resultados de auditorias de
-  configuração & \textbf{Nenhuma} \\
-  \cline{2-3} & Itens de ação abertos  &\textbf{Nenhuma} \\
-  \hline
-\end{longtable}
+Diversas ferramentas de BDD (como
+JBehave\footnote{\url{http://jbehave.org/} - Último acesso
+  29/09/2010}, RSpec\footnote{\url{http://rspec.info/} - Último acesso
+  29/09/2010} e
+DocTest\footnote{\url{http://docs.python.org/library/doctest.html} -
+  Último acesso 29/09/2010}) possuem relatórios de execução que
+produzem saídas em formato de documentos. Esses relatórios apresentam
+descrições de como os módulos do sistema funcionam de acordo com os
+testes que foram escritos para eles. Dessa forma, não somente o
+sistema ganha uma documentação estensa, como também existe a garantia
+que esta documentação será mantida atualizada ou pelo menos informará
+que o sistema mudou com relação a ela.
 
-\begin{longtable}{|p{2cm}|p{7cm}|p{7cm}|}
-  \caption{Mapeamento de práticas relacionadas a planejamento de
-    projeto necessárias no OMM com programação extrema} \\
-  \multicolumn{3}{|c|}{\cellcolor[gray]{0.6} Planejamento de Projeto 1}\\
-  \endhead
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo PP1 1 & \cellcolor[gray]{0.6}
-  Estabelecer estimativas &
-  Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática PP1 1.1 & \cellcolor[gray]{0.9}
-  Estimar o Escopo do Projeto &
-  \\
-  \hline \multirow{3}{*}{Procurar} & Descrições de tarefas  &\textbf{Nenhuma} \\
-  \cline{2-3} & Descrições dos pacotes de trabalho &\textbf{Nenhuma} \\
-  \cline{2-3} & Estruturas de divisão de trabalho &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática PP1 1.2 \textbf{(Não
-    obrigatório)} & \cellcolor[gray]{0.9} Estabelecer Estimativas de
-  Atributos de Produto de Trabalho e Tarefas & \\
-  \hline \multirow{4}{*}{Procurar} & Abordagem técnica &\textbf{Nenhuma} \\
-  \cline{2-3} & Tamanho e complexidade de tarefas e produtos de
-  trabalho
-  &\textbf{Nenhuma} \\
-  \cline{2-3} & Modelos de estimativas &\textbf{Nenhuma} \\
-  \cline{2-3} & Estimativas de atributos &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática PP1 1.3 \textbf{(Não
-    obrigatório)} & \cellcolor[gray]{0.9}
-  Definir o Ciclo de Vida do Projeto & \\
-  \hline \multirow{1}{*}{Procurar} & Fases de ciclo de vida do projeto &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática PP1 1.4 \textbf{(Não
-    obrigatório)} & \cellcolor[gray]{0.9}
-  Determinar estimativas de Esforço / Custo & \\
-  \hline \multirow{3}{*}{Procurar} & Racionalidade de estimações /
-  assunções para estimativas &\textbf{Nenhuma} \\
-  \cline{2-3} & Estimativas do esforço do projeto &\textbf{Nenhuma} \\
-  \cline{2-3} & Estimativas do custo do projeto &\textbf{Nenhuma} \\
-  \hline
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo PP1 2 & \cellcolor[gray]{0.6}
-  Desenvolver um plano de projeto & Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática PP1 2.1 \textbf{(Não
-    obrigatório)} & \cellcolor[gray]{0.9} Estabelecer o Orçamento e
-  Cronograma ou
-  planejamento de versões & \\
-  \hline \multirow{3}{*}{Procurar} & Cronogramas do projeto &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Dependências do cronograma &\textbf{Nenhuma} \\
-  \cline{2-3} & Orçamento do projeto &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática PP1 2.2 \textbf{(Não
-    obrigatório)} &
-  \cellcolor[gray]{0.9} Identificar Riscos de Projeto & \\
-  \hline \multirow{3}{*}{Procurar} & Riscos Identificados &
-  \textbf{Nenhuma} \\
-  \cline{2-3} & Impactos dos riscos e probabilidade de ocorrência &\textbf{Nenhuma} \\
-  \cline{2-3} & Prioridades de riscos &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática PP1 2.3 \textbf{(Não
-    obrigatório)} &
-  \cellcolor[gray]{0.9} Planejamento para Recursos do Projeto & \\
-  \hline \multirow{6}{*}{Procurar} & Pacotes de trabalho para
-  estrutura de divisão de trabalho & \textbf{Nenhuma} \\
-  \cline{2-3} & Dicionário de tarefas para
-  estrutura de divisão de trabalho &\textbf{Nenhuma} \\
-  \cline{2-3} & Necessidade de pessoal baseada no tamanho e escopo do
-  projeto &\textbf{Nenhuma} \\
-  \cline{2-3} & Lista de locais/equipamentos críticos &\textbf{Nenhuma} \\
-  \cline{2-3} & Definições e diagramas de processos/fluxos de trabalho
-  &\textbf{Nenhuma} \\
-  \cline{2-3} & Lista de requisitos para administração do programa
-  &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática PP1 2.4 \textbf{(Não
-    obrigatório)} &
-  \cellcolor[gray]{0.9} Planejamento para habilidades e conhecimentos necessários & \\
-  \hline \multirow{3}{*}{Procurar} & Lista de habilidades necessárias
-  e disponíveis & \textbf{Nenhuma} \\
-  \cline{2-3} & Equipe e planos de novas contratações &\textbf{Nenhuma} \\
-  \cline{2-3} & Bancos de dados (i.e. habilidades e trainamentos) &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática CM 2.5 \textbf{(Não
-    obrigatório)} &
-  \cellcolor[gray]{0.9} Planejamento do Envolvimento das Partes Interesadas & \\
-  \hline \multirow{2}{*}{Procurar} & Plano de envolvimento das partes
-  interesadas & \textbf{Nenhuma} \\
-  \cline{2-3} & Nível de envolvimento (i.e. presença física,
-  participação
-  \textit{online} ou por telefone, apenas informado) & \textbf{Nenhuma} \\
-  \hline
-\end{longtable}
+Dessa forma, a prática de TDD/BDD ajuda a atingir o objetivo descrito
+pela Prática PDOC 1.1 que exige a criação de uma documentação para
+desenvolvedores. Caso o relatório de documentação seja gerado
+automaticamente na construção do projeto, essa prática também ajuda a
+atingir o objetivo PDOC 3 que pede que a documentação seja melhorada
+com o produto.
 
-\begin{longtable}{|p{2cm}|p{7cm}|p{7cm}|}
-  \caption{Mapeamento de práticas relacionadas à gestão de requisitos
-    necessárias no OMM com programação extrema} \\
-  \multicolumn{3}{|c|}{\cellcolor[gray]{0.6} Gestão de Requisitos}\\
-  \endhead
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo REQM 1 & \cellcolor[gray]{0.6}
-  Gerenciar requisitos &
-  Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática REQM 1.1 & \cellcolor[gray]{0.9}
-  Obtenha um Entendimento dos Requisitos &
-  \\
-  \hline \multirow{4}{*}{Procurar} & Listas dos critérios para
-  distinguir provedores de requisitos apropriados  &\textbf{Nenhuma} \\
-  \cline{2-3} & Critérios para avaliação e aceitação dos requisitos &\textbf{Nenhuma} \\
-  \cline{2-3} & Resultados de análises com relação a um critério
-  &\textbf{Nenhuma} \\
-  \cline{2-3} & Um conjunto de requisitos acordado &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática REQM 1.2 \textbf{(Não
-    obrigatório)} & \cellcolor[gray]{0.9} Obter Compromisso aos Requisitos & \\
-  \hline \multirow{2}{*}{Procurar} & Avaliação do impacto dos requisitos &\textbf{Nenhuma} \\
-  \cline{2-3} & Compromissos aos requisitos e mudanças aos requisitos
-  documentados  &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática REQM 1.3 & \cellcolor[gray]{0.9}
-  Gerenciar Mudanças de Requisitos & \\
-  \hline \multirow{3}{*}{Procurar} & Status de requisitos
-  &\textbf{Nenhuma} \\
-  \cline{2-3} & Banco de dados de requisitos  &\textbf{Nenhuma} \\
-  \cline{2-3} & Banco de dados de decisões relativas aos requisitos
-  &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática REQM 1.4 \textbf{(Não
-    importante)} & \cellcolor[gray]{0.9}
-  Identificar Inconsistências entre o Plano de Projeto (i.e. Estrutura
-  de Divisão de Trabalho) e Requisitos & \\
-  \hline \multirow{3}{*}{Procurar} & Documentação de inconsistências
-  incluindo fontes, condições, e base racional&\textbf{Nenhuma} \\
-  \cline{2-3} & Ações corretivas para reconciliar as inconsistências
-  &\textbf{Nenhuma} \\
-  \hline
-\end{longtable}
+Ainda com relação à área de Documentação (PDOC), a prática PDOC 1.3
+que pede pela criação de documentações genéricas do produto pode ser
+cumprida com a realizaçao do planejamento da iteração e a coleta de
+seus resultados em uma ferramenta online (como
+XPlanner\footnote{\url{http://xplanner.org/} - Último acesso em
+  29/09/2010},
+Mingle\footnote{\url{http://studios.thoughtworks.com/mingle-agile-project-management}
+  - Último acesso em 29/09/2010},
+Calopsita\footnote{\url{http://calopsitaproject.com/} - Último acesso
+  em 29/09/2010} etc). Dessa forma, a documentação do que foi planejado em
+cada fase do produto assim como o andamento até o momento naquela fase
+é atualizado automaticamente conforme os desenvolvedores completam
+suas tarefas.
 
-\begin{longtable}{|p{2cm}|p{7cm}|p{7cm}|}
-  \caption{Mapeamento de práticas relacionadas ao planejamento
-    necessárias no OMM com programação extrema} \\
-  \multicolumn{3}{|c|}{\cellcolor[gray]{0.6} Planejamento 1}\\
-  \endhead
-  & & \\
-  \hline \cellcolor[gray]{0.6} Objetivo RDMP1 1 & \cellcolor[gray]{0.6}
-  Planejar o plano do product &
-  Prática de Programação Extrema \\
-  \hline \cellcolor[gray]{0.9} Prática RDMP 1.1 & \cellcolor[gray]{0.9}
-  Definir responsabilidade para o plano &
-  \\
-  \hline \multirow{1}{*}{Procurar} & Definir a responsabilidade dos
-  desenvolvedores envolvidos na definição e gestão do plano  &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática RDMP 1.2 \textbf{(Não
-    obrigatório)} & \cellcolor[gray]{0.9} Garantir que o plano inclua
-  planos para pelo menos as duas próximas grandes versões / lançamentos & \\
-  \hline \multirow{6}{*}{Procurar} & Detalhes para diferentes aspectos
-  do desenvolvimento (erros, problemas, funcionalidades, lançamentos
-  etc) &\textbf{Nenhuma} \\
-  \cline{2-3} & O plano é preparado para um período maior que um ano &\textbf{Nenhuma} \\
-  \cline{2-3} & O plano contem uma descrição detalhada das novas
-  funcionalidades  &\textbf{Nenhuma} \\
-  \cline{2-3} & Os elementos do plano são bem descritos indicando
-  também sua importância para versões futuras do produto
-  &\textbf{Nenhuma} \\
-  \cline{2-3} & O plano contem um planejamento de versões para o
-  produto &\textbf{Nenhuma} \\
-  \hline \cellcolor[gray]{0.9} Prática RDMP1 1.3 & \cellcolor[gray]{0.9}
-  Garantir diferentes tipos de lançamentos (menor, maior, etc) & \\
-  \hline \multirow{2}{*}{Procurar} & Verificar a frequência de
-  lançamentos maiores &\textbf{Nenhuma} \\
-  \cline{2-3} & Verificar a frequência de lançamentos menores (correções
-  de erros)  &\textbf{Nenhuma} \\
-  \hline
-\end{longtable}
+\subsubsection{Uso de Padrões Estabelecidos e Adotados (STD)}
+\label{sec:+std}
+
+Apesar de Kent Beck não mencionar nenhuma prática com relação às
+ferramentas usadas no desenvolvimento dos projetos, as práticas de
+Código Compartilhado e de \textit{Design} Simples encorajam o
+desenvolvimento de aplicações para as quais é fácil um desenvolvedor
+participar ativamente do desenvolvimento de um projeto em pouco
+tempo. Sendo assim, o uso de padrões abertos amplamente difundidos e
+utilizados reduz a necessidade de treinamento.
+
+Portanto, pode-se argumentar que a adesão a padrões abertos no produto
+é uma prática que apoia as práticas de Código Compartilhado e
+\textit{Design} Simples e, ao mesmo tempo, é apoiada por elas.
+
+Além disso, a adoção de Programação Extrema é compatível com o
+Objetivo STD 2 - Adotar processos de desenvolvimento padrões - já que
+Programação Extrema é um processo aberto e livre.
+
+\subsubsection{Qualidade do Processo de Testes (QTP)}
+\label{sec:+qtp}
+
+Novamente, a prática de TDD/BDD e suas variações como Desenvolvimento
+Dirigido por Testes de Aceitação (ATDD - \textit{Acceptance Test
+  Driven Development}), apesar de serem técnicas essencialmente ligadas
+ao \textit{design} do projeto, tem como efeito colateral a criação e
+manutenção de testes em vários nível (Testes de unidade, de integração
+e de sistema ou integração de sistema dependendo do objetivo do
+projeto). Dessa forma, o uso conjunto de TDD, BDD e ATDD permite
+atingir o Objetivo QTP 1 (Prover um plano de alta qualidade de testes)
+já que o plano é a descrição e implementação dos testes logo antes da
+realização da funcionalidade e decorre diretamente do plano de desenvolvimento.
+
+Também cobre-se o Objetivo QTP 2 (Implementar o gerir o processo de
+testes) com essas práticas de XP já que o desenvolvimento e execução
+dos testes é garantida antes, durante e após a implementação das
+funcionalidades associadas. A prática de Integração
+Contínua contribui para o Objetivo QTP 2 ao garantir que os testes são
+realizados frequentemente a cada modificação da base de código
+garantindo \textit{Feedback} imediato do trabalho necessário.
+
+TDD/BDD e ATDD também garantirão que o Objetivo QTP 3 (Melhorar o
+processo de testes) será atingido já que forçam o desenvolvedor a
+incluir um teste antes de realizar qualquer mudança no código do
+sistema. Dessa forma, correções de erros, inclusões de funcionalidades
+ou melhorias de desempenho são capturadas em testes automatizados e
+garantem a adequação do futuro do projeto a essas decisões.
+
+\subsubsection{Ambiente (ENV)}
+\label{sec:+env}
+
+As práticas de Código Compartilhado, Repositório Único de Código e
+Integração Contínua exigem uma organização do projeto de forma a
+facilitar ao máximo a reprodução do ambiente de desenvolvimento e de
+produção.
+
+Desta forma, o repositório único de código deveria conter todos os
+arquivos necessários para construir e rodar os testes automatizados do
+sistema. Sendo assim, tratam-se vários pontos apontados pelo Objetivo
+ENV 1 (Planejar o desenvolvimento de recursos e infra-estrutura) já
+que basta saber qual o repositório único de código para conseguir
+montar um ambiente de contribuição ao projeto.
+
+A prática de Código Compartilhado exige uma padronização no estilo de
+escrita de código e de teste que deve ser compartilhado por
+todos. Sendo assim, os arquivos descrevendo essas padronizações devem
+estar sob controle de versão no repositório único de código de forma a
+serem obtidos por qualquer contribuidor.
+
+Por fim, a prática de Integração Contínua exige um sistema automático
+para obtenção do código, instalação do mesmo num ambiente limpo e
+execução dos testes automatizados do projeto. Porém, para que seja possível
+montar esse tipo de ambiente automaticamente, é necessário que a
+descrição e configuração do ambiente de produção esteja incluída nessa
+ferramenta de Integração Contínua servindo tanto de exemplo quanto de
+documentação.
+
+\subsubsection{Número de \textit{commits} e relatório de defeitos
+  (DFCT)}
+\label{sec:+dfct}
+
+A prática de Repositório Único de Código exige o uso de uma ferramenta
+de controle de versão. Essa ferramenta permite manter o histórico de
+qualquer alteração realizada nos arquivos sob controle de
+versão. Dessa forma, é muito fácil obter qual o número de
+\textit{commits} realizados e o que cada \textit{commit} procurava
+resolver.
+
+Com relação ao relatório de defeitos, a prática de Histórias exige que
+qualquer mudança que precisa ser realizada no projeto passe pela
+escrita de uma História. Sendo assim, qualquer relatório de defeito
+pode ser apresentado na forma de uma tarefa que precisa ser realizada
+e descrita como uma História. Dessa forma, relatar um defeito é
+equivalente a escrever uma história e inserí-la no conjunto de
+histórias do projeto.
+
+O uso de ferramentas para gestão de projeto online (como as citadas na
+Seção \ref{sec:+pdoc}) permite que o cadastro dessas histórias seja
+realizado de forma simples e direto. A forma de contribuir com
+alterações de código ou documentação relacionados a uma determinada
+história varia um pouco de acordo com o sistema de controle de versões
+usado. Em ferramentas para controle de versão distribuídas, a melhor
+forma de contribuir com sugestões de mudanças é apenas incluir um
+\textit{link} para o controle de versão com as mudanças. Numa
+ferramenta de controle de versão tradicional, o melhor seria gerar um
+arquivo com as diferenças entre o código original e o código
+alterado. De qualquer forma, incluir essas sugestões é tão simples
+quanto anexar um arquivo ou incluir um \textit{link}.
+
+Dessa forma, cobre-se o Objetivo DFCT 1 ao prover uma forma
+padronizada e simples de contribuir com o projeto. O uso de uma
+ferramenta de controle de versão atualizada (como pede a prática
+Repositório Único de Código) também ajuda a atingir o Objetivo DFCT 2
+que exige uma gestão das contribuições, \textit{commits} e relatórios
+de erros.
+
+\subsubsection{Manutenabilidade e Estabilidade (MST)}
+\label{sec:+mst}
+
+As práticas de Refatoração e Programação em Pares são essenciais em XP
+para reduzir o número de defeitos inseridos no código mas também para
+garantir que o código da aplicação mantém-se legível e mais simples de
+manter. Um dos estudos mais reconhecidos sobre Programação em Pares
+\cite{Williams2000} mostra que o uso de Programação em Pares reduz a
+quantidade de defeitos, melhora a qualidade do \textit{design} e
+distribui conhecimento técnico. Já a Refatoração \cite{Refac01} é uma
+prática cujo objetivo é melhor a manutenabilidade de um determinado
+código sem alterar sua funcionalidade.
+
+Essas duas práticas aliadas ajudam a cumprir o Objetivo MST 1 que
+requer um planejamento para qualidade do produto em termos de
+requisitos não-funcionais. Adicionando a prática de Código e Teste é
+possível garantir também que o sistema se comporta como esperado em
+diversos ambientes (\textit{hardware} e software).
+
+Já a prática de Retrospectiva aliada com a prática de Análise de Causa
+Inicial irão permitir atingir o Objetivo MST 2 que procura melhorar a
+qualidade do processo do projeto. A ideia da prática de Retrospectiva
+\cite{Derby2006} é usar técnicas de identificação de problemas ou
+pontos de melhoria e coleta de sugestões de mudanças para realizar
+essas melhoras. Já a Análise de Causa Inicial permite resolver não
+apenas os problemas superficiais mas também os problemas que são
+fontes de problemas superficiais.
+
+Por fim, a prática de Integração Contínua aliada com a de TDD/BDD vai
+permitir atingir o Objetivo MST 3 que pede para gerenciar o processo
+de manutenabilidade. Essa gestão se dará com os resultados da
+construção e execução dos testes realizados a cada mudança no
+Repositório Único de Código. Esses resultados apresentam o
+\textit{commit} exato que retirou uma determinada funcionalidade ou
+interface de programação.
+
+\subsubsection{Gestão de Configuração (CM)}
+\label{sec:+cm}
+
+A prática de Código Compartilhado pede que qualquer desenvolvedor do
+sistema tenha o direito e a possibilidade de alterar qualquer trecho
+de código independente de quem foi o autor desse trecho ou quando ele
+foi criado. Para que isso seja possível, o projeto deve estabelecer
+padrões de estrutura de arquivos, formatação usada além de estilo de
+nomenclatura e outros itens que permitem uma integridade conceitual
+para o código do projeto.
+
+Esses padrões iniciais estabelecem uma configuração padrão para
+qualquer desenvolvedor e podem ser integrados ao sistema de controle
+de versão do Repositório Único de Código para garantir a gestão e
+distribuição desses arquivos de forma consistente. Esses arquivos
+contribuem com o Objetivo CM 1 que pede o estabelecimento de linhas de
+base para o desenvolvimento do produto.
+
+As práticas de História e de Ciclos (Semanais e de Estação) permitem
+também manter um acompanhamento de quando as histórias são criadas e
+quando elas são planejadas para serem desenvolvidas. Manter o
+histórico dessas histórias e ciclos permite atingir o Objetivo CM 2 de
+acompanhar e controlar mudanças às configurações do projeto.
+
+\subsubsection{Planejamento de Projeto 1 (PP1)}
+\label{sec:+pp1}
+
+A prática de Jogo do Planejamento pede que a equipe de desenvolvimento
+trabalhe com o cliente ou usuário do sistema e decide qual será o
+trabalho a ser realizado no próximo Ciclo Semanal. Durante essa
+reunião, o usuário define quais são as histórias que precisam ser
+realizadas com maior prioridade. Seguindo essa ordem de prioridades,
+os desenvolvedores pensam sobre a dificuldade para realizar aquela
+história considerando suas experiências passadas e estimando
+comparativamente. Dessa forma, estabelecem-se estimativas para as
+histórias mais importantes até que o cliente consiga escolher um
+conjunto de histórias que preenche o Ciclo Semanal.
+
+Dessa forma, ao final de um Jogo do Planejamento, o projeto tem uma
+estimativa para o escopo a ser realizado durante aquele ciclo, o
+esforço/custo e duração para realização dessas tarefas e uma
+estimativa crua de tarefas futuras. Essas estimativas ajudam a atingir
+o Objetivo PP1 1 que pede o estabelecimento de estimativas.
+
+O Jogo do Planejamento ainda diz que as histórias que forem
+consideradas de maior valor de negócio e de maior risco são as que tem
+maior prioridade no desenvolvimento. Dessa forma, a equipe precisa
+informar junto com a estimativa da história qual o risco técnico associado com
+aquela história e o cliente deve saber o risco de negócios
+relacionado. Com essas duas informações, o plano de desenvolvimento do
+projeto decorre da regra de sempre trabalhar nas histórias de maior
+risco e maior valor existente atualmente. Dessa forma, caso o projeto
+encontre um grande problema, isso acontecerá cedo no processo.
+
+Esse planejamento de desenvolvimento do projeto é o Objetivo PP1 2 que
+corresponde ao Ciclo de Estação do Produto.
+
+\subsubsection{Gestão de Requisitos (REQM)}
+\label{sec:+reqm}
+
+A prática de Histórias consiste em coletar de forma concisa e curta uma
+necessidade do ponto de vista de negócio para o projeto. Essa história
+é inicialmente apresentada como uma descrição muito curta e muito
+simples mas é associada com a pessoa que a requisitou. Dessa forma,
+caso essa história seja escolhida para o Ciclo Semanal, os
+desenvolvedores tem a possibilidade de obter mais informações sobre o
+trabalho a ser realizado. As reuniões do Jogo do Planejamento permitem
+revisar e atualizar essas histórias de forma a garantir a gestão com
+relação às mudanças nos requisitos descritos pela história. Com isso,
+é possível cumprir o Objetivo REQM 1 que pede uma gestão de
+requisitos.
+
+Em resumo, as seguintes práticas de Programação Extrema foram
+associadas aos seguintes elementos essenciais do OMM:
+
+%TODO Trocar por uma tabela com checks (linhas são práticas e colunas
+%são elementos essenciais do OMM)
+\begin{enumerate}
+\item Código Compartilhado
+
+  Relacionada aos elementos essenciais: STD, ENV, MST e CM.
+\item \textit{Design} Simples
+
+  Relacionada aos elementos essenciais: STD.
+\item Repositório Único de Código
+
+  Relacionada aos elementos essenciais: ENV, DFCT, MST e CM.
+\item Integração Contínua
+
+  Relacionada aos elementos essenciais: QTP, ENV, CM e REQM.
+\item Programação em Pares
+
+  Relacionada aos elementos essenciais: STD e MST.
+\item Código e Teste
+
+  Relacionada aos elementos essenciais: QTP e MST.
+\item TDD
+
+  Relacionada aos elementos essenciais: PDOC, QTP, DFCT e MST.
+\item Refatoração
+
+  Relacionada aos elementos essenciais: ENV e MST.
+\item Ciclo Semanal
+
+  Relacionada aos elementos essenciais: PP1 e CM.
+\item Ciclo de Estação
+
+  Relacionada aos elementos essenciais: PP1, CM e REQM.
+\item Retrospectiva
+
+  Relacionada aos elementos essenciais: MST.
+\item Análise de Causa Inicial
+
+  Relacionada aos elementos essenciais: MST.
+\item Histórias
+
+  Relacionada aos elementos essenciais: PP1, DFCT, CM e REQM.
+\item Jogo do Planejamento
+
+  Relacionada aos elementos essenciais: PP1 e REQM.
+\end{enumerate}
+
+A Seção a seguir (Seção \ref{sec:xp-omm}) apresenta os elementos
+essenciais e partes de objetivos que não foram atingidos com as
+práticas de XP listadas até agora.
+
+\subsection{Elementos essenciais não cobertos pela Programação Extrema}
+\label{sec:xp-omm}
+
+Os principais elementos que não foram cobertos pelas práticas de XP
+são:
+
+\begin{enumerate}
+\item PDOC - Objetivo 1.2
+
+- Criar uma documentação para usuários
+
+\item PDOC - Objetivo 2
+
+- Criar um a documentação pro produto
+
+\item STD - Objetivo 3
+
+- Garantir independência estratégica do projeto
+
+\item LCS
+
+Toda a parte de Licenças
+
+\item ENV - Objetivo 3
+
+Melhorar o uso de ferramentas livres
+
+\item CM - Objetivo 3
+
+Estabelecer Integridade
+
+\item RDMP1 - Objetivo 1
+
+Planejar o plano do produto
+\end{enumerate}
+
+Com relação ao Item 1, XP defende que a documentação para o usuário
+deve ser incluída como uma História como qualquer outra. Nesse ponto,
+ela é priorizada e incluída no Ciclo Semanal como qualquer outra
+funcionalidade. Sendo assim, o processo não garante que a documentação
+para o usuário será desenvolvida mas garante que, se ela for
+importante, ela será realizada.
+
+Nesse ponto, a melhor opção pode ser incluir a escrita de documentação
+para usuário junto com a história da funcionalidade. Dessa forma,
+garante-se que a História não é aprovada (ou terminada) caso não
+exista essa documentação.
+
+O item 2 cai numa situação similar. Implementar uma documentação
+embutida no produto é uma funcionalidade como outra que deveria ser
+priorizada e incluída no Ciclo Semanal como outras. O ponto a destacar
+é apenas que, uma vez que o sistema estiver desenvolvido, ele deveria
+ser realizado de tal forma que a documentação para o usuário
+refletisse na documentação para o produto em si.
+
+O item 3 é um pouco mais complicado de tratar já que envolve analisar
+cada uma dos padrões para avaliar a chance dele causar uma dependência
+futura. Para conseguir atingir esse objetivo, é necessário incluir
+alguma prática de análise de risco para os componentes usados na
+implementação de cada História.
+
+O item 4 é similar mas em geral terá um peso mais significativo apenas
+no início do projeto. Sendo assim, talvez seja importante dedicar um
+ciclo semanal de preparação e análise do projeto para averiguar as
+possibilidades no quesito de licenças que o projeto aceita.
+
+O item 5 envolve pesquisa em busca de componentes abertos para
+substituir componentes proprietários. Dessa forma, o processo
+precisaria incluir inspeções recorrentes dos componentes e ferramentas
+usadas em busca de alternativas livres.
+
+O item 6 é provavelmente um dos objetivos mais difíceis de
+atingir. Integridade Conceitual é um requisito que já é difícil
+conseguir quando uma única pessoa realiza todo o trabalho. No contexto
+de uma equipe com contribuições externas (como o cenário de software
+livre), transmitir o conceito do projeto é bem complicado. Nesse caso,
+a sugestão seria de incluir pequenas conversas entre os
+usuários/clientes e desenvolvedores gravadas (aúdio e vídeo)
+disponíveis na página \textit{Internet} do projeto.
+
+O item 7 pode ser obtido ao estabelecer uma cadência para os ciclos de
+estação e realizar Jogos do Planejamento em vários níveis ao final de
+cada estação. XP defende que esse tipo de planejamento a longo prazo
+deveria ser realizado apenas num nível bem geral para permitir
+mudanças que ocorrerão inevitavelmente.
+
+Sendo assim, a Seção \ref{sec:openagile-em-omm} apresenta uma variação
+de XP que cobre os níveis básicos do OMM com as sugestões anteriores.
 
 \section{Um proposta ágil compatível com o OMM}
 \label{sec:openagile-em-omm}
