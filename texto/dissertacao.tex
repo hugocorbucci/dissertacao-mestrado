@@ -202,7 +202,7 @@ A relação entre métodos ágeis e software livre é, no mínimo,
 indefinida. A princípio, as duas comunidades não parecem ter nenhuma
 relação já que uma representa uma família de metodologias de
 desenvolvimento de software e a outra, uma forma de licenciar código
-fonte de um projeto. Observando com um pouco mais de cuidado
+fonte de um projeto. Observando com um pouco mais de cuidado,
 percebe-se que as comunidades compartilham diversas práticas e,
 aparentemente, as motivações para aplicar tais práticas são
 semelhantes. Esse trabalho estuda essa relação mais a fundo e
@@ -222,7 +222,7 @@ The relationship between agile methods and open source software is, at
 least, undefined. At first glance, the two communities do not seem to
 have any relationship since one represents a family of software
 development methodologies and the other, a way to license a project's
-source code. With a more careful observation one can notice that the
+source code. With a more careful observation, one can notice that the
 communities share several practices and appear to be motivated by the
 same reasons. This work studies this relationship more deeply and
 presents similarities and differences between the two
@@ -240,13 +240,15 @@ and processes in both environments.
 % Listas: abreviaturas, símbolos, figuras e tabelas
 
 \chapter{Lista de Abreviaturas}
-\begin{tabular}{ll}
+\begin{tabular}{lp{14cm}}
   SL       & Software Livre.\\
   OSS         & Software de Código Aberto (\emph{Open Source
     Software}).\\
   XP       & Programação Extrema (\emph{Extreme Programming}).\\
   FLOSS       & Software Gratuito, Livre e de Código Aberto
   (\emph{Free, Libre and Open Source Software}).\\
+  OOPSLA       & Linguagens de Programação, Sistemas e Aplicações
+  Orientadas a Objetos (\emph{Object-Oriented Programming Languages, Systems and Applications}).\\
   TDD       & Desenvolvimento Dirigido por Teste
   (\emph{Test Driven Development}).\\
   BDD       & Desenvolvimento Dirigido por Comportamento
@@ -270,7 +272,7 @@ and processes in both environments.
 %\end{tabular}
 
 \listoffigures % lista de Figuras
-%\listoftables % lista de Tabelas
+% \listoftables % lista de Tabelas
 
 % ---------------------------------------------------------------------------- %
 % Capítulos
@@ -291,8 +293,8 @@ and processes in both environments.
 \input cap-conclusoes % associado ao arquivo: 'cap-conclusoes.tex'
 
 % cabecalho para os apêndices
-\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\appendixname\ \thechapter}} {\MakeUppercase{#1}} }
-\fancyhead[RE,LO]{}
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\appendixname\
+      \thechapter}} {\MakeUppercase{#1}} } \fancyhead[RE,LO]{}
 \appendix
 
 \include{ape-pesquisaEA}      % associado ao arquivo: 'ape-pesquisaEA.tex'

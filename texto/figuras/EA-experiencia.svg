@@ -8,7 +8,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   viewBox="0 0 800.45518 600"
+   viewBox="0 0 800 600"
    preserveAspectRatio="xMidYMid"
    id="svg2"
    inkscape:version="0.47 r22583"
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -45,8 +45,8 @@
      id="namedview203"
      showgrid="false"
      inkscape:zoom="0.90599901"
-     inkscape:cx="400.22759"
-     inkscape:cy="275.38661"
+     inkscape:cx="315.56728"
+     inkscape:cy="300.7577"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -228,154 +228,152 @@
      visibility="visible"
      id="Default"
      style="visibility:visible"
-     transform="translate(-4636.8858,-2874.3865)">
+     transform="translate(-4637.6608,-2767.3071)">
     <desc
        id="desc84">Master slide</desc>
   </g>
   <g
-     id="g7433"
-     transform="matrix(0.08956879,0,0,0.08956879,-50.733348,13.469441)">
-    <g
-       id="g7397">
-      <path
-         style="fill:#000000;stroke:none;visibility:visible"
-         d="m 3653,130 -122,2 -121,8 -120,11 -120,17 -119,21 -118,26 -117,30 -116,35 -114,40 -113,44 -111,47 -108,53 -107,57 -104,60 -102,66 -99,68 -97,73 -94,77 -89,80 -88,83 -84,88 -80,89 -77,93 -73,97 -122,181 2615,1623 0,0 0,0 0,0 0,0 0,-3069 z"
-         id="path101" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:11.16460228;visibility:visible"
-         d="m 3653,130 -122,2 -121,8 -120,11 -120,17 -119,21 -118,26 -117,30 -116,35 -114,40 -113,44 -111,47 -108,53 -107,57 -104,60 -102,66 -99,68 -97,73 -94,77 -89,80 -88,83 -84,88 -80,89 -77,93 -73,97 -122,181 2615,1623 0,-3069"
-         id="path105" />
-      <path
-         style="fill:#4c4c4c;stroke:none;visibility:visible"
-         d="m 1038,1576 -95,161 -83,166 -74,171 -63,176 -35,115 -31,117 -26,118 -21,118 -17,119 -11,121 -8,120 -2,120 2,121 8,120 11,121 17,119 21,118 26,118 31,117 35,115 40,114 44,112 48,111 52,108 57,106 61,104 66,101 69,99 73,97 77,93 80,89 84,88 88,83 89,80 94,77 97,73 99,68 102,66 104,60 107,57 108,53 111,47 113,44 114,40 116,35 117,30 118,26 119,22 120,16 120,12 121,8 121,2 121,-2 121,-8 121,-12 119,-16 119,-22 119,-26 116,-30 116,-35 115,-40 112,-44 111,-47 109,-53 106,-57 104,-60 102,-66 100,-68 96,-73 94,-77 90,-80 87,-83 84,-88 80,-89 78,-93 73,-97 45,-65 45,-67 44,-68 41,-69 -2667,-1534 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 -2615,-1623 z"
-         id="path109" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:11.16460228;visibility:visible"
-         d="m 1038,1576 -95,161 -83,166 -74,171 -63,176 -35,115 -31,117 -26,118 -21,118 -17,119 -11,121 -8,120 -2,120 2,121 8,120 11,121 17,119 21,118 26,118 31,117 35,115 40,114 44,112 48,111 52,108 57,106 61,104 66,101 69,99 73,97 77,93 80,89 84,88 88,83 89,80 94,77 97,73 99,68 102,66 104,60 107,57 108,53 111,47 113,44 114,40 116,35 117,30 118,26 119,22 120,16 120,12 121,8 121,2 121,-2 121,-8 121,-12 119,-16 119,-22 119,-26 116,-30 116,-35 115,-40 112,-44 111,-47 109,-53 106,-57 104,-60 102,-66 100,-68 96,-73 94,-77 90,-80 87,-83 84,-88 80,-89 78,-93 73,-97 45,-65 45,-67 44,-68 41,-69 L 3653,3199 1038,1576"
-         id="path113" />
-      <path
-         style="fill:#999999;stroke:none;visibility:visible"
-         d="m 6320,4733 77,-141 70,-145 61,-149 53,-151 35,-115 31,-117 26,-118 22,-118 16,-119 12,-121 8,-120 2,-120 -2,-121 -8,-120 -12,-121 -16,-119 -22,-118 -26,-118 -31,-117 -35,-115 -40,-114 -43,-112 -48,-111 -53,-108 -57,-106 -61,-103 -66,-102 -68,-99 -73,-97 -78,-93 -80,-89 -84,-88 -87,-83 -90,-80 -94,-77 -96,-73 -142,-96 -147,-88 -151,-81 -156,-71 -1214,2820 0,0 0,0 0,0 0,0 0,0 0,0 2667,1534 z"
-         id="path117" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:11.16460228;visibility:visible"
-         d="m 6320,4733 77,-141 70,-145 61,-149 53,-151 35,-115 31,-117 26,-118 22,-118 16,-119 12,-121 8,-120 2,-120 -2,-121 -8,-120 -12,-121 -16,-119 -22,-118 -26,-118 -31,-117 -35,-115 -40,-114 -43,-112 -48,-111 -53,-108 -57,-106 -61,-103 -66,-102 -68,-99 -73,-97 -78,-93 -80,-89 -84,-88 -87,-83 -90,-80 -94,-77 -96,-73 -142,-96 -147,-88 -151,-81 -156,-71 -1214,2820 2667,1534"
-         id="path121" />
-      <path
-         style="fill:#e6e6e6;stroke:none;visibility:visible"
-         d="m 4867,379 -65,-27 -65,-25 -66,-24 -67,-23 -116,-35 -116,-30 -119,-26 -119,-21 -119,-17 -121,-11 -121,-8 -120,-2 0,3069 0,0 0,0 1214,-2820 z"
-         id="path125" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:11.16460228;visibility:visible"
-         d="m 4867,379 -65,-27 -65,-25 -66,-24 -67,-23 -116,-35 -116,-30 -119,-26 -119,-21 -119,-17 -121,-11 -121,-8 -120,-2 0,3069 1214,-2820"
-         id="path129" />
-      <text
-         style="font-size:491px;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="text135">
-        <tspan
-           id="tspan137"
-           y="1106"
-           x="2221 2486"
-           style="fill:#ffffff;fill-opacity:1">15</tspan>
-      </text>
-      <text
-         style="font-size:491px;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="text139">
-        <tspan
-           id="tspan141"
-           y="5581"
-           x="2138 2403"
-           style="fill:#ffffff;fill-opacity:1">47</tspan>
-      </text>
-      <text
-         style="font-size:491px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="text143">
-        <tspan
-           id="tspan145"
-           y="2448"
-           x="5894 6159"
-           style="fill:#000000;fill-opacity:1">25</tspan>
-      </text>
-      <text
-         style="font-size:491px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="text147">
-        <tspan
-           id="tspan149"
-           y="790"
-           x="4112"
-           style="fill:#000000;fill-opacity:1">6</tspan>
-      </text>
-    </g>
-    <g
-       id="g7415">
-      <path
-         style="font-size:491px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="path153"
-         d="m 7436,2095 169,0 0,170 -169,0 0,-170 z" />
-      <path
-         id="path157"
-         d="m 7521,2265 -85,0 0,-170 169,0 0,170 -84,0"
-         style="font-size:491px;font-weight:400;fill:none;stroke:#000000;stroke-width:11.16460228;visibility:visible;font-family:Arial embedded" />
-      <path
-         style="font-size:491px;font-weight:400;fill:#4c4c4c;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="path161"
-         d="m 7436,2404 169,0 0,170 -169,0 0,-170 z" />
-      <path
-         id="path165"
-         d="m 7521,2574 -85,0 0,-170 169,0 0,170 -84,0"
-         style="font-size:491px;font-weight:400;fill:none;stroke:#000000;stroke-width:11.16460228;visibility:visible;font-family:Arial embedded" />
-      <path
-         style="font-size:491px;font-weight:400;fill:#999999;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="path169"
-         d="m 7436,2713 169,0 0,170 -169,0 0,-170 z" />
-      <path
-         id="path173"
-         d="m 7521,2883 -85,0 0,-170 169,0 0,170 -84,0"
-         style="font-size:491px;font-weight:400;fill:none;stroke:#000000;stroke-width:11.16460228;visibility:visible;font-family:Arial embedded" />
-      <path
-         style="font-size:491px;font-weight:400;fill:#e6e6e6;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="path177"
-         d="m 7436,3022 169,0 0,170 -169,0 0,-170 z" />
-      <path
-         id="path181"
-         d="m 7521,3192 -85,0 0,-170 169,0 0,170 -84,0"
-         style="font-size:491px;font-weight:400;fill:none;stroke:#000000;stroke-width:11.16460228;visibility:visible;font-family:Arial embedded" />
-      <text
-         style="font-size:227px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="text187">
-        <tspan
-           id="tspan189"
-           y="2291"
-           x="7703 7888 8021 8153 8285 8391 8444 8576 8708 8761 8894 8947 9079 9211"
-           style="fill:#000000;fill-opacity:1">Menos de 1 ano</tspan>
-      </text>
-      <text
-         style="font-size:227px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="text191">
-        <tspan
-           id="tspan193"
-           y="2580"
-           x="7703 7862 7994 8047 8126 8259 8312 8444 8497 8629 8682 8814 8867 8999 9132 9264"
-           style="fill:#000000;fill-opacity:1">Entre 1 e 5 anos</tspan>
-      </text>
-      <text
-         style="font-size:227px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="text195">
-        <tspan
-           id="tspan197"
-           y="2896"
-           x="7703 7862 7994 8047 8126 8259 8312 8444 8497 8629 8682 8814 8947 8999 9132 9264 9396"
-           style="fill:#000000;fill-opacity:1">Entre 5 e 15 anos</tspan>
-      </text>
-      <text
-         style="font-size:227px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="text199">
-        <tspan
-           id="tspan201"
-           y="3212"
-           x="7703 7888 8021 8073 8179 8232 8364 8497 8550 8682 8814 8867 8999 9132 9264"
-           style="fill:#000000;fill-opacity:1">Mais de 15 anos</tspan>
-      </text>
-    </g>
+     id="g7397"
+     transform="matrix(0.06896797,0,0,0.06896797,-38.949679,79.37148)">
+    <path
+       id="path101"
+       d="m 3653,130 -122,2 -121,8 -120,11 -120,17 -119,21 -118,26 -117,30 -116,35 -114,40 -113,44 -111,47 -108,53 -107,57 -104,60 -102,66 -99,68 -97,73 -94,77 -89,80 -88,83 -84,88 -80,89 -77,93 -73,97 -122,181 2615,1623 0,0 0,0 0,0 0,0 0,-3069 z"
+       style="fill:#000000;stroke:none;visibility:visible" />
+    <path
+       id="path105"
+       d="m 3653,130 -122,2 -121,8 -120,11 -120,17 -119,21 -118,26 -117,30 -116,35 -114,40 -113,44 -111,47 -108,53 -107,57 -104,60 -102,66 -99,68 -97,73 -94,77 -89,80 -88,83 -84,88 -80,89 -77,93 -73,97 -122,181 2615,1623 0,-3069"
+       style="fill:none;stroke:#000000;stroke-width:14.49948311;visibility:visible" />
+    <path
+       id="path109"
+       d="m 1038,1576 -95,161 -83,166 -74,171 -63,176 -35,115 -31,117 -26,118 -21,118 -17,119 -11,121 -8,120 -2,120 2,121 8,120 11,121 17,119 21,118 26,118 31,117 35,115 40,114 44,112 48,111 52,108 57,106 61,104 66,101 69,99 73,97 77,93 80,89 84,88 88,83 89,80 94,77 97,73 99,68 102,66 104,60 107,57 108,53 111,47 113,44 114,40 116,35 117,30 118,26 119,22 120,16 120,12 121,8 121,2 121,-2 121,-8 121,-12 119,-16 119,-22 119,-26 116,-30 116,-35 115,-40 112,-44 111,-47 109,-53 106,-57 104,-60 102,-66 100,-68 96,-73 94,-77 90,-80 87,-83 84,-88 80,-89 78,-93 73,-97 45,-65 45,-67 44,-68 41,-69 -2667,-1534 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 -2615,-1623 z"
+       style="fill:#4c4c4c;stroke:none;visibility:visible" />
+    <path
+       id="path113"
+       d="m 1038,1576 -95,161 -83,166 -74,171 -63,176 -35,115 -31,117 -26,118 -21,118 -17,119 -11,121 -8,120 -2,120 2,121 8,120 11,121 17,119 21,118 26,118 31,117 35,115 40,114 44,112 48,111 52,108 57,106 61,104 66,101 69,99 73,97 77,93 80,89 84,88 88,83 89,80 94,77 97,73 99,68 102,66 104,60 107,57 108,53 111,47 113,44 114,40 116,35 117,30 118,26 119,22 120,16 120,12 121,8 121,2 121,-2 121,-8 121,-12 119,-16 119,-22 119,-26 116,-30 116,-35 115,-40 112,-44 111,-47 109,-53 106,-57 104,-60 102,-66 100,-68 96,-73 94,-77 90,-80 87,-83 84,-88 80,-89 78,-93 73,-97 45,-65 45,-67 44,-68 41,-69 L 3653,3199 1038,1576"
+       style="fill:none;stroke:#000000;stroke-width:14.49948311;visibility:visible" />
+    <path
+       id="path117"
+       d="m 6320,4733 77,-141 70,-145 61,-149 53,-151 35,-115 31,-117 26,-118 22,-118 16,-119 12,-121 8,-120 2,-120 -2,-121 -8,-120 -12,-121 -16,-119 -22,-118 -26,-118 -31,-117 -35,-115 -40,-114 -43,-112 -48,-111 -53,-108 -57,-106 -61,-103 -66,-102 -68,-99 -73,-97 -78,-93 -80,-89 -84,-88 -87,-83 -90,-80 -94,-77 -96,-73 -142,-96 -147,-88 -151,-81 -156,-71 -1214,2820 0,0 0,0 0,0 0,0 0,0 0,0 2667,1534 z"
+       style="fill:#999999;stroke:none;visibility:visible" />
+    <path
+       id="path121"
+       d="m 6320,4733 77,-141 70,-145 61,-149 53,-151 35,-115 31,-117 26,-118 22,-118 16,-119 12,-121 8,-120 2,-120 -2,-121 -8,-120 -12,-121 -16,-119 -22,-118 -26,-118 -31,-117 -35,-115 -40,-114 -43,-112 -48,-111 -53,-108 -57,-106 -61,-103 -66,-102 -68,-99 -73,-97 -78,-93 -80,-89 -84,-88 -87,-83 -90,-80 -94,-77 -96,-73 -142,-96 -147,-88 -151,-81 -156,-71 -1214,2820 2667,1534"
+       style="fill:none;stroke:#000000;stroke-width:14.49948311;visibility:visible" />
+    <path
+       id="path125"
+       d="m 4867,379 -65,-27 -65,-25 -66,-24 -67,-23 -116,-35 -116,-30 -119,-26 -119,-21 -119,-17 -121,-11 -121,-8 -120,-2 0,3069 0,0 0,0 1214,-2820 z"
+       style="fill:#e6e6e6;stroke:none;visibility:visible" />
+    <path
+       id="path129"
+       d="m 4867,379 -65,-27 -65,-25 -66,-24 -67,-23 -116,-35 -116,-30 -119,-26 -119,-21 -119,-17 -121,-11 -121,-8 -120,-2 0,3069 1214,-2820"
+       style="fill:none;stroke:#000000;stroke-width:14.49948311;visibility:visible" />
+    <text
+       id="text135"
+       style="font-size:491px;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <tspan
+         style="fill:#ffffff;fill-opacity:1"
+         x="2221 2486"
+         y="1106"
+         id="tspan137">15</tspan>
+    </text>
+    <text
+       id="text139"
+       style="font-size:491px;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <tspan
+         style="fill:#ffffff;fill-opacity:1"
+         x="2138 2403"
+         y="5581"
+         id="tspan141">47</tspan>
+    </text>
+    <text
+       id="text143"
+       style="font-size:491px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <tspan
+         style="fill:#000000;fill-opacity:1"
+         x="5894 6159"
+         y="2448"
+         id="tspan145">25</tspan>
+    </text>
+    <text
+       id="text147"
+       style="font-size:491px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <tspan
+         style="fill:#000000;fill-opacity:1"
+         x="4112"
+         y="790"
+         id="tspan149">6</tspan>
+    </text>
+  </g>
+  <g
+     id="g7415"
+     transform="matrix(0.16122382,0,0,0.16122382,-732.13932,-127.84152)">
+    <path
+       d="m 7436,2095 169,0 0,170 -169,0 0,-170 z"
+       id="path153"
+       style="font-size:491px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded" />
+    <path
+       style="font-size:491px;font-weight:400;fill:none;stroke:#000000;stroke-width:6.20255661;visibility:visible;font-family:Arial embedded"
+       d="m 7521,2265 -85,0 0,-170 169,0 0,170 -84,0"
+       id="path157" />
+    <path
+       d="m 7436,2404 169,0 0,170 -169,0 0,-170 z"
+       id="path161"
+       style="font-size:491px;font-weight:400;fill:#4c4c4c;stroke:none;visibility:visible;font-family:Arial embedded" />
+    <path
+       style="font-size:491px;font-weight:400;fill:none;stroke:#000000;stroke-width:6.20255661;visibility:visible;font-family:Arial embedded"
+       d="m 7521,2574 -85,0 0,-170 169,0 0,170 -84,0"
+       id="path165" />
+    <path
+       d="m 7436,2713 169,0 0,170 -169,0 0,-170 z"
+       id="path169"
+       style="font-size:491px;font-weight:400;fill:#999999;stroke:none;visibility:visible;font-family:Arial embedded" />
+    <path
+       style="font-size:491px;font-weight:400;fill:none;stroke:#000000;stroke-width:6.20255661;visibility:visible;font-family:Arial embedded"
+       d="m 7521,2883 -85,0 0,-170 169,0 0,170 -84,0"
+       id="path173" />
+    <path
+       d="m 7436,3022 169,0 0,170 -169,0 0,-170 z"
+       id="path177"
+       style="font-size:491px;font-weight:400;fill:#e6e6e6;stroke:none;visibility:visible;font-family:Arial embedded" />
+    <path
+       style="font-size:491px;font-weight:400;fill:none;stroke:#000000;stroke-width:6.20255661;visibility:visible;font-family:Arial embedded"
+       d="m 7521,3192 -85,0 0,-170 169,0 0,170 -84,0"
+       id="path181" />
+    <text
+       id="text187"
+       style="font-size:227px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <tspan
+         style="fill:#000000;fill-opacity:1"
+         x="7703 7888 8021 8153 8285 8391 8444 8576 8708 8761 8894 8947 9079 9211"
+         y="2291"
+         id="tspan189">Menos de 1 ano</tspan>
+    </text>
+    <text
+       id="text191"
+       style="font-size:227px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <tspan
+         style="fill:#000000;fill-opacity:1"
+         x="7703 7862 7994 8047 8126 8259 8312 8444 8497 8629 8682 8814 8867 8999 9132 9264"
+         y="2580"
+         id="tspan193">Entre 1 e 5 anos</tspan>
+    </text>
+    <text
+       id="text195"
+       style="font-size:227px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <tspan
+         style="fill:#000000;fill-opacity:1"
+         x="7703 7862 7994 8047 8126 8259 8312 8444 8497 8629 8682 8814 8947 8999 9132 9264 9396"
+         y="2896"
+         id="tspan197">Entre 5 e 15 anos</tspan>
+    </text>
+    <text
+       id="text199"
+       style="font-size:227px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <tspan
+         style="fill:#000000;fill-opacity:1"
+         x="7703 7888 8021 8073 8179 8232 8364 8497 8550 8682 8814 8867 8999 9132 9264"
+         y="3212"
+         id="tspan201">Mais de 15 anos</tspan>
+    </text>
   </g>
 </svg>

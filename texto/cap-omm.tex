@@ -1,5 +1,5 @@
 %% ------------------------------------------------------------------------- %%
-\chapter{Métodos Ágeis Abertos para o OMM}
+\chapter{Métodos Ágeis abertos para o OMM}
 \label{cap:omm}
 
 O objetivo do projeto QualiPSo\footnote{\url{http://www.qualipso.org}
@@ -105,7 +105,6 @@ empresa. Dessa forma, quando o projeto não tem uma organização por
 trás, os membros da comunidade só precisam realizar o que está no
 alcance de uma comunidade para atingir um determinado nível.
 
-% TODO Traduzir figura
 \begin{figure}
   \centering
   \includegraphics[scale=0.4]{omm-levels}
@@ -273,16 +272,20 @@ Uma das críticas comuns à Programação Extrema é que não se cria
 nenhuma documentação sobre o sistema. Para abordar esse assunto, é
 importante notar que existem dois tipos diferentes de documentação
 conforme descrito no Objetivo PDOC 1 do OMM. A documentação para
-desenvolvedores e a documentação para usuários.
+desenvolvedores e a documentação para usuários. O Objetivo PDOC 3
+ainda cita uma terceira forma de documentação que é a documentação
+geral do projeto e consiste em aspectos comuns das documentações
+anteriores além de documentação sobre as próprias documentações.
 
-A prática de Desenvolvimento Dirigido por Testes (TDD - \textit{Test
-  Driven Development}) e sua complementação Desenvolvimento Dirigido
-por Comportamento (BDD - \textit{Behavior Driven Development} são
-práticas de \textit{design} mas possuem o efeito colateral de prover
-diversos exemplos de uso do código criado. A ideia do BDD separa o
-teste no sentido de verificação de entrada e saída do comportamento
-desejado com aquele teste graças ao uso consciente de nomes de testes
-que descrevam o comportamento desejado.
+Com relação à documentação para desenvolvedores, a prática de
+Desenvolvimento Dirigido por Testes (TDD - \textit{Test Driven
+  Development}) e sua complementação Desenvolvimento Dirigido por
+Comportamento (BDD - \textit{Behavior Driven Development} são práticas
+de \textit{design} mas possuem o efeito colateral de prover diversos
+exemplos de uso do código criado. A ideia do BDD separa o teste no
+sentido de verificação de entrada e saída do comportamento desejado
+com aquele teste graças ao uso consciente de nomes de testes que
+descrevam o comportamento desejado.
 
 Diversas ferramentas de BDD (como
 JBehave\footnote{\url{http://jbehave.org/} - Último acesso
@@ -313,10 +316,10 @@ XPlanner\footnote{\url{http://xplanner.org/} - Último acesso em
 Mingle\footnote{\url{http://studios.thoughtworks.com/mingle-agile-project-management}
   - Último acesso em 29/09/2010},
 Calopsita\footnote{\url{http://calopsitaproject.com/} - Último acesso
-  em 29/09/2010} etc). Dessa forma, a documentação do que foi planejado em
-cada fase do produto assim como o andamento até o momento naquela fase
-é atualizado automaticamente conforme os desenvolvedores completam
-suas tarefas.
+  em 29/09/2010} etc). Dessa forma, a documentação do que foi
+planejado em cada fase do produto assim como o andamento até o momento
+naquela fase é atualizado automaticamente conforme os desenvolvedores
+completam suas tarefas.
 
 \subsubsection{Uso de Padrões Estabelecidos e Adotados (STD)}
 \label{sec:+std}
@@ -466,9 +469,11 @@ Por fim, a prática de Integração Contínua aliada com a de TDD/BDD vai
 permitir atingir o Objetivo MST 3 que pede para gerenciar o processo
 de manutenabilidade. Essa gestão se dará com os resultados da
 construção e execução dos testes realizados a cada mudança no
-Repositório Único de Código. Esses resultados apresentam o
-\textit{commit} exato que retirou uma determinada funcionalidade ou
-interface de programação.
+Repositório Único de Código. Tendo esses relatórios de resultado da
+construção, é muito fácil descobrir qual foi o \textit{commit} exato
+que retirou uma determinada funcionalidade ou interface de programação
+já que cada construção e relatório de testes estão atrelados a um
+\textit{commit}.
 
 \subsubsection{Gestão de Configuração (CM)}
 \label{sec:+cm}
@@ -545,55 +550,49 @@ requisitos.
 \subsection{Resumo}
 \label{sec:resumo-omm}
 
-Em resumo, as seguintes práticas de Programação Extrema foram
-associadas aos seguintes elementos essenciais do OMM:
+Em resumo, a Tabela \ref{tab:omm-by-xp} apresenta um mapeamento entre
+práticas de Programação Extrema e elementos essenciais do OMM. Graças
+à tabela, percebe-se que o elemento de documentação é o ponto menos
+abordado pelas práticas de Programação Extrema enquanto o elemento de
+Manutenabilidade e Estabilidade é o mais coberto.
 
-%TODO Trocar por uma tabela com checks (linhas são práticas e colunas
-%são elementos essenciais do OMM)
-\begin{enumerate}
-\item Código Compartilhado
-
-  Relacionada aos elementos essenciais: STD, ENV, MST e CM.
-\item \textit{Design} Simples
-
-  Relacionada aos elementos essenciais: STD.
-\item Repositório Único de Código
-
-  Relacionada aos elementos essenciais: ENV, DFCT, MST e CM.
-\item Integração Contínua
-
-  Relacionada aos elementos essenciais: QTP, ENV, CM e REQM.
-\item Programação em Pares
-
-  Relacionada aos elementos essenciais: STD e MST.
-\item Código e Teste
-
-  Relacionada aos elementos essenciais: QTP e MST.
-\item TDD
-
-  Relacionada aos elementos essenciais: PDOC, QTP, DFCT e MST.
-\item Refatoração
-
-  Relacionada aos elementos essenciais: ENV e MST.
-\item Ciclo Semanal
-
-  Relacionada aos elementos essenciais: PP1 e CM.
-\item Ciclo de Estação
-
-  Relacionada aos elementos essenciais: PP1, CM e REQM.
-\item Retrospectiva
-
-  Relacionada aos elementos essenciais: MST.
-\item Análise de Causa Inicial
-
-  Relacionada aos elementos essenciais: MST.
-\item Histórias
-
-  Relacionada aos elementos essenciais: PP1, DFCT, CM e REQM.
-\item Jogo do Planejamento
-
-  Relacionada aos elementos essenciais: PP1 e REQM.
-\end{enumerate}
+\begin{table}
+  \begin{tabular}{|p{4cm}|c|c|c|c|c|c|c|c|c|}
+    \hline
+    & PDOC & STD & QTP & ENV & DFCT & MST & CM & PP1 & REQM \\
+    \hline
+    Código Compartilhado & & $\surd$ & & $\surd$ & & $\surd$ & $\surd$ & & \\
+    \hline
+   \textit{Design} Simples & & $\surd$ & & & & & & & \\
+    \hline
+    Repositório Único de Código & & & & $\surd$ & $\surd$ & $\surd$ & $\surd$ & & \\
+    \hline
+    Integração Contínua & & & $\surd$ & $\surd$ & & & $\surd$ & & $\surd$ \\
+    \hline
+    Programação em Pares & & $\surd$ & & & & $\surd$ & & & \\
+    \hline
+    Código e Teste & & & $\surd$ & & & $\surd$ & & & \\
+    \hline
+    TDD & $\surd$ & & $\surd$ & & $\surd$ & $\surd$ & & & \\
+    \hline
+    Refatoração & & & & $\surd$ & & $\surd$ & & & \\
+    \hline
+    Ciclo Semanal & & & & & & & $\surd$ & $\surd$ & \\
+    \hline
+    Ciclo de Estação & & & & & & & $\surd$ & $\surd$ & $\surd$ \\
+    \hline
+    Retrospectiva & & & & & & $\surd$ & & & \\
+    \hline
+    Análise de Causa Inicial & & & & & & $\surd$ & & & \\
+    \hline
+    Histórias & & & & & $\surd$ & & $\surd$ & $\surd$ & $\surd$ \\
+    \hline
+    Jogo do Planejamento & & & & & & & & $\surd$ & $\surd$ \\
+    \hline
+  \end{tabular}
+  \caption{Mapeamento de elementos essenciais do OMM com relação às práticas de XP}
+  \label{tab:omm-by-xp}
+\end{table}
 
 A Seção a seguir (Seção \ref{sec:xp-omm}) apresenta os elementos
 essenciais e partes de objetivos que não foram atingidos com as
@@ -691,4 +690,6 @@ de XP que cobre os níveis básicos do OMM com as sugestões anteriores.
 
 \section{Um proposta ágil compatível com o OMM}
 \label{sec:openagile-em-omm}
+
+% TODO Trocar essa seção por sugestões ao OMM por MA
 

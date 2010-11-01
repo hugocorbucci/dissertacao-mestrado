@@ -8,7 +8,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   viewBox="0 0 800.451 600"
+   viewBox="0 0 800 600"
    preserveAspectRatio="xMidYMid"
    id="svg3503"
    inkscape:version="0.47 r22583"
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -46,8 +46,8 @@
      showgrid="false"
      inkscape:snap-page="false"
      inkscape:zoom="1.0234184"
-     inkscape:cx="400.2255"
-     inkscape:cy="298.99796"
+     inkscape:cx="412.37024"
+     inkscape:cy="319.4126"
      inkscape:window-x="222"
      inkscape:window-y="126"
      inkscape:window-maximized="0"
@@ -238,122 +238,121 @@
     </font>
   </defs>
   <g
-     id="g4938"
-     transform="matrix(0.09511004,0,0,0.09511007,-17.898467,-1.594032)">
-    <g
-       id="Default"
-       visibility="visible"
-       style="visibility:visible">
-      <desc
-         id="desc3591">Master slide</desc>
-    </g>
-    <g
-       id="g4924">
-      <path
-         style="fill:#000000;stroke:none;visibility:visible"
-         d="m 3362,127 -120,2 -119,7 -119,12 -118,16 -118,21 -116,26 -116,30 -114,35 -114,39 -110,44 -110,47 -107,53 -106,56 -103,61 -101,63 -98,69 -95,73 -92,76 -90,79 -85,83 -83,86 -79,89 -76,92 -73,96 -69,97 -63,102 -61,102 -56,106 -53,108 -47,109 -44,111 -39,113 -33,109 -29,108 -25,111 -21,111 -15,112 -13,112 -8,112 -4,114 3042,52 0,0 0,0 0,0 0,0 0,0 0,-3044 z"
-         id="path3608" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:10.51413536;visibility:visible"
-         d="m 3362,127 -120,2 -119,7 -119,12 -118,16 -118,21 -116,26 -116,30 -114,35 -114,39 -110,44 -110,47 -107,53 -106,56 -103,61 -101,63 -98,69 -95,73 -92,76 -90,79 -85,83 -83,86 -79,89 -76,92 -73,96 -69,97 -63,102 -61,102 -56,106 -53,108 -47,109 -44,111 -39,113 -33,109 -29,108 -25,111 -21,111 -15,112 -13,112 -8,112 -4,114 3042,52 0,-3044"
-         id="path3612" />
-      <path
-         style="fill:#666666;stroke:none;visibility:visible"
-         d="m 320,3119 0,52 2,119 7,120 12,118 15,119 21,117 26,117 30,115 35,115 39,113 44,111 47,110 53,107 56,106 61,103 63,101 69,98 73,95 76,92 79,89 83,86 85,83 90,79 92,76 95,73 98,69 101,63 103,61 106,56 107,53 110,48 110,43 114,39 114,35 116,30 116,26 118,21 118,17 119,11 119,8 120,2 119,-2 120,-8 118,-11 119,-17 117,-21 117,-26 115,-30 115,-35 113,-39 111,-43 109,-48 108,-53 105,-56 104,-61 101,-63 97,-69 96,-73 91,-76 90,-79 86,-83 82,-86 80,-89 76,-92 72,-95 69,-98 64,-101 60,-103 56,-106 53,-107 48,-110 44,-111 38,-113 35,-115 30,-115 26,-117 21,-117 17,-119 11,-118 8,-120 2,-119 -2,-120 -8,-120 -11,-118 -17,-119 -21,-117 -26,-117 -30,-115 -35,-115 -43,-126 -50,-124 -55,-122 -61,-120 -2684,1433 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 -3042,-52 z"
-         id="path3616" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:10.51413536;visibility:visible"
-         d="m 320,3119 0,52 2,119 7,120 12,118 15,119 21,117 26,117 30,115 35,115 39,113 44,111 47,110 53,107 56,106 61,103 63,101 69,98 73,95 76,92 79,89 83,86 85,83 90,79 92,76 95,73 98,69 101,63 103,61 106,56 107,53 110,48 110,43 114,39 114,35 116,30 116,26 118,21 118,17 119,11 119,8 120,2 119,-2 120,-8 118,-11 119,-17 117,-21 117,-26 115,-30 115,-35 113,-39 111,-43 109,-48 108,-53 105,-56 104,-61 101,-63 97,-69 96,-73 91,-76 90,-79 86,-83 82,-86 80,-89 76,-92 72,-95 69,-98 64,-101 60,-103 56,-106 53,-107 48,-110 44,-111 38,-113 35,-115 30,-115 26,-117 21,-117 17,-119 11,-118 8,-120 2,-119 -2,-120 -8,-120 -11,-118 -17,-119 -21,-117 -26,-117 -30,-115 -35,-115 -43,-126 -50,-124 -55,-122 -61,-120 -2684,1433 -3042,-52"
-         id="path3620" />
-      <path
-         style="fill:#e6e6e6;stroke:none;visibility:visible"
-         d="m 6046,1738 -50,-91 -55,-91 -57,-88 -61,-86 -72,-96 -76,-92 -80,-89 -82,-86 -86,-83 -90,-79 -91,-76 -96,-73 -97,-69 -101,-63 -104,-61 -105,-56 -108,-53 -109,-47 -111,-44 -113,-39 -115,-35 -115,-30 -117,-26 -117,-21 -119,-16 -118,-12 -120,-7 -119,-2 0,3044 0,0 0,0 0,0 0,0 2684,-1433 z"
-         id="path3624" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:10.51413536;visibility:visible"
-         d="m 6046,1738 -50,-91 -55,-91 -57,-88 -61,-86 -72,-96 -76,-92 -80,-89 -82,-86 -86,-83 -90,-79 -91,-76 -96,-73 -97,-69 -101,-63 -104,-61 -105,-56 -108,-53 -109,-47 -111,-44 -113,-39 -115,-35 -115,-30 -117,-26 -117,-21 -119,-16 -118,-12 -120,-7 -119,-2 0,3044 2684,-1433"
-         id="path3628" />
-      <text
-         style="font-size:492px;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="text3634">
-        <tspan
-           id="tspan3636"
-           y="1558"
-           x="1341 1606"
-           style="fill:#ffffff;fill-opacity:1">23</tspan>
-      </text>
-      <text
-         style="font-size:492px;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="text3638">
-        <tspan
-           id="tspan3640"
-           y="5867"
-           x="3777 4042"
-           style="fill:#ffffff;fill-opacity:1">54</tspan>
-      </text>
-      <text
-         style="font-size:492px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="text3642">
-        <tspan
-           id="tspan3644"
-           y="1135"
-           x="4325 4590"
-           style="fill:#000000;fill-opacity:1">16</tspan>
-      </text>
-    </g>
-    <g
-       id="g4910">
-      <path
-         style="font-size:492px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="path3648"
-         d="m 6853,2786 167,0 0,167 -167,0 0,-167 z" />
-      <path
-         id="path3652"
-         d="m 6937,2953 -84,0 0,-167 167,0 0,167 -83,0"
-         style="font-size:492px;font-weight:400;fill:none;stroke:#000000;stroke-width:10.51413536;visibility:visible;font-family:Arial embedded" />
-      <path
-         style="font-size:492px;font-weight:400;fill:#666666;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="path3656"
-         d="m 6853,3068 167,0 0,167 -167,0 0,-167 z" />
-      <path
-         id="path3660"
-         d="m 6937,3235 -84,0 0,-167 167,0 0,167 -83,0"
-         style="font-size:492px;font-weight:400;fill:none;stroke:#000000;stroke-width:10.51413536;visibility:visible;font-family:Arial embedded" />
-      <path
-         style="font-size:492px;font-weight:400;fill:#e6e6e6;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="path3664"
-         d="m 6853,3350 167,0 0,167 -167,0 0,-167 z" />
-      <path
-         id="path3668"
-         d="m 6937,3517 -84,0 0,-167 167,0 0,167 -83,0"
-         style="font-size:492px;font-weight:400;fill:none;stroke:#000000;stroke-width:10.51413536;visibility:visible;font-family:Arial embedded" />
-      <text
-         style="font-size:223px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="text3674">
-        <tspan
-           id="tspan3676"
-           y="2932"
-           x="7116 7275 7381 7460 7566 7672 7725"
-           style="fill:#000000;fill-opacity:1">Gerente</tspan>
-      </text>
-      <text
-         style="font-size:223px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="text3678">
-        <tspan
-           id="tspan3680"
-           y="3223"
-           x="7116 7275 7381 7486 7592 7698 7804 7910 7963 8069 8174 8280 8386"
-           style="fill:#000000;fill-opacity:1">Desenvolvedor</tspan>
-      </text>
-      <text
-         style="font-size:223px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
-         id="text3682">
-        <tspan
-           id="tspan3684"
-           y="3514"
-           x="7116 7275 7381 7434 7513 7619"
-           style="fill:#000000;fill-opacity:1">Outros</tspan>
-      </text>
-    </g>
+     style="visibility:visible"
+     visibility="visible"
+     id="Default"
+     transform="matrix(0.09511004,0,0,0.09511007,-48.746903,95.245434)">
+    <desc
+       id="desc3591">Master slide</desc>
+  </g>
+  <g
+     id="g4924"
+     transform="matrix(0.07323473,0,0,0.07323475,-22.935114,67.772591)">
+    <path
+       id="path3608"
+       d="m 3362,127 -120,2 -119,7 -119,12 -118,16 -118,21 -116,26 -116,30 -114,35 -114,39 -110,44 -110,47 -107,53 -106,56 -103,61 -101,63 -98,69 -95,73 -92,76 -90,79 -85,83 -83,86 -79,89 -76,92 -73,96 -69,97 -63,102 -61,102 -56,106 -53,108 -47,109 -44,111 -39,113 -33,109 -29,108 -25,111 -21,111 -15,112 -13,112 -8,112 -4,114 3042,52 0,0 0,0 0,0 0,0 0,0 0,-3044 z"
+       style="fill:#000000;stroke:none;visibility:visible" />
+    <path
+       id="path3612"
+       d="m 3362,127 -120,2 -119,7 -119,12 -118,16 -118,21 -116,26 -116,30 -114,35 -114,39 -110,44 -110,47 -107,53 -106,56 -103,61 -101,63 -98,69 -95,73 -92,76 -90,79 -85,83 -83,86 -79,89 -76,92 -73,96 -69,97 -63,102 -61,102 -56,106 -53,108 -47,109 -44,111 -39,113 -33,109 -29,108 -25,111 -21,111 -15,112 -13,112 -8,112 -4,114 3042,52 0,-3044"
+       style="fill:none;stroke:#000000;stroke-width:13.65472126;visibility:visible" />
+    <path
+       id="path3616"
+       d="m 320,3119 0,52 2,119 7,120 12,118 15,119 21,117 26,117 30,115 35,115 39,113 44,111 47,110 53,107 56,106 61,103 63,101 69,98 73,95 76,92 79,89 83,86 85,83 90,79 92,76 95,73 98,69 101,63 103,61 106,56 107,53 110,48 110,43 114,39 114,35 116,30 116,26 118,21 118,17 119,11 119,8 120,2 119,-2 120,-8 118,-11 119,-17 117,-21 117,-26 115,-30 115,-35 113,-39 111,-43 109,-48 108,-53 105,-56 104,-61 101,-63 97,-69 96,-73 91,-76 90,-79 86,-83 82,-86 80,-89 76,-92 72,-95 69,-98 64,-101 60,-103 56,-106 53,-107 48,-110 44,-111 38,-113 35,-115 30,-115 26,-117 21,-117 17,-119 11,-118 8,-120 2,-119 -2,-120 -8,-120 -11,-118 -17,-119 -21,-117 -26,-117 -30,-115 -35,-115 -43,-126 -50,-124 -55,-122 -61,-120 -2684,1433 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 -3042,-52 z"
+       style="fill:#666666;stroke:none;visibility:visible" />
+    <path
+       id="path3620"
+       d="m 320,3119 0,52 2,119 7,120 12,118 15,119 21,117 26,117 30,115 35,115 39,113 44,111 47,110 53,107 56,106 61,103 63,101 69,98 73,95 76,92 79,89 83,86 85,83 90,79 92,76 95,73 98,69 101,63 103,61 106,56 107,53 110,48 110,43 114,39 114,35 116,30 116,26 118,21 118,17 119,11 119,8 120,2 119,-2 120,-8 118,-11 119,-17 117,-21 117,-26 115,-30 115,-35 113,-39 111,-43 109,-48 108,-53 105,-56 104,-61 101,-63 97,-69 96,-73 91,-76 90,-79 86,-83 82,-86 80,-89 76,-92 72,-95 69,-98 64,-101 60,-103 56,-106 53,-107 48,-110 44,-111 38,-113 35,-115 30,-115 26,-117 21,-117 17,-119 11,-118 8,-120 2,-119 -2,-120 -8,-120 -11,-118 -17,-119 -21,-117 -26,-117 -30,-115 -35,-115 -43,-126 -50,-124 -55,-122 -61,-120 -2684,1433 -3042,-52"
+       style="fill:none;stroke:#000000;stroke-width:13.65472126;visibility:visible" />
+    <path
+       id="path3624"
+       d="m 6046,1738 -50,-91 -55,-91 -57,-88 -61,-86 -72,-96 -76,-92 -80,-89 -82,-86 -86,-83 -90,-79 -91,-76 -96,-73 -97,-69 -101,-63 -104,-61 -105,-56 -108,-53 -109,-47 -111,-44 -113,-39 -115,-35 -115,-30 -117,-26 -117,-21 -119,-16 -118,-12 -120,-7 -119,-2 0,3044 0,0 0,0 0,0 0,0 2684,-1433 z"
+       style="fill:#e6e6e6;stroke:none;visibility:visible" />
+    <path
+       id="path3628"
+       d="m 6046,1738 -50,-91 -55,-91 -57,-88 -61,-86 -72,-96 -76,-92 -80,-89 -82,-86 -86,-83 -90,-79 -91,-76 -96,-73 -97,-69 -101,-63 -104,-61 -105,-56 -108,-53 -109,-47 -111,-44 -113,-39 -115,-35 -115,-30 -117,-26 -117,-21 -119,-16 -118,-12 -120,-7 -119,-2 0,3044 2684,-1433"
+       style="fill:none;stroke:#000000;stroke-width:13.65472126;visibility:visible" />
+    <text
+       id="text3634"
+       style="font-size:492px;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <tspan
+         style="fill:#ffffff;fill-opacity:1"
+         x="1341 1606"
+         y="1558"
+         id="tspan3636">23</tspan>
+    </text>
+    <text
+       id="text3638"
+       style="font-size:492px;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <tspan
+         style="fill:#ffffff;fill-opacity:1"
+         x="3777 4042"
+         y="5867"
+         id="tspan3640">54</tspan>
+    </text>
+    <text
+       id="text3642"
+       style="font-size:492px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <tspan
+         style="fill:#000000;fill-opacity:1"
+         x="4325 4590"
+         y="1135"
+         id="tspan3644">16</tspan>
+    </text>
+  </g>
+  <g
+     id="g4910"
+     transform="matrix(0.19022008,0,0,0.19022014,-812.62547,-297.87338)">
+    <path
+       d="m 6853,2786 167,0 0,167 -167,0 0,-167 z"
+       id="path3648"
+       style="font-size:492px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded" />
+    <path
+       style="font-size:492px;font-weight:400;fill:none;stroke:#000000;stroke-width:5.25706768;visibility:visible;font-family:Arial embedded"
+       d="m 6937,2953 -84,0 0,-167 167,0 0,167 -83,0"
+       id="path3652" />
+    <path
+       d="m 6853,3068 167,0 0,167 -167,0 0,-167 z"
+       id="path3656"
+       style="font-size:492px;font-weight:400;fill:#666666;stroke:none;visibility:visible;font-family:Arial embedded" />
+    <path
+       style="font-size:492px;font-weight:400;fill:none;stroke:#000000;stroke-width:5.25706768;visibility:visible;font-family:Arial embedded"
+       d="m 6937,3235 -84,0 0,-167 167,0 0,167 -83,0"
+       id="path3660" />
+    <path
+       d="m 6853,3350 167,0 0,167 -167,0 0,-167 z"
+       id="path3664"
+       style="font-size:492px;font-weight:400;fill:#e6e6e6;stroke:none;visibility:visible;font-family:Arial embedded" />
+    <path
+       style="font-size:492px;font-weight:400;fill:none;stroke:#000000;stroke-width:5.25706768;visibility:visible;font-family:Arial embedded"
+       d="m 6937,3517 -84,0 0,-167 167,0 0,167 -83,0"
+       id="path3668" />
+    <text
+       id="text3674"
+       style="font-size:223px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <tspan
+         style="fill:#000000;fill-opacity:1"
+         x="7116 7275 7381 7460 7566 7672 7725"
+         y="2932"
+         id="tspan3676">Gerente</tspan>
+    </text>
+    <text
+       id="text3678"
+       style="font-size:223px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <tspan
+         style="fill:#000000;fill-opacity:1"
+         x="7116 7275 7381 7486 7592 7698 7804 7910 7963 8069 8174 8280 8386"
+         y="3223"
+         id="tspan3680">Desenvolvedor</tspan>
+    </text>
+    <text
+       id="text3682"
+       style="font-size:223px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded">
+      <tspan
+         style="fill:#000000;fill-opacity:1"
+         x="7116 7275 7381 7434 7513 7619"
+         y="3514"
+         id="tspan3684">Outros</tspan>
+    </text>
   </g>
 </svg>
