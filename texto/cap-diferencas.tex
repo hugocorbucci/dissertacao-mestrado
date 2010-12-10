@@ -2,13 +2,15 @@
 \chapter{Diferenças entre os dois mundos}
 \label{cap:diferencas}
 
-O manifesto ágil (apresentado na Caixa \ref{box:manifesto}) é
-complementado por uma lista de 12 princípios traduzidos na Caixa
-\ref{box:principles}. Esses princípios apresentam guias que norteiam
-os métodos ágeis na direção de algumas práticas. Este Capítulo
-apresenta uma análise desses princípios sob o ponto de vista de
-projetos de software livre com o objetivo de identificar mais algumas
-semelhanças mas com destaque para as diferenças entre as comunidades.
+% TODO Página parece que tá errada.
+O manifesto ágil (apresentado na Caixa \ref{box:manifesto}, página
+\pageref{box:manifesto}) é complementado por uma lista de 12
+princípios traduzidos na Caixa \ref{box:principles}. Esses princípios
+apresentam guias que norteiam os métodos ágeis na direção de algumas
+práticas. Este Capítulo apresenta uma análise desses princípios sob o
+ponto de vista de projetos de software livre com o objetivo de
+identificar mais algumas semelhanças mas com destaque para as
+diferenças entre as comunidades.
 
 \begin{caixa}[htb]
   \begin{minipage}{\linewidth}
@@ -34,7 +36,7 @@ semelhanças mas com destaque para as diferenças entre as comunidades.
     \item Os processos ágeis promovem desenvolvimento sustentável. Os
       patrocinadores, desenvolvedores e usuários devem ser capazes de
       manter um ritmo constante indefinidamente;
-    \item Contínua atenção à excelência técnica e bom \textit{design}
+    \item Atenção contínua à excelência técnica e bom \textit{design}
       aumenta a agilidade;
     \item Simplicidade -- a arte de maximizar a quantidade de trabalho
       não realizado -- é essencial;
@@ -128,12 +130,12 @@ listas de correio eletrônico dos projetos.
 Dessa forma, a questão de aceitar mudanças nos requisitos ``tarde'' no
 desenvolvimento fica um pouco estranha. O único momento que pode ser
 classificado como ``tarde'' num projeto com coleta contínua de
-requisitos é uma vez que o requisito já estiver implementado. Mas a
+requisitos é uma vez que o requisito já estiver implementado. Mas, a
 partir desse momento, mudanças no funcionamento passam a ser
 descrições de erros (comportamento não esperado ou não desejado do
 sistema).
 
-Para a segunda parte do princípio afirma que essa resposta à mudança
+A segunda parte do princípio afirma que essa resposta à mudança
 deve se dar de forma a garantir um diferencial competitivo ao cliente,
 isto é, as mudanças incorporadas devem ir na direção que atrairá mais
 usuários. Em software livre, é muito difícil descobrir a curto ou
@@ -149,22 +151,25 @@ destacar permanecem.
 O freshmeat\footnote{\url{http://freshmeat.net/} -- Último acesso em
   28/10/2010} é um dos maiores site de notícias sobre novas versões de
 projetos livres. O site está em atividade desde meados de 1990 e ainda
-mantem seu histórico desde Fevereiro de 2001. Desta data até
+mantém seu histórico desde Fevereiro de 2001. Desta data até
 28/10/2010, foram 212550 novas versões que formam uma média de 59.77
 novas versões por dia.
 
 Até 28/10/2010, eram 42800 projetos livres repertoriados e
 controlados. Esses dados apontam uma média de 4.97 novas versões por
 projeto ao longo de 3556 dias (9 anos e alguns meses).
-Aproximadamente uma nova versão por ano por projeto.
+Aproximadamente uma nova versão a cada dois anos por projeto.
 
 Analisando os lançamentos efetuados entre 21 de Outubro de 2001 e 28
 de Outubro de 2010, a grande maioria dos projetos listados não tem uma
-frequência alta e estável de lançamentos. A Figura
-\ref{fig:freshmeat} mostra a distribuição de projetos por frequência
-de lançamento. É possível ver que a grande maioria dos projetos demora
-mais de 6 meses para lançar uma nova versão com apenas 17\% dos
-projetos lançando versões pelo menos uma vez por semestre.
+frequência alta e estável de lançamentos. A Figura \ref{fig:freshmeat}
+mostra a distribuição de projetos por frequência de lançamento. É
+possível ver que a grande maioria dos projetos demora mais de 6 meses
+para lançar uma nova versão com apenas 17\% dos projetos lançando
+versões pelo menos uma vez por semestre.
+
+% TODO Rodar o script novamente para descobrir se houve mudança na
+% tendência geral ao longo dos anos
 
 \begin{figure}
   \centering
@@ -174,12 +179,12 @@ projetos lançando versões pelo menos uma vez por semestre.
   \label{fig:freshmeat}
 \end{figure}
 
-Desse ponto de vista, parece que os projetos livres não seguem muito
-esse princípio ágil. Mas deve-se também considerar que entre todos os
-projetos listados, alguns podem ter sido abandonados ou simplesmente
-não avisaram o site de suas novas versões. Portanto é provável que
-essa média não reflita a realidade para projetos de software livre
-ativos.
+Desse ponto de vista, pode parecer que os projetos livres não seguem
+muito esse princípio ágil. Mas deve-se também considerar que entre
+todos os projetos listados, alguns podem ter sido abandonados ou
+simplesmente não avisaram o site de suas novas versões. Portanto é
+provável que essa média não reflita a realidade para projetos de
+software livre ativos.
 
 Além disso, vale notar que a escala de tempo para projetos livres
 costuma ser um pouco maior do que em projetos proprietários que contam
@@ -226,6 +231,8 @@ eco-sistema livre faz com que projetos que encontram dificuldades
 demais na sua evolução falhem e, se o problema for muito importante,
 serão atacados novamente no futuro até que seja viável chegar a algum
 resultado prático.
+
+% TODO Wikipedia VS Encarta
 
 \subsection[Conversa face a face]{O método mais eficiente e eficaz de
   transmitir informações para e entre uma equipe de desenvolvimento é
@@ -306,23 +313,30 @@ terminar determinado trabalho até uma certa data.
 Infelizmente essa medida não garante que a equipe consiga manter um
 ritmo constante. Especialmente considerando que muito desse trabalho é
 realizado em tempo livre e sujeito à disponibilidade de cada um. Nesse
-contexto, sustentável pode precisa de um sentido um pouco diferente do
+contexto, sustentável pode ter um sentido um pouco diferente do
 sentido usado em métodos ágeis. Não é mais possível pensar em jornadas
 de 40 horas e folga no planejamento. Apenas políticas que reduzam a
 pressão existente para finalização de um determinado trabalho. A
-cadência de lançamentos é uma prática que permite esse tipo de solução.
+cadência de lançamentos é uma prática que permite esse tipo de
+solução.
 
-\subsection[Excelência técnica]{Contínua atenção à excelência técnica
+\subsection[Excelência técnica]{Atenção contínua à excelência técnica
   e bom \textit{design} aumenta a agilidade}
 
 Por construção, o movimento de software livre envolve pessoas
-apaixonadas por desenvolvimento. Nesse aspecto, projetos livres tendem
-a utilizar todo tipo de tecnologia.  Dia 18 de Agosto de 2010, os 10
-projetos mais baixados do SourceForge.net reuniam 6 linguagens de
-programação diferentes (C, C++, Python, Javascript, Delphi e Perl).
+apaixonadas por desenvolvimento de software. Nesse aspecto, projetos
+livres tendem a utilizar todo tipo de tecnologia.  Dia 18 de Agosto de
+2010, os 10 projetos mais baixados do SourceForge.net reuniam 6
+linguagens de programação diferentes (C, C++, Python, Javascript,
+Delphi e Perl).
 
 Por outro lado, o cuidado com design e refatorações não é uma das
-características fortes das comunidades livres. \Large{Usar os dados
+características fortes das comunidades livres. Não que exista qualquer
+restrição que impeça a adoção desse tipo de prática nessas
+comunidade. Apenas é uma prática que ainda não foi adotada em larga
+escala nos projetos de software livre existentes. Projetos mais
+recentes tem sinalizado uma evolução nesse sentido mas prever se a
+adoção será em larga escala é impossível.\Large{Usar os dados
   que o Analizo vai rodar}. \normalsize
 
 % TODO Adicionar dados. Paulo está rodando métricas p/ mim
@@ -332,7 +346,7 @@ características fortes das comunidades livres. \Large{Usar os dados
 
 Software livre se apoia no princípio da quantidade para obter
 qualidade. Isso significa que muitos projetos são criados, evoluídos e
-mantidos por um tempo mas abandonados em seguida. 
+mantidos por um tempo mas abandonados em seguida.
 
 De acordo com o
 FLOSSMETRICS\footnote{\url{http://www.flossmetrics.org} -- Último
@@ -341,13 +355,14 @@ SourceForge.net\footnote{\url{http://www.sf.net -- Último acesso em
     29/10/2010}} eram considerados ativos. Onde ativos significa que
 tiveram alguma liberação de arquivos nos últimos 6 meses e houve
 registro de atividade no site nesse período. Isso aponta que a grande
-maioria dos projetos que foram iniciados não tiveram continuidade. Nesse sentido,
-existe MUITO trabalho realizado que é pouco aproveitado.
+maioria dos projetos que foram iniciados não tiveram
+continuidade. Nesse sentido, existe MUITO trabalho realizado que é
+pouco aproveitado.
 
-Por outro lado, não existe nenhuma análise projeto a projeto que
-avalia se as funcionalidades implementadas são realmente
-necessárias. Logo, não é possível determinar se os projetos livres
-adotam o princípio da simplicidade.
+Por outro lado, ainda não tem-se acesso a nenhuma ferramenta que
+análise projeto a projeto e avalie se as funcionalidades
+implementadas são realmente necessárias. Logo, não é possível
+determinar se os projetos livres adotam o princípio da simplicidade.
 
 \subsection[Equipes auto-organizáveis]{As melhores arquiteturas,
   requisitos e \textit{designs} emergem de equipes auto-organizáveis}
@@ -371,7 +386,7 @@ suficiente para afirmar que as comunidades de software livre
 desenvolvem boas arquiteturas e \textit{designs}. Pode-se afirmar, no
 entanto, que, pelo fato das equipes serem intrinsicamente
 auto-organizáveis, elas geram as melhores arquiteturas que poderiam
-gerar já que toda decisão é discutida por todos os envolvidos.
+gerar já que toda decisão deve ser discutida por todos os envolvidos.
 
 \subsection[Refletir regularmente]{Em intervalos regulares, a equipe
   reflete sobre como se tornar mais eficaz e então refina e ajusta seu
@@ -545,11 +560,12 @@ para maximizar a produtividade de uma equipe.
 Sendo assim, a proposta é manter um pequeno conjunto de
 desenvolvedores da equipe como \emph{commiters} e fazer o papel
 circular entre os membros da equipe. Dessa forma, além de diminuir o
-gargalo, também reduz-se o ``fator caminhão'' da equipe. ``Fator
-caminhão'' é uma expressão para expressar a quantidade de membros da
-equipe que precisam se ausentar do projeto para que ele pare. Quanto
-maior esse número, maior o conhecimento difundido pelos membros da
-equipe e menor o risco desse projeto parar.
+gargalo, também reduz-se o ``\textit{truck
+  factor}''\cite{Williams2002} (ou ``fator caminhão'') da
+equipe. ``Fator caminhão'' é uma expressão para expressar a quantidade
+de membros da equipe que precisam se ausentar do projeto para que ele
+pare. Quanto maior esse número, maior o conhecimento difundido pelos
+membros da equipe e menor o risco desse projeto parar.
 
 O papel de \emph{commiter} é crítico em um projeto já que a ausência
 de pessoas realizando esse papel impede o código do projeto de ir para
@@ -561,8 +577,8 @@ exista uma revisão aprovada por um terceiro membro da equipe (além do
 par que desenvolveu a funcionalidade) para que o \emph{commit} seja
 enviado ao ``ramo'' principal.
 
-Ambas soluções aumentam o conjunto de \emph{commiters}, distribui mais
-o conhecimento entre a equipe e reduz a aparente concentração
+Ambas soluções aumentam o conjunto de \emph{commiters}, distribuem
+mais o conhecimento entre a equipe e reduzem a aparente concentração
 de poder desse papel. Elas também permitem que aqueles que foram
 \emph{commiters} possam, por sua vez, serem autores de alguns trechos
 de código que passarão por avaliação de outros. Desta forma, toda a
@@ -574,7 +590,7 @@ fardo para a equipe e evite que ela responda às mudanças que se
 apresentarem. Em equipes muito pequenas, a rotação frequente de pares
 resolve o problema da difusão do conhecimento. Nesse contexto, o
 problema de integridade conceitual descrito por Frederick Brooks
-\cite{Brooks1975-mme} é menor o que torna a revisão menos crítica.
+\cite{Brooks1975-mmme} é menor o que torna a revisão menos crítica.
 
 \subsection{Resultados públicos}
 \label{subsec:publicity}
@@ -649,10 +665,10 @@ prazo, os ganhos da comunicação escrita podem superar (como eles o
 fazem em projetos livres) as perdas.
 
 Em suma, métodos ágeis poderiam tornar seus resultados públicos da
-seguinte forma. Para as informações que podem ser obtidas
-automaticamente (como relatórios de execução dos testes, estado do
-processo de contrução do aplicativo, número de erros em aberto etc.),
-o sistema de build automático e de integração contínua poderia
+seguinte forma. Existem várias informações que podem ser obtidas
+automaticamente como relatórios de execução dos testes, estado do
+processo de contrução do aplicativo, número de erros em aberto etc.
+O sistema de build automático e de integração contínua poderia
 publicar todas essas informações automaticamente em uma página
 relacionada ao projeto. No que diz respeito às conversas, um esforço
 pode ser realizar para incluir trechos de conversa e links em
@@ -692,7 +708,7 @@ querendo permitir e se aquilo ainda faz sentido nas novas versões.
 
 Por fim, a revisão cruzada também ajuda a envolver o cliente nas
 decisões de arquitetura da solução e garante que ele está de acordo
-com as mudança realizada. Com isso, é mais fácil identificar um
+com as mudanças realizadas. Com isso, é mais fácil identificar um
 possível problema de requisitos e corrigi-lo antes que eles sejam
 implementados na base principal de código. Obviamente, esta prática só
 pode se aplicar até um certo nível quando o usuário não tem
@@ -812,34 +828,33 @@ participantes a realizar esse trabalho é apresentar uma linha temporal
 e pedir para que eles façam anotações sobre os eventos que ocorreram
 nesse período. Isso os ajuda a relembrar os acontecimentos e entender
 porque as coisas aconteceram da forma que aconteceram como pode ser
-visto na Figura \ref{fig:timeline-retro}.
+visto na Figura \ref{fig:timelineretro}.
 
 \begin{figure}[htb]
   \begin{minipage}[t]{0.5\linewidth}
     \centering
     \includegraphics[width=\linewidth]{timeline-retro1}
-    \label{fig:floss-world}
   \end{minipage}
   \begin{minipage}[t]{0.5\linewidth}
     \centering
     \includegraphics[width=\linewidth]{timeline-retro2}
   \end{minipage}
-  \label{fig:timeline-retro}
   \caption{Um exemplo de uma retrospectiva com linha do tempo}
+  \label{fig:timelineretro}
 \end{figure}
 
 Quando a equipe está reunida em um único local físico, basta juntar a
 equipe numa sala de reunião com uma linha do tempo grande na parede e
-distribuir papéis coloridos que eles possam colar na linha. A sugestão
-para equipes de software livre é desenvolver uma ferramenta baseada na
-Internet para permitir que essas anotações sejam feitas numa linha do
-tempo virtual associada ao código fonte. Dessa forma, mensagens de
-integração de código poderiam conter a anotação que seria
-automaticamente exibida na linha do tempo. Além disso, a equipe
-poderia anotar a linha do tempo de forma assíncrona para permitir
-comentários posteriores. O líder da equipe poderia ocasionalmente
-gerar um relatório para todos os membros da equipe além de exibir a
-linha do tempo no ambiente informativo.
+distribuir papéis coloridos que eles possam colar em ordenadas
+escolhidas. A sugestão para equipes de software livre é desenvolver
+uma ferramenta baseada na Internet para permitir que essas anotações
+sejam feitas numa linha do tempo virtual associada ao código
+fonte. Dessa forma, mensagens de integração de código poderiam conter
+a anotação que seria automaticamente exibida na linha do tempo. Além
+disso, a equipe poderia anotar a linha do tempo de forma assíncrona
+para permitir comentários posteriores. O líder da equipe poderia
+ocasionalmente gerar um relatório para todos os membros da equipe além
+de exibir a linha do tempo no ambiente informativo.
 
 Resta ainda conseguir fazer com que a equipe utilize as informações
 coletadas para sugerir mudanças no processo para melhorar sua situação
@@ -858,13 +873,13 @@ linha do tempo previamente preenchida.
 
 Papos em pé, originalmente sugeridos em Scrum, pedem que toda a equipe
 se junte e cada membro explique rapidamente o que ele tem feito e
-pretende fazer a seguir. Essa prática compartilha dos mesmos problemas
-da retrospectiva. Ela envolve reunir a equipe ao mesmo tempo. Muitos
-projetos de software livre usam canais de IRC (\emph{Internet Relay
-  Chat}) para resolverem parcialmente esse problema e para centralizar
-as discussões durante o desenvolvimento. Apesar disso não garantir que
-todos saibam o que cada um está fazendo, ajuda a sincronizar o
-trabalho.
+pretende fazer a seguir. No aspecto de software livre, essa prática
+compartilha dos mesmos problemas da retrospectiva. Ela envolve reunir
+a equipe ao mesmo tempo. Muitos projetos de software livre usam canais
+de IRC (\emph{Internet Relay Chat}) para resolverem parcialmente esse
+problema e para centralizar as discussões durante o
+desenvolvimento. Apesar disso não garantir que todos saibam o que cada
+um está fazendo, ajuda a sincronizar o trabalho.
 
 Para garantir que os membros obtenham a informação necessária, a
 sugestão é que a comunicação que acontece nesses canais IRC seja salva
@@ -898,7 +913,7 @@ avaliação externa para obter mais \textit{feedback} dos
 usuários. Esses dados apresentam não apenas os resultados dos testes
 automatizados para a última construção mas também a lista de mudanças,
 autores das mudanças, histórico de discussões e decisões tomadas. Além
-de aumentar as chances de alguém perceber algum problema, a
+de aumentar as chances de se perceber algum problema, a
 publicidade dos resultados também aumenta o respeito entre as pessoas
 envolvidas já que todos vêem as contribuições que cada um fez.
 

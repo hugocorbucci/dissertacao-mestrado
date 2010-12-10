@@ -29,8 +29,9 @@ A seção \ref{sec:o-que-eh-omm} apresenta mais detalhes da origem do
 OMM e de sua constituição. Em seguida, a seção \ref{sec:xp-em-omm}
 apresenta como programação extrema pode ser mapeada para o OMM e quais
 são os pontos não tratados. Por fim, a seção
-\ref{sec:omm-with-agile} apresenta sugestões ao OMM sob o ponto de
-vista de métodos ágeis para torná-lo mais flexível.
+\ref{sec:sl+omm} apresenta a situação atual de metodologias em
+comunidades livres e como o OMM pode contribuir na modelagem de uma
+metodologia geral nessas comunidades.
 
 \section{Origem e descrição do OMM}
 \label{sec:o-que-eh-omm}
@@ -44,7 +45,7 @@ de Software ( \textit{Software Engineering Institute} - SEI)
 \footnote{\url{http://www.sei.cmu.edu/cmmi} - Último acesso em
   27/08/2010} são constituídos de documentos que descrevem uma lista
 de exigências que precisam ser cumpridas nos processos das empresas
-que esperaraem obter o selo.
+que esperarem obter o selo.
 
 Como projetos livres raramente beneficiam de uma infraestrutura física
 ou organizacional, é muito difícil avaliar esses processos de acordo
@@ -54,7 +55,7 @@ empresas que incluem software livre em suas soluções mas também pelas
 comunidades livres ao redor do mundo. Desse fato, decorre uma nota
 importante sobre o OMM. O modelo todo foi pensado para que fosse
 simples e fácil de usar pelos vários níveis organizacionais existentes
-no ambiente de softwre livre.
+no ambiente de software livre.
 
 A primeira fase de elaboração do OMM foi realizar um levantamento dos
 chamados elementos de confiabilidade (\textit{Trusthworthy elements})
@@ -75,10 +76,12 @@ de patentes e preservação de marcas são pontos importantíssimos para
 permitir o uso de qualquer projeto livre numa organização
 comercial. Na questão das contribuições, é importante tomar cuidado
 com a questão dos direitos autorais para evitar problemas legais
-relacionados ao licenciamento do código.  Esses dois aspectos não são
-tratados ou sequer abordados no CMM porque a existência de uma
-organização responsável por qualquer desenvolvimento e de regras
-contratuais estabelecidas evita esses problemas.
+relacionados ao licenciamento do código. Esses dois aspectos não são
+tratados ou sequer abordados no CMM já que assume-me que, se uma
+empresa utilizar código externo, esse código será obtido sob um
+contrato estabelecido pela empresa com o proprietário do código. Nesse
+caso, as preocupações são menores já que há um contrato explicitamente
+assinado pelas partes envolvidas que rege a relação.
 
 Por outro lado, o CMM aborda alguns aspectos que são importantes para
 a confiabilidade de um projeto no contexto comercial. Muitos desses
@@ -115,8 +118,8 @@ alcance de uma comunidade para atingir um determinado nível.
 
 As Tabelas \ref{tab:omm-basic}, \ref{tab:omm-intermediate} e
 \ref{tab:omm-advanced} mostram os elementos de confiabilidade que
-precisam ser abordados para se atingir os níveis básico,
-intermediário e avançados do OMM.
+precisam ser abordados para se atingir os níveis básico, intermediário
+e avançados do OMM.
 
 \begin{table}
   \begin{tabular}{|p{2cm}|p{14cm}|}
@@ -280,7 +283,7 @@ anteriores além de documentação sobre as próprias documentações.
 Com relação à documentação para desenvolvedores, a prática de
 Desenvolvimento Dirigido por Testes (TDD - \textit{Test Driven
   Development}) e sua complementação Desenvolvimento Dirigido por
-Comportamento (BDD - \textit{Behavior Driven Development} são práticas
+Comportamento (BDD - \textit{Behavior Driven Development}) são práticas
 de \textit{design} mas possuem o efeito colateral de prover diversos
 exemplos de uso do código criado. A ideia do BDD separa o teste no
 sentido de verificação de entrada e saída do comportamento desejado
@@ -296,7 +299,7 @@ DocTest\footnote{\url{http://docs.python.org/library/doctest.html} -
 produzem saídas em formato de documentos. Esses relatórios apresentam
 descrições de como os módulos do sistema funcionam de acordo com os
 testes que foram escritos para eles. Dessa forma, não somente o
-sistema ganha uma documentação estensa, como também existe a garantia
+sistema ganha uma documentação extensa, como também existe a garantia
 que esta documentação será mantida atualizada ou pelo menos informará
 que o sistema mudou com relação a ela.
 
@@ -318,7 +321,7 @@ Mingle\footnote{\url{http://studios.thoughtworks.com/mingle-agile-project-manage
 Calopsita\footnote{\url{http://calopsitaproject.com/} - Último acesso
   em 29/09/2010} etc). Dessa forma, a documentação do que foi
 planejado em cada fase do produto assim como o andamento até o momento
-naquela fase é atualizado automaticamente conforme os desenvolvedores
+naquela fase é atualizada automaticamente conforme os desenvolvedores
 completam suas tarefas.
 
 \subsubsection{Uso de Padrões Estabelecidos e Adotados (STD)}
@@ -345,22 +348,23 @@ Programação Extrema é um processo aberto e livre.
 
 Novamente, a prática de TDD/BDD e suas variações como Desenvolvimento
 Dirigido por Testes de Aceitação (ATDD - \textit{Acceptance Test
-  Driven Development}), apesar de serem técnicas essencialmente ligadas
-ao \textit{design} do projeto, tem como efeito colateral a criação e
-manutenção de testes em vários níveis (Testes de unidade, de integração
-e de sistema ou integração de sistema dependendo do objetivo do
-projeto). Dessa forma, o uso conjunto de TDD, BDD e ATDD permite
-atingir o Objetivo QTP 1 (Prover um plano de alta qualidade de testes)
-já que o plano é a descrição e implementação dos testes logo antes da
-realização da funcionalidade e decorre diretamente do plano de desenvolvimento.
+  Driven Development}) \cite{Owen2004}, apesar de serem técnicas
+essencialmente ligadas ao \textit{design} do projeto, tem como efeito
+colateral a criação e manutenção de testes em vários níveis (Testes de
+unidade, de integração e de sistema ou integração de sistema
+dependendo do objetivo do projeto). Dessa forma, o uso conjunto de
+TDD, BDD e ATDD permite atingir o Objetivo QTP 1 (Prover um plano de
+alta qualidade de testes) já que o plano é a descrição e implementação
+dos testes logo antes da realização da funcionalidade e decorre
+diretamente do plano de desenvolvimento.
 
-Também cobre-se o Objetivo QTP 2 (Implementar o gerir o processo de
+Também se cobre o Objetivo QTP 2 (Implementar o gerir o processo de
 testes) com essas práticas de XP já que o desenvolvimento e execução
 dos testes é garantida antes, durante e após a implementação das
-funcionalidades associadas. A prática de Integração
-Contínua contribui para o Objetivo QTP 2 ao garantir que os testes são
-realizados frequentemente a cada modificação da base de código
-garantindo \textit{Feedback} imediato do trabalho necessário.
+funcionalidades associadas. A prática de Integração Contínua contribui
+para o Objetivo QTP 2 ao garantir que os testes são realizados
+frequentemente a cada modificação da base de código garantindo
+\textit{Feedback} imediato do trabalho necessário.
 
 TDD/BDD e ATDD também garantirão que o Objetivo QTP 3 (Melhorar o
 processo de testes) será atingido já que forçam o desenvolvedor a
@@ -442,7 +446,7 @@ de erros.
 
 As práticas de Refatoração e Programação em Pares são essenciais em XP
 para reduzir o número de defeitos inseridos no código mas também para
-garantir que o código da aplicação permanece legível e mais simples de
+garantir que o código da aplicação permaneça legível e mais simples de
 manter. Um dos estudos mais reconhecidos sobre Programação em Pares
 \cite{Williams2000} mostra que o uso de Programação em Pares reduz a
 quantidade de defeitos, melhora a qualidade do \textit{design} e
@@ -483,7 +487,7 @@ sistema tenha o direito e a possibilidade de alterar qualquer trecho
 de código independente de quem foi o autor desse trecho ou quando ele
 foi criado. Para que isso seja possível, o projeto deve estabelecer
 padrões de estrutura de arquivos, formatação usada além de estilo de
-nomenclatura e outros itens que permitem uma integridade conceitual
+nomenclatura e outros itens que permitam uma integridade conceitual
 para o código do projeto.
 
 Esses padrões iniciais estabelecem uma configuração padrão para
@@ -503,7 +507,7 @@ acompanhar e controlar mudanças às configurações do projeto.
 \label{sec:+pp1}
 
 A prática de Jogo do Planejamento pede que a equipe de desenvolvimento
-trabalhe com o cliente ou usuário do sistema e decide qual será o
+trabalhe com o cliente ou usuário do sistema e decida qual será o
 trabalho a ser realizado no próximo Ciclo Semanal. Durante essa
 reunião, o usuário define quais são as Histórias que precisam ser
 realizadas com maior prioridade. Seguindo essa ordem de prioridades,
@@ -546,6 +550,14 @@ revisar e atualizar essas histórias de forma a garantir a gestão com
 relação às mudanças nos requisitos descritos pela história. Com isso,
 é possível cumprir o Objetivo REQM 1 que pede uma gestão de
 requisitos.
+
+\subsection{Práticas de XP que contribuem para o OMM nível Intermediário}
+\label{sec:xp-omm-intermediate}
+
+Conforme se avançam nos nívels do OMM, assim como para o CMMi, as
+exigências se tornam mais rígidas e difíceis de cumprir. O nível
+Intermediário do OMM trabalha com 7 elementos essenciais:
+
 
 \subsection{Resumo}
 \label{sec:resumo-omm}
@@ -691,15 +703,19 @@ Programação Extrema são bons candidatos para atingir uma certificação
 OMM nível básico. Com isso, espera-se que comunidades de Software
 Livre possam atingir esse objetivo sem forçar o uso de uma metodologia
 tradicional aos seus contribuidores. A próxima seção (Seção
-\ref{sec:omm-by-agile}) apresenta alguns pontos que causam tensões
+\ref{sec:sl+omm}) apresenta alguns pontos que causam tensões
 entre o OMM e métodos ágeis e como eles poderiam ser flexibilizados de
 forma a manter a qualidade sem manter a rigidez.
 
-\section{Sugestões para tornar o OMM mais ágil}
-\label{sec:oom-by-agile}
+\section[OMM no contexto livre]{O OMM como semente para uso de
+  metodologias em ambientes livres}
+\label{sec:sl+omm}
 
-Um dos problemas mais gritantes sobre o OMM é a característica herdada
+Um dos possíveis problemas do OMM é a característica herdada
 do CMMi de dar muita importância ao planejamento e ao plano. Métodos
 ágeis seguem a filosofia de que ``Planos não tem valor, mas planejar é
 tudo''. Sendo assim, muitos elementos essenciais do OMM que avaliam a
-aderência ao plano ferem a capacidade de reagir às mudanças rapidamente.
+aderência ao plano ferem a capacidade de reagir às mudanças
+rapidamente.
+
+% TODO Pegar mais leve e achar referências
