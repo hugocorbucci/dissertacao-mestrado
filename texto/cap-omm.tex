@@ -551,17 +551,105 @@ relação às mudanças nos requisitos descritos pela história. Com isso,
 é possível cumprir o Objetivo REQM 1 que pede uma gestão de
 requisitos.
 
-\subsection{Práticas de XP que contribuem para o OMM nível Intermediário}
+\subsection{Práticas de XP que contribuem para o OMM nível
+  Intermediário e avançado}
 \label{sec:xp-omm-intermediate}
 
 Conforme se avançam nos nívels do OMM, assim como para o CMMi, as
 exigências se tornam mais rígidas e difíceis de cumprir. O nível
-Intermediário do OMM trabalha com 7 elementos essenciais:
+Intermediário do OMM trabalha com 7 elementos essenciais (Tabela
+\ref{tab:omm-intermediate}) enquanto o nível avançado envolve mais 7
+elementos essenciais (Tabela \ref{tab:omm-advanced}).
 
+No nível intermediário, adicionam-se os elementos:
+\begin{itemize}
+\item \textit{RDMP2} - Plano do Projeto Parte 2
+\item \textit{PP2} - Planejamento do Projeto Parte 2
+\item \textit{STK} - Relações entre interessados (\textit{STK})
+\item \textit{PMC} - Monitoramento e Controle do Projeto
+\item \textit{PPQA} - Garantia de Qualidade no Processo e no Projeto
+\item \textit{TST1} - Testes Parte 1
+\item \textit{DSN1} - Projeto Parte 1
+\end{itemize}
+
+No nível avançado, completa-se com:
+\begin{itemize}
+\item \textit{TST2} - Testes Parte 2
+\item \textit{DSN2} - Projeto Part 2
+\item \textit{PI} - Integração do Produto
+\item \textit{RSKM} - Gestão de Risco
+\item \textit{RASM} - Resultado das Avaliações de Terceiros
+\item \textit{REP} - Reputação
+\item \textit{CONT} - Contribuições
+\end{itemize}
+
+Em ambos níveis, práticas de XP abordam diretamente os assuntos
+tratados por alguns desses elementos essenciais. No que diz respeito à
+extensão do Plano do Projeto, a principal exigência é de que sejam
+planejadas atualizações ao plano do projeto e que elas sejam
+seguidas. Em XP, a prática de Ciclo Semanal pede que a equipe
+renegocie o seu trabalho da semana. Essa negociação deve impactar como
+for necessário o planejamento do projeto. Dessa forma, é possível e
+até provável que se realize um jogo do planejamento curto no início da
+cada Ciclo Semanal. Sendo assim, pode-se argumentar que as
+atualizações ao plano do projeto são realizadas semanalmente como pede
+o elemento \textit{RDMP2}.
+
+No que diz respeito ao elemento \textit{PP2}, a principal adição é com
+relação a obter comprometimento com o plano traçado. Nesse aspecto,
+não há nominalmente nenhuma prática de XP que aborde esse assunto. No
+entanto, existe um princípio em métodos ágeis e na forma com que se
+conduz um jogo do planejamento que busca este objetivo. Esse princípio
+exige que a equipe de desenvolvimento seja responsável por estimar as
+tarefas que precisam ser realizadas e determine quais consegue cumprir
+no tempo disponível. A ideia de que o próprio time estabeleça as
+estimativas e o plano cria um comprometimento natural já que as
+pessoas são tomadoras de decisões e não meros acatadores. Esse
+princípio é chamado de Responsabilidade Aceita.
+
+A parte de Testes exigida pelo nível intermediário menciona uma
+preparação do projeto para verificação, uma revisão externa e uma
+verificação dos produtos livres usados pelo projeto. A prática de
+Programação em Pares tem um feito óbvio de revisão externa constante e
+imediata. Dessa forma, pode-se argumentar que a validação externa é
+realizada constantemente pelo pessoa que está fazendo ``par'' com o
+programador. Além disso, pode-se dizer também que as práticas de TDD e
+ATDD colaboram para facilitar a criação de um ambiente de verificação
+já que essas práticas forçam os programadores a criar arquiteturas que
+facilitem a elaboração de testes automatizados.
+
+Com relação ao elemento de Monitoração e Controle do Projeto, o
+principal objetivo é monitorar se o projeto está seguindo o plano e,
+se não estiver, definir medidas corretivas e implementá-las. Nesse
+contexto, as práticas de Retrospectiva e Análise de Causa Raiz
+permitem que a equipe identifique, analise e entenda desvio no plano
+do projeto, seus motivos e quais podem ser ações corretivas que
+resolvam não apenas o problema imediato mas também as chances desses
+problema se repetir no futuro.
+
+Os apectos de Projeto Parte 1, Garantia de Qualidade no Processo e no
+Projeto e Relações entre Interessados não são diretamente tratados por
+nenhuma prática de XP. No caso da Garantia de Qualidade, a prática de
+Retrospectiva tem um efeito indireto mas depende muito da capacidade
+do time em encontrar melhorias para o processo e projto. Na parte de
+Projeto, as exigências são bastante específicas com relação à obtenção
+e rastreabilidade das funcionalidades. A prática em XP que cuida
+desses aspectos são as práticas de Histórias e de Sentar Junto. No
+entanto, a rastreabilidade e qualidade da obtenção da história
+dependem bastante da habilidade das pessoas envolvidas no projeto.
+
+Pro nível avançado, os objetivos são mais exigentes e, apesar do uso
+de diversas práticas de XP em conjunto conseguirem atingir alguns
+deles, os resultados ainda são muito dependentes do abilidade e
+experiência dos envolvidos para continuarem perseguindo os
+objetivos. Desta forma, para poder garantir que o processo atinja os
+objetivos desejados, será necessário incluir algumas práticas àquelas
+apresentadas anteriormente.
 
 \subsection{Resumo}
 \label{sec:resumo-omm}
 
+%TODO Verificar se vms incluir o intermediário e avançado
 Em resumo, a Tabela \ref{tab:omm-by-xp} apresenta um mapeamento entre
 práticas de Programação Extrema e elementos essenciais do OMM. Graças
 à tabela, percebe-se que o elemento de documentação é o ponto menos
@@ -711,11 +799,34 @@ forma a manter a qualidade sem manter a rigidez.
   metodologias em ambientes livres}
 \label{sec:sl+omm}
 
-Um dos possíveis problemas do OMM é a característica herdada
-do CMMi de dar muita importância ao planejamento e ao plano. Métodos
-ágeis seguem a filosofia de que ``Planos não tem valor, mas planejar é
+``A unanimidade é burra'' -- ?
+
+O universo do software livre se inspira muito nessa
+ideia. Diversidade, alternativas, mudanças de direções, opiniões e até
+mesmo brigas são elementos essenciais para evolução do eco-sistema
+livre. Qualquer tentativa de buscar uma única forma de atingir um
+objetivo nesse ambiente é falha de antemão. No entanto, o objetivo do
+OMM não é esse. O OMM busca apenas ajudar empresas e comunidades a
+avaliarem seus próprios processos e produtos sob uma ótica de
+viabilidade em uso comercial.
+
+Nesse sentido, o uso de metodologias ágeis é apenas uma das opções
+existentes.  Não é a única e muito menos a melhor assim como o próprio
+objetivo do OMM não é o único nem o mais buscado pelos projetos livres
+existentes. Com certeza, muitas críticas virão e muitas outras opções
+serão apresentadas. O OMM já apresenta uma boa forma de lidar com isso
+já que, em seu próprio plano, já apresenta planos para receber
+sugestões e melhorias e incorporá-las conforme for possível.
+
+Se for bem sucedido nessa empreitada, o OMM ganhará o respeito da
+comunidade de software livre.
+
+
+Um dos possíveis problemas do OMM é a característica herdada do CMMi
+de dar muita importância ao planejamento e ao plano. Métodos ágeis
+seguem a filosofia de que ``Planos não tem valor, mas planejar é
 tudo''. Sendo assim, muitos elementos essenciais do OMM que avaliam a
 aderência ao plano ferem a capacidade de reagir às mudanças
 rapidamente.
 
-% TODO Pegar mais leve e achar referências
+% TODO Pegar mais leve e achar referência
