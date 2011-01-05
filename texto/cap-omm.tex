@@ -649,21 +649,21 @@ apresentadas anteriormente.
 \subsection{Resumo}
 \label{sec:resumo-omm}
 
-%TODO Verificar se vms incluir o intermediário e avançado
-Em resumo, a Tabela \ref{tab:omm-by-xp} apresenta um mapeamento entre
-práticas de Programação Extrema e elementos essenciais do OMM. Graças
-à tabela, percebe-se que o elemento de documentação é o ponto menos
-abordado pelas práticas de Programação Extrema enquanto o elemento de
-Manutenabilidade e Estabilidade é o mais coberto.
+Em resumo, a Tabela \ref{tab:omm-basic-by-xp} apresenta um mapeamento
+entre práticas de Programação Extrema e elementos essenciais do
+OMM no nível básico. Graças à tabela, percebe-se que o elemento de documentação é o
+ponto menos abordado pelas práticas de Programação Extrema enquanto o
+elemento de Manutenabilidade e Estabilidade é o mais coberto.
 
 \begin{table}
+  \centering
   \begin{tabular}{|p{4cm}|c|c|c|c|c|c|c|c|c|}
     \hline
     & PDOC & STD & QTP & ENV & DFCT & MST & CM & PP1 & REQM \\
     \hline
     Código Compartilhado & & $\surd$ & & $\surd$ & & $\surd$ & $\surd$ & & \\
     \hline
-   \textit{Design} Simples & & $\surd$ & & & & & & & \\
+    \textit{Design} Simples & & $\surd$ & & & & & & & \\
     \hline
     Repositório Único de Código & & & & $\surd$ & $\surd$ & $\surd$ & $\surd$ & & \\
     \hline
@@ -690,8 +690,48 @@ Manutenabilidade e Estabilidade é o mais coberto.
     Jogo do Planejamento & & & & & & & & $\surd$ & $\surd$ \\
     \hline
   \end{tabular}
-  \caption{Mapeamento de elementos essenciais do OMM com relação às práticas de XP}
-  \label{tab:omm-by-xp}
+  \caption{Mapeamento de elementos essenciais do OMM nível básico com relação às práticas de XP}
+  \label{tab:omm-basic-by-xp}
+\end{table}
+
+Já a Tabela \ref{tab:omm-intermediary-by-xp} mostra como fica mais
+difícil cumprir as exigências essenciais no nível intermediário. Em
+especial, as marcas com asterísco mostram práticas que abordam o
+assunto mas dependem da capacidade da equipe de buscar o objetivo
+procurado. Isto é, não basta a equipe aplicar a prática
+corretamente. Ela precisa buscar o objetivo exigido pelo elemento
+essencial e a prática apenas auxilia atingir esse objetivo.
+
+\begin{table}
+  \centering
+  \begin{tabular}{|p{6cm}|c|c|c|c|c|c|c|c|c|}
+    \hline
+    & RDMP2 & PP2 & STK & PMC & PPQA & TST1 & DSN1\\
+    \hline
+    Programação em Pares & & & & & & $\surd$ & \\
+    \hline
+    Código e Teste & & & & & & $\surd$ & \\
+    \hline
+    TDD & & & & & & $\surd$ & \\
+    \hline
+    Ciclo Semanal & $\surd$ & & & & & & \\
+    \hline
+    Ciclo de Estação & $\surd$ & & & & & & \\
+    \hline
+    Retrospectiva & & & & $\surd$ & & & \\
+    \hline
+    Análise de Causa Inicial & & & & $\surd$ & & & \\
+    \hline
+    Histórias & & & & & * & & \\
+    \hline
+    Sentar Junto & & & & & * & & \\
+    \hline
+    Jogo do Planejamento & $\surd$ & * & & & & & \\
+    \hline
+  \end{tabular}
+  \caption{Mapeamento de elementos essenciais do OMM nível
+    intermediário com relação às práticas de XP}
+  \label{tab:omm-intermediary-by-xp}
 \end{table}
 
 A Seção a seguir (Seção \ref{sec:xp-omm}) apresenta os elementos
@@ -800,6 +840,8 @@ forma a manter a qualidade sem manter a rigidez.
 \label{sec:sl+omm}
 
 ``A unanimidade é burra'' -- ?
+
+% TODO Achar autor
 
 O universo do software livre se inspira muito nessa
 ideia. Diversidade, alternativas, mudanças de direções, opiniões e até
