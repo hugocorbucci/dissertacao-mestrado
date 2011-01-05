@@ -38,13 +38,13 @@
 \usepackage[fixlanguage]{babelbib}
 \usepackage[font=small,format=plain,labelfont=bf,up,textfont=it,up]{caption}
 \usepackage[usenames,svgnames,dvipsnames,table]{xcolor}
-\usepackage[a4paper,top=2.54cm,bottom=2.0cm,left=2.0cm,right=2.54cm]{geometry} % margens
+\usepackage[a4paper,top=2.54cm,bottom=2.0cm,left=2.0cm,right=2.54cm]{geometry}% margens
+\usepackage{float}
 \usepackage[pdftex,plainpages=false,pdfpagelabels,pagebackref,colorlinks=true,citecolor=black,linkcolor=black,urlcolor=black,filecolor=black,bookmarksopen=true]{hyperref} % links em preto
 %\usepackage[pdftex,plainpages=false,pdfpagelabels,pagebackref,colorlinks=true,citecolor=DarkGreen,linkcolor=NavyBlue,urlcolor=DarkRed,filecolor=green,bookmarksopen=true]{hyperref} % links coloridos
 \usepackage[all]{hypcap}                % soluciona o problema com o hyperref e capitulos
 \usepackage[numbers,square,sort,nonamebreak,comma]{natbib}  % citação
                                 % bibliográfica alpha (alpha-ime.bst)
-\usepackage{float}
 
 \usepackage{type1cm}      % fontes realmente escaláveis
 \fontsize{60}{62}\usefont{OT1}{cmr}{m}{n}{\selectfont}
@@ -52,6 +52,7 @@
 % ---------------------------------------------------------------------------- %
 \floatstyle{boxed}
 \newfloat{caixa}{htb}{bx}
+\restylefloat{table}
 \floatname{caixa}{Caixa}
 
 % ---------------------------------------------------------------------------- %
