@@ -366,15 +366,73 @@ livres tendem a utilizar todo tipo de tecnologia.  Dia 18 de Agosto de
 linguagens de programação diferentes (C, C++, Python, Javascript,
 Delphi e Perl).
 
-Por outro lado, o cuidado com design e refatorações não é uma das
-características fortes das comunidades livres. Não que exista qualquer
-restrição que impeça a adoção desse tipo de prática nessas
-comunidade. Apenas é uma prática que ainda não foi adotada em larga
-escala nos projetos de software livre existentes. Projetos mais
-recentes tem sinalizado uma evolução nesse sentido mas prever se a
-adoção será em larga escala é impossível.
+No dia 30/10/2010, o SourceForge.net listava em torno de 1600 projetos
+com mais de 100.000 downloads. Desses projetos, 782 incluíam seu
+código fonte em C, C++ ou Java na página do SourceForge.net.  Nessa
+amostra, foi utilizada a ferramenta
+Analizo\footnote{http://analizo.org -- Último acesso em 06/01/2011}
+para levantar algumas métricas com relação ao código fonte desses
+projetos.
 
-% TODO Adicionar dados. Paulo está rodando métricas p/ mim
+Utilizando as propostas de valores de referências sugeridos por
+Ferreira~\cite{Ferreira2009}, foi realizada uma análise dos projetos
+com relação à qualidade de seu \textit{design}. As métricas analisadas
+foram:
+\begin{enumerate}
+\item Média de Conexões Aferentes,
+  \label{metric:acc}
+\item Fator de Acoplamento Total e
+  \label{metric:cof}
+\item Máxima Profundidade da Árvore de Herança,
+  \label{metric:dti}
+\item Moda da Ausência de Coesão em Métodos,
+  \label{metric:lcom}
+\item Média do Número de Atributos Públicos de uma Classe,
+  \label{metric:npa}
+\item Média do Número de Métodos Públicos de uma Classe,
+  \label{metric:npm}
+\item Média do Número Máximo de Linhas de Código por Método.
+  \label{metric:mmloc}
+\end{enumerate}
+
+No que diz respeito à métrica \ref{metric:acc}, Ferreira estipula
+valores abaixo de 1 como valores bons, até 20 como valores regulares e
+acima de 20 como valores ruins. Com essas referências, apenas 15\% dos
+projetos possui uma média de conexões aferentes considerada boa. No
+entanto, todos os outros 77\% tem uma média abaixo de 5 e nenhum tem
+média acima de 20. Isso nos indica que, apesar de poucos projetos
+estarem no nível bom, a maioria deles está próximo do valor de
+referência. Esse resultado nos indica uma qualidade razoável dos
+projetos livres.
+
+A métrica \ref{metric:cof} usa como parte do seu cálculo o resultado
+da métrica \ref{metric:acc}. No entanto, de acordo com os valores de
+referência apresentados por Ferreira, 57\% do projetos tem fatores de
+acoplamento considerados bons enquanto 34\% tem valores regulares e 9\%
+tem valores ruins. Com esses resultados parece que uma porção bem
+maior do projetos livres tem um cuidado considerável em manter sua
+arquitetura desacoplada.
+
+Para a métrica \ref{metric:dti}, Ferreira apresenta uma média de 1,68
+como referência. Dessa forma, o ideal sugerido é que o valor máximo da
+métrica seja 2. Nos projetos avaliados, 69\% atingem essa meta
+enquanto 19\% tem árvores com o dobro da profundidade. Nesse caso, os
+resultados são um pouco piores. Com quase 20\% dos projetos com uma
+árvore de herança profunda, há um indício de um pequeno desleixo na
+questão da arquitetura em projetos livres.
+
+Com relação à métrica \ref{metric:lcom}, Ferreira apresenta uma
+ausência de coesão 0 como uma medida boa (já que, em seu estudo, 50\%
+das classes tinham 0 de ausência de coesão) enquanto valores entre 0 e
+20 são regulares. Para atingir valores semelhantes, olha-se a moda da
+métrica para observar os projetos com mais de 50\% das classes com
+determinado valor para a métrica. Nessa análise, percebe-se que 39\%
+dos projetos atingem a meta enquanto o resto concentra-se abaixo de 20
+(valor considerado razoável). Essa métrica tem resultados semelhantes
+aos da métrica \ref{metric:acc} e indica uma qualidade, ainda que não
+boa, bem próxima disso.
+
+
 
 \subsection[Simplicidade é essencial]{Simplicidade -- a arte de
   maximizar a quantidade de trabalho não realizado -- é essencial}
