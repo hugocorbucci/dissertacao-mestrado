@@ -1,0 +1,26 @@
+Global Metrics:
+total_abstract_classes - Total Abstract Classes
+total_cof - Total Coupling Factor
+total_loc - Total Lines of Code
+total_methods_per_abstract_class - Total number of methods per abstract class
+total_modules - Total Number of Modules/Classes
+total_modules_with_defined_attributes - Total number of modules/classes with at least one defined attributes
+total_modules_with_defined_methods - Total number of modules/classes with at least one defined method
+total_nom - Total Number of Methods
+
+Module Metrics:
+acc - Afferent Connections per Class (used to calculate COF - Coupling Factor)
+accm - Average Cyclomatic Complexity per Method
+amloc - Average Method LOC
+anpm - Average Number of Parameters per Method
+cbo - Coupling Between Objects
+dit - Depth of Inheritance Tree
+lcom4 - Lack of Cohesion of Methods 
+loc - Lines of Code
+mmloc - Max Method LOC
+noa - Number of Attributes
+noc - Number of Children
+nom - Number of Methods
+npa - Number of Public Attributes
+npm - Number of Public Methods
+rfc - Response For a Class
