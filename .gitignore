@@ -1,0 +1,16 @@
+.DS_Store
+artigos
+script/cache
+tese-exemplo
+defesa.ps
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*revisao*
+pesquisas/*.csv
+pesquisas/*.plot
+pesquisas/*.dat
+pesquisas/*.cor
+pesquisas/AuOS\ Literature\ Survey\ Results.ods
