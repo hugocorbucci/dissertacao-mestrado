@@ -255,16 +255,16 @@ for muito importante, serão atacados novamente no futuro até que seja
 viável chegar a algum resultado prático.
 
 É com base nesse princípio que surgiu e cresceu a
-Wikipedia\footnote{http://wikipedia.org -- Último acesso em
+Wikipedia\footnote{\url{http://wikipedia.org} -- Último acesso em
   12/12/2010}. A Wikipedia é um exemplo de como um ambiente (a
 Internet) com o suporte necessário (um
-wiki\footnote{http://wiki.org/wiki.cgi?WhatIsWiki -- Último acesso em
+wiki\footnote{\url{http://wiki.org/wiki.cgi?WhatIsWiki} -- Último acesso em
   05/01/2011}) permite a indivíduos motivados (milhares de
 contribuídores da Wikipedia) fazerem um trabalho incrível. Este
 trabalho foi a principal causa para que a Microsoft encerasse, em
 Abril de 2009, o desenvolvimento e distribuição da enciclopédia
 Encarta. Em 2005, a revista Nature publicou um
-artigo\footnote{http://www.nature.com/nature/journal/v438/n7070/full/438900a.html
+artigo\footnote{\url{http://www.nature.com/nature/journal/v438/n7070/full/438900a.html}
   -- Último acesso em 05/01/2011} comparando a qualidade da Wikipedia
 com a Encyclop{\ae}dia Britannica. O artigo chega à conclusão que os
 artigos relacionados a ciência da Wikipedia são tão confiáveis quanto
@@ -370,7 +370,7 @@ No dia 30/10/2010, o SourceForge.net listava em torno de 1600 projetos
 com mais de 100.000 downloads. Desses projetos, 782 incluíam seu
 código fonte em C, C++ ou Java na página do SourceForge.net.  Nessa
 amostra, foi utilizada a ferramenta
-Analizo\footnote{http://analizo.org -- Último acesso em 06/01/2011}
+Analizo\footnote{\url{http://analizo.org} -- Último acesso em 06/01/2011}
 para levantar algumas métricas com relação ao código fonte desses
 projetos.
 
@@ -391,8 +391,6 @@ foram:
   \label{metric:npa}
 \item Média do Número de Métodos Públicos de uma Classe,
   \label{metric:npm}
-\item Média do Número Máximo de Linhas de Código por Método.
-  \label{metric:mmloc}
 \end{enumerate}
 
 No que diz respeito à métrica \ref{metric:acc}, Ferreira estipula
@@ -432,7 +430,38 @@ dos projetos atingem a meta enquanto o resto concentra-se abaixo de 20
 aos da métrica \ref{metric:acc} e indica uma qualidade, ainda que não
 boa, bem próxima disso.
 
+O número de atributos públicos (métrica \ref{metric:npa}) de uma
+classe aponta uma exposição excessiva (se for alto) de detalhes de
+implementação. Ferreira diz que 75\% das classes analisadas em seu
+estudo não possuiam nenhum atributo público enquanto a maioria do
+restante tinha menos de 8 atributos públicos. Sendo assim, os valores
+sugeridos são de nenhum atributo público para uma boa arquitetura, até
+8 atributos públicos como regular e mais do que isso sendo ruim. Na
+média dos projetos analisados, foram considerados bons, os projetos
+que atingiam uma média inferior a 1 atributo público por classe e,
+ruins, os projetos com média acima de 8 atributos. Nesse caso,
+obtem-se 21\% de projetos bons, 24\% de projetos ruins e 55\% de
+projetos regulares. Esse é mais um ponto que indica uma falta de
+preocupação com a qualidade do \textit{design} do projeto.
 
+Por fim, o número de métodos públicos (métrica \ref{metric:npm}) de uma
+classe dá indícios com relação à quantidade de responsabilidades da
+classe. Ferreira aponta valores de referência sendo bom para até 10
+métodos públicos, regular entre 10 e 40 e ruim acima de 40 métodos
+públicos. Com esses valores, 77\% dos projetos analisados são
+considerados bons enquanto 21\% são regulares e meros 1\% são
+ruins. No entanto, 52\% dos projetos considerados bons tem uma média
+acima de 5 métodos públicos o que indica que apesar da métrica ser
+cumprida, ela está próxima do limite estipulado.
+
+Dessa forma, os projetos analisados dão indícios de que, em projetos
+de software livre de sucesso, existe uma atenção considerável dada à
+qualidade técnica e ao \textit{design}. No entanto, algumas métricas
+indicam que os projetos estão frequentemente no limiar aceitável e
+fazem o mínimo necessário para conseguirem se manter numa situação
+boa. A adoção de refatorações frequentes poderia ajudar a resolver os
+probleminhas de profundidade da árvore de herança assim como dos
+atributos públicos.
 
 \subsection[Simplicidade é essencial]{Simplicidade -- a arte de
   maximizar a quantidade de trabalho não realizado -- é essencial}
