@@ -14,24 +14,23 @@ forçar uma forma de trabalho a comunidades livres. Por isso, a
 abordagem usada para aumentar essa confiabilidade foi estabelecer uma
 forma de avaliar a qualidade do processo usado por um determinado
 projeto livre. Sendo assim, o projeto procurou elaborar um selo que
-pudesse ser dado às comunidades que estivessem de acordo com um modelo
-de processo confiável.
+pudesse ser dado às comunidades e às empresas que estivessem de acordo
+com um modelo de processo confiável.
 
-Porém, o contexto de projetos livre difere (como apresentado
-anteriormente na Seção \ref{sec:os-def}) do contexto para ambientes
+Porém, o contexto de projetos livres difere (como apresentado
+anteriormente na Seção~\ref{sec:os-def}) do contexto para ambientes
 empresariais comuns. Por isso, modelos de avaliação de processos
-estabelecidos na indústria não são adequados para ambientes
-livres. Por isso, decidiu-se elaborar o modelo de maturidade para
-software livre do Qualipso (\textit{QualiPSo Opensource Maturity
-  Model} - OMM).
+estabelecidos na indústria não são adequados para ambientes livres. Em
+decorrência, decidiu-se elaborar o modelo de maturidade para software
+livre do QualiPSo (\textit{QualiPSo Opensource Maturity Model} - OMM).
 
-A seção \ref{sec:o-que-eh-omm} apresenta mais detalhes da origem do
-OMM e de sua constituição. Em seguida, a seção \ref{sec:xp-em-omm}
+A Seção~\ref{sec:o-que-eh-omm} apresenta mais detalhes da origem do
+OMM e de sua constituição. Em seguida, a Seção~\ref{sec:xp-em-omm}
 apresenta como programação extrema pode ser mapeada para o OMM e quais
-são os pontos não tratados. Por fim, a seção
-\ref{sec:sl+omm} apresenta a situação atual de metodologias em
-comunidades livres e como o OMM pode contribuir na modelagem de uma
-metodologia geral nessas comunidades.
+são os pontos não tratados. Por fim, a Seção~\ref{sec:sl+omm}
+apresenta a situação atual de metodologias em comunidades livres e
+como o OMM pode contribuir na modelagem de uma metodologia geral
+nessas comunidades.
 
 \section{Origem e descrição do OMM}
 \label{sec:o-que-eh-omm}
@@ -41,21 +40,21 @@ qualidade possuam boa aceitação. Padrões como o selo
 ISO9001\footnote{\url{http://www.iso.org/} - Último acesso em
   27/08/2010} ou como o Modelo de Maturidade de Capabilidade
 (\textit{Capability Maturity Model} - CMM) do Instituto de Engenharia
-de Software ( \textit{Software Engineering Institute} - SEI)
-\footnote{\url{http://www.sei.cmu.edu/cmmi} - Último acesso em
+de Software (\textit{Software Engineering Institute} -
+SEI)\footnote{\url{http://www.sei.cmu.edu/cmmi} - Último acesso em
   27/08/2010} são constituídos de documentos que descrevem uma lista
 de exigências que precisam ser cumpridas nos processos das empresas
 que esperarem obter o selo.
 
-Como projetos livres raramente beneficiam de uma infraestrutura física
-ou organizacional, é muito difícil avaliar esses processos de acordo
-com esses padrões da indústria. Por isso, o QualiPSo propôs trabalhar
-num modelo baseado no CMM mas que pudesse ser usado não apenas para
-empresas que incluem software livre em suas soluções mas também pelas
-comunidades livres ao redor do mundo. Desse fato, decorre uma nota
-importante sobre o OMM. O modelo todo foi pensado para que fosse
-simples e fácil de usar pelos vários níveis organizacionais existentes
-no ambiente de software livre.
+Como projetos livres raramente beneficiam de uma infra-estrutura
+física ou organizacional, é muito difícil avaliar esses processos de
+acordo com esses padrões da indústria. Por isso, o QualiPSo propôs
+trabalhar num modelo baseado no CMM mas que pudesse ser usado não
+apenas para empresas que incluem software livre em suas soluções mas
+também pelas comunidades livres ao redor do mundo. Desse fato, decorre
+uma nota importante sobre o OMM. O modelo todo foi pensado para que
+fosse simples e fácil de usar pelos vários níveis organizacionais
+existentes no ambiente de software livre.
 
 A primeira fase de elaboração do OMM foi realizar um levantamento dos
 chamados elementos de confiabilidade (\textit{Trusthworthy elements})
@@ -68,8 +67,8 @@ Levantados esses elementos de confiabilidade, a equipe do OMM realizou
 um mapeamento das áreas de qualidades avaliadas no CMM para
 identificar quais elementos eram abordados e quais não eram. Os
 principais elementos de confiabilidade que o CMM não aborda estão
-relacionados aos problemas legais do uso de software e à reputação de
-determinado projeto além do tamanho de sua comunidade.
+relacionados aos problemas legais do uso de software, à reputação de
+determinado projeto e do tamanho de sua comunidade.
 
 No aspecto legal, as questões do licenciamento do código, da violação
 de patentes e preservação de marcas são pontos importantíssimos para
@@ -98,7 +97,7 @@ estrutura piramidal semelhante à do CMM na qual existem três níveis de
 adequação sendo que o mais básico é base para os mais avançados que
 sempre exigem todas as práticas do nível inferior e mais algumas.
 
-A Figura \ref{fig:piramide-omm} apresenta a divisão de níveis com a
+A Figura~\ref{fig:piramide-omm} apresenta a divisão de níveis com a
 lista de práticas (com nomes abreviados) que integra cada um dos
 níveis do OMM. Além disso, o OMM propõe exigências diferentes de
 acordo com o tipo de entidade que deseja ser avaliada para um
@@ -111,50 +110,51 @@ alcance de uma comunidade para atingir um determinado nível.
 \begin{figure}
   \centering
   \includegraphics[scale=0.4]{omm-levels}
-  \caption{Pirâmide de práticas exigidas para cada um dos níveis do
-    OMM}
+  \caption{Pirâmide de elementos essenciais exigidos para cada um dos
+    níveis do OMM}
   \label{fig:piramide-omm}
 \end{figure}
 
-As Tabelas \ref{tab:omm-basic}, \ref{tab:omm-intermediate} e
-\ref{tab:omm-advanced} mostram os elementos de confiabilidade que
+As Tabelas~\ref{tab:omm-basic}, \ref{tab:omm-intermediate}
+e~\ref{tab:omm-advanced} mostram os elementos de confiabilidade que
 precisam ser abordados para se atingir os níveis básico, intermediário
 e avançados do OMM.
 
 \begin{table}
-  \begin{tabular}{|p{2cm}|p{14cm}|}
+  \centering
+  \begin{tabular}{|p{2cm}|p{13cm}|}
     \hline
-    PDOC & Documentação do Produto (\textit{Product Documentation}) \\
+    PDOC & Documentação do Produto (\emph{Product Documentation}) \\
     \hline
-    STD & Uso de Padrões Estabelecidos e Adotados (\textit{Use of
+    STD & Uso de Padrões Estabelecidos e Adotados (\emph{Use of
       Established and Widespread Standards}) \\
     \hline
-    QTP & Qualidade do Plano de Testes (\textit{Quality of Test Plan})
+    QTP & Qualidade do Plano de Testes (\emph{Quality of Test Plan})
     \\
     \hline
-    LCS & Licenças (\textit{Licenses}) \\
+    LCS & Licenças (\emph{Licenses}) \\
     \hline
-    ENV & Ambiente Técnico (\textit{Technical Environment} -
+    ENV & Ambiente Técnico (\emph{Technical Environment}) -
     Ferramentas, Sistema Operacional, Linguagem de Programação,
-    Ambiente de Desenvolvimento.) \\
+    Ambiente de Desenvolvimento. \\
     \hline
-    DFCT & Número de Commits e Relatórios de \textit{Bugs}
+    DFCT & Número de \emph{Commits} e Relatórios de Defeitos
     (\textit{Number of Commits and Bug Reports}) \\
     \hline
     MST & Facilidade de Manutenção e Estabilidade
-    (\textit{Maintainability and Stability}) \\
+    (\emph{Maintainability and Stability}) \\
     \hline
-    CM & Gestão de configuração
-    (\textit{Configuration Management}) \\
+    CM & Gestão de Configuração
+    (\emph{Configuration Management}) \\
     \hline
     PP1 & Planejamento de Projeto Parte 1
-    (\textit{Project Planning Part 1}) \\
+    (\emph{Project Planning Part 1}) \\
     \hline
     REQM & Gestão de Requisitos
-    (\textit{Requirements Management}) \\
+    (\emph{Requirements Management}) \\
     \hline
-    RDMP1 & Disponibilidade de um plano
-    (\textit{Availability of a Roadmap}) \\
+    RDMP1 & Disponibilidade de um Plano
+    (\emph{Availability of a Roadmap}) \\
     \hline
   \end{tabular}
   \caption{Elementos essenciais no nível básico do OMM}
@@ -162,14 +162,15 @@ e avançados do OMM.
 \end{table}
 
 \begin{table}
-  \begin{tabular}{|p{2cm}|p{14cm}|}
+  \centering
+  \begin{tabular}{|p{2cm}|p{13cm}|}
     \hline
-    RDMP2 & Desenvolvimento de um plano
+    RDMP2 & Desenvolvimento de um Plano
     (\textit{Implementation of a Roadmap}) \\
     \hline
-    STK & Relações entre interessados
-    (\textit{Relationship between Stakeholders} - Usuários,
-    Desenvolvedores etc) \\
+    STK & Relações entre Interessados
+    (\textit{Relationship between Stakeholders}) - Usuários,
+    Desenvolvedores etc. \\
     \hline
     PP2 & Planejamento de Projeto Parte 2
     (\textit{Project Planning Part 2}) \\
@@ -192,7 +193,8 @@ e avançados do OMM.
 \end{table}
 
 \begin{table}
-  \begin{tabular}{|p{2cm}|p{14cm}|}
+  \centering
+  \begin{tabular}{|p{2cm}|p{13cm}|}
     \hline
     PI & Integração do Produto
     (\textit{Product Integration}) \\
@@ -220,7 +222,7 @@ e avançados do OMM.
   \label{tab:omm-advanced}
 \end{table}
 
-O texto do OMM apresenta uma abordagem Objetivo-Pergunta-Métrica (GQM
+O texto do OMM apresenta uma abordagem Objetivo Pergunta Métrica (GQM
 - \textit{Goal Question Metric}) no qual cada elemento possui um
 conjunto de objetivos que precisam ser alcançados (ou não, dependendo
 do tipo de organização sendo avaliada). As perguntas são mapeadas para
@@ -233,7 +235,7 @@ uma certificação OMM. Também existe uma descrição extensa de como deve
 ser realizada a avaliação de uma entidade com um questionário e
 informações sobre como cada prática pode ser avaliada.
 
-A próxima seção apresenta como a Programação Extrema descrita por Kent
+A próxima Seção apresenta como a Programação Extrema descrita por Kent
 Beck pode ser mapeada para os elementos de confiabilidade necessários
 em cada nível do OMM.
 
@@ -252,21 +254,26 @@ estudados. Graças a isso, suas várias práticas e fluxos já foram
 bastante analisados o que permite mapear diversas práticas a
 resultados desejados.
 
-A próxima subseção (Seção \ref{sec:xp+omm}) apresenta
-práticas da Programação Extrema que contribuem para atingir algum
-objetivo do nível básico do OMM. Em seguida, a Seção \ref{sec:xp-omm}
-apresenta os objetivos que ainda não foram cobertos por nenhuma
-prática de Programação Extrema.
+A próxima subseção (Seção~\ref{sec:xp+omm}) apresenta práticas da
+Programação Extrema que contribuem para atingir algum objetivo do
+nível básico do OMM. A Seção~\ref{sec:xp-omm-intermediate} apresenta
+os elementos essenciais dos níveis intermediários e avançados do OMM e
+as práticas de XP que contribuem para atingi-los.  Em seguida, a
+Seção~\ref{sec:omm-resumo} apresenta um resumo dos usos das práticas
+de XP para atingir os objetivos essenciais do OMM e quais deles não
+são abordados. Por fim, a Seção~\ref{sec:xp-omm} apresenta uma
+avaliação do papel que o OMM pode ter nas comunidades de software
+livre e alguns desafios que serão encontrados.
 
 \subsection{Práticas de Programação Extrema que contribuem com o OMM
   básico}
 \label{sec:xp+omm}
 
 O OMM no nível básico se divide em 11 elementos essenciais. Essa Seção
-está subdividida de acordo com os elementos cobertos por alguma prática
-de Programação Extrema. Sendo assim, as próximas subseções abordarão
-cada uma dos elementos essenciais e as práticas que ajudam a atingir
-seu objetivo.
+está subdividida de acordo com os elementos cobertos por alguma
+prática de Programação Extrema. Sendo assim, as próximas subseções
+abordarão cada uma dos elementos essenciais e as práticas que ajudam a
+atingir seu objetivo.
 
 \subsubsection{Documentação do Produto (PDOC)}
 \label{sec:+pdoc}
@@ -283,12 +290,12 @@ anteriores além de documentação sobre as próprias documentações.
 Com relação à documentação para desenvolvedores, a prática de
 Desenvolvimento Dirigido por Testes (TDD - \textit{Test Driven
   Development}) e sua complementação Desenvolvimento Dirigido por
-Comportamento (BDD - \textit{Behavior Driven Development}) são práticas
-de \textit{design} mas possuem o efeito colateral de prover diversos
-exemplos de uso do código criado. A ideia do BDD separa o teste no
-sentido de verificação de entrada e saída do comportamento desejado
-com aquele teste graças ao uso consciente de nomes de testes que
-descrevam o comportamento desejado.
+Comportamento (BDD - \textit{Behavior Driven Development}) são
+práticas de \textit{design} mas possuem o efeito colateral de prover
+diversos exemplos de uso do código criado. A ideia do BDD separa o
+teste no sentido de verificação de entrada e saída do comportamento
+desejado com aquele teste graças ao uso consciente de nomes de testes
+que descrevam o comportamento desejado.
 
 Diversas ferramentas de BDD (como
 JBehave\footnote{\url{http://jbehave.org/} - Último acesso
@@ -300,8 +307,8 @@ produzem saídas em formato de documentos. Esses relatórios apresentam
 descrições de como os módulos do sistema funcionam de acordo com os
 testes que foram escritos para eles. Dessa forma, não somente o
 sistema ganha uma documentação extensa, como também existe a garantia
-que esta documentação será mantida atualizada ou pelo menos informará
-que o sistema mudou com relação a ela.
+que esta documentação será mantida, atualizada ou, pelo menos,
+informará que o sistema mudou com relação a ela.
 
 Dessa forma, a prática de TDD/BDD ajuda a atingir o objetivo descrito
 pela Prática PDOC 1.1 que exige a criação de uma documentação para
@@ -310,8 +317,8 @@ automaticamente na construção do projeto, essa prática também ajuda a
 atingir o objetivo PDOC 3 que pede que a documentação seja melhorada
 com o produto.
 
-Ainda com relação à área de Documentação (PDOC), a prática PDOC 1.3
-que pede pela criação de documentações genéricas do produto pode ser
+Ainda com relação à área de Documentação (PDOC), a prática PDOC 1.3,
+que pede pela criação de documentações genéricas do produto, pode ser
 cumprida com a realização do planejamento da iteração e a coleta de
 seus resultados em uma ferramenta online (como
 XPlanner\footnote{\url{http://xplanner.org/} - Último acesso em
@@ -333,22 +340,26 @@ Código Compartilhado e de \textit{Design} Simples encorajam o
 desenvolvimento de aplicações para as quais é fácil um desenvolvedor
 participar ativamente do desenvolvimento de um projeto em pouco
 tempo. Sendo assim, o uso de padrões abertos amplamente difundidos e
-utilizados reduz a necessidade de treinamento.
+utilizados reduz a necessidade de treinamento.  Portanto, pode-se
+argumentar que a adesão a padrões abertos no produto é uma prática que
+apoia as práticas de Código Compartilhado e \textit{Design} Simples e,
+ao mesmo tempo, é apoiada por elas.
 
-Portanto, pode-se argumentar que a adesão a padrões abertos no produto
-é uma prática que apoia as práticas de Código Compartilhado e
-\textit{Design} Simples e, ao mesmo tempo, é apoiada por elas.
+% XXX Citação do Agile State Survey da VersionOne
 
 Além disso, a adoção de Programação Extrema é compatível com o
 Objetivo STD 2 - Adotar processos de desenvolvimento padrões - já que
-Programação Extrema é um processo aberto e livre.
+Programação Extrema é um processo aberto e livre. O relatório do
+estado de métodos ágeis de 2010 realizado pela VersionOne indica que
+21\% das equipes que usam métodos ágeis utilizam Programação Extrema
+pura ou aliada a outro método (como Scrum).
 
-\subsubsection{Qualidade do Processo de Testes (QTP)}
+\subsubsection{Qualidade do Plano de Testes (QTP)}
 \label{sec:+qtp}
 
 Novamente, a prática de TDD/BDD e suas variações como Desenvolvimento
 Dirigido por Testes de Aceitação (ATDD - \textit{Acceptance Test
-  Driven Development}) \cite{Owen2004}, apesar de serem técnicas
+  Driven Development})~\cite{Owen2004}, apesar de serem técnicas
 essencialmente ligadas ao \textit{design} do projeto, tem como efeito
 colateral a criação e manutenção de testes em vários níveis (Testes de
 unidade, de integração e de sistema ou integração de sistema
@@ -358,7 +369,7 @@ alta qualidade de testes) já que o plano é a descrição e implementação
 dos testes logo antes da realização da funcionalidade e decorre
 diretamente do plano de desenvolvimento.
 
-Também se cobre o Objetivo QTP 2 (Implementar o gerir o processo de
+Também cobre-se o Objetivo QTP 2 (Implementar e gerir o processo de
 testes) com essas práticas de XP já que o desenvolvimento e execução
 dos testes é garantida antes, durante e após a implementação das
 funcionalidades associadas. A prática de Integração Contínua contribui
@@ -366,27 +377,25 @@ para o Objetivo QTP 2 ao garantir que os testes são realizados
 frequentemente a cada modificação da base de código garantindo
 \textit{Feedback} imediato do trabalho necessário.
 
-TDD/BDD e ATDD também garantirão que o Objetivo QTP 3 (Melhorar o
+TDD/BDD e ATDD também garantem que o Objetivo QTP 3 (Melhorar o
 processo de testes) será atingido já que forçam o desenvolvedor a
 incluir um teste antes de realizar qualquer mudança no código do
 sistema. Dessa forma, correções de erros, inclusões de funcionalidades
 ou melhorias de desempenho são capturadas em testes automatizados e
 garantem a adequação do futuro do projeto a essas decisões.
 
-\subsubsection{Ambiente (ENV)}
+\subsubsection{Ambiente Técnico (ENV)}
 \label{sec:+env}
 
 As práticas de Código Compartilhado, Repositório Único de Código e
 Integração Contínua exigem uma organização do projeto de forma a
 facilitar ao máximo a reprodução do ambiente de desenvolvimento e de
-produção.
-
-Desta forma, o repositório único de código deveria conter todos os
-arquivos necessários para construir e rodar os testes automatizados do
-sistema. Sendo assim, tratam-se vários pontos apontados pelo Objetivo
-ENV 1 (Planejar o desenvolvimento de recursos e infra-estrutura) já
-que basta saber qual o repositório único de código para conseguir
-montar um ambiente de contribuição ao projeto.
+produção. Desta forma, o repositório único de código deveria conter
+todos os arquivos necessários para construir e rodar os testes
+automatizados do sistema. Sendo assim, tratam-se vários pontos
+apontados pelo Objetivo ENV 1 (Planejar o desenvolvimento de recursos
+e infra-estrutura) já que basta saber qual o repositório único de
+código para conseguir montar um ambiente de contribuição ao projeto.
 
 A prática de Código Compartilhado exige uma padronização no estilo de
 escrita de código e de teste que deve ser compartilhado por
@@ -396,13 +405,13 @@ serem obtidos por qualquer contribuidor.
 
 Por fim, a prática de Integração Contínua exige um sistema automático
 para obtenção do código, instalação do mesmo num ambiente limpo e
-execução dos testes automatizados do projeto. Porém, para que seja possível
-montar esse tipo de ambiente automaticamente, é necessário que a
-descrição e configuração do ambiente de produção esteja incluída nessa
-ferramenta de Integração Contínua servindo tanto de exemplo quanto de
-documentação.
+execução dos testes automatizados do projeto. Porém, para que seja
+possível montar esse tipo de ambiente automaticamente, é necessário
+que a descrição e configuração do ambiente de produção esteja incluída
+nessa ferramenta de Integração Contínua servindo tanto de exemplo
+quanto de documentação.
 
-\subsubsection{Número de \textit{commits} e relatório de defeitos
+\subsubsection{Número de \textit{Commits} e Relatório de Defeitos
   (DFCT)}
 \label{sec:+dfct}
 
@@ -421,18 +430,18 @@ e descrita como uma História. Dessa forma, relatar um defeito é
 equivalente a escrever uma História e inserí-la no conjunto de
 histórias do projeto.
 
-O uso de ferramentas para gestão de projeto online (como as citadas na
-Seção \ref{sec:+pdoc}) permite que o cadastro dessas Histórias seja
-realizado de forma simples e direta. A forma de contribuir com
-alterações de código ou documentação relacionados a uma determinada
-História varia um pouco de acordo com o sistema de controle de versões
-usado. Em ferramentas para controle de versão distribuídas, a melhor
-forma de contribuir com sugestões de mudanças é apenas incluir um
-\textit{link} para o controle de versão com as mudanças. Numa
-ferramenta de controle de versão tradicional, o melhor seria gerar um
-arquivo com as diferenças entre o código original e o código
-alterado. De qualquer forma, incluir essas sugestões é tão simples
-quanto anexar um arquivo ou incluir um \textit{link}.
+O uso de ferramentas para gestão de projeto \emph{online} (como as
+citadas na Seção~\ref{sec:+pdoc}) permite que o cadastro dessas
+Histórias seja realizado de forma simples e direta. A forma de
+contribuir com alterações de código ou documentação relacionados a uma
+determinada História varia um pouco de acordo com o sistema de
+controle de versões usado. Em ferramentas para controle de versão
+distribuídas, a melhor forma de contribuir com sugestões de mudanças é
+apenas incluir um \textit{link} para o controle de versão com as
+mudanças. Numa ferramenta de controle de versão tradicional, o melhor
+seria gerar um arquivo com as diferenças entre o código original e o
+código alterado. De qualquer forma, incluir essas sugestões é tão
+simples quanto anexar um arquivo ou incluir um \textit{link}.
 
 Dessa forma, cobre-se o Objetivo DFCT 1 ao prover uma forma
 padronizada e simples de contribuir com o projeto. O uso de uma
@@ -441,7 +450,7 @@ Repositório Único de Código) também ajuda a atingir o Objetivo DFCT 2
 que exige uma gestão das contribuições, \textit{commits} e relatórios
 de erros.
 
-\subsubsection{Manutenabilidade e Estabilidade (MST)}
+\subsubsection{Facilidade de Manutenção e Estabilidade (MST)}
 \label{sec:+mst}
 
 As práticas de Refatoração e Programação em Pares são essenciais em XP
@@ -450,8 +459,8 @@ garantir que o código da aplicação permaneça legível e mais simples de
 manter. Um dos estudos mais reconhecidos sobre Programação em Pares
 \cite{Williams2000} mostra que o uso de Programação em Pares reduz a
 quantidade de defeitos, melhora a qualidade do \textit{design} e
-distribui conhecimento técnico. Já a Refatoração \cite{Refac01} é uma
-prática cujo objetivo é melhor a manutenabilidade de um determinado
+distribui conhecimento técnico. Já a Refatoração~\cite{Refac01} é uma
+prática cujo objetivo é melhorar a manutenabilidade de um determinado
 código sem alterar sua funcionalidade.
 
 Essas duas práticas aliadas ajudam a cumprir o Objetivo MST 1 que
@@ -487,8 +496,8 @@ sistema tenha o direito e a possibilidade de alterar qualquer trecho
 de código independente de quem foi o autor desse trecho ou quando ele
 foi criado. Para que isso seja possível, o projeto deve estabelecer
 padrões de estrutura de arquivos, formatação usada além de estilo de
-nomenclatura e outros itens que permitam uma integridade conceitual
-para o código do projeto.
+nomenclatura e outros itens que permitam uma integridade de forma e de
+estilo para o código do projeto.
 
 Esses padrões iniciais estabelecem uma configuração padrão para
 qualquer desenvolvedor e podem ser integrados ao sistema de controle
@@ -501,9 +510,9 @@ As práticas de História e de Ciclos (Semanais e de Estação) permitem
 também manter um acompanhamento de quando as Histórias são criadas e
 quando elas são planejadas para serem desenvolvidas. Manter o
 histórico dessas Histórias e Ciclos permite atingir o Objetivo CM 2 de
-acompanhar e controlar mudanças às configurações do projeto.
+acompanhar e controlar mudanças nas configurações do projeto.
 
-\subsubsection{Planejamento de Projeto 1 (PP1)}
+\subsubsection{Planejamento de Projeto Parte 1 (PP1)}
 \label{sec:+pp1}
 
 A prática de Jogo do Planejamento pede que a equipe de desenvolvimento
@@ -526,12 +535,14 @@ o Objetivo PP1 1 que pede o estabelecimento de estimativas.
 O Jogo do Planejamento ainda diz que as Histórias que forem
 consideradas de maior valor de negócio e de maior risco são as que tem
 maior prioridade no desenvolvimento. Dessa forma, a equipe precisa
-informar junto com a estimativa da história qual o risco técnico associado com
-aquela história e o cliente deve saber o risco de negócios
-relacionado. Com essas duas informações, o plano de desenvolvimento do
-projeto decorre da regra de sempre trabalhar nas histórias de maior
-risco e maior valor existente atualmente. Dessa forma, caso o projeto
-encontre um grande problema, isso acontecerá cedo no processo.
+informar junto com a estimativa da história qual o risco técnico
+associado com aquela história e o cliente deve saber o risco de
+negócios relacionado. Com essas duas informações, o plano de
+desenvolvimento do projeto decorre da regra de sempre trabalhar nas
+histórias de maior risco e maior valor existente atualmente. Dessa
+forma, caso o projeto encontre um grande problema, a falha acontecerá
+cedo no processo reduzindo o custo necessário para identificar um
+problema sério.
 
 Esse planejamento de desenvolvimento do projeto é o Objetivo PP1 2 que
 corresponde ao Ciclo de Estação do Produto.
@@ -539,11 +550,11 @@ corresponde ao Ciclo de Estação do Produto.
 \subsubsection{Gestão de Requisitos (REQM)}
 \label{sec:+reqm}
 
-A prática de Histórias consiste em coletar de forma concisa e curta uma
-necessidade do ponto de vista de negócio para o projeto. Essa história
-é inicialmente apresentada como uma descrição muito curta e muito
-simples mas é associada com a pessoa que a requisitou. Dessa forma,
-caso essa história seja escolhida para o Ciclo Semanal, os
+A prática de Histórias consiste em coletar de forma concisa e curta
+uma necessidade do ponto de vista de negócio para o projeto. Essa
+história é inicialmente apresentada como uma descrição muito curta e
+muito simples mas é associada com a pessoa que a requisitou. Dessa
+forma, caso essa História seja escolhida para o Ciclo Semanal, os
 desenvolvedores tem a possibilidade de obter mais informações sobre o
 trabalho a ser realizado. As reuniões do Jogo do Planejamento permitem
 revisar e atualizar essas histórias de forma a garantir a gestão com
@@ -552,20 +563,20 @@ relação às mudanças nos requisitos descritos pela história. Com isso,
 requisitos.
 
 \subsection{Práticas de XP que contribuem para o OMM nível
-  Intermediário e avançado}
+  Intermediário e Avançado}
 \label{sec:xp-omm-intermediate}
 
-Conforme se avançam nos nívels do OMM, assim como para o CMMi, as
+Conforme se avançam nos níveis do OMM, assim como para o CMM, as
 exigências se tornam mais rígidas e difíceis de cumprir. O nível
 Intermediário do OMM trabalha com 7 elementos essenciais (Tabela
 \ref{tab:omm-intermediate}) enquanto o nível avançado envolve mais 7
-elementos essenciais (Tabela \ref{tab:omm-advanced}).
+elementos essenciais (Tabela~\ref{tab:omm-advanced}).
 
 No nível intermediário, adicionam-se os elementos:
 \begin{itemize}
-\item \textit{RDMP2} - Plano do Projeto Parte 2
-\item \textit{PP2} - Planejamento do Projeto Parte 2
-\item \textit{STK} - Relações entre interessados (\textit{STK})
+\item \textit{RDMP2} - Desenvolvimento de um Plano
+\item \textit{PP2} - Planejamento de Projeto Parte 2
+\item \textit{STK} - Relações entre Interessados (\textit{STK})
 \item \textit{PMC} - Monitoramento e Controle do Projeto
 \item \textit{PPQA} - Garantia de Qualidade no Processo e no Projeto
 \item \textit{TST1} - Testes Parte 1
@@ -590,29 +601,30 @@ planejadas atualizações ao plano do projeto e que elas sejam
 seguidas. Em XP, a prática de Ciclo Semanal pede que a equipe
 renegocie o seu trabalho da semana. Essa negociação deve impactar como
 for necessário o planejamento do projeto. Dessa forma, é possível e
-até provável que se realize um jogo do planejamento curto no início da
+até provável que se realize um Jogo do Planejamento curto no início da
 cada Ciclo Semanal. Sendo assim, pode-se argumentar que as
-atualizações ao plano do projeto são realizadas semanalmente como pede
-o elemento \textit{RDMP2}.
+atualizações ao plano do projeto são realizadas no início de cada
+ciclo i.e. periodicamente como pede o elemento \textit{RDMP2}.
 
 No que diz respeito ao elemento \textit{PP2}, a principal adição é com
 relação a obter comprometimento com o plano traçado. Nesse aspecto,
-não há nominalmente nenhuma prática de XP que aborde esse assunto. No
-entanto, existe um princípio em métodos ágeis e na forma com que se
-conduz um jogo do planejamento que busca este objetivo. Esse princípio
-exige que a equipe de desenvolvimento seja responsável por estimar as
-tarefas que precisam ser realizadas e determine quais consegue cumprir
-no tempo disponível. A ideia de que o próprio time estabeleça as
-estimativas e o plano cria um comprometimento natural já que as
-pessoas são tomadoras de decisões e não meros acatadores. Esse
-princípio é chamado de Responsabilidade Aceita.
+não há, nominalmente, nenhuma prática de XP que aborde esse
+assunto. No entanto, existe um princípio em métodos ágeis e na forma
+com que se conduz um Jogo do Planejamento que busca este
+objetivo. Esse princípio exige que a equipe de desenvolvimento seja
+responsável por estimar as tarefas que precisam ser realizadas e
+determine quais consegue cumprir no tempo disponível. A ideia de que o
+próprio time estabeleça as estimativas e o plano cria um
+comprometimento natural já que as pessoas são tomadoras de decisões e
+não meros acatadores. Esse princípio é chamado de Responsabilidade
+Aceita.
 
 A parte de Testes exigida pelo nível intermediário menciona uma
 preparação do projeto para verificação, uma revisão externa e uma
 verificação dos produtos livres usados pelo projeto. A prática de
 Programação em Pares tem um feito óbvio de revisão externa constante e
 imediata. Dessa forma, pode-se argumentar que a validação externa é
-realizada constantemente pelo pessoa que está fazendo ``par'' com o
+realizada constantemente pelo pessoa que está fazendo par com o
 programador. Além disso, pode-se dizer também que as práticas de TDD e
 ATDD colaboram para facilitar a criação de um ambiente de verificação
 já que essas práticas forçam os programadores a criar arquiteturas que
@@ -627,11 +639,11 @@ do projeto, seus motivos e quais podem ser ações corretivas que
 resolvam não apenas o problema imediato mas também as chances desses
 problema se repetir no futuro.
 
-Os apectos de Projeto Parte 1, Garantia de Qualidade no Processo e no
+Os aspectos de Projeto Parte 1, Garantia de Qualidade no Processo e no
 Projeto e Relações entre Interessados não são diretamente tratados por
 nenhuma prática de XP. No caso da Garantia de Qualidade, a prática de
 Retrospectiva tem um efeito indireto mas depende muito da capacidade
-do time em encontrar melhorias para o processo e projto. Na parte de
+do time em encontrar melhorias para o processo e projeto. Na parte de
 Projeto, as exigências são bastante específicas com relação à obtenção
 e rastreabilidade das funcionalidades. A prática em XP que cuida
 desses aspectos são as práticas de Histórias e de Sentar Junto. No
@@ -640,7 +652,7 @@ dependem bastante da habilidade das pessoas envolvidas no projeto.
 
 Pro nível avançado, os objetivos são mais exigentes e, apesar do uso
 de diversas práticas de XP em conjunto conseguirem atingir alguns
-deles, os resultados ainda são muito dependentes do abilidade e
+deles, os resultados ainda são muito dependentes do habilidade e
 experiência dos envolvidos para continuarem perseguindo os
 objetivos. Desta forma, para poder garantir que o processo atinja os
 objetivos desejados, será necessário incluir algumas práticas àquelas
@@ -649,11 +661,12 @@ apresentadas anteriormente.
 \subsection{Resumo}
 \label{sec:resumo-omm}
 
-Em resumo, a Tabela \ref{tab:omm-basic-by-xp} apresenta um mapeamento
-entre práticas de Programação Extrema e elementos essenciais do
-OMM no nível básico. Graças à tabela, percebe-se que o elemento de documentação é o
-ponto menos abordado pelas práticas de Programação Extrema enquanto o
-elemento de Manutenabilidade e Estabilidade é o mais coberto.
+Em resumo, a Tabela~\ref{tab:omm-basic-by-xp} apresenta um mapeamento
+entre práticas de Programação Extrema e elementos essenciais do OMM no
+nível básico. Graças à tabela, percebe-se que o elemento de
+documentação é o ponto menos abordado pelas práticas de Programação
+Extrema enquanto o elemento de Manutenabilidade e Estabilidade é o
+mais coberto.
 
 \begin{table}
   \centering
@@ -694,13 +707,15 @@ elemento de Manutenabilidade e Estabilidade é o mais coberto.
   \label{tab:omm-basic-by-xp}
 \end{table}
 
-Já a Tabela \ref{tab:omm-intermediary-by-xp} mostra como fica mais
+Já a Tabela~\ref{tab:omm-intermediary-by-xp} mostra como fica mais
 difícil cumprir as exigências essenciais no nível intermediário. Em
-especial, as marcas com asterísco mostram práticas que abordam o
+especial, as marcas com asterisco mostram práticas que abordam o
 assunto mas dependem da capacidade da equipe de buscar o objetivo
 procurado. Isto é, não basta a equipe aplicar a prática
 corretamente. Ela precisa buscar o objetivo exigido pelo elemento
-essencial e a prática apenas auxilia atingir esse objetivo.
+essencial e a prática apenas auxilia atingir esse objetivo. Vale notar
+que nenhuma prática de XP aborda (nem indiretamente) os elementos
+\textit{STK} e \textit{DSN1}.
 
 \begin{table}
   \centering
@@ -734,7 +749,7 @@ essencial e a prática apenas auxilia atingir esse objetivo.
   \label{tab:omm-intermediary-by-xp}
 \end{table}
 
-A Seção a seguir (Seção \ref{sec:xp-omm}) apresenta os elementos
+A Seção a seguir (Seção~\ref{sec:xp-omm}) apresenta os elementos
 essenciais e partes de objetivos que não foram atingidos com as
 práticas de XP listadas até agora.
 
@@ -742,98 +757,98 @@ práticas de XP listadas até agora.
   Extrema}
 \label{sec:xp-omm}
 
-Os principais elementos que não foram cobertos pelas práticas de XP
-são:
+Os principais elementos do nível básica que não foram cobertos pelas
+práticas de XP são:
 
 \begin{enumerate}
 \item PDOC - Objetivo 1.2
 
   - Criar uma documentação para usuários
-
+  \label{omm:pdoc1.2}
 \item PDOC - Objetivo 2
 
   - Criar um a documentação pro produto
-
+  \label{omm:pdoc2}
 \item STD - Objetivo 3
 
   - Garantir independência estratégica do projeto
-
+  \label{omm:std3}
 \item LCS
 
   Toda a parte de Licenças
-
+  \label{omm:lcs}
 \item ENV - Objetivo 3
 
   Melhorar o uso de ferramentas livres
-
+  \label{omm:env3}
 \item CM - Objetivo 3
 
   Estabelecer Integridade
-
+  \label{omm:cm3}
 \item RDMP1 - Objetivo 1
 
   Planejar o plano do produto
+  \label{omm:rdmp11}
 \end{enumerate}
 
-Com relação ao Item 1, XP defende que a documentação para o usuário
-deve ser incluída como uma História como qualquer outra. Nesse ponto,
-ela pode ser priorizada e incluída no Ciclo Semanal como qualquer
-outra funcionalidade. Sendo assim, o processo não garante que a
-documentação para o usuário será desenvolvida mas garante que, se ela
-for importante, ela será realizada.
+Com relação ao Item~\ref{omm:pdoc1.2}, XP defende que a documentação
+para o usuário deve ser incluída como uma História como qualquer
+outra. Nesse ponto, ela pode ser priorizada e incluída no Ciclo
+Semanal como qualquer outra funcionalidade. Sendo assim, o processo
+não garante que a documentação para o usuário será desenvolvida mas
+garante que, se ela for importante, ela será realizada.
 
 Nesse ponto, a melhor opção pode ser incluir a escrita de documentação
 para usuário junto com a história da funcionalidade. Dessa forma,
 garante-se que a História não é aprovada (ou terminada) caso não
 exista essa documentação.
 
-O item 2 cai numa situação similar. Implementar uma documentação
-embutida no produto é uma funcionalidade como outra que deveria ser
-priorizada e incluída no Ciclo Semanal como outras. O ponto a destacar
-é apenas que, uma vez que o sistema estiver desenvolvido, ele deveria
-ser realizado de tal forma que a documentação para o usuário
-refletisse na documentação para o produto em si.
+O Item~\ref{omm:pdoc2} cai numa situação similar. Implementar uma
+documentação embutida no produto é uma funcionalidade como outra que
+deveria ser priorizada e incluída no Ciclo Semanal como outras. O
+ponto a destacar é apenas que, uma vez que o sistema estiver
+desenvolvido, ele deveria ser realizado de tal forma que a
+documentação para o usuário refletisse na documentação para o produto
+em si.
 
-O item 3 é um pouco mais complicado de tratar já que envolve analisar
-cada uma dos padrões para avaliar a chance dele causar uma dependência
-futura. Para conseguir atingir esse objetivo, é necessário incluir
-alguma prática de análise de risco para os componentes usados na
-implementação de cada História.
+O Item~\ref{omm:std3} é um pouco mais complicado de tratar já que
+envolve analisar cada um dos padrões para avaliar a chance dele causar
+uma dependência futura. Para conseguir atingir esse objetivo, é
+necessário incluir alguma prática de análise de risco para os
+componentes usados na implementação de cada História.
 
-O item 4 é similar mas em geral terá um peso mais significativo apenas
-no início do projeto. Sendo assim, talvez seja importante dedicar um
-ciclo semanal de preparação e análise do projeto para averiguar as
-possibilidades no quesito de licenças que o projeto aceita.
+O Item~\ref{omm:lcs} é similar mas, em geral, terá um peso mais
+significativo apenas no início do projeto. Sendo assim, talvez seja
+importante dedicar um Ciclo Semanal de preparação e análise do projeto
+para averiguar as possibilidades no quesito de licenças que o projeto
+aceita.
 
-O item 5 envolve pesquisa em busca de componentes abertos para
-substituir componentes proprietários. Dessa forma, o processo
+O Item~\ref{omm:env3} envolve pesquisa em busca de componentes abertos
+para substituir componentes proprietários. Dessa forma, o processo
 precisaria incluir inspeções recorrentes dos componentes e ferramentas
 usadas em busca de alternativas livres.
 
-O item 6 é provavelmente um dos objetivos mais difíceis de
-atingir. Integridade Conceitual é um requisito que já é difícil
-conseguir quando uma única pessoa realiza todo o trabalho. No contexto
+O Item~\ref{omm:cm3} é provavelmente um dos objetivos mais difíceis de
+atingir. Integridade Conceitual é um requisito que já é difícil de
+atingir quando uma única pessoa realiza todo o trabalho. No contexto
 de uma equipe com contribuições externas (como o cenário de software
 livre), transmitir o conceito do projeto é bem complicado. Nesse caso,
 a sugestão seria de incluir pequenas conversas entre os
 usuários/clientes e desenvolvedores gravadas (aúdio e vídeo)
-disponíveis na página \textit{Internet} do projeto.
+disponíveis na página Internet do projeto.
 
-O item 7 pode ser obtido ao estabelecer uma cadência para os ciclos de
-estação e realizar Jogos do Planejamento em vários níveis ao final de
-cada estação. XP defende que esse tipo de planejamento a longo prazo
-deveria ser realizado apenas num nível bem geral para permitir
-mudanças que ocorrerão inevitavelmente.
+O Item~\ref{omm:rdmp1} pode ser obtido ao estabelecer uma cadência
+para os Ciclos de Estação e realizar Jogos do Planejamento em vários
+níveis ao final de cada estação. XP defende que esse tipo de
+planejamento a longo prazo deveria ser realizado apenas num nível bem
+geral para permitir mudanças que ocorrerão inevitavelmente.
 
 Considerando essas possíveis justificativas para aderir ao OMM nível
 básico, percebe-se que métodos ágeis e, em especial nesse caso,
 Programação Extrema são bons candidatos para atingir uma certificação
-OMM nível básico. Com isso, espera-se que comunidades de Software
-Livre possam atingir esse objetivo sem forçar o uso de uma metodologia
-tradicional aos seus contribuidores. A próxima seção (Seção
-\ref{sec:sl+omm}) apresenta alguns pontos que causam tensões
-entre o OMM e métodos ágeis e como eles poderiam ser flexibilizados de
-forma a manter a qualidade sem manter a rigidez.
+OMM nível básico. Com isso, espera-se que comunidades de software
+livre possam atingir esse objetivo sem forçar o uso de uma metodologia
+tradicional aos seus contribuidores.
 
 \section[OMM no contexto livre]{O OMM como semente para uso de
   metodologias em ambientes livres}
@@ -845,7 +860,7 @@ forma a manter a qualidade sem manter a rigidez.
 
 O universo do software livre se inspira muito nessa
 ideia. Diversidade, alternativas, mudanças de direções, opiniões e até
-mesmo brigas são elementos essenciais para evolução do eco-sistema
+mesmo brigas são elementos essenciais para a evolução do eco-sistema
 livre. Qualquer tentativa de buscar uma única forma de atingir um
 objetivo nesse ambiente é falha de antemão. No entanto, o objetivo do
 OMM não é esse. O OMM busca apenas ajudar empresas e comunidades a
@@ -853,18 +868,18 @@ avaliarem seus próprios processos e produtos sob uma ótica de
 viabilidade em uso comercial.
 
 Nesse sentido, o uso de metodologias ágeis é apenas uma das opções
-existentes.  Não é a única e muito menos a melhor assim como o próprio
-objetivo do OMM não é o único nem o mais buscado pelos projetos livres
-existentes. Com certeza, muitas críticas virão e muitas outras opções
-serão apresentadas. O OMM já apresenta uma boa forma de lidar com isso
-já que, em seu próprio plano, apresenta planos para receber sugestões
-e melhorias e incorporá-las conforme for possível.  Se for bem
-sucedido nessa empreitada, o OMM ganhará o respeito da comunidade de
-software livre.
+existentes.  Não é a única e muito menos a melhor; assim como o
+próprio objetivo do OMM não é o único nem o mais buscado pelos
+projetos livres existentes. Com certeza, muitas críticas virão e
+muitas outras opções serão apresentadas. O OMM já apresenta uma boa
+forma de lidar com isso já que, em seu próprio plano, apresenta ideias
+para receber sugestões e melhorias e incorporá-las conforme for
+possível.  Se for bem sucedido nessa empreitada, o OMM ganhará o
+respeito da comunidade de software livre.
 
-Um dos possíveis problemas do OMM é a característica herdada do CMMi
-de dar muita importância ao planejamento e ao plano. Métodos ágeis
-seguem a filosofia de que ``Planos não tem valor, mas planejar é
+Um dos possíveis problemas do OMM é a característica herdada do CMM de
+dar muita importância ao planejamento e ao plano. Métodos ágeis seguem
+a filosofia de que ``Planos não tem valor, mas planejar é
 tudo''. Sendo assim, muitos elementos essenciais do OMM que avaliam a
 aderência ao plano ferem a capacidade de reagir às mudanças
 rapidamente.
@@ -873,7 +888,8 @@ No entanto, este capítulo apresentou uma possível adequação de
 Programação Extrema para atingir alguns objetivos traçados pelo
 OMM. Projetos de software livre como o
 LaunchPad\footnote{\url{http://launchpad.net} -- Último acesso em
-  07/01/2011} e o Calopsita\footnote{\url{http://calopsita.caelum.com.br} --
-  Último acesso em 07/01/2011} que, oficialmente, são desenvolvidos
-com métodos ágeis poderão tomar como base essa argumentação e, se
-tiverem sucesso, incentivarão outros projetos a seguirem seus passos.
+  07/01/2011} e o
+Calopsita\footnote{\url{http://calopsita.caelum.com.br} -- Último
+  acesso em 07/01/2011} que, oficialmente, são desenvolvidos com
+métodos ágeis poderão tomar como base essa argumentação e, se tiverem
+sucesso, incentivarão outros projetos a seguirem seus passos.
