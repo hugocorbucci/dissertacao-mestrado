@@ -4,41 +4,43 @@
 
 Para poder falar sobre software livre e métodos ágeis, é necessário,
 primeiro, definir o que deve ser entendido por estes conceitos. A
-Seção \ref{sec:agile-def} apresenta o escopo de projetos considerados
+Seção~\ref{sec:agile-def} apresenta o escopo de projetos considerados
 ágeis enquanto o escopo de projetos de software livre, mais
-complexo, é apresentado na Seção \ref{sec:os-def}.
+complexo, é apresentado na Seção~\ref{sec:os-def}.
 
 \section{Escopo de Métodos Ágeis abordados}
 \label{sec:agile-def}
 
 Este trabalho considerará como método ágil qualquer método de
-engenharia de software que siga os princípios do manifesto ágil
-\cite{AgileManifesto}. O interesse principal do trabalho está ligado
-aos métodos mais conhecidos, como Programação Extrema (XP)
-\cite{XP02}, Scrum \cite{Schwaber2004} e a família Crystal
-\cite{Cockburn2002}. Mas também serão mencionadas algumas ideias
-relacionadas à ``filosofia'' \emph{Lean} \cite{Ohno1998} e sua
-aplicação ao desenvolvimento de software \cite{Poppendieck2005}.
+engenharia de software que siga os princípios do manifesto
+ágil~\cite{AgileManifesto}. O interesse principal do trabalho está
+ligado aos métodos mais conhecidos, como Programação Extrema
+(\emph{eXtreme Programming} - XP)~\cite{XP02},
+Scrum~\cite{Schwaber2004} e a família Crystal~\cite{Cockburn2002}. Mas
+também serão mencionadas algumas ideias relacionadas à ``filosofia''
+\emph{Lean}~\cite{Ohno1998} e sua aplicação ao desenvolvimento de
+software~\cite{Poppendieck2005}.
 
 \section{Escopo da comunidade de Software Livre abordada}
 \label{sec:os-def}
 
 Os termos ``Software de Código Aberto'' e ``Software Livre'' serão
 considerados os mesmos neste trabalho apesar de terem diferenças
-importantes em seus contextos específicos \cite[Ch. 1, Free Versus
+importantes em seus contextos específicos~\cite[Ch. 1, Free Versus
 Open source]{Fogel2005}. Ao longo do trabalho, quando se falar de
 projetos de software livre serão considerados projetos cujo código
 fonte estiver disponível e puder ser modificado por qualquer pessoa
-com o conhecimento técnico necessário sem consentimento prévio do
-autor original e sem encargos.
+com o conhecimento técnico necessário. Não deve ser necessário nenhum
+consentimento adicional (além da licença) por parte do autor original
+e não pode ser cobrado nenhum encargo para realizar a mudança.
 
 Outra restrição será de que projetos de software livre iniciados e
 controlados por uma única empresa não serão tratados nesse
 trabalho. Isto porque projetos controlados por empresas onde seja
 disponibilizado o código fonte e/ou sejam aceitas colaborações
-externas podem ser desenvolvidos com qualquer método de engenharia de
-software. Basta que a empresa obrigue seus funcionários a seguir
-determinado método. Alguns métodos incluem práticas que atraem
+externas podem ser desenvolvidos com qualquer processo de engenharia
+de software. Basta que a empresa obrigue seus funcionários a seguir
+determinadas instruções. Alguns métodos incluem práticas que atraem
 contribuições externas, outros distribuem apenas o trabalho escolhido
 aos membros da equipe. De qualquer forma, a empresa controla sua
 própria equipe e mantém o controle sobre o desenvolvimento
@@ -61,7 +63,7 @@ Trabalhos acadêmicos cujo código é liberado como software livre podem
 entrar no escopo desse trabalho caso sigam um modelo distribuído com
 contribuições não controladas. No caso de equipes completamente
 controladas, o caso é muito semelhante ao da empresa que controla seus
-funcionários.
+funcionários e, portanto, não será tratado.
 
 A próxima subseção apresenta alguns estudos que traçam o perfil de
 contribuidores desse tipo de projetos livres.
@@ -71,20 +73,20 @@ contribuidores desse tipo de projetos livres.
 
 Considerando o escopo definido na seção anterior, é importante
 caracterizar as pessoas envolvidas em tais projetos. Em 2002, o
-\emph{FLOSS Project} \cite{FlossProject} publicou um relatório sobre
+\emph{FLOSS Project}~\cite{FlossProject} publicou um relatório sobre
 uma pesquisa realizada com contribuidores de projetos de software
-livre. Os dados coletados mostram que 78.77\% dos contribuidores têm
-emprego (pergunta 42) e que apenas 50.82\% da comunidade de software
-livre são programadores enquanto 24.76\% não ganham a maioria de suas
-rendas com desenvolvimento de software (pergunta 10)
-\cite{FlossStats}. Além desses resultados, a pesquisa apresenta o fato
-de 78.78\% dos colaboradores considerarem suas tarefas em projetos
+livre. Os dados coletados mostram que 79\% dos contribuidores tem
+emprego (pergunta 42) e que apenas 51\% da comunidade de software
+livre são programadores enquanto 25\% não ganham a maioria de suas
+rendas com desenvolvimento de software (pergunta
+10)~\cite{FlossStats}. Além desses resultados, a pesquisa apresenta o
+fato de 79\% dos colaboradores considerarem suas tarefas em projetos
 livres mais prazerosas (pergunta 22.2) do que suas atividades
-regulares. 42.30\% também consideram seus projetos de software livre
-mais organizados que seus projetos profissionais (pergunta 22.4).
-Esses sentimentos sobre as atividades dos contribuidores de software
-livre podem estar ligados à liberdade no sistema de desenvolvimento
-dos projetos que, em geral, não possuem nenhum processo pesado de
+regulares. 42\% também consideram seus projetos de software livre mais
+organizados que seus projetos profissionais (pergunta 22.4).  Esses
+sentimentos sobre as atividades dos contribuidores de software livre
+podem estar ligados à liberdade no sistema de desenvolvimento dos
+projetos que, em geral, não possuem nenhum processo pesado de
 desenvolvimento.
 
 Por pesado, entende-se um processo no qual é muito importante
@@ -93,11 +95,11 @@ atingiu-se essa decisão. Tipicamente, estes processos contam com uma
 importante fase de planejamento de forma a garantir que os documentos
 que explicam a tomada de decisão sejam úteis e apresentem análises das
 várias possibilidades. O termo ``processo pesado'' veio da comunidade
-de métodos ágeis nos tempos em que eles eram ditos leves. As palavras
+de métodos ágeis nos tempos em que estes eram ditos leves. As palavras
 eram usadas como alusão à quantidade de tarefas obrigatórias para
 chegar à implementação em processos pesados.
 
-Outra pesquisa \cite{Reis2003} apontou que 74\% dos projetos de
+Outra pesquisa~\cite{Reis2003} apontou que 74\% dos projetos de
 software livre tem equipes com até 5 pessoas e que 62\% dos
 contribuidores nunca se conheceram fisicamente. Portanto, é crítico
 para esses projetos que o processo de desenvolvimento esteja adequado
@@ -105,6 +107,6 @@ a essas características e não se torne um fardo para o trabalho
 voluntário.
 
 Tendo deixado claro o que será considerado um método ágil e um projeto
-de software livre neste texto, o capítulo seguinte (Capítulo
-\ref{cap:semelhancas}) aborda as semelhanças entre o desenvolvimento
-de Software Livre e os conceitos de Métodos Ágeis.
+de software livre neste texto, o Capítulo seguinte
+(Capítulo~\ref{cap:semelhancas}) aborda as semelhanças entre o
+desenvolvimento de Software Livre e os conceitos de Métodos Ágeis.
