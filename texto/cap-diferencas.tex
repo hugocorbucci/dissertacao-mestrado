@@ -2,9 +2,9 @@
 \chapter{Diferenças entre os dois mundos}
 \label{cap:diferencas}
 
-O manifesto ágil (apresentado na Caixa \ref{box:manifesto}, página
-\pageref{box:manifesto}) é complementado por uma lista de 12
-princípios traduzidos na Caixa \ref{box:principles}. Esses princípios
+O manifesto ágil (apresentado na Caixa~\ref{box:manifesto},
+página~\pageref{box:manifesto}) é complementado por uma lista de 12
+princípios traduzidos na Caixa~\ref{box:principles}. Esses princípios
 apresentam guias que norteiam os métodos ágeis na direção de algumas
 práticas. Este Capítulo apresenta uma análise desses princípios sob o
 ponto de vista de projetos de software livre com o objetivo de
@@ -50,13 +50,15 @@ diferenças entre as comunidades.
   \label{box:principles}
 \end{caixa}
 
-A Seção \ref{sec:principles} apresenta a relação de princípios ágeis e
+A Seção~\ref{sec:principles} apresenta a relação de princípios ágeis e
 sua ligação com software livre para identificar os pontos principais
 de diferença entre os movimentos. Em seguida, a Seção
 \ref{sec:foss-over-agile} apresenta um pequeno resumo de um
 \textit{workshop}\footnote{\url{http://submissions.agile2008.org/node/376}
-  - Acessado em 16/03/2009} conduzido por Mary Poppendieck com
-Christian Reis na Agile 2008. O \textit{workshop}, intitulado
+  -- Último acesso em 16/03/2009} conduzido por Mary Poppendieck com
+Christian Reis na Agile
+2008\footnote{\url{http://agile2008.agilealliance.org} -- Último
+  acesso em 17/01/2011}. O \textit{workshop}, intitulado
 \textit{``Open Source Meets Agile - What can each teach the other?''}
 tinha como objetivo discutir práticas de sucesso em um projeto de
 software livre que não eram encontradas em métodos ágeis. Desta forma,
@@ -64,30 +66,30 @@ os participantes poderiam compreender alguns princípios essenciais que
 se aplicam a projetos de software livre e poderiam propor melhorias
 aos atuais métodos ágeis.
 
-Contrastando com este trabalho, a Seção \ref{sec:agile-improve-os}
-apresenta as deficiências dos métodos ágeis mais conhecidos atualmente
-no que diz respeito ao contexto de software livre. A Seção também
-aborda como a criação de uma implementação de método ágil que lidesse
-com o contexto de software livre poderia ajudar tanto projetos de
-software livre quanto a comunidade de métodos ágeis.
+Por outro lado, a Seção~\ref{sec:agile-improve-os} apresenta práticas
+ágeis que podem ter um impacto positivo em ambientes de software livre
+e as adaptações que se fazem necessárias pela diferença de contexto
+existente em cada comunidade. Por fim, a Seção~\ref{sec:resumo-diffs}
+apresenta um resumo das diferenças encontradas e como cada uma pode
+ser combinada de forma construtiva para melhorar ambas comunidades.
 
 \section{Princípios ágeis sob a ótica livre}
 \label{sec:principles}
 
 A lista de princípios ágeis apresenta alguns pontos de semelhança e
 outros de diferença com software livre. As próximas Seções discutem
-cada um dos princípios e seu uso em projetos de software livre.
+cada um dos princípios e seu uso em projetos livres.
 
 \subsection[Satisfação do cliente]{Nossa maior prioridade é satisfazer
   o cliente através da entrega contínua e adiantada de software com
   valor agregado}
 
 Esse princípio traduz para ações o valor de resposta a mudanças. Como
-comentado no Capítulo \ref{cap:semelhancas}, projetos livres tem a
+comentado no Capítulo~\ref{cap:semelhancas}, projetos livres tem a
 obrigação de atender aos pedidos de seus usuários caso contrário são
 abandonados. Tem se tornado frequentes os projetos livres em que
 existe uma periodicidade fixa para lançamento de novas versões como o
-Eclipse\footnote{\url{http://www.eclipse.org/} -- Último acesso em
+Eclipse\footnote{\url{http://www.eclipse.org} -- Último acesso em
   28/10/2010} (que tem novas versões estáveis a cada ano e novas
 versões instáveis a cada dois meses), a distribuição Linux
 Ubuntu\footnote{\url{http://www.ubuntu.com} -- Último acesso em
@@ -105,7 +107,7 @@ os usuários podem ``votar'' nas funcionalidades mais importantes para
 a próxima versão. O Bugzilla\footnote{\url{http://www.bugzilla.org} --
   Último acesso em 28/10/2010} é uma das ferramentas que permite esse
 tipo de participação entre outras como
-JIRA\footnote{\url{http://www.atlassian.com/software/jira/} -- Último
+JIRA\footnote{\url{http://www.atlassian.com/software/jira} -- Último
   acesso em 28/10/2010} e GitHub\footnote{\url{http://www.github.com}
   -- Último acesso em 28/10/2010}.
 
@@ -134,9 +136,9 @@ partir desse momento, mudanças no funcionamento passam a ser
 descrições de erros (comportamento não esperado ou não desejado do
 sistema).
 
-A segunda parte do princípio afirma que essa resposta à mudança
-deve se dar de forma a garantir um diferencial competitivo ao cliente,
-isto é, as mudanças incorporadas devem ir na direção que atrairá mais
+A segunda parte do princípio afirma que essa resposta à mudança deve
+se dar de forma a garantir um diferencial competitivo ao cliente, isto
+é, as mudanças incorporadas devem ir na direção que atrairá mais
 usuários. Em software livre, é muito difícil descobrir a curto ou
 médio prazo o impacto de uma nova funcionalidade na base de usuários
 já que a adoção e difusão dos projetos é relativamente lenta e pouco
@@ -147,27 +149,29 @@ destacar permanecem.
   funcionando, de poucas semanas a poucos meses, com preferência à
   menor escala de tempo}
 
-O freshmeat\footnote{\url{http://freshmeat.net/} -- Último acesso em
+O freshmeat\footnote{\url{http://freshmeat.net} -- Último acesso em
   28/10/2010} é um dos maiores site de notícias sobre novas versões de
 projetos livres. O site está em atividade desde meados de 1990 e ainda
 mantém seu histórico desde Fevereiro de 2001. Desta data até
 05/01/2011, foram 214999 novas versões que formam uma média de 59.31
 novas versões por dia.
 
-Até 28/10/2010, eram 42800 projetos livres repertoriados e
-controlados. Esses dados apontam uma média de 4.97 novas versões por
-projeto ao longo de 3556 dias (9 anos e alguns meses).
-Aproximadamente uma nova versão a cada dois anos por projeto.
+Até 05/01/2010, eram 34232 projetos livres repertoriados e
+controlados. Esses dados apontam uma média de 6 novas versões por
+projeto ao longo de 3635 dias (9 anos e alguns meses).
+Aproximadamente uma nova versão a cada 18 meses por projeto.
 
 Analisando os lançamentos efetuados entre 21/10/2001 e 28/10/2010, a
 grande maioria dos projetos listados não tem uma frequência alta e
-estável de lançamentos. A Figura \ref{fig:freshmeat} mostra a
+estável de lançamentos. A Figura~\ref{fig:freshmeat} mostra a
 distribuição de projetos por frequência de lançamento. É possível ver
 que a grande maioria dos projetos demora mais de 6 meses para lançar
 uma nova versão com apenas 17\% dos projetos lançando versões pelo
 menos uma vez por semestre.
 
-\begin{figure}
+% XXX Legenda da figura falando tudo 'por ano'
+
+\begin{figure}[htb]
   \centering
   \includegraphics[scale=.3]{freshmeat}
   \caption{Quantidade de projetos por faixa de frequência de
@@ -184,10 +188,11 @@ software livre ativos.
 
 Numa análise anual detalhada entre 2001 e 2010, descobre-se que o
 número de lançamentos anuais assim como a quantidade de projetos com
-pelo menos 2 lançamentos no ano tem caído desde 2004. A Figura
-\ref{fig:freshmeat-by-years} mostra a evolução do número de releases
-registrados no site por ano, a quantidade de projetos repertoriados e
-a quantidade de projetos com, pelo menos 2 releases naquele ano.
+pelo menos 2 lançamentos no ano tem caído desde 2004. A
+Figura~\ref{fig:freshmeat-by-years} mostra a evolução do número de
+lançamentos registrados no site por ano, a quantidade de projetos
+repertoriados e a quantidade de projetos com, pelo menos, 2 releases
+naquele ano.
 
 \begin{figure}
   \centering
@@ -198,12 +203,12 @@ a quantidade de projetos com, pelo menos 2 releases naquele ano.
 \end{figure}
 
 Não só o número de projetos e de lançamentos está diminuindo no
-freshmeat.net mas a proporção de projetos com lançamentos
-frequentes também. Em 2002, 38,91\% dos projetos registrado
-anunciaram 2 ou mais lançamentos ao longo do ano. Em 2008, atingiu-se
-o pico de meros 30,29\% dos projetos com 2 lançamentos anuais. Desde
-então, a situação melhorou um pouco mas ainda é difícil prever se a
-tendência é de aumento ou diminuição dessa proporção.
+freshmeat.net mas a proporção de projetos com lançamentos frequentes
+também. Em 2002, 39\% dos projetos registrado anunciaram 2 ou mais
+lançamentos ao longo do ano. Em 2008, atingiu-se o pico de meros 30\%
+dos projetos com 2 lançamentos anuais. Desde então, a situação
+melhorou um pouco mas ainda é difícil prever se a tendência é de
+aumento ou diminuição dessa proporção.
 
 Além disso, vale notar que a escala de tempo para projetos livres
 costuma ser um pouco maior do que em projetos proprietários que contam
@@ -213,9 +218,9 @@ ser considerado equivalentes a alguns meses num projeto baseado em
 voluntários.
 
 De toda forma, esses resultados são indícios de que projetos livres
-não seguem o princípios de entregar novas versões funcionais em
-escalas de tempo pequenas. Esse é um ponto de possível melhora para
-esses projetos.
+não seguem o princípio de entregar novas versões funcionais em escalas
+de tempo pequenas. Esse é um ponto de possível melhora para esses
+projetos.
 
 \subsection[Trabalhar com pessoas de negócio]{Pessoas de negócio e
   desenvolvedores devem trabalhar diariamente em conjunto por todo o
@@ -224,51 +229,55 @@ esses projetos.
 Este é outro princípio em que o contexto comum de projetos livres
 torna um pouco estranha a afirmação. Como Raymond diz: ``Todo bom
 projeto de software começa com um desenvolvedor resolvendo um incômodo
-pessoal'' \cite{Raymond1999}. Nesse caso, o especialista do negócio é
-o próprio desenvolvedor o que faz com que seja impossível um trabalhar
+pessoal''~\cite{Raymond1999}. Nesse caso, o especialista do negócio é
+o próprio desenvolvedor. Isso faz com que seja impossível um trabalhar
 sem o outro.
 
 Desta forma, parece que qualquer projeto livre, para que evolua,
 precisa abraçar esse princípio e garantir que sempre há algum
 desenvolvedor envolvido que entenda o negócio que o projeto se propõe
-a simplificar.
+a auxiliar.
 
-\subsection[Trabalhe com indivíduos motivados]{ Construa projetos em
+\subsection[Trabalhar com indivíduos motivados]{ Construa projetos em
   torno de indivíduos motivados.  Dê a eles o ambiente e o suporte
   necessário e confie neles para fazer o trabalho}
 
 Para esse princípio parece mais justa a inversão de análise. Software
 livre tem como premissa o envolvimento voluntário e, portanto,
-motivado. A partir dessa motivação, os indivíduos reunem-se na
+motivado. A partir dessa motivação, os indivíduos reúnem-se na
 Internet (ambiente necessário) e começam a evoluir o projeto.
-
-O movimento de software livre existe desde os anos 1970. No entanto, o
-movimento só ganhou força na segunda metade da década de 1990. Esse
-sucesso se deve, em grande parte, à difusão da Internet e ao aumento
-do número de pessoas com acesso a um computador pessoal. Esse foi o
-suporte essencial para o crescimento da comunidade de software
-livre. Essas comunidades evoluem encima da possibilidade de se
-auto-gerenciarem e evoluirem independentemente de fatores externos. A
-tolerância a falhas no eco-sistema livre faz com que projetos que
-encontram dificuldades demais na sua evolução falhem e, se o problema
-for muito importante, serão atacados novamente no futuro até que seja
-viável chegar a algum resultado prático.
 
 É com base nesse princípio que surgiu e cresceu a
 Wikipedia\footnote{\url{http://wikipedia.org} -- Último acesso em
   12/12/2010}. A Wikipedia é um exemplo de como um ambiente (a
 Internet) com o suporte necessário (um
-wiki\footnote{\url{http://wiki.org/wiki.cgi?WhatIsWiki} -- Último acesso em
-  05/01/2011}) permite a indivíduos motivados (milhares de
-contribuídores da Wikipedia) fazerem um trabalho incrível. Este
-trabalho foi a principal causa para que a Microsoft encerasse, em
-Abril de 2009, o desenvolvimento e distribuição da enciclopédia
-Encarta. Em 2005, a revista Nature publicou um
+wiki\footnote{\url{http://wiki.org/wiki.cgi?WhatIsWiki} -- Último
+  acesso em 05/01/2011}) permite a indivíduos motivados (milhares de
+contribuidores da Wikipedia) fazerem um trabalho incrível. Este
+trabalho foi a principal causa para que a
+Microsoft\footnote{\url{http://www.microsoft.com} -- Último acesso em
+  17/01/2011} encerasse, em Abril de 2009, o desenvolvimento e
+distribuição da enciclopédia
+Encarta\footnote{\url{http://www.microsoft.com/encarta} -- Último
+  acesso em 17/01/2011}. Em 2005, a revista Nature publicou um
 artigo\footnote{\url{http://www.nature.com/nature/journal/v438/n7070/full/438900a.html}
   -- Último acesso em 05/01/2011} comparando a qualidade da Wikipedia
 com a Encyclop{\ae}dia Britannica. O artigo chega à conclusão que os
 artigos relacionados a ciência da Wikipedia são tão confiáveis quanto
 os da Encyclop{\ae}dia Britannica.
+
+Outro indício da adoção desse princípio é o próprio movimento de
+software livre que existe desde os anos 1970. No entanto, ele só
+ganhou força na segunda metade da década de 1990. Esse sucesso se
+deve, em grande parte, à difusão da Internet e ao aumento do número de
+pessoas com acesso a um computador pessoal. Esse foi o suporte
+essencial para o crescimento da comunidade de software livre. Essa
+comunidade evolui encima da possibilidade de se auto-gerenciar e
+evoluir independentemente de fatores externos. A tolerância a falhas
+no eco-sistema livre faz com que projetos que encontram dificuldades
+demais na sua evolução falhem. Se encontrar uma solução para esse
+problema for muito importante, novos projetos o atacarão no futuro até
+que algum consiga chegar a algum resultado prático.
 
 \subsection[Conversa face a face]{O método mais eficiente e eficaz de
   transmitir informações para e entre uma equipe de desenvolvimento é
@@ -280,8 +289,8 @@ projetos livres, é praticamente impossível reunir os colaboradores de
 um projeto num mesmo espaço físico. Por conta disso, o uso da conversa
 face a face em projetos de software livre é praticamente impossível.
 
-Como os resultados do questionário apresentado na Seção
-\ref{sec:resp-floss}, o canal de comunicação mais usado e melhor
+Como os resultados do questionário apresentados na
+Seção~\ref{sec:resp-floss}, o canal de comunicação mais usado e melhor
 avaliado em projetos de software livre são listas de correio
 eletrônico seguidos de canais IRC. Ambos são bem distantes de
 conversas face a face. O primeiro não conta sequer com respostas
@@ -290,7 +299,7 @@ a conversas face a face, ambos canais perdem a entonação da voz, as
 expressões faciais, gesticulações além do contato visual.
 
 Esse uso é tão difundido e aceito na comunidade de software livre que,
-como apresentado na Seção \ref{sec:resp-floss}, canais IRC são até
+como apresentado na Seção~\ref{sec:resp-floss}, canais IRC são até
 melhor avaliados em termos de eficácia e eficiência do que as
 conversas face a face pelos contribuidores. Percebe-se também que
 outros canais mais próximos de conversas face a face tem um uso muito
@@ -316,10 +325,10 @@ agregar uma comunidade importante e de ser adotado por muitos
 usuários.
 
 No entanto, é impossível ser adotado por usuários caso não exista um
-programa em funcionamento. Além disso, de acordo com Riehle
-\cite{Riehle2007}, as pessoas se envolvem com um projeto livre porque
-este projeto as ajuda a resolverem seus problemas. Dito isso, não
-basta ter algo em funcionamento, o programa precisa resolver os
+programa em funcionamento. Além disso, de acordo com
+Riehle~\cite{Riehle2007}, as pessoas se envolvem com um projeto livre
+porque este projeto as ajuda a resolverem seus problemas. Dito isso,
+não basta ter algo em funcionamento, o programa precisa resolver os
 problemas de seus usuários para atrair sua atenção e torná-los
 colaboradores.
 
@@ -339,12 +348,15 @@ entidade controladora da dedicação de cada parte, o ritmo de
 comunidades de software livre é variado.
 
 A proposta mais recente para atingir algo nesse sentido nas
-comunidades livres é da ideia de lançamentos cadenciados. O Firefox e
-o Ubuntu tem procurado lançar novas versões em intervalos de tempo
-fixo e com escopo aberto. Isso significa que uma nova versão será
-lançada numa data pré-determinada com as funcionalidades que estiverem
-prontas e testadas.  Dessa forma, tira-se a pressão para conseguir
-terminar determinado trabalho até uma certa data.
+comunidades livres é da ideia de lançamentos cadenciados. O
+Firefox\footnote{\url{http://www.firefox.com} -- Último acesso em
+    17/01/2011} e o Ubuntu\footnote{\url{http://www.ubuntu.com} --
+    Último acesso em 17/01/2011} tem procurado lançar novas versões
+em intervalos de tempo fixo e com escopo aberto. Isso significa que
+uma nova versão será lançada numa data pré-determinada com as
+funcionalidades que estiverem prontas e testadas.  Dessa forma,
+tira-se a pressão para conseguir terminar determinado trabalho até uma
+certa data.
 
 Infelizmente essa medida não garante que a equipe consiga manter um
 ritmo constante. Especialmente considerando que muito desse trabalho é
@@ -353,8 +365,8 @@ contexto, sustentável pode ter um sentido um pouco diferente do
 sentido usado em métodos ágeis. Não é mais possível pensar em jornadas
 de 40 horas e folga no planejamento. Apenas políticas que reduzam a
 pressão existente para finalização de um determinado trabalho. A
-cadência de lançamentos é uma prática que permite esse tipo de
-solução.
+cadência de lançamentos é uma prática que permite caminhar nessa
+direção.
 
 \subsection[Excelência técnica]{Atenção contínua à excelência técnica
   e bom \textit{design} aumenta a agilidade}
@@ -362,38 +374,38 @@ solução.
 Por construção, o movimento de software livre envolve pessoas
 apaixonadas por desenvolvimento de software. Nesse aspecto, projetos
 livres tendem a utilizar todo tipo de tecnologia.  Dia 18 de Agosto de
-2010, os 10 projetos mais baixados do SourceForge.net reuniam 6
-linguagens de programação diferentes (C, C++, Python, Javascript,
-Delphi e Perl).
+2010, os 10 projetos mais baixados do
+SourceForge.net\footnote{\url{http://www.sf.net} -- Último acesso em
+    17/01/2011} reuniam 6 linguagens de programação diferentes (C,
+C++, Python, Javascript, Delphi e Perl).
 
 No dia 30/10/2010, o SourceForge.net listava em torno de 1600 projetos
-com mais de 100.000 downloads. Desses projetos, 782 incluíam seu
-código fonte em C, C++ ou Java na página do SourceForge.net.  Nessa
-amostra, foi utilizada a ferramenta
-Analizo\footnote{\url{http://analizo.org} -- Último acesso em 06/01/2011}
-para levantar algumas métricas com relação ao código fonte desses
-projetos.
+com mais de 100000 downloads. Desses projetos, 782 incluíam seu código
+fonte em C, C++ ou Java na página do SourceForge.net.  Nessa amostra,
+foi utilizada a ferramenta Analizo\footnote{\url{http://analizo.org}
+  -- Último acesso em 06/01/2011} \cite{Terceiro2010} para levantar
+algumas métricas com relação ao código fonte desses projetos.
 
 Utilizando as propostas de valores de referências sugeridos por
 Ferreira~\cite{Ferreira2009}, foi realizada uma análise dos projetos
 com relação à qualidade de seu \textit{design}. As métricas analisadas
 foram:
 \begin{enumerate}
-\item Média de Conexões Aferentes,
+\item Média de Conexões Aferentes;
   \label{metric:acc}
-\item Fator de Acoplamento Total e
+\item Fator de Acoplamento Total;
   \label{metric:cof}
-\item Máxima Profundidade da Árvore de Herança,
+\item Máxima Profundidade da Árvore de Herança;
   \label{metric:dti}
-\item Moda da Ausência de Coesão em Métodos,
+\item Moda da Ausência de Coesão em Métodos;
   \label{metric:lcom}
-\item Média do Número de Atributos Públicos de uma Classe,
+\item Média do Número de Atributos Públicos de uma Classe e
   \label{metric:npa}
-\item Média do Número de Métodos Públicos de uma Classe,
+\item Média do Número de Métodos Públicos de uma Classe.
   \label{metric:npm}
 \end{enumerate}
 
-No que diz respeito à métrica \ref{metric:acc}, Ferreira estipula
+No que diz respeito à métrica~\ref{metric:acc}, Ferreira estipula
 valores abaixo de 1 como valores bons, até 20 como valores regulares e
 acima de 20 como valores ruins. Com essas referências, apenas 15\% dos
 projetos possui uma média de conexões aferentes considerada boa. No
@@ -403,15 +415,15 @@ estarem no nível bom, a maioria deles está próximo do valor de
 referência. Esse resultado nos indica uma qualidade razoável dos
 projetos livres.
 
-A métrica \ref{metric:cof} usa como parte do seu cálculo o resultado
-da métrica \ref{metric:acc}. No entanto, de acordo com os valores de
+A métrica~\ref{metric:cof} usa como parte do seu cálculo o resultado
+da métrica~\ref{metric:acc}. No entanto, de acordo com os valores de
 referência apresentados por Ferreira, 57\% do projetos tem fatores de
-acoplamento considerados bons enquanto 34\% tem valores regulares e 9\%
-tem valores ruins. Com esses resultados parece que uma porção bem
+acoplamento considerados bons enquanto 34\% tem valores regulares e
+9\% tem valores ruins. Com esses resultados parece que uma porção bem
 maior do projetos livres tem um cuidado considerável em manter sua
 arquitetura desacoplada.
 
-Para a métrica \ref{metric:dti}, Ferreira apresenta uma média de 1,68
+Para a métrica~\ref{metric:dti}, Ferreira apresenta uma média de 1,68
 como referência. Dessa forma, o ideal sugerido é que o valor máximo da
 métrica seja 2. Nos projetos avaliados, 69\% atingem essa meta
 enquanto 19\% tem árvores com o dobro da profundidade. Nesse caso, os
@@ -419,34 +431,34 @@ resultados são um pouco piores. Com quase 20\% dos projetos com uma
 árvore de herança profunda, há um indício de um pequeno desleixo na
 questão da arquitetura em projetos livres.
 
-Com relação à métrica \ref{metric:lcom}, Ferreira apresenta uma
+Com relação à métrica~\ref{metric:lcom}, Ferreira apresenta uma
 ausência de coesão 0 como uma medida boa (já que, em seu estudo, 50\%
 das classes tinham 0 de ausência de coesão) enquanto valores entre 0 e
 20 são regulares. Para atingir valores semelhantes, olha-se a moda da
-métrica para observar os projetos com mais de 50\% das classes com
-determinado valor para a métrica. Nessa análise, percebe-se que 39\%
-dos projetos atingem a meta enquanto o resto concentra-se abaixo de 20
+métrica para observar o valor da métrica que mais é encontrado nas
+classes de cada projeto. Nessa análise, percebe-se que 39\% dos
+projetos atingem a meta enquanto o resto concentra-se abaixo de 20
 (valor considerado razoável). Essa métrica tem resultados semelhantes
-aos da métrica \ref{metric:acc} e indica uma qualidade, ainda que não
+aos da métrica~\ref{metric:acc} e indica uma qualidade, ainda que não
 boa, bem próxima disso.
 
-O número de atributos públicos (métrica \ref{metric:npa}) de uma
+O número de atributos públicos (métrica~\ref{metric:npa}) de uma
 classe aponta uma exposição excessiva (se for alto) de detalhes de
 implementação. Ferreira diz que 75\% das classes analisadas em seu
-estudo não possuiam nenhum atributo público enquanto a maioria do
+estudo não possuíam nenhum atributo público enquanto a maioria do
 restante tinha menos de 8 atributos públicos. Sendo assim, os valores
 sugeridos são de nenhum atributo público para uma boa arquitetura, até
 8 atributos públicos como regular e mais do que isso sendo ruim. Na
 média dos projetos analisados, foram considerados bons, os projetos
 que atingiam uma média inferior a 1 atributo público por classe e,
 ruins, os projetos com média acima de 8 atributos. Nesse caso,
-obtem-se 21\% de projetos bons, 24\% de projetos ruins e 55\% de
-projetos regulares. Esse é mais um ponto que indica uma falta de
+obtém-se 21\% de projetos bons, 55\% de projetos regulares e 24\% de
+projetos ruins. Esse é mais um ponto que indica uma falta de
 preocupação com a qualidade do \textit{design} do projeto.
 
-Por fim, o número de métodos públicos (métrica \ref{metric:npm}) de uma
-classe dá indícios com relação à quantidade de responsabilidades da
-classe. Ferreira aponta valores de referência sendo bom para até 10
+Por fim, o número de métodos públicos (métrica~\ref{metric:npm}) de
+uma classe dá indícios com relação à quantidade de responsabilidades
+da classe. Ferreira aponta valores de referência sendo bom para até 10
 métodos públicos, regular entre 10 e 40 e ruim acima de 40 métodos
 públicos. Com esses valores, 77\% dos projetos analisados são
 considerados bons enquanto 21\% são regulares e meros 1\% são
@@ -460,7 +472,7 @@ qualidade técnica e ao \textit{design}. No entanto, algumas métricas
 indicam que os projetos estão frequentemente no limiar aceitável e
 fazem o mínimo necessário para conseguirem se manter numa situação
 boa. A adoção de refatorações frequentes poderia ajudar a resolver os
-probleminhas de profundidade da árvore de herança assim como dos
+problemas de profundidade da árvore de herança assim como dos
 atributos públicos.
 
 \subsection[Simplicidade é essencial]{Simplicidade -- a arte de
@@ -474,7 +486,7 @@ De acordo com o
 FLOSSMETRICS\footnote{\url{http://www.flossmetrics.org} -- Último
   acesso em 29/10/2010}, em 2007, apenas 9.2\% dos projetos do
 SourceForge.net\footnote{\url{http://www.sf.net} -- Último acesso em
-    29/10/2010} eram considerados ativos. Onde ativos significa que
+  29/10/2010} eram considerados ativos. Onde ativos significa que
 tiveram alguma liberação de arquivos nos últimos 6 meses e houve
 registro de atividade no site nesse período. Isso aponta que a grande
 maioria dos projetos que foram iniciados não tiveram
@@ -482,12 +494,20 @@ continuidade. Nesse sentido, existe MUITO trabalho realizado que é
 pouco aproveitado.
 
 Por outro lado, ainda não tem-se acesso a nenhuma ferramenta que
-análise projeto a projeto e avalie se as funcionalidades
-implementadas são realmente necessárias. Logo, não é possível
-determinar se os projetos livres adotam o princípio da simplicidade.
+analise projeto a projeto e avalie se as funcionalidades implementadas
+são realmente necessárias. Logo, não é possível determinar se os
+projetos livres que tiveram continuidade adotam o princípio da
+simplicidade.
+
+Dada a falta de evidência, parece que a comunidade de software livre
+não procura minimizar o trabalho realizado. Apenas se apoia na sua
+tolerância à falha e considera o trabalho extra realizado como parte
+do caminho necessário para atingir o sucesso. Desse ponto de vista,
+simplicidade não parece ser um princípio abraçado amplamente pela
+comunidade.
 
 \subsection[Equipes auto-organizáveis]{As melhores arquiteturas,
-  requisitos e \textit{designs} emergem de equipes auto-organizáveis}
+  requisitos e \textit{designs} emergem de equipes\\auto-organizáveis}
 
 A teoria com relação a esse princípio é a mesma em ambas
 comunidades. Projetos livres emergem da vontade de programadores que
@@ -500,15 +520,20 @@ desenvolvedores o que simplifica amplamente o problema de
 entendimento.
 
 Com relação às arquiteturas e \textit{designs}, é difícil avaliar de
-forma genérica quão bons são as soluções implementadas em projetos
+forma genérica quão boas são as soluções implementadas em projetos
 livres. Alguns projetos livres apresentam arquiteturas que resistiram
-ao tempo e viraram referências como os projetos Ruby on Rails,
-Firefox, Eclipse e o Kernel do Linux. No entanto, isso não é
-suficiente para afirmar que as comunidades de software livre
-desenvolvem boas arquiteturas e \textit{designs}. Pode-se afirmar, no
-entanto, que, pelo fato das equipes serem intrinsicamente
-auto-organizáveis, elas geram as melhores arquiteturas que poderiam
-gerar já que toda decisão deve ser discutida por todos os envolvidos.
+ao tempo e viraram referências como os projetos Ruby on
+Rails\footnote{\url{http://rubyonrails.org} -- Último acesso em
+  17/01/2011}, Firefox\footnote{\url{http://www.firefox.com} -- Último
+  acesso em 17/01/2011}, Eclipse\footnote{\url{http://www.eclipse.org}
+  -- Último acesso em 17/01/2011} e o Kernel do
+Linux\footnote{\url{http://linux.org} -- Último acesso em
+  17/01/2011}. No entanto, isso não é suficiente para afirmar que as
+comunidades de software livre desenvolvem boas arquiteturas e
+\textit{designs}. No entanto, pelo fato das equipes serem
+intrinsecamente auto-organizáveis, pode-se esperar que elas gerem as
+melhores arquiteturas que poderiam gerar já que toda decisão é
+discutida pelas pessoas envolvidas que se mostrarem interessadas.
 
 \subsection[Refletir regularmente]{Em intervalos regulares, a equipe
   reflete sobre como se tornar mais eficaz e então refina e ajusta seu
@@ -516,36 +541,46 @@ gerar já que toda decisão deve ser discutida por todos os envolvidos.
 
 Aqui está uma das diferenças mais claras entre métodos ágeis e
 projetos livres. A capacidade e costume de juntar a equipe para pensar
-sobre o processo de desenvolvimento dificilmente é possível
-considerando que o modelo de desenvolvimento é assíncrono, distribuído
-e voluntário.
+sobre o processo de desenvolvimento dificilmente é possível num
+contexto de um projeto livre. Isso porque esses projetos costumam
+seguir modelos de desenvolvimento assíncronos, distribuídos e
+voluntários. Sendo assim, é muito difícil conseguir organizar
+encontros entre os membros do projeto.
+
+Alguns projetos maiores (como a distribuição
+Debian\footnote{\url{http://debian.org} -- Último acesso em
+  17/01/2011}) possuem verbas de doações que permitem encontros entre
+os membros mais ativos e importantes de suas comunidades. No entanto,
+essas reuniões costumam priorizar o planejamento e a interação entre
+os membros sobre a reflexão do passado.
 
 \section{Princípios do Software Livre interessantes em Métodos Ágeis}
 \label{sec:foss-over-agile}
 
 Dada a avaliação anterior, é possível perceber que existem algumas
 diferenças consideráveis no que diz respeito aos princípios
-compartilhados entre as duas comunidades. Essa seção apresenta alguns
+compartilhados entre as duas comunidades. Essa Seção apresenta alguns
 conceitos que são exclusivos ao ambiente de desenvolvimento de
 software livre mas que poderiam trazer benefícios para métodos ágeis
 num contexto distribuído. Esses conceitos foram coletados durante um
-\emph{workshop} organizado por Mary Poppendieck na Agile 2008 em
-Toronto com Christian Reis.
+\emph{workshop} organizado por Mary Poppendieck na Agile
+2008\footnote{\url{http://agile2008.agilealliance.org} -- Último
+  acesso em 17/01/2011} em Toronto, Canadá com Christian Reis.
 
 Reis é um desenvolvedor Brasileiro de software livre que trabalha para
-a Canonical Inc. no desenvolvimento do LaunchPad
-\footnote{\url{http://launchpad.net/} - Último acesso 28/10/2010}, o
-projeto de gerenciamento de software para a distribuição Linux
-Ubuntu. O \emph{workshop} teve início com a apresentação de Reis sobre
-como o LaunchPad é desenvolvido. Três pontos essenciais foram
-levantados durante a discussão que deu sequência à apresentação. O
-primeiro (Subseção \ref{subsec:commiter}) descreve e discute o papel
-de \emph{commiter}.  O segundo (Subseção \ref{subsec:publicity})
-apresenta os benefícios de seguir um processo de desenvolvimento que
-seja público e transparente.  Por fim, o último (Subseção
-\ref{subsec:crossrev}) aborda o sistema de revisão cruzada dos
-sistemas que é usado para garantir a comunicação e a clareza do
-código.
+a Canonical Inc. no desenvolvimento do
+LaunchPad\footnote{\url{http://launchpad.net/} - Último acesso
+  28/10/2010}, o projeto de gerenciamento de software para a
+distribuição Linux Ubuntu. O \emph{workshop} teve início com a
+apresentação de Reis sobre como o LaunchPad é desenvolvido. Três
+pontos essenciais foram levantados durante a discussão que deu
+sequência à apresentação. O primeiro (Subseção~\ref{subsec:commiter})
+descreve e discute o papel de \emph{commiter}.  O segundo
+(Subseção~\ref{subsec:publicity}) apresenta os benefícios de seguir um
+processo de desenvolvimento que seja público e transparente.  Por fim,
+o último (Subseção~\ref{subsec:crossrev}) aborda o sistema de revisão
+cruzada dos sistemas que é usado para garantir a comunicação e a
+clareza do código.
 
 \subsection{O papel do \emph{Commiter}}
 \label{subsec:commiter}
@@ -563,10 +598,10 @@ a quarta apresenta as sugestões de adaptação desse papel em métodos
 \subsubsection{O que é um \emph{commiter}}
 
 Um \emph{commiter} é uma pessoa que tem direito de adicionar,
-modificar e remover código fonte ao ``ramo''\footnote{Um ramo
+modificar e remover código fonte ao galho\footnote{Um galho
   (\emph{branch}) de um repositório é uma ramificação da estrutura de
   diretórios que guarda os arquivos} principal do repositório de
-controle de versões. O ``ramo'' principal é a parte do código que será
+controle de versões. O galho principal é a parte do código que será
 empacotada para formar uma nova versão do programa. Aos olhos da
 comunidade do software, o \emph{commiter} é uma pessoa confiável muito
 qualificada para avaliar a qualidade do código fonte. Este é o meio
@@ -577,8 +612,9 @@ melhorar a clareza do código.
 A maioria dos projetos de software livre tem um grupo muito pequeno de
 \emph{commiters}. Frequentemente o líder do projeto é o único
 \emph{commiter} e todos os \emph{patches} devem passar por sua
-aprovação. De acordo com Riehle \cite{Riehle2007}, existem três níveis
+aprovação. De acordo com Riehle~\cite{Riehle2007}, existem três níveis
 na hierarquia tradicional de um projeto de software livre.
+
 \begin{itemize}
 \item O primeiro nível é o de usuário.
 
@@ -588,7 +624,7 @@ na hierarquia tradicional de um projeto de software livre.
 
   A promoção entre o primeiro e o segundo nível é implícita. Ela
   acontece quando um \emph{commiter} aceita os \emph{patches} do
-  usuário e os envia ao repositório de código no ``ramo''
+  usuário e os envia ao repositório de código no galho
   principal. Normalmente, ninguém sabe dessa promoção, com exceção do
   \emph{commiter} e do contribuidor.
 \item O terceiro papel é o de \emph{commiter}.
@@ -604,17 +640,19 @@ na hierarquia tradicional de um projeto de software livre.
 \subsubsection{O papel do \emph{commiter} em métodos ágeis}
 
 Métodos ágeis delegam o papel do \emph{commiter} para cada um dos
-desenvolvedores da equipe. No \emph{workshop} sugeriram que alguma
-forma de controle no ``ramo'' principal de um projeto ágil poderia
+desenvolvedores da equipe. No \emph{workshop} foi sugerido que alguma
+forma de controle no galho principal de um projeto ágil poderia
 melhorar ainda mais a simplicidade do código fonte do aplicativo de
 produção.
 
+% XXX Ref pra Scrum e XP
+
 Na maioria dos métodos ágeis, uma equipe deveria ter um líder (um
-\emph{Scrum Master} em Scrum, um \emph{coach} em XP, etc...)  que é
-mais experiente naquele método ágil que o resto da equipe. O líder da
+\emph{Scrum Master} em Scrum, um \emph{coach} em XP etc.)  que é mais
+experiente naquele método ágil que o resto da equipe. O líder da
 equipe é responsável por lembrar a equipe de se ater às práticas
 escolhidas. Ele também deve ajudar a equipe a resolver os problemas
-encontrados e idealmente, transformar todos os membros da equipe em
+encontrados e, idealmente, transformar todos os membros da equipe em
 possíveis líderes de forma a tornar-se ``inútil''.
 
 Para cumprir essa função, o líder não precisa obrigatoriamente ter
@@ -633,7 +671,7 @@ indiretamente, a responsabilidade de fazer com que a equipe mantenha
 uma boa qualidade de código. Pensando assim, o responsável técnico tem
 a função de \emph{commiter} do projeto mas realiza seu trabalho
 lembrando aos programadores de que seu código deve estar sempre
-legível, claro e com testes passando.
+legível, claro e com todos os testes passando.
 
 \subsubsection{Semelhanças e diferenças da revisão}
 
@@ -664,11 +702,11 @@ produzido.
 
 De qualquer forma, o trabalho de revisão tem duas consequências
 diretas e evidentes. A primeira é de que o tempo necessário para que
-uma mudança seja incorporada ao ``ramo'' principal do código aumenta
+uma mudança seja incorporada ao galho principal do código aumenta
 consideravelmente já que, tipicamente, são necessárias algumas
 conversas entre o revisor e os autores do código. A segunda é que o
 trabalho do revisor, se ele for único, é considerável já que ele deve
-ler todo código que deve ir para o ``ramo'' principal, tentar
+ler todo código que deve ir para o galho principal, tentar
 entendê-lo e expressar suas dúvidas aos autores.
 
 \subsubsection{Sugestões para adaptar o papel aos métodos ágeis}
@@ -676,14 +714,14 @@ entendê-lo e expressar suas dúvidas aos autores.
 Considerando os pontos apresentados no fim da seção anterior, dar o
 papel de \emph{commiter} ao consultor técnico de uma equipe ágil
 significaria criar um gargalo de incorporação de código. A Teoria das
-Restrições \cite{goldratt84} afirma que deve-se eliminar os gargalos
+Restrições~\cite{goldratt84} afirma que deve-se eliminar cada gargalo
 para maximizar a produtividade de uma equipe.
 
 Sendo assim, a proposta é manter um pequeno conjunto de
 desenvolvedores da equipe como \emph{commiters} e fazer o papel
 circular entre os membros da equipe. Dessa forma, além de diminuir o
 gargalo, também reduz-se o ``\textit{truck
-  factor}''\cite{Williams2002} (ou ``fator caminhão'') da
+  factor}''~\cite{Williams2002} (ou ``fator caminhão'') da
 equipe. ``Fator caminhão'' é uma expressão para expressar a quantidade
 de membros da equipe que precisam se ausentar do projeto para que ele
 pare. Quanto maior esse número, maior o conhecimento difundido pelos
@@ -697,7 +735,7 @@ que a revisão cruzada não aconteça mais. Outra possibilidade é a de
 distribuir o papel entre todos os membros da equipe mas forçar que
 exista uma revisão aprovada por um terceiro membro da equipe (além do
 par que desenvolveu a funcionalidade) para que o \emph{commit} seja
-enviado ao ``ramo'' principal.
+enviado ao galho principal.
 
 Ambas soluções aumentam o conjunto de \emph{commiters}, distribuem
 mais o conhecimento entre a equipe e reduzem a aparente concentração
@@ -711,8 +749,9 @@ como escrever código que seja claro para um revisor.
 fardo para a equipe e evite que ela responda às mudanças que se
 apresentarem. Em equipes muito pequenas, a rotação frequente de pares
 resolve o problema da difusão do conhecimento. Nesse contexto, o
-problema de integridade conceitual descrito por Frederick Brooks
-\cite{Brooks1975-mmme} é menor o que torna a revisão menos crítica.
+problema de integridade conceitual descrito por Frederick
+Brooks~\cite{Brooks1975-mmme} é menor. Por isso a revisão externa é
+menos crítica.
 
 \subsection{Resultados públicos}
 \label{subsec:publicity}
@@ -741,13 +780,16 @@ maioria das ferramentas usadas são muito rudimentares do ponto de
 vista de um cliente não técnico já que poucas delas se preocupam em
 atribuir um significado de negócios aos resultados.
 
-Algumas iniciativas\footnote{RSpec - \url{http://rspec.info/} - Último
-  acesso em 28/10/2010}$^{, }$\footnote{JBehave -
-  \url{http://jbehave.org/} - Último acesso em 28/10/2010}
-relacionadas aos testes já existem ligadas ao movimento de
-Desenvolvimento Dirigido pelo Comportamento (\emph{BDD - Behaviour
-  Driven Development}) \cite{North2006} para produzir melhores
-relatórios.
+Quando o assunto é testes automatizados, já existem algumas
+iniciativas\footnote{RSpec - \url{http://rspec.info/} - Último acesso
+  em 28/10/2010}$^{, }$\footnote{JBehave - \url{http://jbehave.org/} -
+  Último acesso em 28/10/2010} ligadas ao movimento de Desenvolvimento
+Dirigido pelo Comportamento (\emph{BDD - Behaviour Driven
+  Development})~\cite{North2006} para produzir relatórios de execução
+melhores. Nessas iniciativas, os testes não servem apenas para afirmar
+que determinada funcionalidade funciona mas também para descrever
+quais comportamentos da funcionalidade já estão funcionando (testes
+passando) e quais ainda precisam ser desenvolvidos (testes falhando).
 
 Mas a divulgação pública de informações relacionadas ao projeto não se
 restringe aos erros ou aos testes. Nas comunidades de software livre,
@@ -764,8 +806,8 @@ desrespeitosas já que todas as discussões são salvas e guardadas para
 acesso futuro. Desta forma, os participantes costumam manter o
 respeito (que é importantíssimo para o sucesso de qualquer projeto)
 entre eles e com novatos. Aqui percebe-se mais uma forte ligação com
-métodos ágeis. Respeito é um dos cinco valores da Programação Extrema
-\cite{XP02}.
+métodos ágeis. Respeito é um dos cinco valores da Programação
+Extrema~\cite{XP02}.
 
 A rastreabilidade é um dos pontos fracos dos métodos ágeis. A maioria
 dos métodos sugere que o projeto do software (\emph{design}) evolua
@@ -779,7 +821,7 @@ levaram à solução são perdidas.
 A fala é uma forma muito eficiente de comunicação mas também muito
 efêmera. Mesmo quando uma conversa é gravada, é difícil buscar
 informações sobre algum trecho da discussão. Correios eletrônicos são
-muito menos eficientes para a comunicação mas têm um grande ganho na
+muito menos eficientes para a comunicação mas tem um grande ganho na
 facilidade de busca. Num curto prazo, é evidente que a conversa é
 muito mais eficiente para transmitir ideias que a escrita,
 especialmente em equipes pequenas. No entanto, num médio ou longo
@@ -789,27 +831,28 @@ fazem em projetos livres) as perdas.
 Em suma, métodos ágeis poderiam tornar seus resultados públicos da
 seguinte forma. Existem várias informações que podem ser obtidas
 automaticamente como relatórios de execução dos testes, estado do
-processo de contrução do aplicativo, número de erros em aberto etc.
-O sistema de build automático e de integração contínua poderia
-publicar todas essas informações automaticamente em uma página
-relacionada ao projeto. No que diz respeito às conversas, um esforço
-pode ser realizar para incluir trechos de conversa e links em
-mensagens de \textit{commits}. E, com ajuda da ferramenta de gestão de
-projeto, os \textit{commits} podem ser exibidos de forma rica (com
-imagens, links etc.) numa linha do tempo relacionada aos trabalhos
-realizados.
+processo de construção do aplicativo, número de erros em aberto etc.  O
+sistema de build automático e de integração contínua poderia publicar
+todas essas informações automaticamente em uma página relacionada ao
+projeto. No que diz respeito às conversas, um esforço pode ser
+realizado para incluir trechos de conversa e links em mensagens de
+\textit{commits}. E, com ajuda da ferramenta de gestão de projeto, os
+\textit{commits} podem ser exibidos de forma rica (com imagens, links
+etc.) numa linha do tempo relacionada aos trabalhos realizados.
 
 \subsection{Revisão cruzada}
 \label{subsec:crossrev}
+
+% XXX 2a frase do parágrafo é um pouco grande.
 
 O terceiro ponto que Reis apresentou foi bem específico ao
 LaunchPad. Como o LaunchPad é uma plataforma usada por outras equipes
 para que elas desenvolvam seus próprios projetos, quando há uma
 mudança na Interface de Programação da Aplicação (\emph{API -
   Application Programming Interface}), um membro de uma equipe externa
-que usa o programa (preferenciamente uma pessoa diferente a cada vez)
+que usa o programa (preferencialmente uma pessoa diferente a cada vez)
 deve revisar a mudança da interface e os motivos que levaram a
-ela. Essa mudança não pode ser enviada ao ``ramo'' principal do
+ela. Essa mudança não pode ser enviada ao galho principal do
 repositório a não ser que o revisor externo a aprove. Essa prática é
 conhecida como revisão cruzada das mudanças de API ou, simplesmente,
 uma revisão cruzada.
@@ -844,7 +887,7 @@ problemas de requisitos se o revisor não for um cliente ou usuário.
 \label{sec:agile-improve-os}
 
 Da mesma forma que a comunidade de software livre possui soluções para
-problemas comuns em seus contextos, métodos ágeis também evoluiram
+problemas comuns em seus contextos, métodos ágeis também evoluíram
 algumas soluções que podem ser utilizadas em outros contextos. Em
 especial, para algumas das dificuldades encontradas pelas comunidades
 de software livre, existem práticas ágeis cujo objetivo é reduzir o
@@ -860,36 +903,39 @@ distribuídas encontram alguns dos mesmos problemas
 
 Como Beck sugere \cite{Beck2008}, ferramentas podem melhorar a adoção
 e o uso de práticas ágeis e, dessa forma, melhorar o processo de
-desenvolvimento. Uma quantidade considerável de trabalho já foi
-realizado na questão de ferramentas da programação em pares
+desenvolvimento. Uma quantidade considerável de trabalhos já foram
+realizados na questão de ferramentas da programação em pares
 distribuída\footnote{\url{http://sf.net/projects/xpairtise/} - Último
-  acesso: 28/10/2010}$^{,}$
-\footnote{\url{https://www.inf.fu-berlin.de/w/SE/DPP} - Último acesso:
-  26/09/2009}$^{,}$ \footnote{\url{http://sangam.sourceforge.net/} -
-  Último acesso: 28/10/2010} e estudos a respeito \cite{Nagappan2003}
-mas pouco tem sido produzido para apoiar outras práticas. Como o
-problema está relacionado à comunicação, algumas práticas de métodos
-ágeis são relevantes. As próximas subseções vão apresentar essas
-práticas e as ferramentas sugeridas para facilitar a adoção de métodos
-ágeis na comunidade de software livre.
+  acesso:
+  28/10/2010}$^{,}$\footnote{\url{https://www.inf.fu-berlin.de/w/SE/DPP}
+  - Último acesso:
+  26/09/2009}$^{,}$\footnote{\url{http://sangam.sourceforge.net/} -
+  Último acesso: 28/10/2010}. Também existem vários estudos a
+respeito~\cite{Nagappan2003} mas pouco tem sido produzido para apoiar
+outras práticas. Como o problema está relacionado à comunicação,
+algumas práticas de métodos ágeis são relevantes. As próximas
+subseções vão apresentar essas práticas e as ferramentas sugeridas
+para facilitar a adoção de métodos ágeis na comunidade de software
+livre.
 
 \subsection{Ambiente informativo}
 \label{subsec:inform-worksp}
 
 Essa prática sugere que uma equipe de métodos ágeis deveria trabalhar
-num ambiente que provê informações relacionadas ao trabalho. Beck
-\cite{XP01} atribui um papel específico, o de acompanhador
-(\emph{tracker}), para uma pessoa (ou algumas pessoas) que deve manter
-essa informação disponível e atualizada para a equipe. Com equipes
-concentradas em um mesmo local físico, o acompanhador normalmente
-coleta métricas \cite{Sato2007} automaticamente e seleciona algumas
-delas para apresentá-las no ambiente. A maioria das métricas objetivas
-são relacionadas ao código fonte enquanto as métricas subjetivas
-costumam depender da opinião dos membros da equipe.
+num ambiente que provê informações relacionadas ao
+trabalho. Beck~\cite{XP01} atribui um papel específico, o de
+acompanhador (\emph{tracker}), para uma pessoa (ou algumas pessoas)
+que deve manter essa informação disponível e atualizada para a
+equipe. Com equipes concentradas em um mesmo local físico, o
+acompanhador normalmente coleta métricas~\cite{Sato2007}
+automaticamente e seleciona algumas delas para apresentá-las no
+ambiente. A maioria das métricas objetivas são relacionadas ao código
+fonte enquanto as métricas subjetivas costumam depender da opinião dos
+membros da equipe.
 
 A coleta destes dados não é uma tarefa árdua mas normalmente consome
 um tempo considerável e não agrega um benefício imediato ao projeto. É
-provalvemente esse o motivo para a falta de métricas ou dados
+provavelmente esse o motivo para a falta de métricas ou dados
 atualizados em páginas de projeto de software livre. Uma ferramenta
 que poderia melhorar esse cenários seria um sistema baseado em
 \emph{plug ins} com um conjunto inicial de métricas e uma forma de
@@ -934,7 +980,7 @@ que erros sejam vistos como objetos móveis num quadro de planejamento
 de versão. Para permitir que a comunidade envolvida possa colaborar
 com seu conhecimento, a ferramenta deveria apresentar a prioridade do
 erro assim como seu conteúdo de uma forma similar ao dos artigos da
-Wikipedia \cite{Surowiecki2004,Tapscott2006,Benkler2006}.
+Wikipedia~\cite{Surowiecki2004,Tapscott2006,Benkler2006}.
 
 \subsection{Retrospectiva}
 \label{subsec:retrospect}
@@ -949,8 +995,13 @@ o período avaliado. Uma das formas mais comuns para ajudar os
 participantes a realizar esse trabalho é apresentar uma linha temporal
 e pedir para que eles façam anotações sobre os eventos que ocorreram
 nesse período. Isso os ajuda a relembrar os acontecimentos e entender
-porque as coisas aconteceram da forma que aconteceram como pode ser
-visto na Figura \ref{fig:timelineretro}.
+porque as coisas aconteceram da forma que aconteceram. Um exemplo de
+uma retrospectiva em linha do tempo pode ser visto na
+Figura~\ref{fig:timelineretro}.
+
+% XXX Melhorar o contraste para tentar dar alguma visibilidade
+
+% XXX Figura oposta à pagina de citação
 
 \begin{figure}[htb]
   \begin{minipage}[t]{0.5\linewidth}
@@ -967,16 +1018,16 @@ visto na Figura \ref{fig:timelineretro}.
 
 Quando a equipe está reunida em um único local físico, basta juntar a
 equipe numa sala de reunião com uma linha do tempo grande na parede e
-distribuir papéis coloridos que eles possam colar em ordenadas
-escolhidas. A sugestão para equipes de software livre é desenvolver
-uma ferramenta baseada na Internet para permitir que essas anotações
-sejam feitas numa linha do tempo virtual associada ao código
-fonte. Dessa forma, mensagens de integração de código poderiam conter
-a anotação que seria automaticamente exibida na linha do tempo. Além
-disso, a equipe poderia anotar a linha do tempo de forma assíncrona
-para permitir comentários posteriores. O líder da equipe poderia
-ocasionalmente gerar um relatório para todos os membros da equipe além
-de exibir a linha do tempo no ambiente informativo.
+distribuir papéis coloridos para que os membros da equipe possam
+colá-los ao longo do eixo do tempo. A sugestão para equipes de
+software livre é desenvolver uma ferramenta baseada na Internet para
+permitir que essas anotações sejam feitas numa linha do tempo virtual
+associada ao código fonte. Dessa forma, mensagens de integração de
+código poderiam conter a anotação que seria automaticamente exibida na
+linha do tempo. Além disso, a equipe poderia anotar a linha do tempo
+de forma assíncrona para permitir comentários posteriores. O líder da
+equipe poderia, ocasionalmente, gerar um relatório para todos os membros
+da equipe além de exibir a linha do tempo no ambiente informativo.
 
 Resta ainda conseguir fazer com que a equipe utilize as informações
 coletadas para sugerir mudanças no processo para melhorar sua situação
@@ -993,12 +1044,14 @@ linha do tempo previamente preenchida.
 \subsection{Papo em pé}
 \label{subsec:stand-up}
 
+% XXX Citação de Scrum
+
 Papos em pé, originalmente sugeridos em Scrum, pedem que toda a equipe
 se junte e cada membro explique rapidamente o que ele tem feito e
 pretende fazer a seguir. No aspecto de software livre, essa prática
 compartilha dos mesmos problemas da retrospectiva. Ela envolve reunir
 a equipe ao mesmo tempo. Muitos projetos de software livre usam canais
-de IRC (\emph{Internet Relay Chat}) para resolverem parcialmente esse
+de IRC (\emph{Internet Relay Chat}) para resolver parcialmente esse
 problema e para centralizar as discussões durante o
 desenvolvimento. Apesar disso não garantir que todos saibam o que cada
 um está fazendo, ajuda a sincronizar o trabalho.
@@ -1015,18 +1068,18 @@ incubadora do projeto que contém as ferramentas previamente sugeridas.
 \section{Resumo}
 \label{sec:resumo-diffs}
 
-Conforme vimos na Seção \ref{sec:principles}, métodos ágeis e software
+Conforme vimos na Seção~\ref{sec:principles}, métodos ágeis e software
 livre tem algumas diferenças sensíveis quando se analisam os
 princípios que guiam cada ambiente. Graças aos contextos diferentes
 que cada comunidade encontra, cada uma evoluiu soluções e ideias
 diferentes para problemas diferentes que encontraram ao longo de sua
 evolução.
 
-Do lado dos desenvolvimento livre, o problema da corretude e qualidade
+Do lado do desenvolvimento livre, o problema da corretude e qualidade
 do código é enfrentado com o papel de \emph{commiter}. O grupo de
 \emph{commiters} de um projeto é responsável por avaliar, analisar e
-filtrar as contribuições que serão incorporadas ao ``ramo'' principal
-do repositório de código e, dessa forma, farão parte do próximo
+filtrar as contribuições que serão incorporadas ao galho principal do
+repositório de código e, dessa forma, farão parte do próximo
 lançamento.
 
 Também faz-se questão de disponibilizar publicamente todos os
@@ -1035,15 +1088,16 @@ avaliação externa para obter mais \textit{feedback} dos
 usuários. Esses dados apresentam não apenas os resultados dos testes
 automatizados para a última construção mas também a lista de mudanças,
 autores das mudanças, histórico de discussões e decisões tomadas. Além
-de aumentar as chances de se perceber algum problema, a
-publicidade dos resultados também aumenta o respeito entre as pessoas
-envolvidas já que todos vêem as contribuições que cada um fez.
+de aumentar as chances de se perceber algum problema, a publicidade
+dos resultados também aumenta o respeito entre as pessoas envolvidas
+já que todos vêem as contribuições que cada um fez.
 
 Por fim, desenvolvedores livres sugerem o uso de revisões cruzadas
 para garantir que o código desenvolvido, seus testes e a
 funcionalidade relacionada sejam validadas a partir de um olhar
 externo. Esse olhar é mais semelhante com o que futuros
-desenvolvedores terão quando encontrarem aquele código novamente.
+desenvolvedores terão quando encontrarem aquele código pela
+1$^\textrm{a}$ vez ou novamente.
 
 Do lado dos métodos ágeis, sugere-se que a comunidade de software
 livre melhore o ambiente virtual de seus projetos para prover mais
@@ -1054,9 +1108,9 @@ responsáveis por cada tarefa sendo realizada.
 
 Além disso, a escrita de Histórias de desenvolvimento pode colaborar
 com a priorização do trabalho a ser realizado. Dessa forma, os
-projetos ganham em resolver mais rápidos as pendências mais
-importantes além de poderem balancear melhor o trabalho realizado
-entre as partes interessadas.
+projetos ganham ao resolver mais rápidos as pendências mais
+importantes além de poder balancear melhor o trabalho realizado entre
+as partes interessadas.
 
 A realização de retrospectivas e papos em pé virtuais são as duas
 últimas sugestões de práticas que podem ser adaptadas com a ajuda de
@@ -1065,9 +1119,10 @@ realizado pode ajudar as equipes de desenvolvimento livre a acolher e
 manter seus desenvolvedores por mais tempo além de identificar mais
 cedo qualquer problema de relacionamento entre os envolvidos.
 
-Pensando nessas adaptações, o próximo Capítulo (Capítulo
-\ref{cap:omm}) apresenta o Modelo de Maturidade para software livre
-desenvolvido pelo QualiPSo. Usando algumas das sugestões levantadas
-nesse capítulo, apresenta-se uma descrição de como Programação Extrema
-pode ajudar equipes a se adequar às exigências.
+Pensando nessas adaptações, o próximo Capítulo
+(Capítulo~\ref{cap:omm}) apresenta o Modelo de Maturidade para
+software livre desenvolvido pelo QualiPSo. Usando algumas das
+sugestões levantadas nesse Capítulo, apresenta-se uma descrição de
+como Programação Extrema pode ajudar equipes a se adequarem às
+exigências e melhorarem seus processos e resultados.
 
