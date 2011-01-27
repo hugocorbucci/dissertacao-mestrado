@@ -149,14 +149,14 @@ destacar permanecem.
   funcionando, de poucas semanas a poucos meses, com preferência à
   menor escala de tempo}
 
-O freshmeat\footnote{\url{http://freshmeat.net} -- Último acesso em
+O Freshmeat.net\footnote{\url{http://freshmeat.net} -- Último acesso em
   24/01/2011} é um dos maiores site de notícias sobre novas versões de
 projetos livres. O site está em atividade desde meados de 1990 e ainda
 mantém seu histórico desde Fevereiro de 2001. Desta data até
 05/01/2011, foram 214999 novas versões que formam uma média de 59.31
 novas versões por dia.
 
-Até 05/01/2010, eram 34232 projetos livres repertoriados e
+Até 05/01/2010, eram 34232 projetos livres listados e
 controlados. Esses dados apontam uma média de 6 novas versões por
 projeto ao longo de 3635 dias (9 anos e alguns meses).
 Aproximadamente uma nova versão a cada 18 meses por projeto.
@@ -175,7 +175,7 @@ menos uma vez por semestre.
   \centering
   \includegraphics[scale=.3]{freshmeat}
   \caption{Distribuição de projetos que lançam novas versões no
-    freshmeat.net mensalmente, semestralmente, anualmente ou
+    Freshmeat.net 12 vezes por ano, 2 vezes por ano, 1 vez por ano ou
     esporadicamente}
   \label{fig:freshmeat}
 \end{figure}
@@ -192,20 +192,20 @@ número de lançamentos anuais assim como a quantidade de projetos com
 pelo menos 2 lançamentos no ano tem caído desde 2004. A
 Figura~\ref{fig:freshmeat-by-years} mostra a evolução do número de
 lançamentos registrados no site por ano, a quantidade de projetos
-repertoriados e a quantidade de projetos com, pelo menos, 2
+listados e a quantidade de projetos com, pelo menos, 2
 lançamentos naquele ano.
 
 \begin{figure}
   \centering
   \includegraphics[scale=0.7]{freshmeat-by-years}
   \caption{Evolução ao longo dos anos da quantidade de projetos e
-    lançamentos no freshmeat.net e a quantidade de projetos com mais
+    lançamentos no Freshmeat.net e a quantidade de projetos com mais
     de 2 lançamentos}
   \label{fig:freshmeat-by-years}
 \end{figure}
 
 Não só o número de projetos e de lançamentos está diminuindo no
-freshmeat.net mas a proporção de projetos com lançamentos frequentes
+Freshmeat.net mas a proporção de projetos com lançamentos frequentes
 também. Em 2002, 39\% dos projetos registrado anunciaram 2 ou mais
 lançamentos ao longo do ano. Em 2008, atingiu-se o pico de meros 30\%
 dos projetos com 2 lançamentos anuais. Desde então, a situação
@@ -648,15 +648,14 @@ forma de controle no galho principal de um projeto ágil poderia
 melhorar ainda mais a simplicidade do código fonte do aplicativo de
 produção.
 
-% XXX Ref pra Scrum e XP
-
 Na maioria dos métodos ágeis, uma equipe deveria ter um líder (um
-\emph{Scrum Master} em Scrum, um \emph{coach} em XP etc.)  que é mais
-experiente naquele método ágil que o resto da equipe. O líder da
-equipe é responsável por lembrar a equipe de se ater às práticas
-escolhidas. Ele também deve ajudar a equipe a resolver os problemas
-encontrados e, idealmente, transformar todos os membros da equipe em
-possíveis líderes de forma a tornar-se ``inútil''.
+\emph{Scrum Master} em Scrum\cite{Schwaber2004}, um \emph{coach} em
+XP\cite{XP01} etc.)  que é mais experiente naquele método ágil que o
+resto da equipe. O líder da equipe é responsável por lembrar a equipe
+de se ater às práticas escolhidas. Ele também deve ajudar a equipe a
+resolver os problemas encontrados e, idealmente, transformar todos os
+membros da equipe em possíveis líderes de forma a tornar-se
+``inútil''.
 
 Para cumprir essa função, o líder não precisa obrigatoriamente ter
 conhecimentos técnicos apurados. No entanto, uma equipe de
@@ -846,19 +845,18 @@ etc.) numa linha do tempo relacionada aos trabalhos realizados.
 \subsection{Revisão cruzada}
 \label{subsec:crossrev}
 
-% XXX 2a frase do parágrafo é um pouco grande.
-
 O terceiro ponto que Reis apresentou foi bem específico ao
-LaunchPad. Como o LaunchPad é uma plataforma usada por outras equipes
-para que elas desenvolvam seus próprios projetos, quando há uma
+LaunchPad. O LaunchPad é uma plataforma usada por outras equipes para
+que elas desenvolvam seus próprios projetos. Por isso, quando há uma
 mudança na Interface de Programação da Aplicação (\emph{API -
   Application Programming Interface}), um membro de uma equipe externa
-que usa o programa (preferencialmente uma pessoa diferente a cada vez)
-deve revisar a mudança da interface e os motivos que levaram a
-ela. Essa mudança não pode ser enviada ao galho principal do
-repositório a não ser que o revisor externo a aprove. Essa prática é
-conhecida como revisão cruzada das mudanças de API ou, simplesmente,
-uma revisão cruzada.
+que usa o programa deve revisar a mudança da interface e os motivos
+que levaram a ela. Essa mudança não pode ser enviada ao galho
+principal do repositório a não ser que o revisor externo a aprove. O
+revisor externo não deve ser uma única pessoa mas um papel que circula
+entre vários usuários da plataforma. Essa prática é conhecida como
+revisão cruzada das mudanças de API ou, simplesmente, uma revisão
+cruzada.
 
 Essa prática resolve alguns problemas de uma só vez. O papel do
 \emph{commiter} resolve o problema da revisão de código que os métodos
@@ -883,8 +881,6 @@ pode se aplicar até um certo nível quando o usuário não tem
 conhecimento técnico. Uma revisão externa pode ajudar a garantir a
 clareza da API e a documentar as mudanças mas ela não vai identificar
 problemas de requisitos se o revisor não for um cliente ou usuário.
-
-% TODO Procurar trabalhos do Sutherland sobre MA distribuídos
 
 \section{Contribuições de Métodos Ágeis no Software Livre}
 \label{sec:agile-improve-os}
@@ -1048,17 +1044,16 @@ linha do tempo previamente preenchida.
 \subsection{Papo em pé}
 \label{subsec:stand-up}
 
-% XXX Citação de Scrum
-
-Papos em pé, originalmente sugeridos em Scrum, pedem que toda a equipe
-se junte e cada membro explique rapidamente o que ele tem feito e
-pretende fazer a seguir. No aspecto de software livre, essa prática
-compartilha dos mesmos problemas da retrospectiva. Ela envolve reunir
-a equipe ao mesmo tempo. Muitos projetos de software livre usam canais
-de IRC (\emph{Internet Relay Chat}) para resolver parcialmente esse
-problema e para centralizar as discussões durante o
-desenvolvimento. Apesar disso não garantir que todos saibam o que cada
-um está fazendo, ajuda a sincronizar o trabalho.
+Papos em pé, originalmente sugeridos em Scrum\cite{Schwaber2004},
+pedem que toda a equipe se junte e cada membro explique rapidamente o
+que ele tem feito e pretende fazer a seguir. No aspecto de software
+livre, essa prática compartilha dos mesmos problemas da
+retrospectiva. Ela envolve reunir a equipe ao mesmo tempo. Muitos
+projetos de software livre usam canais de IRC (\emph{Internet Relay
+  Chat}) para resolver parcialmente esse problema e para centralizar
+as discussões durante o desenvolvimento. Apesar disso não garantir que
+todos saibam o que cada um está fazendo, ajuda a sincronizar o
+trabalho.
 
 Para garantir que os membros obtenham a informação necessária, a
 sugestão é que a comunicação que acontece nesses canais IRC seja salva

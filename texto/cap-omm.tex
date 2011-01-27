@@ -49,7 +49,7 @@ que esperarem obter o selo.
 Como projetos livres raramente beneficiam de uma infra-estrutura
 física ou organizacional, é muito difícil avaliar esses processos de
 acordo com esses padrões da indústria. Por isso, o QualiPSo propôs
-trabalhar num modelo baseado no CMM mas que pudesse ser usado não
+desenvolver um modelo baseado no CMM mas que pudesse ser usado não
 apenas para empresas que incluem software livre em suas soluções mas
 também pelas comunidades livres ao redor do mundo. Desse fato, decorre
 uma nota importante sobre o OMM. O modelo todo foi pensado para que
@@ -104,14 +104,17 @@ acordo com o tipo de entidade que deseja ser avaliada para um
 determinado nível. Isto é, algumas práticas são apenas recomendadas e
 não obrigatórias para comunidades livres não representadas por uma
 empresa. Dessa forma, quando o projeto não tem uma organização por
-trás, os membros da comunidade só precisam realizar o que está no
+trás, os membros da comunidade só precisam realizar o que está ao
 alcance de uma comunidade para atingir um determinado nível.
 
 \begin{figure}
   \centering
   \includegraphics[scale=0.4]{omm-levels}
   \caption{Pirâmide de elementos essenciais exigidos para cada um dos
-    níveis do OMM}
+    níveis do OMM\\
+    Imagem baseada na primeira versão do documento oficial do OMM
+    disponível em \url{http://www.qualipso.org/node/103} (Último
+    acesso em 24/01/2011).}
   \label{fig:piramide-omm}
 \end{figure}
 
@@ -235,9 +238,18 @@ uma certificação OMM. Também existe uma descrição extensa de como deve
 ser realizada a avaliação de uma entidade com um questionário e
 informações sobre como cada prática pode ser avaliada.
 
-A próxima Seção apresenta como a Programação Extrema descrita por Kent
-Beck pode ser mapeada para os elementos de confiabilidade necessários
-em cada nível do OMM.
+De acordo com os resultados obtidos anteriormente, um aspecto
+importante do eco-sistema de software livre é manter o interesse e a
+satisfação dos colaboradores. Para que o OMM possa ter um impacto nas
+comunidades além das empresas, é preciso que o trabalho de
+justificativa de aderência ao modelo sejam o menor possível e que as
+mudanças nas formas de trabalho também. Considerando os resultados das
+pesquisas elaboradas, os desejos e aflições da comunidade de software
+livre são bem semelhantes com os da comunidade de métodos ágeis. Sendo
+assim, a próxima Seção apresenta como a Programação Extrema descrita
+por Kent Beck pode ser mapeada para os elementos de confiabilidade
+necessários em cada nível do OMM. Dessa forma, facilita-se a adoção do
+OMM por comunidades que se sintam próximas de métodos ágeis.
 
 \section{Um mapeamento de Programação Extrema para o OMM}
 \label{sec:xp-em-omm}
@@ -259,7 +271,7 @@ Programação Extrema que contribuem para atingir algum objetivo do
 nível básico do OMM. A Seção~\ref{sec:xp-omm-intermediate} apresenta
 os elementos essenciais dos níveis intermediários e avançados do OMM e
 as práticas de XP que contribuem para atingi-los.  Em seguida, a
-Seção~\ref{sec:omm-resumo} apresenta um resumo dos usos das práticas
+Seção~\ref{sec:resumo-omm} apresenta um resumo dos usos das práticas
 de XP para atingir os objetivos essenciais do OMM e quais deles não
 são abordados. Por fim, a Seção~\ref{sec:xp-omm} apresenta uma
 avaliação do papel que o OMM pode ter nas comunidades de software
@@ -289,8 +301,8 @@ anteriores além de documentação sobre as próprias documentações.
 
 Com relação à documentação para desenvolvedores, a prática de
 Desenvolvimento Dirigido por Testes (TDD - \textit{Test Driven
-  Development}) e sua complementação Desenvolvimento Dirigido por
-Comportamento (BDD - \textit{Behavior Driven Development}) são
+  Development}) e sua complementação, Desenvolvimento Dirigido por
+Comportamento (BDD - \textit{Behavior Driven Development}), são
 práticas de \textit{design} mas possuem o efeito colateral de prover
 diversos exemplos de uso do código criado. A ideia do BDD separa o
 teste no sentido de verificação de entrada e saída do comportamento
@@ -299,8 +311,8 @@ que descrevam o comportamento desejado.
 
 Diversas ferramentas de BDD (como
 JBehave\footnote{\url{http://jbehave.org} -- Último acesso em
-  24/01/2011}, RSpec\footnote{\url{http://rspec.info} -- Último acesso em
-  24/01/2011} e
+  24/01/2011}, RSpec\footnote{\url{http://rspec.info} -- Último acesso
+  em 24/01/2011} e
 DocTest\footnote{\url{http://docs.python.org/library/doctest.html} --
   Último acesso 24/01/2011}) possuem relatórios de execução que
 produzem saídas em formato de documentos. Esses relatórios apresentam
@@ -345,14 +357,14 @@ argumentar que a adesão a padrões abertos no produto é uma prática que
 apoia as práticas de Código Compartilhado e \textit{Design} Simples e,
 ao mesmo tempo, é apoiada por elas.
 
-% XXX Citação do Agile State Survey da VersionOne
-
 Além disso, a adoção de Programação Extrema é compatível com o
 Objetivo STD 2 - Adotar processos de desenvolvimento padrões - já que
 Programação Extrema é um processo aberto e livre. O relatório do
-estado de métodos ágeis de 2010 realizado pela VersionOne indica que
-21\% das equipes que usam métodos ágeis utilizam Programação Extrema
-pura ou aliada a outro método (como Scrum).
+estado de métodos ágeis de 2009\cite{VersionOne2009} realizado pela
+VersionOne\footnote{\url{http://www.versionone.com} -- Último acesso
+  em 24/01/2011} indica que 30\% das equipes que usam métodos ágeis
+utilizam Programação Extrema pura ou aliada a outro método (como
+Scrum).
 
 \subsubsection{Qualidade do Plano de Testes (QTP)}
 \label{sec:+qtp}
@@ -520,7 +532,7 @@ trabalhe com o cliente ou usuário do sistema e decida qual será o
 trabalho a ser realizado no próximo Ciclo Semanal. Durante essa
 reunião, o usuário define quais são as Histórias que precisam ser
 realizadas com maior prioridade. Seguindo essa ordem de prioridades,
-os desenvolvedores pensam sobre a dificuldade para realizar aquela
+os desenvolvedores pensam sobre a dificuldade para realizar cada
 História considerando suas experiências passadas e estimando
 comparativamente. Dessa forma, estabelecem-se estimativas para as
 Histórias mais importantes até que o cliente consiga escolher um
@@ -535,11 +547,11 @@ o Objetivo PP1 1 que pede o estabelecimento de estimativas.
 O Jogo do Planejamento ainda diz que as Histórias que forem
 consideradas de maior valor de negócio e de maior risco são as que tem
 maior prioridade no desenvolvimento. Dessa forma, a equipe precisa
-informar junto com a estimativa da história qual o risco técnico
-associado com aquela história e o cliente deve saber o risco de
+informar junto com a estimativa da História qual o risco técnico
+associado com aquela História e o cliente deve saber o risco de
 negócios relacionado. Com essas duas informações, o plano de
 desenvolvimento do projeto decorre da regra de sempre trabalhar nas
-histórias de maior risco e maior valor existente atualmente. Dessa
+Histórias de maior risco e maior valor existente atualmente. Dessa
 forma, caso o projeto encontre um grande problema, a falha acontecerá
 cedo no processo reduzindo o custo necessário para identificar um
 problema sério.
@@ -586,7 +598,7 @@ No nível intermediário, adicionam-se os elementos:
 No nível avançado, completa-se com:
 \begin{itemize}
 \item \textit{TST2} - Testes Parte 2
-\item \textit{DSN2} - Projeto Part 2
+\item \textit{DSN2} - Projeto Parte 2
 \item \textit{PI} - Integração do Produto
 \item \textit{RSKM} - Gestão de Risco
 \item \textit{RASM} - Resultado das Avaliações de Terceiros
@@ -599,7 +611,7 @@ tratados por alguns desses elementos essenciais. No que diz respeito à
 extensão do Plano do Projeto, a principal exigência é de que sejam
 planejadas atualizações ao plano do projeto e que elas sejam
 seguidas. Em XP, a prática de Ciclo Semanal pede que a equipe
-renegocie o seu trabalho da semana. Essa negociação deve impactar como
+renegocie o seu trabalho da semana. Essa negociação pode impactar como
 for necessário o planejamento do projeto. Dessa forma, é possível e
 até provável que se realize um Jogo do Planejamento curto no início da
 cada Ciclo Semanal. Sendo assim, pode-se argumentar que as
@@ -630,14 +642,14 @@ ATDD colaboram para facilitar a criação de um ambiente de verificação
 já que essas práticas forçam os programadores a criar arquiteturas que
 facilitem a elaboração de testes automatizados.
 
-Com relação ao elemento de Monitoração e Controle do Projeto, o
+Com relação ao elemento de Monitoramento e Controle do Projeto, o
 principal objetivo é monitorar se o projeto está seguindo o plano e,
-se não estiver, definir medidas corretivas e implementá-las. Nesse
-contexto, as práticas de Retrospectiva e Análise de Causa Raiz
-permitem que a equipe identifique, analise e entenda desvio no plano
-do projeto, seus motivos e quais podem ser ações corretivas que
-resolvam não apenas o problema imediato mas também as chances desses
-problema se repetir no futuro.
+se não estiver, definir medidas corretivas e implementá-las. A prática
+de Retrospectiva permite que a equipe apresente e discuta os problemas
+encontrados. Aplicando a prática de Análise de Causa Raiz nesses
+problemas, consegue-se destrinchá-los para que as soluções
+apresentadas para resolvê-los sejam profundas e consigam prover
+benefícios mais duradouros.
 
 Os aspectos de Projeto Parte 1, Garantia de Qualidade no Processo e no
 Projeto e Relações entre Interessados não são diretamente tratados por
@@ -645,13 +657,13 @@ nenhuma prática de XP. No caso da Garantia de Qualidade, a prática de
 Retrospectiva tem um efeito indireto mas depende muito da capacidade
 do time em encontrar melhorias para o processo e projeto. Na parte de
 Projeto, as exigências são bastante específicas com relação à obtenção
-e rastreabilidade das funcionalidades. A prática em XP que cuida
-desses aspectos são as práticas de Histórias e de Sentar Junto. No
-entanto, a rastreabilidade e qualidade da obtenção da história
-dependem bastante da habilidade das pessoas envolvidas no projeto.
+e rastreabilidade das funcionalidades. A parte em XP que cuida desses
+aspectos são as práticas de Histórias e de Sentar Junto. No entanto, a
+rastreabilidade e qualidade da obtenção da história dependem bastante
+da habilidade das pessoas envolvidas no projeto.
 
-Pro nível avançado, os objetivos são mais exigentes e, apesar do uso
-de diversas práticas de XP em conjunto conseguirem atingir alguns
+Para o nível avançado, os objetivos são mais exigentes e, apesar do
+uso de diversas práticas de XP em conjunto conseguirem atingir alguns
 deles, os resultados ainda são muito dependentes do habilidade e
 experiência dos envolvidos para continuarem perseguindo os
 objetivos. Desta forma, para poder garantir que o processo atinja os
@@ -757,7 +769,7 @@ práticas de XP listadas até agora.
   Extrema}
 \label{sec:xp-omm}
 
-Os principais elementos do nível básica que não foram cobertos pelas
+Os principais elementos do nível básico que não foram cobertos pelas
 práticas de XP são:
 
 \begin{enumerate}
@@ -767,7 +779,7 @@ práticas de XP são:
   \label{omm:pdoc1.2}
 \item PDOC - Objetivo 2
 
-  - Criar um a documentação pro produto
+  - Criar um a documentação para o produto
   \label{omm:pdoc2}
 \item STD - Objetivo 3
 
@@ -837,7 +849,7 @@ a sugestão seria de incluir pequenas conversas entre os
 usuários/clientes e desenvolvedores gravadas (aúdio e vídeo)
 disponíveis na página Internet do projeto.
 
-O Item~\ref{omm:rdmp1} pode ser obtido ao estabelecer uma cadência
+O Item~\ref{omm:rdmp11} pode ser obtido ao estabelecer uma cadência
 para os Ciclos de Estação e realizar Jogos do Planejamento em vários
 níveis ao final de cada estação. XP defende que esse tipo de
 planejamento a longo prazo deveria ser realizado apenas num nível bem
