@@ -188,23 +188,27 @@ Este trabalho contou com o apoio do projeto Qualipso \cite{Qualipso}.
 
 Gostaria de agradecer ao Christian Reis por sua ajuda, pelas
 discussões interessantes e pelas ideias. Aos meus pais, pela
-confiança, amor e apoio. À Mariana Bravo pelo apoio, companhia,
-revisões e ajudas constantes ao longo de todo esse tempo. Ao Danilo
-Sato e Daniel Cordeiro pelas revisões e críticas ao texto além das
-excelentes discussões.  Aos irmãos Freire pela sociedade,
-oportunidades, longas discussões e sessões de programação.
+confiança, amor e apoio. À Mariana Bravo pelo apoio, companhia e
+ajudas constantes ao longo de todo esse tempo. Ao Danilo Sato e Daniel
+Cordeiro pelas revisões e críticas ao texto além das excelentes
+discussões. Ao Alexandre Freire e ao Fernando Freire pela sociedade,
+oportunidades, longas discussões e sessões de programação. Ao Rafael
+Prikladnicki e Daniel Cukier pelas oportunidades oferecidas e revisões
+ao texto.
 
 Aos alunos do Laboratório de Programação Extrema de 2007 a 2010 pelas
 experiências proporcionadas. Aos amigos que sempre ofereceram
 diversão, alegria e felicidade.  Aos outros membros da AgilCoop pelas
 experiências, ideias, conversas e ajudas.
 
-Por fim, mas muito importante, ao prof. Dr. Alfredo Goldman pela
+Por fim, mas muito importante, ao Prof. Dr. Alfredo Goldman pela
 orientação, conversas, ajudas, apoio e amizade.
 
 % ---------------------------------------------------------------------------- %
 % Resumo
 \chapter*{Resumo}
+
+% TODO En-sexy-zar
 
 A relação entre métodos ágeis e software livre não é clara. A
 princípio, as duas comunidades não parecem ter nenhuma relação já que
@@ -302,6 +306,12 @@ software, open maturity model, omm, extreme programming, xp
 \onehalfspacing % espaçamento um e meio
 % \doublespacing % espaçamento duplo
 
+% TODO Revisar M.A. e S.L. p/ ficar minusculo
+% TODO Revisar Capitulo, Secao etc para ficar minusculo se nao for o
+% tal (com numero)
+% TODO Gráficos ficam ruins na impressão. Cores não são != suficientes
+% TODO Revisar traduções do Fabio (http://www.ime.usp.br/~kon/ResearchStudents/traducao.html)
+
 \input cap-introducao % associado ao arquivo: 'cap-introducao.tex'
 \input cap-escopo % associado ao arquivo: 'cap-escopo.tex'
 \input cap-semelhancas % associado ao arquivo: 'cap-semelhancas.tex'
@@ -309,15 +319,6 @@ software, open maturity model, omm, extreme programming, xp
 \input cap-diferencas % associado ao arquivo: 'cap-diferencas.tex'
 \input cap-omm % associado ao arquivo: 'cap-omm.tex'
 \input cap-conclusoes % associado ao arquivo: 'cap-conclusoes.tex'
-
-% cabecalho para os apêndices
-\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\appendixname\
-      \thechapter}} {\MakeUppercase{#1}} } \fancyhead[RE,LO]{}
-\appendix
-
-\include{ape-pesquisaEA}      % associado ao arquivo: 'ape-pesquisaEA.tex'
-\include{ape-pesquisaOS}      % associado ao arquivo: 'ape-pesquisaOS.tex'
-\include{ape-pesquisaMA}      % associado ao arquivo: 'ape-pesquisaMA.tex'
 
 % ---------------------------------------------------------------------------- %
 % Bibliografia
@@ -331,6 +332,15 @@ software, open maturity model, omm, extreme programming, xp
 %\index{TBP|see{periodicidade região codificante}}
 
 %\printindex   % imprime o índice remissivo no documento 
+% cabecalho para os apêndices
+
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\appendixname\
+      \thechapter}} {\MakeUppercase{#1}} } \fancyhead[RE,LO]{}
+\appendix
+
+\include{ape-pesquisaEA}      % associado ao arquivo: 'ape-pesquisaEA.tex'
+\include{ape-pesquisaOS}      % associado ao arquivo: 'ape-pesquisaOS.tex'
+\include{ape-pesquisaMA}      % associado ao arquivo: 'ape-pesquisaMA.tex'
 
 \end{document}
 

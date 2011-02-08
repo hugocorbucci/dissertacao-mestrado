@@ -6,9 +6,9 @@ O manifesto ágil (apresentado na Caixa~\ref{box:manifesto},
 página~\pageref{box:manifesto}) é complementado por uma lista de 12
 princípios traduzidos na Caixa~\ref{box:principles}. Esses princípios
 apresentam guias que norteiam os métodos ágeis na direção de algumas
-práticas. Este Capítulo apresenta uma análise desses princípios sob o
+práticas. Este capítulo apresenta uma análise desses princípios sob o
 ponto de vista de projetos de software livre com o objetivo de
-identificar mais algumas semelhanças mas com destaque para as
+identificar mais algumas semelhanças, mas com destaque para as
 diferenças entre as comunidades.
 
 \begin{caixa}[htb]
@@ -77,12 +77,15 @@ ser combinada de forma construtiva para melhorar ambas comunidades.
 \label{sec:principles}
 
 A lista de princípios ágeis apresenta alguns pontos de semelhança e
-outros de diferença com software livre. As próximas Seções discutem
+outros de diferença com software livre. As próximas seções discutem
 cada um dos princípios e seu uso em projetos livres.
 
 \subsection[Satisfação do cliente]{Nossa maior prioridade é satisfazer
   o cliente através da entrega contínua e adiantada de software com
   valor agregado}
+
+% TODO Sempre pronto pra usar no repositório era a política
+% antiga. Talvez mencionar isso ou explicar melhor.
 
 Esse princípio traduz para ações o valor de resposta a mudanças. Como
 comentado no Capítulo~\ref{cap:semelhancas}, projetos livres tem a
@@ -102,14 +105,15 @@ intervalo).
 
 Esse ritmo permite obter feedback da comunidade sobre o andamento do
 desenvolvimento. Para saber o que traz valor ao cliente, alguns
-projetos também tem um sistema de rastreamento de problemas nos quais
+projetos também têm um sistema de rastreamento de problemas nos quais
 os usuários podem ``votar'' nas funcionalidades mais importantes para
 a próxima versão. O Bugzilla\footnote{\url{http://www.bugzilla.org} --
   Último acesso em 24/01/2011} é uma das ferramentas que permite esse
-tipo de participação entre outras como
+tipo de participação. Outros exemplos de ferramentas são o
 JIRA\footnote{\url{http://www.atlassian.com/software/jira} -- Último
-  acesso em 24/01/2011} e GitHub\footnote{\url{http://www.github.com}
-  -- Último acesso em 24/01/2011}.
+  acesso em 24/01/2011} e o
+GitHub\footnote{\url{http://www.github.com} -- Último acesso em
+  24/01/2011}.
 
 Dessa forma, muitos projetos de software livre abraçam esse princípio
 e o incorporam em seus processos de desenvolvimento para poder atender
@@ -131,7 +135,7 @@ listas de correio eletrônico dos projetos.
 Dessa forma, a questão de aceitar mudanças nos requisitos ``tarde'' no
 desenvolvimento fica um pouco estranha. O único momento que pode ser
 classificado como ``tarde'' num projeto com coleta contínua de
-requisitos é uma vez que o requisito já estiver implementado. Mas, a
+requisitos é quando que o requisito já estiver implementado. Mas, a
 partir desse momento, mudanças no funcionamento passam a ser
 descrições de erros (comportamento não esperado ou não desejado do
 sistema).
@@ -149,10 +153,10 @@ destacar permanecem.
   funcionando, de poucas semanas a poucos meses, com preferência à
   menor escala de tempo}
 
-O Freshmeat.net\footnote{\url{http://freshmeat.net} -- Último acesso em
-  24/01/2011} é um dos maiores site de notícias sobre novas versões de
-projetos livres. O site está em atividade desde meados de 1990 e ainda
-mantém seu histórico desde Fevereiro de 2001. Desta data até
+O Freshmeat.net\footnote{\url{http://freshmeat.net} -- Último acesso
+  em 24/01/2011} é um dos maiores site de notícias sobre novas versões
+de projetos livres. O site está em atividade desde meados de 1990 e
+ainda mantém seu histórico desde Fevereiro de 2001. Desta data até
 05/01/2011, foram 214999 novas versões que formam uma média de 59.31
 novas versões por dia.
 
@@ -192,8 +196,8 @@ número de lançamentos anuais assim como a quantidade de projetos com
 pelo menos 2 lançamentos no ano tem caído desde 2004. A
 Figura~\ref{fig:freshmeat-by-years} mostra a evolução do número de
 lançamentos registrados no site por ano, a quantidade de projetos
-listados e a quantidade de projetos com, pelo menos, 2
-lançamentos naquele ano.
+listados e a quantidade de projetos com, pelo menos, 2 lançamentos
+naquele ano.
 
 \begin{figure}
   \centering
@@ -216,8 +220,8 @@ Além disso, vale notar que a escala de tempo para projetos livres
 costuma ser um pouco maior do que em projetos proprietários que contam
 com a dedicação em tempo integral dos membros da equipe. Desse ponto
 de vista, algumas semanas de um projeto com dedicação integral podem
-ser considerado equivalentes a alguns meses num projeto baseado em
-voluntários.
+ser considerado equivalentes a alguns meses num projeto desenvolvido
+por voluntários.
 
 De toda forma, esses resultados são indícios de que projetos livres
 não seguem o princípio de entregar novas versões funcionais em escalas
@@ -228,8 +232,10 @@ projetos.
   desenvolvedores devem trabalhar diariamente em conjunto por todo o
   projeto}
 
+% TODO torna um pouco estranha a afirmação - informal. Melhorar
+
 Este é outro princípio em que o contexto comum de projetos livres
-torna um pouco estranha a afirmação. Como Raymond diz: ``Todo bom
+dificulta a aplicação da sentença. Como Raymond diz: ``Todo bom
 projeto de software começa com um desenvolvedor resolvendo um incômodo
 pessoal''~\cite{Raymond1999}. Nesse caso, o especialista do negócio é
 o próprio desenvolvedor. Isso faz com que seja impossível um trabalhar
@@ -276,11 +282,12 @@ deve, em grande parte, à difusão da Internet e ao aumento do número de
 pessoas com acesso a um computador pessoal. Esse foi o suporte
 essencial para o crescimento da comunidade de software livre. Essa
 comunidade evolui com base na possibilidade de se auto-gerenciar e
-evoluir independentemente de fatores externos. A tolerância a falhas
-no eco-sistema livre faz com que projetos que encontram dificuldades
-demais na sua evolução falhem. Se encontrar uma solução para esse
-problema for muito importante, novos projetos o atacarão no futuro até
-que algum consiga chegar a algum resultado prático.
+evoluir independentemente de fatores externos.  Caso um projeto
+encontre muitas dificuldades na sua evolução, ele irá falhar. No
+entanto, essa falha faz parte do eco-sistema livre.. Se for muito
+importante encontrar uma solução para esse problema, novos projetos o
+atacarão no futuro até que algum consiga chegar a algum resultado
+prático.
 
 \subsection[Conversa face a face]{O método mais eficiente e eficaz de
   transmitir informações para e entre uma equipe de desenvolvimento é
@@ -299,7 +306,7 @@ eletrônico seguidos de canais IRC. Ambos são bem distantes de
 conversas face a face. O primeiro não conta sequer com respostas
 síncronas que é o único benefício apresentado no segundo. Com relação
 a conversas face a face, ambos canais perdem a entonação da voz, as
-expressões faciais, gesticulações além do contato visual.
+expressões faciais, gesticulações, além do contato visual.
 
 Esse uso é tão difundido e aceito na comunidade de software livre que,
 como apresentado na Seção~\ref{sec:resp-floss}, canais IRC são até
@@ -353,10 +360,10 @@ comunidades de software livre é variado.
 A proposta mais recente para atingir algo nesse sentido nas
 comunidades livres é da ideia de lançamentos cadenciados. O
 Firefox\footnote{\url{http://www.firefox.com} -- Último acesso em
-    24/01/2011} e o Ubuntu\footnote{\url{http://www.ubuntu.com} --
-    Último acesso em 24/01/2011} tem procurado lançar novas versões
-em intervalos de tempo fixo e com escopo aberto. Isso significa que
-uma nova versão será lançada numa data pré-determinada com as
+  24/01/2011} e o Ubuntu\footnote{\url{http://www.ubuntu.com} --
+  Último acesso em 24/01/2011} tem procurado lançar novas versões em
+intervalos de tempo fixo e com escopo aberto. Isso significa que uma
+nova versão será lançada numa data pré-determinada com as
 funcionalidades que estiverem prontas e testadas.  Dessa forma,
 tira-se a pressão para conseguir terminar determinado trabalho até uma
 certa data.
@@ -378,9 +385,9 @@ Por construção, o movimento de software livre envolve pessoas
 apaixonadas por desenvolvimento de software. Nesse aspecto, projetos
 livres tendem a utilizar todo tipo de tecnologia.  Dia 18 de Agosto de
 2010, os 10 projetos mais baixados do
-SourceForge.net\footnote{\url{http://www.sourceforge.net} -- Último acesso em
-    24/01/2011} reuniam 6 linguagens de programação diferentes (C,
-C++, Python, Javascript, Delphi e Perl).
+SourceForge.net\footnote{\url{http://www.sourceforge.net} -- Último
+  acesso em 24/01/2011} reuniam 6 linguagens de programação diferentes
+(C, C++, Python, Javascript, Delphi e Perl).
 
 No dia 30/10/2010, o SourceForge.net listava em torno de 1600 projetos
 com mais de 100000 downloads. Desses projetos, 782 incluíam seu código
@@ -388,6 +395,8 @@ fonte em C, C++ ou Java na página do SourceForge.net.  Nessa amostra,
 foi utilizada a ferramenta Analizo\footnote{\url{http://analizo.org}
   -- Último acesso em 24/01/2011} \cite{Terceiro2010} para levantar
 algumas métricas com relação ao código fonte desses projetos.
+
+% TODO Vender o peixe como contribuição.
 
 Utilizando as propostas de valores de referências sugeridos por
 Ferreira~\cite{Ferreira2009}, foi realizada uma análise dos projetos
@@ -488,11 +497,11 @@ mantidos por um tempo mas abandonados em seguida.
 De acordo com o
 FLOSSMETRICS\footnote{\url{http://www.flossmetrics.org} -- Último
   acesso em 24/01/2011}, em 2007, apenas 9.2\% dos projetos do
-SourceForge.net\footnote{\url{http://www.sourceforge.net} -- Último acesso em
-  24/01/2011} eram considerados ativos. Onde ativos significa que
-tiveram alguma liberação de arquivos nos últimos 6 meses e houve
-registro de atividade no site nesse período. Isso aponta que a grande
-maioria dos projetos que foram iniciados não tiveram
+SourceForge.net\footnote{\url{http://www.sourceforge.net} -- Último
+  acesso em 24/01/2011} eram considerados ativos. Onde ativos
+significa que tiveram alguma liberação de arquivos nos últimos 6 meses
+e houve registro de atividade no site nesse período. Isso aponta que a
+grande maioria dos projetos que foram iniciados não tiveram
 continuidade. Nesse sentido, existe MUITO trabalho realizado que é
 pouco aproveitado.
 
@@ -577,11 +586,11 @@ LaunchPad\footnote{\url{http://launchpad.net} - Último acesso em
 distribuição Linux Ubuntu. O \emph{workshop} teve início com a
 apresentação de Reis sobre como o LaunchPad é desenvolvido. Três
 pontos essenciais foram levantados durante a discussão que deu
-sequência à apresentação. O primeiro (Subseção~\ref{subsec:commiter})
+sequência à apresentação. O primeiro (Seção~\ref{subsec:commiter})
 descreve e discute o papel de \emph{commiter}.  O segundo
-(Subseção~\ref{subsec:publicity}) apresenta os benefícios de seguir um
+(Seção~\ref{subsec:publicity}) apresenta os benefícios de seguir um
 processo de desenvolvimento que seja público e transparente.  Por fim,
-o último (Subseção~\ref{subsec:crossrev}) aborda o sistema de revisão
+o último (Seção~\ref{subsec:crossrev}) aborda o sistema de revisão
 cruzada dos sistemas que é usado para garantir a comunicação e a
 clareza do código.
 
@@ -601,10 +610,10 @@ a quarta apresenta as sugestões de adaptação desse papel em métodos
 \subsubsection{O que é um \emph{commiter}}
 
 Um \emph{commiter} é uma pessoa que tem direito de adicionar,
-modificar e remover código fonte ao galho\footnote{Um galho
+modificar e remover código fonte ao ramo\footnote{Um ramo
   (\emph{branch}) de um repositório é uma ramificação da estrutura de
   diretórios que guarda os arquivos} principal do repositório de
-controle de versões. O galho principal é a parte do código que será
+controle de versões. O ramo principal é a parte do código que será
 empacotada para formar uma nova versão do programa. Aos olhos da
 comunidade do software, o \emph{commiter} é uma pessoa confiável muito
 qualificada para avaliar a qualidade do código fonte. Este é o meio
@@ -627,7 +636,7 @@ na hierarquia tradicional de um projeto de software livre.
 
   A promoção entre o primeiro e o segundo nível é implícita. Ela
   acontece quando um \emph{commiter} aceita os \emph{patches} do
-  usuário e os envia ao repositório de código no galho
+  usuário e os envia ao repositório de código no ramo
   principal. Normalmente, ninguém sabe dessa promoção, com exceção do
   \emph{commiter} e do contribuidor.
 \item O terceiro papel é o de \emph{commiter}.
@@ -644,7 +653,7 @@ na hierarquia tradicional de um projeto de software livre.
 
 Métodos ágeis delegam o papel do \emph{commiter} para cada um dos
 desenvolvedores da equipe. No \emph{workshop} foi sugerido que alguma
-forma de controle no galho principal de um projeto ágil poderia
+forma de controle no ramo principal de um projeto ágil poderia
 melhorar ainda mais a simplicidade do código fonte do aplicativo de
 produção.
 
@@ -704,12 +713,12 @@ produzido.
 
 De qualquer forma, o trabalho de revisão tem duas consequências
 diretas e evidentes. A primeira é de que o tempo necessário para que
-uma mudança seja incorporada ao galho principal do código aumenta
+uma mudança seja incorporada ao ramo principal do código aumenta
 consideravelmente já que, tipicamente, são necessárias algumas
-conversas entre o revisor e os autores do código. A segunda é que o
-trabalho do revisor, se ele for único, é considerável já que ele deve
-ler todo código que deve ir para o galho principal, tentar
-entendê-lo e expressar suas dúvidas aos autores.
+conversas entre o revisor e os autores do código. A segunda é que, se
+o revisor for único, ele terá um trabalho considerável já que ele deverá
+ler todo código que deve ir para o ramo principal, tentar entendê-lo e
+expressar suas dúvidas aos autores.
 
 \subsubsection{Sugestões para adaptar o papel aos métodos ágeis}
 
@@ -718,6 +727,8 @@ papel de \emph{commiter} ao consultor técnico de uma equipe ágil
 significaria criar um gargalo de incorporação de código. A Teoria das
 Restrições~\cite{goldratt84} afirma que deve-se eliminar cada gargalo
 para maximizar a produtividade de uma equipe.
+
+% TODO Impressao de que SL sempre so tem 1 commiter
 
 Sendo assim, a proposta é manter um pequeno conjunto de
 desenvolvedores da equipe como \emph{commiters} e fazer o papel
@@ -737,7 +748,7 @@ que a revisão cruzada não aconteça mais. Outra possibilidade é a de
 distribuir o papel entre todos os membros da equipe mas forçar que
 exista uma revisão aprovada por um terceiro membro da equipe (além do
 par que desenvolveu a funcionalidade) para que o \emph{commit} seja
-enviado ao galho principal.
+enviado ao ramo principal.
 
 Ambas soluções aumentam o conjunto de \emph{commiters}, distribuem
 mais o conhecimento entre a equipe e reduzem a aparente concentração
@@ -770,7 +781,7 @@ melhorado.
 
 Em métodos ágeis, o resultado dos testes e a lista fornecida pelo
 sistema de rastreamento de erros são informações muito importantes
-para a equipe de desenvolvimento. Apesar disso, nenhum métodos afirma
+para a equipe de desenvolvimento. Apesar disso, nenhum método afirma
 explicitamente que o cliente e os usuários deveriam estar em contato
 direto com essas ferramentas.
 
@@ -833,14 +844,15 @@ fazem em projetos livres) as perdas.
 Em suma, métodos ágeis poderiam tornar seus resultados públicos da
 seguinte forma. Existem várias informações que podem ser obtidas
 automaticamente como relatórios de execução dos testes, estado do
-processo de construção do aplicativo, número de erros em aberto etc.  O
-sistema de build automático e de integração contínua poderia publicar
-todas essas informações automaticamente em uma página relacionada ao
-projeto. No que diz respeito às conversas, um esforço pode ser
-realizado para incluir trechos de conversa e links em mensagens de
-\textit{commits}. E, com ajuda da ferramenta de gestão de projeto, os
-\textit{commits} podem ser exibidos de forma rica (com imagens, links
-etc.) numa linha do tempo relacionada aos trabalhos realizados.
+processo de construção do aplicativo, número de erros em aberto etc.
+O sistema de build automático e de integração contínua poderia
+publicar todas essas informações automaticamente em uma página
+relacionada ao projeto. No que diz respeito às conversas, um esforço
+pode ser realizado para incluir trechos de conversa e links em
+mensagens de \textit{commits}. E, com ajuda da ferramenta de gestão de
+projeto, os \textit{commits} podem ser exibidos de forma rica (com
+imagens, links etc.) numa linha do tempo relacionada aos trabalhos
+realizados.
 
 \subsection{Revisão cruzada}
 \label{subsec:crossrev}
@@ -851,12 +863,11 @@ que elas desenvolvam seus próprios projetos. Por isso, quando há uma
 mudança na Interface de Programação da Aplicação (\emph{API -
   Application Programming Interface}), um membro de uma equipe externa
 que usa o programa deve revisar a mudança da interface e os motivos
-que levaram a ela. Essa mudança não pode ser enviada ao galho
-principal do repositório a não ser que o revisor externo a aprove. O
-revisor externo não deve ser uma única pessoa mas um papel que circula
-entre vários usuários da plataforma. Essa prática é conhecida como
-revisão cruzada das mudanças de API ou, simplesmente, uma revisão
-cruzada.
+que levaram a ela. Essa mudança não pode ser enviada ao ramo principal
+do repositório a não ser que o revisor externo a aprove. O revisor
+externo não deve ser uma única pessoa mas um papel que circula entre
+vários usuários da plataforma. Essa prática é conhecida como revisão
+cruzada das mudanças de API ou, simplesmente, uma revisão cruzada.
 
 Essa prática resolve alguns problemas de uma só vez. O papel do
 \emph{commiter} resolve o problema da revisão de código que os métodos
@@ -902,8 +913,8 @@ distribuídas encontram alguns dos mesmos problemas
 
 Como Beck sugere \cite{Beck2008}, ferramentas podem melhorar a adoção
 e o uso de práticas ágeis e, dessa forma, melhorar o processo de
-desenvolvimento. Uma quantidade considerável de trabalhos já foram
-realizados na questão de ferramentas da programação em pares
+desenvolvimento. Uma quantidade de trabalhos já foi
+realizada na questão de ferramentas da programação em pares
 distribuída\footnote{\url{http://sf.net/projects/xpairtise} -- Último
   acesso em
   24/01/2011}$^{,}$\footnote{\url{http://www.saros-project.org} --
@@ -913,12 +924,15 @@ distribuída\footnote{\url{http://sf.net/projects/xpairtise} -- Último
 respeito~\cite{Nagappan2003} mas pouco tem sido produzido para apoiar
 outras práticas. Como o problema está relacionado à comunicação,
 algumas práticas de métodos ágeis são relevantes. As próximas
-subseções vão apresentar essas práticas e as ferramentas sugeridas
+seções apresentam essas práticas e as ferramentas sugeridas
 para facilitar a adoção de métodos ágeis na comunidade de software
 livre.
 
 \subsection{Ambiente informativo}
 \label{subsec:inform-worksp}
+
+% TODO coleta ate tem mas precisa mostrar mais (imagens) - pq o dado
+% em si está lá. Melhorar o texto
 
 Essa prática sugere que uma equipe de métodos ágeis deveria trabalhar
 num ambiente que provê informações relacionadas ao
@@ -956,6 +970,8 @@ hospedados.
 
 \subsection{Histórias}
 \label{subsec:stories}
+
+% TODO Muitos projetos 'bugs' como histórias.
 
 Com relação ao sistema de planejamento, XP sugere que os requisitos
 deveriam ser coletados em cartões de histórias. O objetivo disto é
@@ -1077,7 +1093,7 @@ evolução.
 Do lado do desenvolvimento livre, o problema da corretude e qualidade
 do código é enfrentado com o papel de \emph{commiter}. O grupo de
 \emph{commiters} de um projeto é responsável por avaliar, analisar e
-filtrar as contribuições que serão incorporadas ao galho principal do
+filtrar as contribuições que serão incorporadas ao ramo principal do
 repositório de código e, dessa forma, farão parte do próximo
 lançamento.
 
@@ -1088,7 +1104,7 @@ usuários. Esses dados apresentam não apenas os resultados dos testes
 automatizados para a última construção mas também a lista de mudanças,
 autores das mudanças, histórico de discussões e decisões tomadas. Além
 de aumentar as chances de se perceber algum problema, a publicidade
-dos resultados também aumenta o respeito entre as pessoas envolvidas
+dos resultados também aumenta o respeito entre as pessoas envolvidas,
 já que todos vêem as contribuições que cada um fez.
 
 Por fim, desenvolvedores livres sugerem o uso de revisões cruzadas
@@ -1125,3 +1141,4 @@ sugestões levantadas nesse Capítulo, apresenta-se uma descrição de
 como Programação Extrema pode ajudar equipes a se adequarem às
 exigências e melhorarem seus processos e resultados.
 
+% TODO Mais bla bla pra chegar no OMM. Tem que seduzir
