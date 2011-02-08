@@ -2,6 +2,26 @@
 \chapter{Introdução}
 \label{cap:introducao}
 
+Com a crescente adoção de métodos ágeis na indústria e o sucesso de
+vários projetos abertos como o \textit{kernel} do
+Linux\footnote{\url{http://www.kernel.org} -- Último acesso em
+  24/01/2011}, o Firefox\footnote{\url{http://www.firefox.com} --
+  Último acesso em 24/01/2011} e o
+OpenOffice\footnote{\url{http://www.openoffice.org} -- Último acesso
+  em 24/01/2011}, parece natural estudar as causas desses
+sucessos. Mais ainda, a busca por uma união que pudesse aproveitar os
+sucessos de cada um torna-se necessária. Esse trabalho segue este
+caminho e procura apresentar argumentos que validem essa união do
+ponto de vista de entidades externas.
+
+A Seção~\ref{sec:consideracoes_preliminares} apresenta alguns
+argumentos que motivaram esse trabalho. A
+Seção~\ref{sec:contribuicoes} lista as contribuições realizadas ao
+decorrer desse estudo enquanto a Seção~\ref{sec:estudo-preliminar} dá
+uma primeira visão da ligação entre as comunidades de software livre e
+de métodos ágeis. Por fim, a Seção~\ref{sec:organizacao_trabalho}
+descreve a estrutura geral do texto que seguirá.
+
 %% ------------------------------------------------------------------------- %%
 \section{Considerações preliminares}
 \label{sec:consideracoes_preliminares}
@@ -41,6 +61,35 @@ várias ``balas de prata fracassadas'' não poderia fazer o papel de uma
 bala de prata real, isto é, aumentar em uma ordem de magnitude os
 níveis de produtividade de desenvolvedores de software.
 
+Esse trabalho procura identificar melhor a relação entre esses dois
+mundos identificando os pontos de proximidade e distância assim como
+os potenciais elementos de melhoria em cada ambiente.
+
+
+%% ------------------------------------------------------------------------- %%
+\section{Contribuições}
+\label{sec:contribucoes}
+
+As principais contribuições deste trabalho estão discriminadas abaixo:
+
+\begin{itemize}
+\item Um estudo embasado e detalhado sobre as semelhanças e diferenças
+  entre métodos ágeis e software livre;
+\item Uma pesquisa relacionando métodos ágeis e software livre;
+\item Uma pesquisa com a comunidade de software livre sobre sua
+  relação com métodos ágeis;
+\item Uma pesquisa com a comunidade de métodos ágeis sobre sua relação
+  com software livre e
+\item Uma análise de Programação Extrema~\cite{XP01} sob o ponto de
+  vista do Modelo de Maturidade Aberto (\emph{Open Source Maturity
+    Model} - OMM) do projeto
+  QualiPSo\footnote{\url{http://www.qualipso.org} -- Último acesso em
+    24/01/2011}.
+\end{itemize}
+
+\section{Estudo preliminar}
+\label{sec:estudo-preliminar}
+
 No Encontro Ágil 2008, que ocorreu em São Paulo no dia 11 de Outubro
 de 2008 e reuniu aproximadamente 200 pessoas interessadas em métodos
 ágeis\footnote{\url{http://encontroagil.com.br/2008/principal/home.html}
@@ -50,8 +99,6 @@ comum. Uma pesquisa (disponível no Apêndice \ref{ape:EA}) foi
 realizada em papel e entregue a todos os participantes do encontro no
 início do evento e recolhida ao final do evento. Foram coletados 93
 formulários preenchidos que resultaram nas seguintes estatísticas.
-
-% TODO Mais resultados do formulario ou explicar que teve outras.
 
 \begin{figure}[htb]
   \begin{minipage}[t]{0.5\linewidth}
@@ -75,44 +122,24 @@ que a grande maioria tinha pouca experiência com métodos ágeis. Unindo
 esse dado com o fato de que 82\% tinham menos de 35 anos de idade, os
 participantes podem ser caracterizados como uma população de jovens
 profissionais com interesse em métodos ágeis mas com conhecimento
-superficial sobre o assunto. Do ponto de vista do software livre, 67\%
-das respostas diziam nunca ter contribuído com software livre e 24\%
-afirmavam colaborarem ocasionalmente com algum projeto. Os outros 9\%
-contribuíam frequentemente ou sempre com algum projeto.
+superficial sobre o assunto.
 
-% TODO resultados que nao mostram nada servir de motivacao eh
-% estranho.
+Do ponto de vista do software livre, 67\% das respostas diziam nunca
+ter contribuído com software livre e 24\% afirmavam colaborarem
+ocasionalmente com algum projeto. Os outros 9\% contribuíam
+frequentemente ou sempre com algum projeto.  Sendo assim, a população
+atingida pelo estudo não parece ter uma ligação forte com software
+livre. Vale notar também que não foi encontrada uma correlação
+suficiente forte entre a experiência em métodos ágeis e as
+contribuições com software livre para permitir qualquer conclusão.
 
-Esse resultados iniciais serviram de motivação para continuação do
-trabalho já que mostram que a população interessada em métodos ágeis
-tem pouco envolvimento com a comunidade de software livre. Vale também
-notar que não foi encontrada uma correlação suficiente forte entre a
-experiência em métodos ágeis e as contribuições com métodos ágeis para
-permitir qualquer conclusão. Esse trabalho procura identificar melhor
-a relação entre esses dois mundos identificando os pontos de
-proximidade e distância assim como os potenciais elementos de melhoria
-em cada ambiente.
-
-%% ------------------------------------------------------------------------- %%
-\section{Contribuições}
-\label{sec:contribucoes}
-
-As principais contribuições deste trabalho estão discriminadas abaixo:
-
-\begin{itemize}
-\item Um estudo embasado e detalhado sobre as semelhanças e diferenças
-  entre métodos ágeis e software livre;
-\item Uma pesquisa relacionando métodos ágeis e software livre;
-\item Uma pesquisa com a comunidade de software livre sobre sua
-  relação com métodos ágeis;
-\item Uma pesquisa com a comunidade de métodos ágeis sobre sua relação
-  com software livre e
-\item Uma análise de Programação Extrema~\cite{XP01} sob o ponto de
-  vista do Modelo de Maturidade Aberto (\emph{Open Source Maturity
-    Model} - OMM) do projeto
-  QualiPSo\footnote{\url{http://www.qualipso.org} -- Último acesso em
-    24/01/2011}.
-\end{itemize}
+Com esses resultados preliminares, a relação que parecia óbvia entre
+as duas comunidades precisou ser re-avaliada de forma a entender quão
+forte era a ligação e o quanto ela poderia se intensificar. Também
+ficou no ar a questão da aplicabilidade de métodos ágeis para
+desenvolvimento e evolução de projetos livres. A próxima seção
+apresenta como foi estruturado o texto de forma a responder as
+questões levantadas pelos resultados desse estudo preliminar.
 
 %% ------------------------------------------------------------------------- %%
 \section{Organização do trabalho}
